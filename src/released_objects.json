@@ -13,10 +13,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CHKV",
-     "successorTadirObjName":"ABAP_CLOUD_DEVELOPMENT_DEFAULT",
-     "successorObjectType":"CHKV",
-     "successorObjectKey":"ABAP_CLOUD_DEVELOPMENT_DEFAULT"
+     "tadirObject":"CHKV",
+     "tadirObjName":"ABAP_CLOUD_DEVELOPMENT_DEFAULT",
+     "objectType":"CHKV",
+     "objectKey":"ABAP_CLOUD_DEVELOPMENT_DEFAULT"
     }
    ]
   },
@@ -32,10 +32,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CHKV",
-     "successorTadirObjName":"ABAP_CLOUD_READINESS",
-     "successorObjectType":"CHKV",
-     "successorObjectKey":"ABAP_CLOUD_READINESS"
+     "tadirObject":"CHKV",
+     "tadirObjName":"ABAP_CLOUD_READINESS",
+     "objectType":"CHKV",
+     "objectKey":"ABAP_CLOUD_READINESS"
     }
    ]
   },
@@ -51,10 +51,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_ABAP_UNIT_ASSERT",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_ABAP_UNIT_ASSERT"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_ABAP_UNIT_ASSERT",
+     "objectType":"CLAS",
+     "objectKey":"CL_ABAP_UNIT_ASSERT"
     }
    ]
   },
@@ -70,16 +70,16 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_LOG",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_LOG"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG"
     },
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_LOG_DB",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_LOG_DB"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG_DB",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG_DB"
     }
    ]
   },
@@ -95,10 +95,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_NUMBERRANGE_INTERVALS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_NUMBERRANGE_INTERVALS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_NUMBERRANGE_INTERVALS",
+     "objectType":"CLAS",
+     "objectKey":"CL_NUMBERRANGE_INTERVALS"
     }
    ]
   },
@@ -114,10 +114,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_NUMBERRANGE_OBJECTS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_NUMBERRANGE_OBJECTS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_NUMBERRANGE_OBJECTS",
+     "objectType":"CLAS",
+     "objectKey":"CL_NUMBERRANGE_OBJECTS"
     }
    ]
   },
@@ -133,10 +133,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_NUMBERRANGE_RUNTIME",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_NUMBERRANGE_RUNTIME"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_NUMBERRANGE_RUNTIME",
+     "objectType":"CLAS",
+     "objectKey":"CL_NUMBERRANGE_RUNTIME"
     }
    ]
   },
@@ -152,10 +152,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CX_BALI_RUNTIME",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CX_BALI_RUNTIME"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CX_BALI_RUNTIME",
+     "objectType":"CLAS",
+     "objectKey":"CX_BALI_RUNTIME"
     }
    ]
   },
@@ -181,10 +181,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_APISFORCLOUDDEVELOPMENT",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_APISFORCLOUDDEVELOPMENT"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_APISFORCLOUDDEVELOPMENT",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_APISFORCLOUDDEVELOPMENT"
     }
    ]
   },
@@ -200,10 +200,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_BUSINESSUSERBASIC",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_BUSINESSUSERBASIC"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_BUSINESSUSERBASIC",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_BUSINESSUSERBASIC"
     }
    ]
   },
@@ -1459,10 +1459,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DTEL",
-     "successorTadirObjName":"ABAP_BOOLEAN",
-     "successorObjectType":"DTEL",
-     "successorObjectKey":"ABAP_BOOLEAN"
+     "tadirObject":"DTEL",
+     "tadirObjName":"ABAP_BOOLEAN",
+     "objectType":"DTEL",
+     "objectKey":"ABAP_BOOLEAN"
     }
    ]
   },
@@ -1478,10 +1478,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DTEL",
-     "successorTadirObjName":"ABAP_BOOLEAN",
-     "successorObjectType":"DTEL",
-     "successorObjectKey":"ABAP_BOOLEAN"
+     "tadirObject":"DTEL",
+     "tadirObjName":"ABAP_BOOLEAN",
+     "objectType":"DTEL",
+     "objectKey":"ABAP_BOOLEAN"
     }
    ]
   },
@@ -1897,10 +1897,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DTEL",
-     "successorTadirObjName":"ABAP_BOOLEAN",
-     "successorObjectType":"DTEL",
-     "successorObjectKey":"ABAP_BOOLEAN"
+     "tadirObject":"DTEL",
+     "tadirObjName":"ABAP_BOOLEAN",
+     "objectType":"DTEL",
+     "objectKey":"ABAP_BOOLEAN"
     }
    ]
   },
@@ -1916,10 +1916,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DTEL",
-     "successorTadirObjName":"SYSUUID_X16",
-     "successorObjectType":"DTEL",
-     "successorObjectKey":"SYSUUID_X16"
+     "tadirObject":"DTEL",
+     "tadirObjName":"SYSUUID_X16",
+     "objectType":"DTEL",
+     "objectKey":"SYSUUID_X16"
     }
    ]
   },
@@ -1935,10 +1935,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DTEL",
-     "successorTadirObjName":"SPRAS",
-     "successorObjectType":"DTEL",
-     "successorObjectKey":"SPRAS"
+     "tadirObject":"DTEL",
+     "tadirObjName":"SPRAS",
+     "objectType":"DTEL",
+     "objectKey":"SPRAS"
     }
    ]
   },
@@ -1984,10 +1984,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DTEL",
-     "successorTadirObjName":"ABAP_BOOLEAN",
-     "successorObjectType":"DTEL",
-     "successorObjectKey":"ABAP_BOOLEAN"
+     "tadirObject":"DTEL",
+     "tadirObjName":"ABAP_BOOLEAN",
+     "objectType":"DTEL",
+     "objectKey":"ABAP_BOOLEAN"
     }
    ]
   },
@@ -2003,10 +2003,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DTEL",
-     "successorTadirObjName":"PCF_DECIMAL_NUMBER",
-     "successorObjectType":"DTEL",
-     "successorObjectKey":"PCF_DECIMAL_NUMBER"
+     "tadirObject":"DTEL",
+     "tadirObjName":"PCF_DECIMAL_NUMBER",
+     "objectType":"DTEL",
+     "objectKey":"PCF_DECIMAL_NUMBER"
     }
    ]
   },
@@ -2022,10 +2022,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DTEL",
-     "successorTadirObjName":"TABNAME",
-     "successorObjectType":"DTEL",
-     "successorObjectKey":"TABNAME"
+     "tadirObject":"DTEL",
+     "tadirObjName":"TABNAME",
+     "objectType":"DTEL",
+     "objectKey":"TABNAME"
     }
    ]
   },
@@ -2261,10 +2261,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DTEL",
-     "successorTadirObjName":"SYUNAME",
-     "successorObjectType":"DTEL",
-     "successorObjectKey":"SYUNAME"
+     "tadirObject":"DTEL",
+     "tadirObjName":"SYUNAME",
+     "objectType":"DTEL",
+     "objectKey":"SYUNAME"
     }
    ]
   },
@@ -2280,10 +2280,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DTEL",
-     "successorTadirObjName":"ABAP_BOOLEAN",
-     "successorObjectType":"DTEL",
-     "successorObjectKey":"ABAP_BOOLEAN"
+     "tadirObject":"DTEL",
+     "tadirObjName":"ABAP_BOOLEAN",
+     "objectType":"DTEL",
+     "objectKey":"ABAP_BOOLEAN"
     }
    ]
   },
@@ -2299,9 +2299,9 @@
    "successors":
    [
     {
-     "successorTadirObject":"TEST",
-     "successorTadirObjName":"_APP_03",
-     "successorObjectType":"TEST_APP_03"
+     "tadirObject":"TEST",
+     "tadirObjName":"_APP_03",
+     "objectType":"TEST_APP_03"
     }
    ]
   },
@@ -2317,10 +2317,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"FDT0",
-     "successorTadirObjName":"TEST_APP_04",
-     "successorObjectType":"FDT0",
-     "successorObjectKey":"TEST_APP_04"
+     "tadirObject":"FDT0",
+     "tadirObjName":"TEST_APP_04",
+     "objectType":"FDT0",
+     "objectKey":"TEST_APP_04"
     }
    ]
   },
@@ -2336,10 +2336,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"INTF",
-     "successorTadirObjName":"IF_ABAP_UNIT_CONSTANT",
-     "successorObjectType":"INTF",
-     "successorObjectKey":"IF_ABAP_UNIT_CONSTANT"
+     "tadirObject":"INTF",
+     "tadirObjName":"IF_ABAP_UNIT_CONSTANT",
+     "objectType":"INTF",
+     "objectKey":"IF_ABAP_UNIT_CONSTANT"
     }
    ]
   },
@@ -2355,16 +2355,16 @@
    "successors":
    [
     {
-     "successorTadirObject":"INTF",
-     "successorTadirObjName":"IF_BALI_LOG",
-     "successorObjectType":"INTF",
-     "successorObjectKey":"IF_BALI_LOG"
+     "tadirObject":"INTF",
+     "tadirObjName":"IF_BALI_LOG",
+     "objectType":"INTF",
+     "objectKey":"IF_BALI_LOG"
     },
     {
-     "successorTadirObject":"INTF",
-     "successorTadirObjName":"IF_BALI_LOG_DB",
-     "successorObjectType":"INTF",
-     "successorObjectKey":"IF_BALI_LOG_DB"
+     "tadirObject":"INTF",
+     "tadirObjName":"IF_BALI_LOG_DB",
+     "objectType":"INTF",
+     "objectKey":"IF_BALI_LOG_DB"
     }
    ]
   },
@@ -2430,10 +2430,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"TABL",
-     "successorTadirObjName":"SYMSG",
-     "successorObjectType":"TABL",
-     "successorObjectKey":"SYMSG"
+     "tadirObject":"TABL",
+     "tadirObjName":"SYMSG",
+     "objectType":"TABL",
+     "objectKey":"SYMSG"
     }
    ]
   },
@@ -2459,10 +2459,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"TTYP",
-     "successorTadirObjName":"STRING_TABLE",
-     "successorObjectType":"TTYP",
-     "successorObjectKey":"STRING_TABLE"
+     "tadirObject":"TTYP",
+     "tadirObjName":"STRING_TABLE",
+     "objectType":"TTYP",
+     "objectKey":"STRING_TABLE"
     }
    ]
   },
@@ -2478,10 +2478,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"TTYP",
-     "successorTadirObjName":"XSTRING_TABLE",
-     "successorObjectType":"TTYP",
-     "successorObjectKey":"XSTRING_TABLE"
+     "tadirObject":"TTYP",
+     "tadirObjName":"XSTRING_TABLE",
+     "objectType":"TTYP",
+     "objectKey":"XSTRING_TABLE"
     }
    ]
   },
@@ -14504,7 +14504,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"BACV",
    "objectType":"FUNC",
-   "objectKey":"BAPI_CONVERSION_INT2EXT",
+   "objectKey":"BAPI_CONVERSION_EXT2INT",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"RELEASED"
@@ -14522,7 +14522,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"BACV",
    "objectType":"FUNC",
-   "objectKey":"BAPI_CONVERSION_EXT2INT",
+   "objectKey":"BAPI_CONVERSION_INT2EXT",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"RELEASED"
@@ -14540,34 +14540,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"BAPT",
    "objectType":"FUNC",
-   "objectKey":"BAPI_TRANSACTION_COMMIT",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-MID-API",
-   "state":"RELEASED"
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"BAPT",
-   "objectType":"FUNC",
-   "objectKey":"TRANSACTION_BEGIN",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-MID-API",
-   "state":"RELEASED"
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"BAPT",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_TRANSACTION_ROLLBACK",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-MID-API",
-   "state":"RELEASED"
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"BAPT",
-   "objectType":"FUNC",
-   "objectKey":"BUFFER_REFRESH_ALL",
+   "objectKey":"TRANSACTION_ABORT",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"RELEASED"
@@ -14585,7 +14558,16 @@
    "tadirObject":"FUGR",
    "tadirObjName":"BAPT",
    "objectType":"FUNC",
-   "objectKey":"TRANSACTION_ABORT",
+   "objectKey":"BUFFER_REFRESH_ALL",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-API",
+   "state":"RELEASED"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BAPT",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_TRANSACTION_ROLLBACK",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"RELEASED"
@@ -14603,7 +14585,25 @@
    "tadirObject":"FUGR",
    "tadirObjName":"BAPT",
    "objectType":"FUNC",
+   "objectKey":"BAPI_TRANSACTION_COMMIT",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-API",
+   "state":"RELEASED"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BAPT",
+   "objectType":"FUNC",
    "objectKey":"TRANSACTION_STATUS",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-API",
+   "state":"RELEASED"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BAPT",
+   "objectType":"FUNC",
+   "objectKey":"TRANSACTION_BEGIN",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"RELEASED"
@@ -14639,7 +14639,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"BATG",
    "objectType":"FUNC",
-   "objectKey":"BALW_CONVERT_DOCU_LINKS",
+   "objectKey":"BAPI_HYPERLINK_GETTEXT",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"RELEASED"
@@ -14657,7 +14657,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"BATG",
    "objectType":"FUNC",
-   "objectKey":"BAPI_MESSAGE_GETDETAIL",
+   "objectKey":"BALW_CONVERT_DOCU_LINKS",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"RELEASED"
@@ -14666,7 +14666,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"BATG",
    "objectType":"FUNC",
-   "objectKey":"BAPI_HYPERLINK_GETTEXT",
+   "objectKey":"BAPI_MESSAGE_GETDETAIL",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"RELEASED"
@@ -14675,7 +14675,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"BFHV",
    "objectType":"FUNC",
-   "objectKey":"BAPI_HELPVALUES_GET",
+   "objectKey":"BF_BAPI_F4_AUTHORITY",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"RELEASED"
@@ -14693,7 +14693,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"BFHV",
    "objectType":"FUNC",
-   "objectKey":"BF_BAPI_F4_AUTHORITY",
+   "objectKey":"BAPI_HELPVALUES_GET",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"RELEASED"
@@ -14702,34 +14702,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"BFRT",
    "objectType":"FUNC",
-   "objectKey":"BALW_BAPIRETURN_GET",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-MID-API",
-   "state":"RELEASED"
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"BFRT",
-   "objectType":"FUNC",
-   "objectKey":"BALW_BAPIRETURN_GET1",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-MID-API",
-   "state":"RELEASED"
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"BFRT",
-   "objectType":"FUNC",
-   "objectKey":"BALW_BAPIRETURN_GET2",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-MID-API",
-   "state":"RELEASED"
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"BFRT",
-   "objectType":"FUNC",
-   "objectKey":"BALW_RANGES_CHECK",
+   "objectKey":"BALW_RETURN_TO_RET2",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"RELEASED"
@@ -14747,7 +14720,34 @@
    "tadirObject":"FUGR",
    "tadirObjName":"BFRT",
    "objectType":"FUNC",
-   "objectKey":"BALW_RETURN_TO_RET2",
+   "objectKey":"BALW_RANGES_CHECK",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-API",
+   "state":"RELEASED"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BFRT",
+   "objectType":"FUNC",
+   "objectKey":"BALW_BAPIRETURN_GET2",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-API",
+   "state":"RELEASED"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BFRT",
+   "objectType":"FUNC",
+   "objectKey":"BALW_BAPIRETURN_GET1",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-API",
+   "state":"RELEASED"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BFRT",
+   "objectType":"FUNC",
+   "objectKey":"BALW_BAPIRETURN_GET",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"RELEASED"
@@ -29749,10 +29749,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DTEL",
-     "successorTadirObjName":"ISOCD_UNIT",
-     "successorObjectType":"DTEL",
-     "successorObjectKey":"ISOCD_UNIT"
+     "tadirObject":"DTEL",
+     "tadirObjName":"ISOCD_UNIT",
+     "objectType":"DTEL",
+     "objectKey":"ISOCD_UNIT"
     }
    ]
   },
@@ -29768,10 +29768,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_APJ_RT_API",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_APJ_RT_API"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_APJ_RT_API",
+     "objectType":"CLAS",
+     "objectKey":"CL_APJ_RT_API"
     }
    ]
   },
@@ -29787,10 +29787,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_APJ_RT_API",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_APJ_RT_API"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_APJ_RT_API",
+     "objectType":"CLAS",
+     "objectKey":"CL_APJ_RT_API"
     }
    ]
   },
@@ -29806,10 +29806,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_APJ_RT_API",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_APJ_RT_API"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_APJ_RT_API",
+     "objectType":"CLAS",
+     "objectKey":"CL_APJ_RT_API"
     }
    ]
   },
@@ -29825,10 +29825,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_CHDO_READ_TOOLS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_CHDO_READ_TOOLS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_CHDO_READ_TOOLS",
+     "objectType":"CLAS",
+     "objectKey":"CL_CHDO_READ_TOOLS"
     }
    ]
   },
@@ -29844,10 +29844,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_LOG",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_LOG"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG"
     }
    ]
   },
@@ -29863,16 +29863,16 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_LOG",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_LOG"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG"
     },
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_EXCEPTION_SETTER",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_EXCEPTION_SETTER"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_EXCEPTION_SETTER",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_EXCEPTION_SETTER"
     }
    ]
   },
@@ -29888,10 +29888,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_LOG",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_LOG"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG"
     }
    ]
   },
@@ -29907,16 +29907,16 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_LOG",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_LOG"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG"
     },
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_HEADER_SETTER",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_HEADER_SETTER"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_HEADER_SETTER",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_HEADER_SETTER"
     }
    ]
   },
@@ -29932,10 +29932,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_LOG",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_LOG"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG"
     }
    ]
   },
@@ -29951,16 +29951,16 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_LOG",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_LOG"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG"
     },
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_MESSAGE_SETTER",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_MESSAGE_SETTER"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_MESSAGE_SETTER",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_MESSAGE_SETTER"
     }
    ]
   },
@@ -29976,16 +29976,16 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_LOG",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_LOG"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG"
     },
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_FREE_TEXT_SETTER",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_FREE_TEXT_SETTER"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_FREE_TEXT_SETTER",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_FREE_TEXT_SETTER"
     }
    ]
   },
@@ -30001,16 +30001,16 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_LOG",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_LOG"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG"
     },
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_MESSAGE_SETTER",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_MESSAGE_SETTER"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_MESSAGE_SETTER",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_MESSAGE_SETTER"
     }
    ]
   },
@@ -30026,10 +30026,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_LOG",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_LOG"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG"
     }
    ]
   },
@@ -30045,10 +30045,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_LOG_DB",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_LOG_DB"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG_DB",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG_DB"
     }
    ]
   },
@@ -30064,10 +30064,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_LOG_DB",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_LOG_DB"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG_DB",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG_DB"
     }
    ]
   },
@@ -30083,10 +30083,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_LOG_DB",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_LOG_DB"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG_DB",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG_DB"
     }
    ]
   },
@@ -30102,10 +30102,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_LOG_DB",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_LOG_DB"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG_DB",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG_DB"
     }
    ]
   },
@@ -30121,10 +30121,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_LOG_DB",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_LOG_DB"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG_DB",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG_DB"
     }
    ]
   },
@@ -30140,10 +30140,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_LOG_FILTER",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_LOG_FILTER"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG_FILTER",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG_FILTER"
     }
    ]
   },
@@ -30159,10 +30159,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_LOG_DB",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_LOG_DB"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG_DB",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG_DB"
     }
    ]
   },
@@ -30178,10 +30178,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_LOG_DB",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_LOG_DB"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG_DB",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG_DB"
     }
    ]
   },
@@ -30197,10 +30197,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_BALI_LOG",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_BALI_LOG"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG"
     }
    ]
   },
@@ -30216,10 +30216,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_ABAP_DATFM",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_ABAP_DATFM"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_ABAP_DATFM",
+     "objectType":"CLAS",
+     "objectKey":"CL_ABAP_DATFM"
     }
    ]
   },
@@ -30235,10 +30235,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_ABAP_DATFM",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_ABAP_DATFM"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_ABAP_DATFM",
+     "objectType":"CLAS",
+     "objectKey":"CL_ABAP_DATFM"
     }
    ]
   },
@@ -30254,10 +30254,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_SCAL_API",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_SCAL_API"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_SCAL_API",
+     "objectType":"CLAS",
+     "objectKey":"CL_SCAL_API"
     }
    ]
   },
@@ -30273,10 +30273,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_SCAL_API",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_SCAL_API"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_SCAL_API",
+     "objectType":"CLAS",
+     "objectKey":"CL_SCAL_API"
     }
    ]
   },
@@ -30292,10 +30292,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_SCAL_API",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_SCAL_API"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_SCAL_API",
+     "objectType":"CLAS",
+     "objectKey":"CL_SCAL_API"
     }
    ]
   },
@@ -30311,10 +30311,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_SCAL_API",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_SCAL_API"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_SCAL_API",
+     "objectType":"CLAS",
+     "objectKey":"CL_SCAL_API"
     }
    ]
   },
@@ -30330,10 +30330,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_SCAL_API",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_SCAL_API"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_SCAL_API",
+     "objectType":"CLAS",
+     "objectKey":"CL_SCAL_API"
     }
    ]
   },
@@ -30349,10 +30349,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_SCAL_API",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_SCAL_API"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_SCAL_API",
+     "objectType":"CLAS",
+     "objectKey":"CL_SCAL_API"
     }
    ]
   },
@@ -30368,10 +30368,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_SCAL_UTILS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_SCAL_UTILS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_SCAL_UTILS",
+     "objectType":"CLAS",
+     "objectKey":"CL_SCAL_UTILS"
     }
    ]
   },
@@ -30387,10 +30387,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_SCAL_API",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_SCAL_API"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_SCAL_API",
+     "objectType":"CLAS",
+     "objectKey":"CL_SCAL_API"
     }
    ]
   },
@@ -30406,10 +30406,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_SCAL_API",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_SCAL_API"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_SCAL_API",
+     "objectType":"CLAS",
+     "objectKey":"CL_SCAL_API"
     }
    ]
   },
@@ -30425,10 +30425,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_SCAL_UTILS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_SCAL_UTILS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_SCAL_UTILS",
+     "objectType":"CLAS",
+     "objectKey":"CL_SCAL_UTILS"
     }
    ]
   },
@@ -30444,10 +30444,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_SCAL_API",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_SCAL_API"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_SCAL_API",
+     "objectType":"CLAS",
+     "objectKey":"CL_SCAL_API"
     }
    ]
   },
@@ -30463,10 +30463,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_SCAL_UTILS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_SCAL_UTILS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_SCAL_UTILS",
+     "objectType":"CLAS",
+     "objectKey":"CL_SCAL_UTILS"
     }
    ]
   },
@@ -30482,10 +30482,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_CHDO_WRITE_TOOLS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_CHDO_WRITE_TOOLS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_CHDO_WRITE_TOOLS",
+     "objectType":"CLAS",
+     "objectKey":"CL_CHDO_WRITE_TOOLS"
     }
    ]
   },
@@ -30501,10 +30501,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_CHDO_WRITE_TOOLS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_CHDO_WRITE_TOOLS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_CHDO_WRITE_TOOLS",
+     "objectType":"CLAS",
+     "objectKey":"CL_CHDO_WRITE_TOOLS"
     }
    ]
   },
@@ -30520,10 +30520,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_CHDO_WRITE_TOOLS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_CHDO_WRITE_TOOLS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_CHDO_WRITE_TOOLS",
+     "objectType":"CLAS",
+     "objectKey":"CL_CHDO_WRITE_TOOLS"
     }
    ]
   },
@@ -30539,10 +30539,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_CHDO_WRITE_TOOLS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_CHDO_WRITE_TOOLS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_CHDO_WRITE_TOOLS",
+     "objectType":"CLAS",
+     "objectKey":"CL_CHDO_WRITE_TOOLS"
     }
    ]
   },
@@ -30558,10 +30558,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_CHDO_WRITE_TOOLS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_CHDO_WRITE_TOOLS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_CHDO_WRITE_TOOLS",
+     "objectType":"CLAS",
+     "objectKey":"CL_CHDO_WRITE_TOOLS"
     }
    ]
   },
@@ -30577,10 +30577,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_CHDO_WRITE_TOOLS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_CHDO_WRITE_TOOLS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_CHDO_WRITE_TOOLS",
+     "objectType":"CLAS",
+     "objectKey":"CL_CHDO_WRITE_TOOLS"
     }
    ]
   },
@@ -30640,10 +30640,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_UOM_CONVERSION",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_UOM_CONVERSION"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_UOM_CONVERSION",
+     "objectType":"CLAS",
+     "objectKey":"CL_UOM_CONVERSION"
     }
    ]
   },
@@ -30659,10 +30659,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_UOM_CONVERSION",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_UOM_CONVERSION"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_UOM_CONVERSION",
+     "objectType":"CLAS",
+     "objectKey":"CL_UOM_CONVERSION"
     }
    ]
   },
@@ -30678,10 +30678,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_UNITOFMEASURE",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_UNITOFMEASURE"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_UNITOFMEASURE",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_UNITOFMEASURE"
     }
    ]
   },
@@ -30697,10 +30697,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_UOM_CONVERSION",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_UOM_CONVERSION"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_UOM_CONVERSION",
+     "objectType":"CLAS",
+     "objectKey":"CL_UOM_CONVERSION"
     }
    ]
   },
@@ -30760,10 +30760,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_ABAP_LOCK_OBJECT_FACTORY",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_ABAP_LOCK_OBJECT_FACTORY"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_ABAP_LOCK_OBJECT_FACTORY",
+     "objectType":"CLAS",
+     "objectKey":"CL_ABAP_LOCK_OBJECT_FACTORY"
     }
    ]
   },
@@ -30977,10 +30977,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_NUMBERRANGE_INTERVALS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_NUMBERRANGE_INTERVALS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_NUMBERRANGE_INTERVALS",
+     "objectType":"CLAS",
+     "objectKey":"CL_NUMBERRANGE_INTERVALS"
     }
    ]
   },
@@ -30996,10 +30996,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_NUMBERRANGE_INTERVALS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_NUMBERRANGE_INTERVALS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_NUMBERRANGE_INTERVALS",
+     "objectType":"CLAS",
+     "objectKey":"CL_NUMBERRANGE_INTERVALS"
     }
    ]
   },
@@ -31015,10 +31015,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_NUMBERRANGE_INTERVALS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_NUMBERRANGE_INTERVALS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_NUMBERRANGE_INTERVALS",
+     "objectType":"CLAS",
+     "objectKey":"CL_NUMBERRANGE_INTERVALS"
     }
    ]
   },
@@ -31034,10 +31034,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_NUMBERRANGE_INTERVALS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_NUMBERRANGE_INTERVALS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_NUMBERRANGE_INTERVALS",
+     "objectType":"CLAS",
+     "objectKey":"CL_NUMBERRANGE_INTERVALS"
     }
    ]
   },
@@ -31053,10 +31053,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_NUMBERRANGE_OBJECTS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_NUMBERRANGE_OBJECTS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_NUMBERRANGE_OBJECTS",
+     "objectType":"CLAS",
+     "objectKey":"CL_NUMBERRANGE_OBJECTS"
     }
    ]
   },
@@ -31072,10 +31072,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_NUMBERRANGE_OBJECTS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_NUMBERRANGE_OBJECTS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_NUMBERRANGE_OBJECTS",
+     "objectType":"CLAS",
+     "objectKey":"CL_NUMBERRANGE_OBJECTS"
     }
    ]
   },
@@ -31091,10 +31091,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_NUMBERRANGE_OBJECTS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_NUMBERRANGE_OBJECTS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_NUMBERRANGE_OBJECTS",
+     "objectType":"CLAS",
+     "objectKey":"CL_NUMBERRANGE_OBJECTS"
     }
    ]
   },
@@ -31110,10 +31110,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_NUMBERRANGE_OBJECTS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_NUMBERRANGE_OBJECTS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_NUMBERRANGE_OBJECTS",
+     "objectType":"CLAS",
+     "objectKey":"CL_NUMBERRANGE_OBJECTS"
     }
    ]
   },
@@ -31129,10 +31129,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_NUMBERRANGE_RUNTIME",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_NUMBERRANGE_RUNTIME"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_NUMBERRANGE_RUNTIME",
+     "objectType":"CLAS",
+     "objectKey":"CL_NUMBERRANGE_RUNTIME"
     }
    ]
   },
@@ -31148,10 +31148,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_NUMBERRANGE_RUNTIME",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_NUMBERRANGE_RUNTIME"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_NUMBERRANGE_RUNTIME",
+     "objectType":"CLAS",
+     "objectKey":"CL_NUMBERRANGE_RUNTIME"
     }
    ]
   },
@@ -31244,10 +31244,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_BUSINESSPARTNER",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_BUSINESSPARTNER"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_BUSINESSPARTNER",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_BUSINESSPARTNER"
     }
    ]
   },
@@ -31263,16 +31263,16 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_CHDO_READ_TOOLS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_CHDO_READ_TOOLS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_CHDO_READ_TOOLS",
+     "objectType":"CLAS",
+     "objectKey":"CL_CHDO_READ_TOOLS"
     },
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_CHDO_WRITE_TOOLS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_CHDO_WRITE_TOOLS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_CHDO_WRITE_TOOLS",
+     "objectType":"CLAS",
+     "objectKey":"CL_CHDO_WRITE_TOOLS"
     }
    ]
   },
@@ -31288,16 +31288,16 @@
    "successors":
    [
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_CHDO_READ_TOOLS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_CHDO_READ_TOOLS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_CHDO_READ_TOOLS",
+     "objectType":"CLAS",
+     "objectKey":"CL_CHDO_READ_TOOLS"
     },
     {
-     "successorTadirObject":"CLAS",
-     "successorTadirObjName":"CL_CHDO_WRITE_TOOLS",
-     "successorObjectType":"CLAS",
-     "successorObjectKey":"CL_CHDO_WRITE_TOOLS"
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_CHDO_WRITE_TOOLS",
+     "objectType":"CLAS",
+     "objectKey":"CL_CHDO_WRITE_TOOLS"
     }
    ]
   },
@@ -31324,10 +31324,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"DDCDS_CUSTOMER_DOMAIN_VALUE",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"DDCDS_CUSTOMER_DOMAIN_VALUE"
+     "tadirObject":"DDLS",
+     "tadirObjName":"DDCDS_CUSTOMER_DOMAIN_VALUE",
+     "objectType":"CDS_STOB",
+     "objectKey":"DDCDS_CUSTOMER_DOMAIN_VALUE"
     }
    ]
   },
@@ -31343,10 +31343,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"DDCDS_CUSTOMER_DOMAIN_VALUE_T",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"DDCDS_CUSTOMER_DOMAIN_VALUE_T"
+     "tadirObject":"DDLS",
+     "tadirObjName":"DDCDS_CUSTOMER_DOMAIN_VALUE_T",
+     "objectType":"CDS_STOB",
+     "objectKey":"DDCDS_CUSTOMER_DOMAIN_VALUE_T"
     }
    ]
   },
@@ -31362,10 +31362,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_LANGUAGE",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_LANGUAGE"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_LANGUAGE",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_LANGUAGE"
     }
    ]
   },
@@ -31381,10 +31381,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_LANGUAGETEXT",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_LANGUAGETEXT"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_LANGUAGETEXT",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_LANGUAGETEXT"
     }
    ]
   },
@@ -31400,10 +31400,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_COUNTRY",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_COUNTRY"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_COUNTRY",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_COUNTRY"
     }
    ]
   },
@@ -31419,10 +31419,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_COUNTRYTEXT",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_COUNTRYTEXT"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_COUNTRYTEXT",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_COUNTRYTEXT"
     }
    ]
   },
@@ -31438,10 +31438,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_UNITOFMEASURE",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_UNITOFMEASURE"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_UNITOFMEASURE",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_UNITOFMEASURE"
     }
    ]
   },
@@ -31457,10 +31457,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_UNITOFMEASURETEXT",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_UNITOFMEASURETEXT"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_UNITOFMEASURETEXT",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_UNITOFMEASURETEXT"
     }
    ]
   },
@@ -31476,10 +31476,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_UNITOFMEASURECOMMERCIALNAME",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_UNITOFMEASURECOMMERCIALNAME"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_UNITOFMEASURECOMMERCIALNAME",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_UNITOFMEASURECOMMERCIALNAME"
     }
    ]
   },
@@ -31495,10 +31495,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_UNITOFMEASURETECHNICALNAME",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_UNITOFMEASURETECHNICALNAME"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_UNITOFMEASURETECHNICALNAME",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_UNITOFMEASURETECHNICALNAME"
     }
    ]
   },
@@ -31514,10 +31514,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_UNITOFMEASUREDIMENSION",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_UNITOFMEASUREDIMENSION"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_UNITOFMEASUREDIMENSION",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_UNITOFMEASUREDIMENSION"
     }
    ]
   },
@@ -31533,10 +31533,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_UNITOFMEASUREISOCODE",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_UNITOFMEASUREISOCODE"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_UNITOFMEASUREISOCODE",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_UNITOFMEASUREISOCODE"
     }
    ]
   },
@@ -31552,10 +31552,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_UNITOFMEASUREISOCODETEXT",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_UNITOFMEASUREISOCODETEXT"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_UNITOFMEASUREISOCODETEXT",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_UNITOFMEASUREISOCODETEXT"
     }
    ]
   },
@@ -31571,10 +31571,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_UNITOFMEASUREDIMENSIONTEXT",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_UNITOFMEASUREDIMENSIONTEXT"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_UNITOFMEASUREDIMENSIONTEXT",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_UNITOFMEASUREDIMENSIONTEXT"
     }
    ]
   },
@@ -31590,10 +31590,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_CUSTABAPOBJDIRECTORYENTRY",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_CUSTABAPOBJDIRECTORYENTRY"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_CUSTABAPOBJDIRECTORYENTRY",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_CUSTABAPOBJDIRECTORYENTRY"
     }
    ]
   },
@@ -31609,10 +31609,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_EXCHANGERATEFACTORSRAWDATA",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_EXCHANGERATEFACTORSRAWDATA"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_EXCHANGERATEFACTORSRAWDATA",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_EXCHANGERATEFACTORSRAWDATA"
     }
    ]
   },
@@ -31628,10 +31628,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_EXCHRATEQTANTYPERAWDATA",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_EXCHRATEQTANTYPERAWDATA"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_EXCHRATEQTANTYPERAWDATA",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_EXCHRATEQTANTYPERAWDATA"
     }
    ]
   },
@@ -31647,10 +31647,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_EXCHANGERATERAWDATA",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_EXCHANGERATERAWDATA"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_EXCHANGERATERAWDATA",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_EXCHANGERATERAWDATA"
     }
    ]
   },
@@ -31666,10 +31666,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_CURRENCYTEXT",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_CURRENCYTEXT"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_CURRENCYTEXT",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_CURRENCYTEXT"
     }
    ]
   },
@@ -31685,10 +31685,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_EXCHANGERATETYPE",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_EXCHANGERATETYPE"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_EXCHANGERATETYPE",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_EXCHANGERATETYPE"
     }
    ]
   },
@@ -31704,10 +31704,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_CURRENCY",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_CURRENCY"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_CURRENCY",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_CURRENCY"
     }
    ]
   },
@@ -31723,10 +31723,10 @@
    "successors":
    [
     {
-     "successorTadirObject":"DDLS",
-     "successorTadirObjName":"I_CUSTABAPPACKAGE",
-     "successorObjectType":"CDS_STOB",
-     "successorObjectKey":"I_CUSTABAPPACKAGE"
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_CUSTABAPPACKAGE",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_CUSTABAPPACKAGE"
     }
    ]
   },
