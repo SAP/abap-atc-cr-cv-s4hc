@@ -7,8 +7,9 @@ Note ##### needs to be implemented
 
 ## Download and Installation
 
-Activate in your ATC check variant the check "Cloud Readiness" -> Usaage of Released APIs (Cloudification Repository)
-In the attributes of the check enter the URL to thhis git repository
+1. Activate in your ATC check variant the check "Cloud Readiness" -> Usaage of Released APIs (Cloudification Repository)
+
+2. In the attributes of the check enter the URL to this git repository
 
 
 ## How to obtain support
