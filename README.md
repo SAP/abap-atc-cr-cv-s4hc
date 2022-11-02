@@ -3,13 +3,14 @@ ABAP test cockpit cloud readiness check variants for SAP S/4HANA Cloud and BTP
 
 ## Requirements
 
-Note ##### needs to be implemented
 
 ## Download and Installation
 
-1. Activate in your ATC check variant the check "Cloud Readiness" -> Usaage of Released APIs (Cloudification Repository)
+1. Activate in your ATC check variant the check "Cloud Readiness" -> Usage of Released APIs (Cloudification Repository)
 
-2. In the attributes of the check enter the URL to this git repository
+2. In the attributes of the check enter the URL to this git repository https://github.com/SAP/abap-atc-cr-cv-s4hc/src/objectReleaseInfoLatest.json
+
+Optional: use another json file with a different content
 
 
 ## How to obtain support
