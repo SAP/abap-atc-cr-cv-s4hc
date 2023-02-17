@@ -2,10 +2,10 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: abap-atc-cr-cv-s4hc
 Upstream-Contact: Björn Panter <bjoern.panter@sap.com>
 Source: https://github.com/sap/abap-atc-cr-cv-s4hc
-Disclaimer: The code in this project may include calls to APIs (“API Calls”) of
+Disclaimer: The code in this project may include calls to APIs ("API Calls") of
  SAP or third-party products or services developed outside of this project
- (“External Products”).
- “APIs” means application programming interfaces, as well as their respective
+ ("External Products").
+ "APIs" means application programming interfaces, as well as their respective
  specifications and implementing code that allows software to communicate with
  other software.
  API Calls to External Products are not licensed under the open source license
@@ -24,13 +24,6 @@ Disclaimer: The code in this project may include calls to APIs (“API Calls”)
  you any rights to use or access any SAP External Product, or provide any third
  parties the right to use of access any SAP External Product, through API Calls.
 
-Copyright: 2020 SAP SE or an SAP affiliate company and Project abap-atc-cr-cv-s4hc
-contributors
-License: CC0-1.0
-
-Files:
-    src/*
-    README.md
-    .abapgit.xml
-Copyright: 2020 SAP SE or an SAP affiliate company and Project "Odense" contributors
+Copyright: 2020-2023 SAP SE or an SAP affiliate company and project abap-atc-cr-cv-s4hc contributors
+Files: *
 License: Apache-2.0
