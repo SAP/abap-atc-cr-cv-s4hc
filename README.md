@@ -3,6 +3,7 @@ The repository contains the list of released APIs of S/4HANA Cloud. In addition 
 
 ## Requirements
 
+Please implement note "ATC Check für Github Repo: https://launchpad.support.sap.com/#/notes/3284711
 
 ## Download and Installation
 
@@ -13,9 +14,11 @@ The repository contains the list of released APIs of S/4HANA Cloud. In addition 
 Optional: use another json file with a different content. For S/4 HANA Cloud, public edition please use always the current file objectReleaseInfoLatest.json
 For S/4 HANA Cloud, private edition or on-premise, you can use the release version file with the string *PCE* included.
 
-
 ## How to obtain support
 This project is provided "as-is", with no expected changes or support. Of course you can always report Bugs via GitHubs bug tracking system.
+Request for new APIs please use the corresponding CI channel https://influence.sap.com/sap/ino/#campaign/2759 
+or get details in note https://launchpad.support.sap.com/#/notes/3126893
+
 
 ## Contributing
 This project is provided "as-is" and is mirroring the state as it is used in the SAP Cloud Platform ABAP Environment product, therefore we will accept bug reports but we won't accept any pull requests.
