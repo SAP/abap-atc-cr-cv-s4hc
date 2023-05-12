@@ -14,8 +14,12 @@ Please implement note "ATC Check for Github Repo: https://launchpad.support.sap.
 
 2. In the attributes of the check enter the URL to this git repository https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfoLatest.json
 
-Optional: use another json file with a different content. For S/4 HANA Cloud, public edition please use always the current file objectReleaseInfoLatest.json
+Optional: use another json file with a different content. For S/4 HANA Cloud, public edition please use the same URL aove and attach the current file objectReleaseInfoLatest.json
 For S/4 HANA Cloud, private edition or on-premise, you can use the release version file with the string *PCE* included.
+e.g. https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/  + filename
+
+--> https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCE2022.json
+
 
 ## How to obtain support
 
