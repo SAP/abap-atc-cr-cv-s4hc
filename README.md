@@ -8,25 +8,38 @@ The repository contains the list of released APIs of S/4HANA Cloud. In addition 
 
 Please implement note "ATC Check for Github Repo: https://launchpad.support.sap.com/#/notes/3284711
 
-## Download and Installation
+## Download and Usage
+
+### Target product S/4 HANA Cloud Public Edition
 
 1. Activate in your ATC check variant the check "Cloud Readiness" -> Usage of Released APIs (Cloudification Repository)
 
-2. In the attributes of the check enter the URL to this git repository https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfoLatest.json
-(valid for S/4 HANA Cloud, public edition)
+2. In the attributes of the check enter the URL to this git repository e.g https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfoLatest.json
+(content valid for S/4 HANA Cloud Public Edition)
 
-Optional: Use another json file with a different content. For S/4 HANA Cloud, public edition please use the same URL above and attach the current file objectReleaseInfoLatest.json
-For S/4 HANA Cloud, private edition or on-premise, you can use the release version file with the string *PCE* included.
+Optional: Use another json file with a different content. For S/4 HANA Cloud Public Edition please use the same URL above and attach the current file objectReleaseInfoLatest.json
+
+### Target product S/4 HANA Cloud Private Edition
+
+1. Activate in your ATC check variant the check "Cloud Readiness" -> Usage of Released APIs (Cloudification Repository)
+
+2. In the attributes of the check enter the URL to this git repository e.g https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCE2023_0.json
+(content valid for S/4 HANA Cloud Private Edition)
+
+For S/4 HANA Cloud Private Edition or on-premise, you can use the release version file with the string *PCE* included.
 e.g. https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/  + filename
 
-S/4 HANA Cloud, private edition Release 2023 FP0
+S/4 HANA Cloud Private Edition; example Release 2023 FP0
 --> https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCE2023_0.json
 
 
 ## How to obtain support
 
 This project is provided "as-is", with no expected changes or support. Of course you can always report bugs via GitHub issues.
-Request for new APIs please use the corresponding CI channel https://influence.sap.com/sap/ino/#campaign/2759 or get details in note https://launchpad.support.sap.com/#/notes/3126893
+Request for new APIs please use the corresponding CI channel for 
+- S/4 HANA Cloud Public Edition https://influence.sap.com/sap/ino/#campaign/2759 or
+- S/4 HANA CLoud Private Edition https://influence.sap.com/sap/ino/#/campaign/3516 or
+get details in note https://launchpad.support.sap.com/#/notes/3126893
 
 ## Contributing
 
