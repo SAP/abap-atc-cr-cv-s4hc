@@ -7,6 +7,7 @@ The repository contains the list of released APIs of S/4HANA Cloud. In addition 
 ## Requirements
 
 Please implement note "ATC Check for Github Repo: https://launchpad.support.sap.com/#/notes/3284711
++ note https://launchpad.support.sap.com/#/notes/3377462
 
 ## Download and Usage
 
