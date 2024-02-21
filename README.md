@@ -20,6 +20,8 @@ Please implement note "ATC Check for Github Repo: https://launchpad.support.sap.
 
 Optional: Use another json file with a different content. For S/4 HANA Cloud Public Edition please use the same URL above and attach the current file objectReleaseInfoLatest.json
 
+The corresponding CSV files can be consumed for offline processing in any spreadsheet tool.
+
 ### Target product S/4 HANA Cloud Private Edition
 
 1. Activate in your ATC check variant the check "Cloud Readiness" -> Usage of Released APIs (Cloudification Repository)
@@ -33,13 +35,19 @@ e.g. https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/  + file
 S/4 HANA Cloud Private Edition; example Release 2023 FP0
 --> https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCE2023_0.json
 
+The corresponding CSV files can be consumed for offline processing in any spreadsheet tool.
+
+The files objectReleaseInfo_PCE*.json or objectReleaseInfo_PCE*.csv contains the APIs released by SAP to be consumed in your Tier 1 implementations of the 3-tier extensibility model.
+The files objectRecommended_PCE-json or objectRecommended_PCE.csv conatins the APIs recommended by SAP to be consumed in your Tier 2 implementations of the 3-tier extensibility model.
+Remark: CSV file contains more detailed information including the object list which will not be recommended. The reasons are internal consumptions or ABAP Cloud violations.
+The JSON file conatins the positive list of recommended APIs. Entries with value notRecommended will off you a corresponding successor object.
 
 ## How to obtain support
 
 This project is provided "as-is", with no expected changes or support. Of course you can always report bugs via GitHub issues.
 Request for new APIs please use the corresponding CI channel for 
 - S/4 HANA Cloud Public Edition https://influence.sap.com/sap/ino/#campaign/2759 or
-- S/4 HANA CLoud Private Edition https://influence.sap.com/sap/ino/#/campaign/3516 or
+- S/4 HANA Cloud Private Edition https://influence.sap.com/sap/ino/#/campaign/3516 or
 get details in note https://launchpad.support.sap.com/#/notes/3126893
 
 ## Contributing
