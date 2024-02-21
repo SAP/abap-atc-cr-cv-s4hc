@@ -38,7 +38,9 @@ S/4 HANA Cloud Private Edition; example Release 2023 FP0
 The corresponding CSV files can be consumed for offline processing in any spreadsheet tool.
 
 The files objectReleaseInfo_PCE*.json or objectReleaseInfo_PCE*.csv contains the APIs released by SAP to be consumed in your Tier 1 implementations of the 3-tier extensibility model.
+
 The files objectRecommended_PCE-json or objectRecommended_PCE.csv conatins the APIs recommended by SAP to be consumed in your Tier 2 implementations of the 3-tier extensibility model.
+
 Remark: CSV file contains more detailed information including the object list which will not be recommended. The reasons are internal consumptions or ABAP Cloud violations.
 The JSON file conatins the positive list of recommended APIs. Entries with value notRecommended will off you a corresponding successor object.
 
