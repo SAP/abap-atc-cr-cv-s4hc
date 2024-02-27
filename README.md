@@ -39,10 +39,10 @@ The corresponding CSV files can be consumed for offline processing in any spread
 
 The files objectReleaseInfo_PCE*.json or objectReleaseInfo_PCE*.csv contains the APIs released by SAP to be consumed in your Tier 1 implementations of the 3-tier extensibility model.
 
-The files objectClassifications.json or objectClassifications.csv contains the Classic APIs  to be consumed in your Tier 2 implementations of the 3-tier extensibility model.
+The files objectClassifications.json or objectClassifications.csv contains the classic APIs  to be consumed in your Tier 2 implementations of the 3-tier extensibility model.
 
 Remark: CSV file contains more detailed information including the object list which will not be recommended. The reasons are internal consumptions or ABAP Cloud violations.
-The JSON file conatins the positive list of Classic APIs. Entries with value no Classic API will offer you a corresponding successor object.
+The JSON file conatins the positive list of ClassicAPIs. Entries with value noClassicAPI will offer you a corresponding successor object.
 
 ## How to obtain support
 
