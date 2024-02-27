@@ -846,7 +846,7 @@
    "objectKey":"I_CABILLGDOCINVCGDOC",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI-CA-INV",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -865,7 +865,7 @@
    "objectKey":"I_CABILLGDOCSOURCE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI-CA-INV",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -884,7 +884,7 @@
    "objectKey":"I_CABILLGPLNREF",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI-CA-INV",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -903,7 +903,7 @@
    "objectKey":"I_CABILLPRNTINVCGDOCITEM",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI-CA-INV",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -922,7 +922,7 @@
    "objectKey":"I_CABILLPRNTINVCGDOCRLTN",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI-CA-INV",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -941,7 +941,7 @@
    "objectKey":"I_CABILLPRNTINVCGITEMBILLGREQ",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI-CA-INV",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -1086,7 +1086,7 @@
    "objectKey":"I_CFINRPLDPURCHASINGDOCUMENT",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI-CF-AVL",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -1204,7 +1204,7 @@
    "objectKey":"I_EARMARKEDFUNDS",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI-FM",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -1421,7 +1421,7 @@
    "objectKey":"I_MAINTENANCEORDER",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PM-WOC-MO",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -1440,7 +1440,7 @@
    "objectKey":"I_MAINTENANCEORDERCOMPONENT",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PM-WOC-MO",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -1459,7 +1459,7 @@
    "objectKey":"I_MAINTENANCEORDEROPERATION",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PM-WOC-MO",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -1487,7 +1487,7 @@
    "objectKey":"I_MAINTENANCEORDERSUBOPERATION",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PM-WOC-MO",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -1515,7 +1515,7 @@
    "objectKey":"I_MAINTORDCHGHISTORY",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PM-WOC-MO",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -1552,7 +1552,7 @@
    "objectKey":"I_MAINTORDEROPERCOMP",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PM-WOC-MO",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -1571,7 +1571,7 @@
    "objectKey":"I_MAINTORDEROPERTECHOBJ",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PM-WOC-MO",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -1599,7 +1599,7 @@
    "objectKey":"I_MAINTORDERQUERYNODE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PM",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -1618,7 +1618,7 @@
    "objectKey":"I_MAINTORDERSUBOPERTECHOBJ",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PM-WOC-MO",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -1637,7 +1637,7 @@
    "objectKey":"I_MAINTORDERTECHOBJ",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PM-WOC-MO",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -2511,7 +2511,7 @@
    "objectKey":"BAPI_ALM_CONF_CANCEL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PM-WOC-JC",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -2530,7 +2530,7 @@
    "objectKey":"BAPI_ALM_CONF_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PM-WOC-JC",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -2549,7 +2549,7 @@
    "objectKey":"BAPI_ALM_CONF_GETDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PM-WOC-JC",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -2568,7 +2568,7 @@
    "objectKey":"BAPI_ALM_CONF_GETLIST",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PM-WOC-JC",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -3586,7 +3586,7 @@
    "objectKey":"BAPI_BUPA_ROLE_ADD",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"AP-MD-BP",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -4019,7 +4019,7 @@
    "objectKey":"BAPI_CHARACT_EXISTENCECHECK",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"CA-CL-CHR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -4038,7 +4038,7 @@
    "objectKey":"BAPI_CHARACT_GETDETAIL",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"CA-CL-CHR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -4057,7 +4057,7 @@
    "objectKey":"BAPI_CHARACT_GETWHEREUSEDLIST",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"CA-CL-CHR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -4103,7 +4103,7 @@
    "objectKey":"BAPI_CLASS_GETDETAIL",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"CA-CL-CLS",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -4122,7 +4122,7 @@
    "objectKey":"BAPI_CLASS_GETLIST",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"CA-CL-CLS",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -5401,7 +5401,7 @@
    "objectKey":"BAPI_FIXEDASSET_GETDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI-AA-AA",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -5474,7 +5474,7 @@
    "objectKey":"BAPI_FTR_BG_CHANGE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -5493,7 +5493,7 @@
    "objectKey":"BAPI_FTR_BG_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -5539,7 +5539,7 @@
    "objectKey":"BAPI_FTR_BG_GETDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -5639,7 +5639,7 @@
    "objectKey":"BAPI_FTR_CAI_CHANGE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -5658,7 +5658,7 @@
    "objectKey":"BAPI_FTR_CAI_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -5704,7 +5704,7 @@
    "objectKey":"BAPI_FTR_CAI_GETDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -6128,7 +6128,7 @@
    "objectKey":"BAPI_FTR_FAC_CHANGE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -6147,7 +6147,7 @@
    "objectKey":"BAPI_FTR_FAC_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -6220,7 +6220,7 @@
    "objectKey":"BAPI_FTR_FLP_CHANGE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -6239,7 +6239,7 @@
    "objectKey":"BAPI_FTR_FLP_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -6285,7 +6285,7 @@
    "objectKey":"BAPI_FTR_FLP_GETDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -6403,7 +6403,7 @@
    "objectKey":"BAPI_FTR_FST_CHANGE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -6422,7 +6422,7 @@
    "objectKey":"BAPI_FTR_FST_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -6477,7 +6477,7 @@
    "objectKey":"BAPI_FTR_FST_GETDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -6532,7 +6532,7 @@
    "objectKey":"BAPI_FTR_FTD_CHANGE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -6551,7 +6551,7 @@
    "objectKey":"BAPI_FTR_FTD_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -6597,7 +6597,7 @@
    "objectKey":"BAPI_FTR_FTD_GETDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -6724,7 +6724,7 @@
    "objectKey":"BAPI_FTR_FXT_CHANGE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -6743,7 +6743,7 @@
    "objectKey":"BAPI_FTR_FXT_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -6762,7 +6762,7 @@
    "objectKey":"BAPI_FTR_FXT_CREATESWAP",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -6808,7 +6808,7 @@
    "objectKey":"BAPI_FTR_FXT_GETDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -6836,7 +6836,7 @@
    "objectKey":"BAPI_FTR_FXT_ORDERCHANGE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -6855,7 +6855,7 @@
    "objectKey":"BAPI_FTR_FXT_ORDERCREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -6892,7 +6892,7 @@
    "objectKey":"BAPI_FTR_FXT_ORDERGET",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -6965,7 +6965,7 @@
    "objectKey":"BAPI_FTR_IRATE_CHANGE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -6984,7 +6984,7 @@
    "objectKey":"BAPI_FTR_IRATE_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7030,7 +7030,7 @@
    "objectKey":"BAPI_FTR_IRATE_GETDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7112,7 +7112,7 @@
    "objectKey":"BAPI_FTR_LC_CHANGE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7131,7 +7131,7 @@
    "objectKey":"BAPI_FTR_LC_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7177,7 +7177,7 @@
    "objectKey":"BAPI_FTR_LC_GETDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7286,7 +7286,7 @@
    "objectKey":"BAPI_FTR_MAINFLOW_CHANGE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7305,7 +7305,7 @@
    "objectKey":"BAPI_FTR_MAINFLOW_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7324,7 +7324,7 @@
    "objectKey":"BAPI_FTR_MAINFLOW_DELETE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7343,7 +7343,7 @@
    "objectKey":"BAPI_FTR_MAINFLOW_GETLIST",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7380,7 +7380,7 @@
    "objectKey":"BAPI_FTR_PAYDET_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7399,7 +7399,7 @@
    "objectKey":"BAPI_FTR_PAYDET_GETLIST",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7418,7 +7418,7 @@
    "objectKey":"BAPI_FTR_REPO_CHANGE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7437,7 +7437,7 @@
    "objectKey":"BAPI_FTR_REPO_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7483,7 +7483,7 @@
    "objectKey":"BAPI_FTR_REPO_GETDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7529,7 +7529,7 @@
    "objectKey":"BAPI_FTR_SECURITY_CHANGE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7548,7 +7548,7 @@
    "objectKey":"BAPI_FTR_SECURITY_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7603,7 +7603,7 @@
    "objectKey":"BAPI_FTR_SECURITY_GETDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7649,7 +7649,7 @@
    "objectKey":"BAPI_FTR_SETTLE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7812,7 +7812,7 @@
    "objectKey":"BAPI_FTR_SWAP_CHANGE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7831,7 +7831,7 @@
    "objectKey":"BAPI_FTR_SWAP_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7877,7 +7877,7 @@
    "objectKey":"BAPI_FTR_SWAP_GETDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7932,7 +7932,7 @@
    "objectKey":"BAPI_FTR_TRES_CHANGE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -7951,7 +7951,7 @@
    "objectKey":"BAPI_FTR_TRES_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -8006,7 +8006,7 @@
    "objectKey":"BAPI_FTR_TRES_GETDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -8664,7 +8664,7 @@
    "objectKey":"BAPI_OBJCL_EXISTENCECHECK",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"CA-CL-CL",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -8683,7 +8683,7 @@
    "objectKey":"BAPI_OBJCL_GETCLASSES",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"CA-CL-CL",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -8702,7 +8702,7 @@
    "objectKey":"BAPI_OBJCL_GETDETAIL",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"CA-CL-CL",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -8991,7 +8991,7 @@
    "objectKey":"BAPI_PO_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"MM-PUR-GF",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -9019,7 +9019,7 @@
    "objectKey":"BAPI_PO_GETDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"MM-PUR-GF",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -9290,7 +9290,7 @@
    "objectKey":"BAPI_REPMANCONF_CANCEL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PP-REM-ADE",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -9309,7 +9309,7 @@
    "objectKey":"BAPI_REPMANCONF_CREATE_MTO",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PP-REM-ADE",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -9328,7 +9328,7 @@
    "objectKey":"BAPI_REPMANCONF_CREATE_MTS",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PP-REM-ADE",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -9347,7 +9347,7 @@
    "objectKey":"BAPI_REPMANCONF_CREATE_PLOT",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PP-REM-ADE",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -9366,7 +9366,7 @@
    "objectKey":"BAPI_REPMANCONF_EXIST_CHK",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PP-REM-ADE",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -9493,7 +9493,7 @@
    "objectKey":"BAPI_REQUISITION_CHANGE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"MM-PUR-GF",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -9512,7 +9512,7 @@
    "objectKey":"BAPI_REQUISITION_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"MM-PUR-GF",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -9531,7 +9531,7 @@
    "objectKey":"BAPI_REQUISITION_DELETE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"MM-PUR-GF",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -9550,7 +9550,7 @@
    "objectKey":"BAPI_REQUISITION_GETDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"MM-PUR-GF",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -10163,7 +10163,7 @@
    "objectKey":"BAPI_USER_LOCK",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SEC-USR-ADM",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -10182,7 +10182,7 @@
    "objectKey":"BAPI_USER_UNLOCK",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SEC-USR-ADM",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -10300,7 +10300,7 @@
    "objectKey":"BBP_INVOICE_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"MM",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -11291,7 +11291,7 @@
    "objectKey":"HR_MAINTAIN_MASTERDATA",
    "softwareComponent":"S4HCMRXX",
    "applicationComponent":"PA-PA",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -11751,7 +11751,7 @@
    "objectKey":"PATH_APPEND",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-BMT-OM",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -11770,7 +11770,7 @@
    "objectKey":"PATH_BUILD",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-BMT-OM",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -11789,7 +11789,7 @@
    "objectKey":"PATH_DELETE",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-BMT-OM",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -11808,7 +11808,7 @@
    "objectKey":"PATH_DELETE_ALL",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-BMT-OM",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -11827,7 +11827,7 @@
    "objectKey":"PATH_GET",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-BMT-OM",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -11846,7 +11846,7 @@
    "objectKey":"PATH_ID_DELETE",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-BMT-OM",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -11865,7 +11865,7 @@
    "objectKey":"PATH_ID_GET",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-BMT-OM",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -12010,7 +12010,7 @@
    "objectKey":"QIRF_SEND_INSP_REQUIRMENTS",
    "softwareComponent":"S4CORE",
    "applicationComponent":"QM-IM-RR",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -12092,7 +12092,7 @@
    "objectKey":"REUSE_HR_OBJID_F4",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-BMT-OM",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -12111,7 +12111,7 @@
    "objectKey":"RH_AUTHORITY_CHECK_FROM_ADMIN",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-BMT-OM",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -12130,7 +12130,7 @@
    "objectKey":"RH_AUTHORITY_CHECK_OFF",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-BMT-OM",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -12149,7 +12149,7 @@
    "objectKey":"RH_AUTHORITY_CHECK_ON",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-BMT-OM",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -12168,7 +12168,7 @@
    "objectKey":"RH_AUTHORITY_CHECK_STATUS",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-BMT-OM",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
@@ -13843,7 +13843,7 @@
    "objectKey":"IF_UG_TIME",
    "softwareComponent":"S4COREOP",
    "applicationComponent":"FIN-FB-MDF",
-   "state":"noclassicAPI",
+   "state":"noClassicAPI",
    "successorClassification":"oneObject",
    "successors":
    [
