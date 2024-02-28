@@ -1,4 +1,4 @@
-# S/4 HANA Cloud - Released objects for ATC Check (Cloudification Repository)
+# S/4HANA Cloud - Released objects for ATC Check (Cloudification Repository)
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP/abap-atc-cr-cv-s4hc)](https://api.reuse.software/info/github.com/SAP/abap-atc-cr-cv-s4hc)
 
@@ -11,35 +11,35 @@ Please implement note "ATC Check for Github Repo: https://launchpad.support.sap.
 
 ## Download and Usage
 
-### Target product S/4 HANA Cloud Public Edition
+### Target product S/4HANA Cloud Public Edition
 
 1. Activate in your ATC check variant the check "Cloud Readiness" -> Usage of Released APIs (Cloudification Repository)
 
 2. In the attributes of the check enter the URL to this git repository e.g https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfoLatest.json
-(content valid for S/4 HANA Cloud Public Edition)
+(content valid for S/4HANA Cloud Public Edition)
 
 Optional: Use another json file with a different content. For S/4 HANA Cloud Public Edition please use the same URL above and attach the current file objectReleaseInfoLatest.json
 
 The corresponding CSV files can be consumed for offline processing in any spreadsheet tool.
 
-### Target product S/4 HANA Cloud Private Edition
+### Target product S/4HANA Cloud Private Edition
 
 1. Activate in your ATC check variant the check "Cloud Readiness" -> Usage of Released APIs (Cloudification Repository)
 
-2. In the attributes of the check enter the URL to this git repository e.g https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCE2023_0.json
-(content valid for S/4 HANA Cloud Private Edition)
+2. In the attributes of the check enter the URL to this git repository e.g https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCE2023_1.json
+(content valid for S/4HANA Cloud Private Edition)
 
-For S/4 HANA Cloud Private Edition or on-premise, you can use the release version file with the string *PCE* included.
+For S/4HANA Cloud Private Edition or on-premise, you can use the release version file with the string *PCE* included.
 e.g. https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/  + filename
 
-S/4 HANA Cloud Private Edition; example Release 2023 FP0
---> https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCE2023_0.json
+S/4HANA Cloud Private Edition; example Release 2023 FPS1
+--> https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCE2023_1.json
 
 The corresponding CSV files can be consumed for offline processing in any spreadsheet tool.
 
-The files objectReleaseInfo_PCE*.json or objectReleaseInfo_PCE*.csv contains the APIs released by SAP to be consumed in your Tier 1 implementations of the 3-tier extensibility model.
+The files objectReleaseInfo_PCE*.json or objectReleaseInfo_PCE*.csv contains the APIs released by SAP to be consumed in your tier 1 implementations of the 3-tier extensibility model.
 
-The files objectClassifications.json or objectClassifications.csv contains the classic APIs  to be consumed in your Tier 2 implementations of the 3-tier extensibility model.
+The files objectClassifications.json or objectClassifications.csv contains the classic APIs  to be consumed in your tier 2 implementations of the 3-tier extensibility model.
 
 Remark: CSV file contains more detailed information including the object list which will not be recommended. The reasons are internal consumptions or ABAP Cloud violations.
 The JSON file conatins the positive list of ClassicAPIs. Entries with value noClassicAPI will offer you a corresponding successor object.
@@ -48,8 +48,8 @@ The JSON file conatins the positive list of ClassicAPIs. Entries with value noCl
 
 This project is provided "as-is", with no expected changes or support. Of course you can always report bugs via GitHub issues.
 Request for new APIs please use the corresponding CI channel for 
-- S/4 HANA Cloud Public Edition https://influence.sap.com/sap/ino/#campaign/2759 or
-- S/4 HANA Cloud Private Edition https://influence.sap.com/sap/ino/#/campaign/3516 or
+- S/4HANA Cloud Public Edition https://influence.sap.com/sap/ino/#campaign/2759 or
+- S/4HANA Cloud Private Edition https://influence.sap.com/sap/ino/#/campaign/3516 or
 get details in note https://launchpad.support.sap.com/#/notes/3126893
 
 ## Contributing
