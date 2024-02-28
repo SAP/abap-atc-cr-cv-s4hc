@@ -1,0 +1,85 @@
+name: Prepare and build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  prepare:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Copy files
+        run: |
+          rm -rf viewer/src/data/contents
+          mkdir -p viewer/src/data/contents
+          cp src/*.json viewer/src/data/contents
+
+      - name: Run JS script to generate contents.json
+        run: node scripts/generateContents.js
+
+      - name: Push to main branch
+        run: |
+          git config user.name github-actions
+          git add .
+          if git diff --quiet HEAD;
+          then
+            echo "No changes to commit"
+          else
+            git commit -m "Updated contents from main branch"
+            git push origin main
+          fi
+
+      - name: Upload data
+        uses: actions/upload-artifact@v4
+        with:
+          name: data
+          path: viewer/src/data
+
+  build:
+    needs: prepare
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+
+      - name: Download data
+        uses: actions/download-artifact@v4
+        with:
+          path: viewer/src
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Cypress run
+        uses: cypress-io/github-action@v6
+        with:
+          start: npm run start
+          wait-on: "http://localhost:3000"
+          working-directory: viewer
+
+      - name: Build
+        run: npm run build
+        working-directory: viewer
+
+      - name: Deploy with gh-pages
+        run: |
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          npx gh-pages -d build -u "github-actions-bot <support+actions@github.com>"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        working-directory: viewer
