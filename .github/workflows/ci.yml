@@ -28,18 +28,6 @@ jobs:
       - name: Run JS script to generate contents.json
         run: node scripts/generateContents.js
 
-      - name: Push to main branch
-        run: |
-          git config user.name github-actions
-          git add .
-          if git diff --quiet HEAD;
-          then
-            echo "No changes to commit"
-          else
-            git commit -m "Updated contents from main branch"
-            git push origin main
-          fi
-
       - name: Upload data
         uses: actions/upload-artifact@v4
         with:
