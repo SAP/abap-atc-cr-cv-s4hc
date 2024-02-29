@@ -19,12 +19,6 @@ jobs:
         with:
           node-version: 20
 
-      - name: Copy files
-        run: |
-          rm -rf viewer/src/data/contents
-          mkdir -p viewer/src/data/contents
-          cp src/*.json viewer/src/data/contents
-
       - name: Run JS script to generate contents.json
         run: node scripts/generateContents.js
 
