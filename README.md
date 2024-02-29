@@ -44,6 +44,16 @@ The files objectClassifications.json or objectClassifications.csv contains the c
 Remark: CSV file contains more detailed information including the object list which will not be recommended. The reasons are internal consumptions or ABAP Cloud violations.
 The JSON file conatins the positive list of ClassicAPIs. Entries with value noClassicAPI will offer you a corresponding successor object.
 
+## Cloudification API Viewer
+
+S/4HANA CLoud Public Edition https://sap.github.io/abap-atc-cr-cv-s4hc/
+
+S/4HANA Cloud Private Edition https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectReleaseInfo_PCE2023_1.json
+
+S/4HANA Cloud Private Edition - Classic APIs https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectClassification.json
+
+*Click on a row to get more details about successors*
+
 ## How to obtain support
 
 This project is provided "as-is", with no expected changes or support. Of course you can always report bugs via GitHub issues.
