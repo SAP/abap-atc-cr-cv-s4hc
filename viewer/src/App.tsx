@@ -18,7 +18,7 @@ export type Sort = {
 
 function App() {
     const { handleFilter, setSearchValues, searchValues } = useContext(FilterContext);
-    const { value, version } = useContext(AtcContext);
+    const { value } = useContext(AtcContext);
 
     const [ query ] = useSearchParams();
     const [ index, setIndex ] = useState(DefaultIndex);
@@ -100,41 +100,6 @@ function App() {
     }
 
     const spliced = handleFilter(sortValues()).splice(0, index) || [];
-    let columns: AnalyticalTablePropTypes["columns"] = []
-
-    if (!version.startsWith("objectClassification")) {
-        columns.push({
-            Header: "Name",
-            accessor: "tadirObjName",
-            headerTooltip: "Name"
-        });
-    }
-
-    columns.push({
-        Header: "Application Component",
-        accessor: "applicationComponent",
-        headerTooltip: "Application Component"
-    }, {
-        Header: "Object Key",
-        accessor: "objectKey",
-        headerTooltip: "Object Key"
-    }, {
-        Header: "Object Type",
-        accessor: "objectType",
-        headerTooltip: "Object Type"
-    }, {
-        Header: "State",
-        id: "state",
-        accessor(_, rowIndex) {
-            return spliced[rowIndex]
-        },
-        Cell: ({ value }: {
-            value?: ObjectElement
-        }) => {
-            return <StateStatus object={value} />
-        },
-        headerTooltip: "State"
-    })
 
     return (
         <div className={classes.scrollContainer}>
@@ -153,7 +118,34 @@ function App() {
                     reactTableOptions={{
                         autoResetSortBy: false
                     }}
-                    columns={columns}
+                    columns={[{
+                        Header: "Application Component",
+                        accessor: "applicationComponent",
+                        headerTooltip: "Application Component"
+                    },
+                    {
+                        Header: "Object Key",
+                        accessor: "objectKey",
+                        headerTooltip: "Object Key"
+                    },
+                    {
+                        Header: "Object Type",
+                        accessor: "objectType",
+                        headerTooltip: "Object Type"
+                    },
+                    {
+                        Header: "State",
+                        id: "state",
+                        accessor(_, rowIndex) {
+                            return spliced[rowIndex]
+                        },
+                        Cell: ({ value }: {
+                            value?: ObjectElement
+                        }) => {
+                            return <StateStatus object={value} />
+                        },
+                        headerTooltip: "State"
+                    }]}
                 />}
                 midColumn={<ElementTab object={selected} action={setSelected} successorAction={setSuccessor} />}
                 endColumn={<ElementTab object={successor} action={setSuccessor} successorAction={setSuccessor} />}

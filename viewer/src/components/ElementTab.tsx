@@ -20,7 +20,7 @@ export default function ElementTab({ slot, object, action, successorAction }: {
         <DynamicPage
             slot={slot}
             headerTitle={<DynamicPageTitle
-                    header={object?.tadirObjName}
+                    header={object?.objectKey}
                     subHeader={object?.tadirObject}
                     actions={<Button design="Transparent" icon="decline" onClick={() => action(undefined)} />}
                 >
@@ -64,7 +64,7 @@ export function SuccessorElement({ object, cloudType, successorAction }: {
         selectedRowIds: Record<string | number, boolean>;
     }> | undefined) {
         const successorElement = event?.detail.row?.original as BaseObjectElementSuccessor;
-        const element = value?.find(element => element.tadirObjName === successorElement.tadirObjName)
+        const element = value?.find(element => element.objectKey === successorElement.objectKey)
 
         successorAction(element)
     }
@@ -95,9 +95,9 @@ export function SuccessorElement({ object, cloudType, successorAction }: {
                                 headerTooltip: "Object"
                             },
                             {
-                                Header: "Object Name",
-                                accessor: "tadirObjName",
-                                headerTooltip: "Object Name"
+                                Header: "Object Key",
+                                accessor: "objectKey",
+                                headerTooltip: "Object Key"
                             },
                             {
                                 Header: "Object Type",

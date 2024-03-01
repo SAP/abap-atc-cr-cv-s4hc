@@ -4,19 +4,19 @@ import { FilterContext } from "../providers/FilterProvider";
 import { useContext } from "react";
 
 export default function PageFilter() {
-    const { version, value, handleSelectChange } = useContext(AtcContext);
     const { states, stateFilter, setStateFilter, setObjectTypesFilter, objectTypes, objectTypesFilter } = useContext(FilterContext);
+    const { version, value, handleSelectChange } = useContext(AtcContext);
 
     const handleStateSelectChange: MultiComboBoxPropTypes["onSelectionChange"] = function(event) {
         setStateFilter(
             Object.entries(states)
-                .filter(([_, state]) => !event.detail.items.map(item => item.text).includes(state.label))
+                .filter(([_, state]) => event.detail.items.map(item => item.text).includes(state.label))
                 .map(([stateId, _]) => stateId)
         )
     }
 
     const handleObjectTypeFilterChange: MultiComboBoxPropTypes["onSelectionChange"] = function(event) {
-        setObjectTypesFilter(objectTypes.filter(x => !event.detail.items.flatMap(item => item.text).includes(x)))
+        setObjectTypesFilter(event.detail.items.flatMap(item => item.text))
     }
 
     const selectValues = Object.values(Files);
@@ -47,11 +47,11 @@ export default function PageFilter() {
             visible={isValueValid}
             label="State"
         >
-            <MultiComboBox onSelectionChange={handleStateSelectChange}>
+            <MultiComboBox onSelectionChange={handleStateSelectChange} placeholder="Select State">
                 {Object.entries(states).map(([key, value]) => (
                     <MultiComboBoxItem
                         text={value.label}
-                        selected={!stateFilter.includes(key)}
+                        selected={stateFilter.includes(key)}
                     />
                 ))}
             </MultiComboBox>
@@ -60,11 +60,11 @@ export default function PageFilter() {
             visible={isValueValid}
             label="Object Type"
         >
-            <MultiComboBox onSelectionChange={handleObjectTypeFilterChange}>
+            <MultiComboBox onSelectionChange={handleObjectTypeFilterChange} placeholder="Select Object Type">
                 {objectTypes.map(data => (
                     <MultiComboBoxItem
                         text={data}
-                        selected={!objectTypesFilter.includes(data)}
+                        selected={objectTypesFilter.includes(data)}
                     />
                 ))}
             </MultiComboBox>

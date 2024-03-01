@@ -93,7 +93,13 @@ export function FilterProvider({ children }: PropsWithChildren) {
 
     function handleFilter(values: ObjectElement[]): ObjectElement[] {
         return values
-            .filter(value => !stateFilter.includes(value.state as string) && !objectTypesFilter.includes(value.objectType))
+            .filter(value => {
+                const hasStateFilter = stateFilter.length !== 0
+                const hasObjectTypeFilter = objectTypesFilter.length !== 0
+
+                return  (hasStateFilter ? stateFilter : Object.keys(states)).includes(value.state as string) &&
+                        (hasObjectTypeFilter ? objectTypesFilter : objectTypes).includes(value.objectType)
+            })
     }
 
     return (
