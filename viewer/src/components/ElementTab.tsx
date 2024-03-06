@@ -1,5 +1,5 @@
-import { AtcContext, BaseObjectElementSuccessor, CloudType, Files, ObjectElement, ReleaseInfoElementConcept, ReleaseInfoElementOther } from "../providers/AtcProvider";
 import { AnalyticalTable, Button, DynamicPage, DynamicPageHeader, DynamicPageTitle, FlexBox, IllustratedMessage, Label, Text, Title } from "@ui5/webcomponents-react";
+import { AtcContext, CloudType, Files, ObjectElement, ReleaseInfoElementConcept, ReleaseInfoElementOther } from "../providers/AtcProvider";
 import { Dispatch, HTMLAttributes, PropsWithChildren, SetStateAction, useContext } from "react";
 import { useI18nBundle } from '@ui5/webcomponents-react-base';
 import { BundleID } from "..";
@@ -8,10 +8,9 @@ import StateStatus from "./StateStatus";
 
 import "@ui5/webcomponents-icons-tnt/dist/AllIcons.js";
 
-export default function ElementTab({ slot, object, action, successorAction }: {
+export default function ElementTab({ slot, object, action }: {
     object?: ObjectElement;
     action: Dispatch<SetStateAction<ObjectElement | undefined>>;
-    successorAction: Dispatch<SetStateAction<ObjectElement | undefined>>;
 } & HTMLAttributes<unknown>) {
     const { version } = useContext(AtcContext);
     const cloudType = Files[version];
@@ -29,10 +28,13 @@ export default function ElementTab({ slot, object, action, successorAction }: {
             }
             headerContent={<DynamicPageHeader>
                 <HeaderInformation label="Application Component">{object?.applicationComponent}</HeaderInformation>
-                <HeaderInformation label="Object Key">{object?.objectKey}</HeaderInformation>
+                <HeaderInformation label="Software Component">{object?.softwareComponent}</HeaderInformation>
+                <HeaderInformation label="Object Name">{object?.tadirObjName}</HeaderInformation>
+                <HeaderInformation label="Main Object Type">{object?.tadirObject}</HeaderInformation>
+                <HeaderInformation label="Object Type">{object?.objectType}</HeaderInformation>
             </DynamicPageHeader>}
         >
-            {<SuccessorElement object={object} cloudType={cloudType} successorAction={successorAction}/>}
+            {<SuccessorElement object={object} cloudType={cloudType} />}
         </DynamicPage>
     )
 }
@@ -48,26 +50,11 @@ export function HeaderInformation({ label, children }: {
     </FlexBox> : <></>
 }
 
-export function SuccessorElement({ object, cloudType, successorAction }: {
+export function SuccessorElement({ object, cloudType }: {
     object?: ObjectElement;
     cloudType: CloudType;
-    successorAction: Dispatch<SetStateAction<ObjectElement | undefined>>;
 }) {
     const i18nBundle = useI18nBundle(BundleID);
-    const { value } = useContext(AtcContext);
-
-    function handleRowSelect(event: CustomEvent<{
-        allRowsSelected: boolean;
-        row?: Record<string, unknown> | undefined;
-        isSelected?: boolean | undefined;
-        selectedFlatRows: Record<string, unknown>[];
-        selectedRowIds: Record<string | number, boolean>;
-    }> | undefined) {
-        const successorElement = event?.detail.row?.original as BaseObjectElementSuccessor;
-        const element = value?.find(element => element.objectKey === successorElement.objectKey)
-
-        successorAction(element)
-    }
 
     switch (cloudType.format) {
         case "1":
@@ -86,14 +73,9 @@ export function SuccessorElement({ object, cloudType, successorAction }: {
                     }}>Successors</Title>
                     <AnalyticalTable
                         selectionMode="SingleSelect"
-                        onRowSelect={handleRowSelect}
                         data={object.successors}
+                        selectionBehavior="RowSelector"
                         columns={[
-                            {
-                                Header: "Object",
-                                accessor: "tadirObject",
-                                headerTooltip: "Object"
-                            },
                             {
                                 Header: "Object Key",
                                 accessor: "objectKey",

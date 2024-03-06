@@ -24,7 +24,8 @@ export interface ObjectRelease {
     objectRecommendations: ObjectElement[];
 }
 
-export type Classification = "concept" | "oneObject" | "multipleObjects";
+// Hint
+export type Classification = "concept" | "oneObject" | "multipleObjects" | "";
 
 export type ElementState = keyof typeof States;
 

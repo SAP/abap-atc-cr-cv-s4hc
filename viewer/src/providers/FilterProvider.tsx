@@ -1,6 +1,6 @@
 import { Context, Dispatch, PropsWithChildren, SetStateAction, createContext, useContext, useEffect, useState } from "react";
 import { AtcContext, ElementState, ObjectElement, State, States } from "./AtcProvider";
-import { useSearchParams } from "react-router-dom";
+import { SetURLSearchParams, useSearchParams } from "react-router-dom";
 
 export type KeyValueStates = {
     [k: string]: State;
@@ -16,6 +16,9 @@ export interface FilterContextProps {
     objectTypes: string[];
     objectTypesFilter: string[];
     setObjectTypesFilter: Dispatch<SetStateAction<string[]>>;
+    softwareComponents: string[];
+    softwareComponentsFilter: string[];
+    setSoftwareComponentsFilter: Dispatch<SetStateAction<string[]>>;
 }
 
 export const FilterContext: Context<FilterContextProps> = createContext({} as FilterContextProps);
@@ -27,6 +30,10 @@ export function ExtrudeObjectTypes(objectElements?: ObjectElement[]): string[] {
 export function ExtrudeObjectStates(objectElements?: ObjectElement[]) {
     const uniqueStates = new Set(objectElements?.flatMap(value => value.state));
     return Object.fromEntries(Object.entries(States).filter(([key]) => uniqueStates.has(key as ElementState)));
+}
+
+export function ExtrudeSoftwareComponents(objectElements?: ObjectElement[]): string[] {
+    return Array.from(new Set(objectElements?.flatMap(value => value.softwareComponent)))
 }
 
 export function ExtrudeStringFilter(key: string, defaultValues: string[]) {
@@ -41,6 +48,27 @@ export function ExtrudeStringFilter(key: string, defaultValues: string[]) {
     }
 }
 
+export function HandleVersionFilter(key: string, filters: string[], setFilters: Dispatch<SetStateAction<string[]>>, values: string[], query: URLSearchParams, setQuery: SetURLSearchParams) {
+    let copyFilter = []
+
+    for (const element of filters) {
+        if (values.includes(element)) {
+            copyFilter.push(element)
+        }
+    }
+
+    if (copyFilter.length === 0) {
+        query.delete(key);
+    } else {
+        query.set(key, copyFilter.join(","))
+    }
+
+    setQuery(query);
+
+    if (filters.length === copyFilter.length) return;
+    setFilters(copyFilter);
+}
+
 export function FilterProvider({ children }: PropsWithChildren) {
     const { value } = useContext(AtcContext);
 
@@ -52,53 +80,54 @@ export function FilterProvider({ children }: PropsWithChildren) {
     const [ objectTypes, setObjectTypes ] = useState(ExtrudeObjectTypes(value!));
     const [ objectTypesFilter, setObjectTypesFilter ] = useState<string[]>(query.get("objectTypes")?.split(",") ?? []);
 
+    const [ softwareComponents, setSoftwareComponents ] = useState(ExtrudeSoftwareComponents(value!));
+    const [ softwareComponentsFilter, setSoftwareComponentsFilter ] = useState<string[]>(query.get("softwareComponents")?.split(",") ?? []);
+
     const [ searchValues, setSearchValues ] = useState<ObjectElement[]>([]);
 
     useEffect(() => {
         setObjectTypes(ExtrudeObjectTypes(value!));
         setStates(ExtrudeObjectStates(value!));
+        setSoftwareComponents(ExtrudeSoftwareComponents(value!));
     }, [value])
-    
-    useEffect(() => {
-        if (!query.get("objectTypes")) {
-            setObjectTypesFilter([]);
-        }
-    }, [objectTypes, query])
 
-    useEffect(() => {
-        if (!query.get("states")) {
-            setStateFilter([]);
-        }
-    }, [states, query])
+    useEffect(() => HandleVersionFilter(
+        "states",
+        stateFilter,
+        setStateFilter,
+        Object.keys(states),
+        query,
+        setQuery
+    ), [stateFilter, states, query, setQuery])
 
-    useEffect(() => {
-        if (stateFilter.length === 0) {
-            query.delete("states");
-        } else {
-            query.set("states", stateFilter.join(","))
-        }
+    useEffect(() =>  HandleVersionFilter(
+        "objectTypes",
+        objectTypesFilter,
+        setObjectTypesFilter,
+        objectTypes,
+        query,
+        setQuery
+    ), [objectTypesFilter, objectTypes, query, setQuery])
 
-        setQuery(query);
-    }, [stateFilter, states, query, setQuery])
-
-    useEffect(() => {
-        if (objectTypesFilter.length === 0) {
-            query.delete("objectTypes");
-        } else {
-            query.set("objectTypes", objectTypesFilter.join(","))
-        }
-
-        setQuery(query);
-    }, [objectTypesFilter, objectTypes, query, setQuery])
+    useEffect(() =>  HandleVersionFilter(
+        "softwareComponents",
+        softwareComponentsFilter,
+        setSoftwareComponentsFilter,
+        softwareComponents,
+        query,
+        setQuery
+    ), [softwareComponentsFilter, softwareComponents, query, setQuery])
 
     function handleFilter(values: ObjectElement[]): ObjectElement[] {
         return values
             .filter(value => {
                 const hasStateFilter = stateFilter.length !== 0
                 const hasObjectTypeFilter = objectTypesFilter.length !== 0
+                const hasSoftwareComponents = softwareComponentsFilter.length !== 0
 
                 return  (hasStateFilter ? stateFilter : Object.keys(states)).includes(value.state as string) &&
-                        (hasObjectTypeFilter ? objectTypesFilter : objectTypes).includes(value.objectType)
+                        (hasObjectTypeFilter ? objectTypesFilter : objectTypes).includes(value.objectType) &&
+                        (hasSoftwareComponents ? softwareComponentsFilter : softwareComponents).includes(value.softwareComponent)
             })
     }
 
@@ -112,7 +141,10 @@ export function FilterProvider({ children }: PropsWithChildren) {
             setStateFilter,
             objectTypes,
             objectTypesFilter,
-            setObjectTypesFilter
+            setObjectTypesFilter,
+            softwareComponents,
+            softwareComponentsFilter,
+            setSoftwareComponentsFilter
         }}>
             {children}
         </FilterContext.Provider>

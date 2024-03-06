@@ -4,7 +4,7 @@ import { FilterContext } from "../providers/FilterProvider";
 import { useContext } from "react";
 
 export default function PageFilter() {
-    const { states, stateFilter, setStateFilter, setObjectTypesFilter, objectTypes, objectTypesFilter } = useContext(FilterContext);
+    const { states, stateFilter, setStateFilter, setObjectTypesFilter, objectTypes, objectTypesFilter, softwareComponents, softwareComponentsFilter, setSoftwareComponentsFilter } = useContext(FilterContext);
     const { version, value, handleSelectChange } = useContext(AtcContext);
 
     const handleStateSelectChange: MultiComboBoxPropTypes["onSelectionChange"] = function(event) {
@@ -17,6 +17,10 @@ export default function PageFilter() {
 
     const handleObjectTypeFilterChange: MultiComboBoxPropTypes["onSelectionChange"] = function(event) {
         setObjectTypesFilter(event.detail.items.flatMap(item => item.text))
+    }
+
+    const handleSoftwareComponentFilterChange: MultiComboBoxPropTypes["onSelectionChange"] = function(event) {
+        setSoftwareComponentsFilter(event.detail.items.flatMap(item => item.text))
     }
 
     const selectValues = Object.values(Files);
@@ -32,7 +36,7 @@ export default function PageFilter() {
 
     return <FilterBar>
         <FilterGroupItem
-            label="Version"
+            label="Respository Selection"
         >
             <Select onChange={handleSelectChange}>
                 {selectValues.map(iterator => (
@@ -65,6 +69,19 @@ export default function PageFilter() {
                     <MultiComboBoxItem
                         text={data}
                         selected={objectTypesFilter.includes(data)}
+                    />
+                ))}
+            </MultiComboBox>
+        </FilterGroupItem>
+        <FilterGroupItem
+            visible={isValueValid}
+            label="Software Component"
+        >
+            <MultiComboBox onSelectionChange={handleSoftwareComponentFilterChange} placeholder="Select Software Component">
+                {softwareComponents.map(data => (
+                    <MultiComboBoxItem
+                        text={data}
+                        selected={softwareComponentsFilter.includes(data)}
                     />
                 ))}
             </MultiComboBox>

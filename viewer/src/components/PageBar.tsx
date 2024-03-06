@@ -1,11 +1,15 @@
 import { Icon, Input, InputPropTypes, ResponsivePopoverDomRef, ShellBar, ShellBarItem, ShellBarItemPropTypes } from "@ui5/webcomponents-react";
 import { RefObject, useContext, useRef } from "react";
 import { useSearchParams } from "react-router-dom";
+import { useI18nBundle } from '@ui5/webcomponents-react-base';
 import { AtcContext } from "../providers/AtcProvider";
+import { BundleID } from "..";
 
 export default function PageBar({ themeRef }: {
     themeRef: RefObject<ResponsivePopoverDomRef>
 }) {
+    const i18nBundle = useI18nBundle(BundleID);
+
     const { value } = useContext(AtcContext);
     const [ query, setQuery ] = useSearchParams();
 
@@ -38,8 +42,8 @@ export default function PageBar({ themeRef }: {
 
     return <ShellBar
         logo={<img alt="SAP Logo" src={process.env.PUBLIC_URL + "/logo.svg"} />}
-        primaryTitle="Cloudification"
-        searchField={value && <Input placeholder={value[0].tadirObjName} icon={<Icon name="search" />} value={searchQuery || ""} onInput={handleSearchChange} showClearIcon/>}
+        primaryTitle="Cloudification Respository Viewer"
+        searchField={value && <Input placeholder={i18nBundle.getText("SEARCH")} icon={<Icon name="search" />} value={searchQuery || ""} onInput={handleSearchChange} showClearIcon/>}
         secondaryTitle="Object Search - BETA"
         showSearchField
     >

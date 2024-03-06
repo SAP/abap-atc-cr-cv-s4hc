@@ -1,4 +1,4 @@
-import { AnalyticalTable, AnalyticalTableColumnDefinition, AnalyticalTablePropTypes, FlexibleColumnLayout, IllustratedMessage } from "@ui5/webcomponents-react";
+import { AnalyticalTable, AnalyticalTableColumnDefinition, AnalyticalTablePropTypes, FlexibleColumnLayout, Icon, IllustratedMessage } from "@ui5/webcomponents-react";
 import { useContext, useEffect, useState } from "react";
 import { AtcContext, ObjectElement } from "./providers/AtcProvider";
 import { useSearchParams } from "react-router-dom";
@@ -7,7 +7,6 @@ import { FilterContext } from "./providers/FilterProvider";
 import StateStatus from "./components/StateStatus";
 import ElementTab from "./components/ElementTab";
 import classes from  "./App.module.css";
-import Fuse from "fuse.js";
 
 const DefaultIndex = 25;
 
@@ -23,10 +22,8 @@ function App() {
     const [ query ] = useSearchParams();
     const [ index, setIndex ] = useState(DefaultIndex);
 
-    const [ selected, setSelected ] = useState<ObjectElement>();
-    const [ successor, setSuccessor ] = useState<ObjectElement>();
-
     const [ sort, setSort ] = useState<Sort>();
+    const [ selected, setSelected ] = useState<ObjectElement>();
 
     const searchQuery = query.get("q");
 
@@ -36,21 +33,12 @@ function App() {
     }, [value])
 
     useEffect(() => {
-        const fuse = new Fuse(value!, {
-            shouldSort: true,
-            keys: [
-                "tadirObject",
-                "tadirObjName",
-                "softwareComponent",
-                "applicationComponent",
-                "objectKey"
-            ],
-            threshold: 0.3
-        })
+        const regex = new RegExp((searchQuery ?? "").replace(/\*/g, '.*'), "i");
         
-        setSearchValues(searchQuery ? fuse
-            .search(searchQuery)
-            .flatMap(result => result.item) : [...value!]);
+        setSearchValues([...value!].filter(element =>
+            regex.test(element.applicationComponent) ||
+            regex.test(element.objectKey)
+        ));
     }, [value, query, searchQuery, setSearchValues])
 
     function handleLoadMore() {
@@ -59,7 +47,6 @@ function App() {
 
     const handleRowSelect: AnalyticalTablePropTypes["onRowSelect"] = function(event) {
         setSelected(event?.detail.row?.original as ObjectElement);
-        setSuccessor(undefined);
     }
 
     const handleSort: AnalyticalTablePropTypes["onSort"] = function (event) {
@@ -118,38 +105,62 @@ function App() {
                     reactTableOptions={{
                         autoResetSortBy: false
                     }}
-                    columns={[{
-                        Header: "Application Component",
-                        accessor: "applicationComponent",
-                        headerTooltip: "Application Component"
-                    },
-                    {
-                        Header: "Object Key",
-                        accessor: "objectKey",
-                        headerTooltip: "Object Key"
-                    },
-                    {
-                        Header: "Object Type",
-                        accessor: "objectType",
-                        headerTooltip: "Object Type"
-                    },
-                    {
-                        Header: "State",
-                        id: "state",
-                        accessor(_, rowIndex) {
-                            return spliced[rowIndex]
-                        },
-                        Cell: ({ value }: {
-                            value?: ObjectElement
-                        }) => {
-                            return <StateStatus object={value} />
-                        },
-                        headerTooltip: "State"
-                    }]}
+                    columns={
+                        [
+                            {
+                                Header: "Application Component",
+                                accessor: "applicationComponent",
+                                headerTooltip: "Application Component"
+                            },
+                            {
+                                Header: "Object Key",
+                                accessor: "objectKey",
+                                headerTooltip: "Object Key"
+                            },
+                            {
+                                Header: "Object Type",
+                                accessor: "objectType",
+                                headerTooltip: "Object Type"
+                            },
+                            {
+                                Header: "State",
+                                id: "state",
+                                accessor(_, rowIndex) {
+                                    return spliced[rowIndex]
+                                },
+                                Cell: ({ value }: {
+                                    value?: ObjectElement
+                                }) => {
+                                    return <StateStatus object={value} />
+                                },
+                                headerTooltip: "State"
+                            },
+                            {
+                                accessor(_, rowIndex) {
+                                    return spliced[rowIndex]
+                                },
+                                Cell: ({ value }: {
+                                    value?: ObjectElement
+                                }) => {
+                                    if (value?.successorClassification === undefined ||
+                                        value?.successorClassification === "") {
+                                        return <Icon name="navigation-right-arrow" />
+                                    }
+
+                                    return <Icon name="open-command-field" />
+                                },
+                                disableFilters: true,
+                                disableGroupBy: true,
+                                disableResizing: true,
+                                disableSortBy: true,
+                                id: 'arrow',
+                                width: 75
+                            }
+                        ]
+                    }
                 />}
-                midColumn={<ElementTab object={selected} action={setSelected} successorAction={setSuccessor} />}
-                endColumn={<ElementTab object={successor} action={setSuccessor} successorAction={setSuccessor} />}
-                layout={selected ? successor ? "ThreeColumnsMidExpanded" : "TwoColumnsStartExpanded" : "OneColumn"}
+                midColumn={<ElementTab object={selected} action={setSelected} />}
+                layout={selected ? "TwoColumnsStartExpanded" : "OneColumn"}
             /> : <IllustratedMessage />}
         </div>
     );
