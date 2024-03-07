@@ -16,12 +16,12 @@ import ThemePopover from "../components/ThemePopover";
  * 
  * @property {string} formatVersion The format version of the json file
  * @property {ObjectElement[]} objectReleaseInfo An array of all elements (Objects)
- * @property {ObjectElement[]} objectRecommendations An arraz of all elements when the version is classficiations
+ * @property {ObjectElement[]} objectClassifications An array of all elements when the version is classficiations
  */
 export interface ObjectRelease {
     formatVersion: string;
     objectReleaseInfo: ObjectElement[];
-    objectRecommendations: ObjectElement[];
+    objectClassifications: ObjectElement[];
 }
 
 // Hint
@@ -176,7 +176,7 @@ export const States: {
 export function LoadObjectRelease(name: string): ObjectElement[] | null {
     try {
         const data = require("../data/contents/" + name) as ObjectRelease;
-        return data.objectReleaseInfo || data.objectRecommendations;
+        return data.objectReleaseInfo || data.objectClassifications;
     } catch (error) {
         return null
     }

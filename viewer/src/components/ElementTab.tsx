@@ -8,6 +8,8 @@ import StateStatus from "./StateStatus";
 
 import "@ui5/webcomponents-icons-tnt/dist/AllIcons.js";
 
+const types: Record<string, string> = require("../types.json");
+
 export default function ElementTab({ slot, object, action }: {
     object?: ObjectElement;
     action: Dispatch<SetStateAction<ObjectElement | undefined>>;
@@ -15,12 +17,14 @@ export default function ElementTab({ slot, object, action }: {
     const { version } = useContext(AtcContext);
     const cloudType = Files[version];
 
+    const typeLabel = types[object?.objectType ?? ""];
+
     return (
         <DynamicPage
             slot={slot}
             headerTitle={<DynamicPageTitle
                     header={object?.objectKey}
-                    subHeader={object?.tadirObject}
+                    subHeader={typeLabel ? `${typeLabel} (${object?.objectType})` : object?.objectType}
                     actions={<Button design="Transparent" icon="decline" onClick={() => action(undefined)} />}
                 >
                     <StateStatus object={object} />

@@ -142,12 +142,16 @@ function App() {
                                 Cell: ({ value }: {
                                     value?: ObjectElement
                                 }) => {
-                                    if (value?.successorClassification === undefined ||
-                                        value?.successorClassification === "") {
-                                        return <Icon name="navigation-right-arrow" />
+                                    function handleIconClick() {
+                                        setSelected(value)
                                     }
 
-                                    return <Icon name="open-command-field" />
+                                    if (value?.successorClassification === undefined ||
+                                        value?.successorClassification === "") {
+                                        return <Icon name="navigation-right-arrow" onClick={handleIconClick} />
+                                    }
+
+                                    return <Icon name="open-command-field" onClick={handleIconClick} />
                                 },
                                 disableFilters: true,
                                 disableGroupBy: true,

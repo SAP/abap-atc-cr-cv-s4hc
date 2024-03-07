@@ -36,13 +36,13 @@ export default function PageFilter() {
 
     return <FilterBar>
         <FilterGroupItem
-            label="Respository Selection"
+            label="Repository Selection"
         >
             <Select onChange={handleSelectChange}>
                 {selectValues.map(iterator => (
                     <Option
                         selected={iterator.name === version}
-                        icon={iterator.cloud === "public" ? "cloud" : iterator.cloud === "private" ? "locked" : "inspect-down"}
+                        icon={iterator.cloud === "public" ? "cloud" : iterator.cloud === "private" ? "SAP-icons-TNT/private-cloud" : "inspect-down"}
                     >{iterator.name}</Option>
                 ))}
             </Select>
