@@ -17,7 +17,7 @@ export type Sort = {
 
 function App() {
     const { handleFilter, setSearchValues, searchValues } = useContext(FilterContext);
-    const { value } = useContext(AtcContext);
+    const { value, version } = useContext(AtcContext);
 
     const [ query ] = useSearchParams();
     const [ index, setIndex ] = useState(DefaultIndex);
@@ -65,25 +65,28 @@ function App() {
     }
 
     function sortValues(): ObjectElement[] {
-        if (sort) {    
-            return searchValues.sort((a, b) => {
-                const key = sort.column.id as keyof ObjectElement;
-                const aValue: string | number = a[key];
-                const bValue: string | number = b[key];
-    
-                let compare = 0;
-                
-                if(aValue > bValue) {
-                    compare = 1;
-                } else if(aValue < bValue) {
-                    compare = -1;
-                }
-    
-                return sort.sortDirection === "desc" ? compare * -1 : compare;
-            })
+        const currentSort: Sort = sort || {
+            column: {
+                id: "state"
+            },
+            sortDirection: version.startsWith("objectClassification") ? "asc": "desc"
         }
-    
-        return searchValues;
+
+        return searchValues.sort((a, b) => {
+            const key = currentSort.column.id as keyof ObjectElement;
+            const aValue: string | number = a[key];
+            const bValue: string | number = b[key];
+
+            let compare = 0;
+            
+            if(aValue > bValue) {
+                compare = 1;
+            } else if(aValue < bValue) {
+                compare = -1;
+            }
+
+            return currentSort.sortDirection === "desc" ? compare * -1 : compare;
+        })
     }
 
     const spliced = handleFilter(sortValues()).splice(0, index) || [];
