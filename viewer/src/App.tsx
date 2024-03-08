@@ -10,9 +10,11 @@ import classes from  "./App.module.css";
 
 const DefaultIndex = 25;
 
+export type SortDirection =  "asc" | "desc";
+
 export type Sort = {
     column: AnalyticalTableColumnDefinition;
-    sortDirection: string;
+    sortDirection: SortDirection;
 }
 
 function App() {
@@ -58,19 +60,23 @@ function App() {
             const column = event.detail.column as AnalyticalTableColumnDefinition
 
             setSort({
-                sortDirection,
+                sortDirection: sortDirection as SortDirection,
                 column
             })
         }
     }
 
     function sortValues(): ObjectElement[] {
-        const currentSort: Sort = sort || {
+        const currentSort: Sort = sort ? {...sort} : {
             column: {
                 id: "state"
             },
-            sortDirection: version.startsWith("objectClassification") ? "asc": "desc"
+            sortDirection: "desc"
         }
+
+        if (version.startsWith("objectClassification")) {
+            currentSort.sortDirection = currentSort.sortDirection === "asc" ? "desc" : "asc"
+        } 
 
         return searchValues.sort((a, b) => {
             const key = currentSort.column.id as keyof ObjectElement;
