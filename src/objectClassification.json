@@ -1705,6 +1705,123 @@
   },
   {
    "tadirObject":"FUGR",
+   "tadirObjName":"/ACCGO/CAS_APPL_API",
+   "objectType":"FUNC",
+   "objectKey":"/ACCGO/CAS_APPL_APPLY_API",
+   "softwareComponent":"IS-OIL",
+   "applicationComponent":"LO-AGR-APP",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/ACCGO/CAS_APPL_API",
+   "objectType":"FUNC",
+   "objectKey":"/ACCGO/CAS_APPL_REV_API",
+   "softwareComponent":"IS-OIL",
+   "applicationComponent":"LO-AGR-APP",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/ACCGO/CCAK_TC_API",
+   "objectType":"FUNC",
+   "objectKey":"/ACCGO/CCAK_CHANGE_API",
+   "softwareComponent":"IS-OIL",
+   "applicationComponent":"LO-AGR-CC",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/ACCGO/CCAK_TC_API",
+   "objectType":"FUNC",
+   "objectKey":"/ACCGO/CCAK_CRT_WITH_DATA_API",
+   "softwareComponent":"IS-OIL",
+   "applicationComponent":"LO-AGR-CC",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/ACCGO/CCAK_TC_API",
+   "objectType":"FUNC",
+   "objectKey":"/ACCGO/CCAK_CRT_WITH_REF_API",
+   "softwareComponent":"IS-OIL",
+   "applicationComponent":"LO-AGR-CC",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/ACCGO/CCAK_TC_API",
+   "objectType":"FUNC",
+   "objectKey":"/ACCGO/CCAK_PRICE_CANC_API",
+   "softwareComponent":"IS-OIL",
+   "applicationComponent":"LO-AGR-CC",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/ACCGO/CCAK_TC_API",
+   "objectType":"FUNC",
+   "objectKey":"/ACCGO/CCAK_PRICE_LIFT_API",
+   "softwareComponent":"IS-OIL",
+   "applicationComponent":"LO-AGR-CC",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/ACCGO/CCAK_TC_API",
+   "objectType":"FUNC",
+   "objectKey":"/ACCGO/CCAK_PRICE_ROLL_API",
+   "softwareComponent":"IS-OIL",
+   "applicationComponent":"LO-AGR-CC",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/ACCGO/CCAK_TC_API",
+   "objectType":"FUNC",
+   "objectKey":"/ACCGO/CCAK_UPD_STATUS_API",
+   "softwareComponent":"IS-OIL",
+   "applicationComponent":"LO-AGR-CC",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/ACCGO/OIJ_NOM_API",
+   "objectType":"FUNC",
+   "objectKey":"/ACCGO/OIJ_NOM_MAINTAIN_API",
+   "softwareComponent":"IS-OIL",
+   "applicationComponent":"LO-AGR-LDC",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/ACCGO/UIS_API",
+   "objectType":"FUNC",
+   "objectKey":"/ACCGO/UIS_ADD_EVENT_API",
+   "softwareComponent":"IS-OIL",
+   "applicationComponent":"LO-AGR-LDC",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/ACCGO/UIS_API",
+   "objectType":"FUNC",
+   "objectKey":"/ACCGO/UIS_CHANGE_API",
+   "softwareComponent":"IS-OIL",
+   "applicationComponent":"LO-AGR-LDC",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/ACCGO/UIS_API",
+   "objectType":"FUNC",
+   "objectKey":"/ACCGO/UIS_CREATE_API",
+   "softwareComponent":"IS-OIL",
+   "applicationComponent":"LO-AGR-LDC",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
    "tadirObjName":"/CPD/PFP_FG_API_RFC",
    "objectType":"FUNC",
    "objectKey":"/CPD/FP_RFC_GET_PLN_VER_DETAIL",
@@ -5045,6 +5162,51 @@
   },
   {
    "tadirObject":"FUGR",
+   "tadirObjName":"BUS1093",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_EXCHANGERATE_CREATE",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"BC-SRV-BSF-CUR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BUS1093",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_EXCHANGERATE_GETDETAIL",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"BC-SRV-BSF-CUR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BUS1093",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_EXCHANGERATE_GETFACTORS",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"BC-SRV-BSF-CUR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BUS1093",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_EXCHRATE_CREATEMULTIPLE",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"BC-SRV-BSF-CUR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BUS1093",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_EXCHRATE_GETCURRENTRATES",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"BC-SRV-BSF-CUR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
    "tadirObjName":"PXPY",
    "objectType":"FUNC",
    "objectKey":"BAPI_EXTBANKPAY_GETDETAIL",
@@ -5453,6 +5615,15 @@
    "tadirObject":"FUGR",
    "tadirObjName":"FTR_BAPI_ADDFLOW",
    "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_ADDFLOW_CHANGE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_ADDFLOW",
+   "objectType":"FUNC",
    "objectKey":"BAPI_FTR_ADDFLOW_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
@@ -5463,6 +5634,24 @@
    "tadirObjName":"FTR_BAPI_ADDFLOW",
    "objectType":"FUNC",
    "objectKey":"BAPI_FTR_ADDFLOW_DELETE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_ADDFLOW",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_ADDFLOW_GETLIST",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_ADDFLOW",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_ADDFLOW_PREP_STRUC",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
    "state":"classicAPI"
@@ -5666,7 +5855,7 @@
      "tadirObject":"FUGR",
      "tadirObjName":"FTR_BAPI_CAI",
      "objectType":"FUNC",
-     "objectKey":"BAPI_FTR_CAI_CREATE"
+     "objectKey":"BAPI_FTR_CAI_DEALCREATE"
     }
    ]
   },
@@ -5757,6 +5946,87 @@
    "tadirObjName":"FTR_BAPI_CAI",
    "objectType":"FUNC",
    "objectKey":"BAPI_FTR_CAI_SETTLE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CAPFLOOR",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CAPFLOOR_CHANGE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CAPFLOOR",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CAPFLOOR_CREATE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CAPFLOOR",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CAPFLOOR_GETDETAIL",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CAPFLOOR",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CAPFLOOR_GIVENOTICE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CAPFLOOR",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CAPFLOOR_PREP_STRUC",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CAPFLOOR",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CAPFLOOR_REVERSE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CAPFLOOR",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CAPFLOOR_SETTLE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CASHFLOW",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CASHFLOW_CHANGE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CASHFLOW",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CASHFLOW_GETDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
    "state":"classicAPI"
@@ -5862,15 +6132,6 @@
   },
   {
    "tadirObject":"FUGR",
-   "tadirObjName":"FTR_BUS2042",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_FTR_CHANGE",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"classicAPI"
-  },
-  {
-   "tadirObject":"FUGR",
    "tadirObjName":"FTR_BAPI_FXOPTIONS",
    "objectType":"FUNC",
    "objectKey":"BAPI_FTR_CHANGE_FWD_FXVA",
@@ -5928,6 +6189,15 @@
    "tadirObjName":"FTR_BAPI_CONDITION",
    "objectType":"FUNC",
    "objectKey":"BAPI_FTR_CONDITION_GETLIST",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CONDITION",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CONDITON_PREP_STRUC",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
    "state":"classicAPI"
@@ -6033,6 +6303,144 @@
   },
   {
    "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CTY_OTC",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CTYFWD_CHANGE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"noClassicAPI",
+   "successorClassification":"oneObject",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"FTR_BAPI_CTY_OTC",
+     "objectType":"FUNC",
+     "objectKey":"BAPI_FTR_CTYFWD_DEALCHANGE"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CTY_OTC",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CTYFWD_CREATE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"noClassicAPI",
+   "successorClassification":"oneObject",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"FTR_BAPI_CTY_OTC",
+     "objectType":"FUNC",
+     "objectKey":"BAPI_FTR_CTYFWD_DEALCREATE"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CTY_OTC",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CTYFWD_DEALCHANGE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CTY_OTC",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CTYFWD_DEALCREATE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CTY_OTC",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CTYFWD_DEALGET",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CTY_OTC",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CTYFWD_GETDETAIL",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"noClassicAPI",
+   "successorClassification":"oneObject",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"FTR_BAPI_CTY_OTC",
+     "objectType":"FUNC",
+     "objectKey":"BAPI_FTR_CTYFWD_DEALGET"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CTY_OTC",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CTYFWD_PREP_STRUC",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CTY_OTC",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CTYFWD_REVERSE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CTY_OTC",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CTYFWD_SETTLE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CTYOPTIONS",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CTY_OTCOPT_DEALCHANGE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CTYOPTIONS",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CTY_OTCOPT_DEALCREATE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CTYOPTIONS",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_CTY_OTCOPT_DEALGET",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
    "tadirObjName":"FTR_BAPI_DAN",
    "objectType":"FUNC",
    "objectKey":"BAPI_FTR_DAN_CHANGE",
@@ -6105,9 +6513,27 @@
   },
   {
    "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CTYOPTIONS",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_EXERCISE_CTY_OTCOPT",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
    "tadirObjName":"FTR_BAPI_FXOPTIONS",
    "objectType":"FUNC",
    "objectKey":"BAPI_FTR_EXERCISE_FXOPTIONS",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CTYOPTIONS",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_EXPIRE_CTY_OTCOPT",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
    "state":"classicAPI"
@@ -6613,6 +7039,15 @@
    "tadirObject":"FUGR",
    "tadirObjName":"FTR_BAPI_FTD",
    "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_FTD_PREP_STRUC",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_FTD",
+   "objectType":"FUNC",
    "objectKey":"BAPI_FTR_FTD_REVERSE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
@@ -6762,17 +7197,7 @@
    "objectKey":"BAPI_FTR_FXT_CREATESWAP",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"FTR_BAPI_FXT",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_FTR_FXT_DEALCREATE"
-    }
-   ]
+   "state":"classicAPI"
   },
   {
    "tadirObject":"FUGR",
@@ -6836,17 +7261,7 @@
    "objectKey":"BAPI_FTR_FXT_ORDERCHANGE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"FTR_BAPI_FXT",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_FTR_FXT_DEALCHANGE"
-    }
-   ]
+   "state":"classicAPI"
   },
   {
    "tadirObject":"FUGR",
@@ -6855,17 +7270,7 @@
    "objectKey":"BAPI_FTR_FXT_ORDERCREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"FTR_BAPI_FXT",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_FTR_FXT_DEALCREATE"
-    }
-   ]
+   "state":"classicAPI"
   },
   {
    "tadirObject":"FUGR",
@@ -6892,17 +7297,7 @@
    "objectKey":"BAPI_FTR_FXT_ORDERGET",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"FTR_BAPI_FXT",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_FTR_FXT_DEALGET"
-    }
-   ]
+   "state":"classicAPI"
   },
   {
    "tadirObject":"FUGR",
@@ -6954,6 +7349,15 @@
    "tadirObjName":"FTR_BUS2042",
    "objectType":"FUNC",
    "objectKey":"BAPI_FTR_GETLIST",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_HEDGE_MGMT",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_HM_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
    "state":"classicAPI"
@@ -7286,17 +7690,7 @@
    "objectKey":"BAPI_FTR_MAINFLOW_CHANGE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"FTR_BAPI_FTD",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_FTR_FTD_DEALCHANGE"
-    }
-   ]
+   "state":"classicAPI"
   },
   {
    "tadirObject":"FUGR",
@@ -7305,17 +7699,7 @@
    "objectKey":"BAPI_FTR_MAINFLOW_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"FTR_BAPI_FTD",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_FTR_FTD_DEALCHANGE"
-    }
-   ]
+   "state":"classicAPI"
   },
   {
    "tadirObject":"FUGR",
@@ -7324,17 +7708,7 @@
    "objectKey":"BAPI_FTR_MAINFLOW_DELETE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"FTR_BAPI_FTD",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_FTR_FTD_DEALCHANGE"
-    }
-   ]
+   "state":"classicAPI"
   },
   {
    "tadirObject":"FUGR",
@@ -7343,17 +7717,7 @@
    "objectKey":"BAPI_FTR_MAINFLOW_GETLIST",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"FTR_BAPI_FTD",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_FTR_FTD_DEALGET"
-    }
-   ]
+   "state":"classicAPI"
   },
   {
    "tadirObject":"FUGR",
@@ -7377,20 +7741,28 @@
    "tadirObject":"FUGR",
    "tadirObjName":"FTR_BAPI_PAYDET",
    "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_PAYDET_CHANGE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_PAYDET",
+   "objectType":"FUNC",
    "objectKey":"BAPI_FTR_PAYDET_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"FTR_BAPI_FTD",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_FTR_FTD_DEALCHANGE"
-    }
-   ]
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_PAYDET",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_PAYDET_DELETE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
   },
   {
    "tadirObject":"FUGR",
@@ -7399,17 +7771,25 @@
    "objectKey":"BAPI_FTR_PAYDET_GETLIST",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"FTR_BAPI_FTD",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_FTR_FTD_DEALGET"
-    }
-   ]
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_PAYDET",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_PAYDET_PREP_STRUC",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BUS2042",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_PREP_STRUC",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
   },
   {
    "tadirObject":"FUGR",
@@ -7518,6 +7898,24 @@
    "tadirObjName":"FTR_BAPI_REPO",
    "objectType":"FUNC",
    "objectKey":"BAPI_FTR_REPO_SETTLE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CTYOPTIONS",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_REVERSE_CTY_OTCOPT",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_FXOPTIONS",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_REVERSE_FXOPTIONS",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
    "state":"classicAPI"
@@ -7649,17 +8047,25 @@
    "objectKey":"BAPI_FTR_SETTLE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"FTR_BAPI_FTD",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_FTR_FTD_SETTLE"
-    }
-   ]
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_CTYOPTIONS",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_SETTLE_CTY_OTCOPT",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_FXOPTIONS",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_SETTLE_FXOPTIONS",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
   },
   {
    "tadirObject":"FUGR",
@@ -7921,6 +8327,15 @@
    "tadirObjName":"FTR_BAPI_SWAP",
    "objectType":"FUNC",
    "objectKey":"BAPI_FTR_SWAP_SETTLE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FTR_BAPI_TRES",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_FTR_TRES_ADVANCE_MATURITY",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FIN-FSCM-TRM-TM-TR",
    "state":"classicAPI"
