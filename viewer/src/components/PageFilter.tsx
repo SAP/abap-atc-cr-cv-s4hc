@@ -1,11 +1,11 @@
 import { FilterBar, FilterGroupItem, MultiComboBox, MultiComboBoxItem, MultiComboBoxPropTypes, Option, Select } from "@ui5/webcomponents-react";
-import { AtcContext, CloudType, Files } from "../providers/AtcProvider";
+import { DataContext, CloudType, Files } from "../providers/DataProvider";
 import { FilterContext } from "../providers/FilterProvider";
 import { useContext } from "react";
 
 export default function PageFilter() {
     const { states, stateFilter, setStateFilter, setObjectTypesFilter, objectTypes, objectTypesFilter, softwareComponents, softwareComponentsFilter, setSoftwareComponentsFilter } = useContext(FilterContext);
-    const { version, value, handleSelectChange } = useContext(AtcContext);
+    const { version, value, handleSelectChange } = useContext(DataContext);
 
     const handleStateSelectChange: MultiComboBoxPropTypes["onSelectionChange"] = function(event) {
         setStateFilter(

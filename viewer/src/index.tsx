@@ -7,7 +7,7 @@ import App from './App';
 import { registerI18nLoader } from '@ui5/webcomponents-base/dist/asset-registries/i18n.js';
 import { ThemeProvider } from '@ui5/webcomponents-react';
 import { BrowserRouter } from 'react-router-dom';
-import { AtcProvider } from './providers/AtcProvider';
+import { DataProvider } from './providers/DataProvider';
 
 import classes from "./index.module.css";
 
@@ -31,9 +31,9 @@ root.render(
         <BrowserRouter>
             <ThemeProvider>
                 <div className={classes.appShell}>
-                    <AtcProvider>
+                    <DataProvider>
                         <App />
-                    </AtcProvider>
+                    </DataProvider>
                 </div>
             </ThemeProvider>
         </BrowserRouter>

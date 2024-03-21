@@ -1,6 +1,6 @@
 import { AnalyticalTable, AnalyticalTableColumnDefinition, AnalyticalTablePropTypes, FlexibleColumnLayout, Icon, IllustratedMessage } from "@ui5/webcomponents-react";
 import { useContext, useEffect, useState } from "react";
-import { AtcContext, ObjectElement } from "./providers/AtcProvider";
+import { DataContext, ObjectElement } from "./providers/DataProvider";
 import { useSearchParams } from "react-router-dom";
 import { FilterContext } from "./providers/FilterProvider";
 
@@ -19,7 +19,7 @@ export type Sort = {
 
 function App() {
     const { handleFilter, setSearchValues, searchValues } = useContext(FilterContext);
-    const { value, version } = useContext(AtcContext);
+    const { value, version } = useContext(DataContext);
 
     const [ query ] = useSearchParams();
     const [ index, setIndex ] = useState(DefaultIndex);
@@ -39,7 +39,8 @@ function App() {
         
         setSearchValues([...value!].filter(element =>
             regex.test(element.applicationComponent) ||
-            regex.test(element.objectKey)
+            regex.test(element.objectKey) ||
+            regex.test(element.tadirObjName)
         ));
     }, [value, query, searchQuery, setSearchValues])
 
@@ -97,6 +98,12 @@ function App() {
 
     const spliced = handleFilter(sortValues()).splice(0, index) || [];
 
+    /*
+    When attempting to implement additional table columns based on versions (Name, Cloud Type, ...),
+    refer to this commit that also had a similar implementation.
+
+    https://github.com/SAP/abap-atc-cr-cv-s4hc/commit/22d9d04513f36817aa30c3e411e57544d9739f7e
+    */
     return (
         <div className={classes.scrollContainer}>
             {spliced.length > 0 ? <FlexibleColumnLayout style={{

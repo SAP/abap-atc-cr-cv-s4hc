@@ -24,7 +24,6 @@ export interface ObjectRelease {
     objectClassifications: ObjectElement[];
 }
 
-// Hint
 export type Classification = "concept" | "oneObject" | "multipleObjects" | "";
 
 export type ElementState = keyof typeof States;
@@ -102,14 +101,14 @@ export interface ReleaseInfoElementOther extends ReleaseInfoElement {
 export type ObjectElement = ReleaseInfoElementConcept | ReleaseInfoElementOther;
 
 /**
- * @interface AtcContextProps
- * @description The props for the AtcContext
+ * @interface DataContextProps
+ * @description The props for the DataContext
  * 
  * @param {ObjectElement | null} value The values of the target json (latest...)
  * @param {string} version The current version (file)
  * @param {void} handleSelectChange The function to handle select change
  */
-export interface AtcContextProps {
+export interface DataContextProps {
     value: ObjectElement[] | null;
     version: string;
     handleSelectChange: SelectPropTypes["onChange"];
@@ -128,7 +127,7 @@ export interface CloudType {
 
 export const Files: {[key: string]: CloudType} = files as any;
 
-export const AtcContext: Context<AtcContextProps> = createContext({} as AtcContextProps);
+export const DataContext: Context<DataContextProps> = createContext({} as DataContextProps);
 
 export const defaultVersion: FileName = "objectReleaseInfoLatest.json";
 
@@ -151,18 +150,6 @@ export const States: {
         label: "Released",
         state: "Success"
     },
-    TI2: {
-        label: "Recommended classic API",
-        state: "Success"
-    },
-    SUB: {
-        label: "Substitution available",
-        state: "Error"
-    },
-    PLA: {
-        label: "Planned for Release",
-        state: "Information"
-    },
     classicAPI: {
         label: "Classic API",
         state: "Success"
@@ -182,7 +169,7 @@ export function LoadObjectRelease(name: string): ObjectElement[] | null {
     }
 }
 
-export function AtcProvider({ children }: PropsWithChildren) {
+export function DataProvider({ children }: PropsWithChildren) {
     const i18nBundle = useI18nBundle(BundleID);
 
     const [ query, setQuery ] = useSearchParams();
@@ -204,7 +191,7 @@ export function AtcProvider({ children }: PropsWithChildren) {
 
     useEffect(() => setValue(LoadObjectRelease(version)), [version])
 
-    const handleSelectChange: AtcContextProps["handleSelectChange"] = function(event) {
+    const handleSelectChange: DataContextProps["handleSelectChange"] = function(event) {
         const value = event.target.value;
 
         if (value) {
@@ -216,7 +203,7 @@ export function AtcProvider({ children }: PropsWithChildren) {
     }
 
     return (
-        <AtcContext.Provider value={{
+        <DataContext.Provider value={{
             value,
             version,
             handleSelectChange
@@ -232,6 +219,6 @@ export function AtcProvider({ children }: PropsWithChildren) {
                     subtitleText={i18nBundle.getText("FILE_NOT_FOUND", version)}
                 />}
             </FilterProvider>
-        </AtcContext.Provider>
+        </DataContext.Provider>
     )
 }

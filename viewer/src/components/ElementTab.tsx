@@ -1,5 +1,5 @@
 import { AnalyticalTable, Button, DynamicPage, DynamicPageHeader, DynamicPageTitle, FlexBox, IllustratedMessage, Label, Text, Title } from "@ui5/webcomponents-react";
-import { AtcContext, CloudType, Files, ObjectElement, ReleaseInfoElementConcept, ReleaseInfoElementOther } from "../providers/AtcProvider";
+import { DataContext, CloudType, Files, ObjectElement, ReleaseInfoElementConcept, ReleaseInfoElementOther } from "../providers/DataProvider";
 import { Dispatch, HTMLAttributes, PropsWithChildren, SetStateAction, useContext } from "react";
 import { useI18nBundle } from '@ui5/webcomponents-react-base';
 import { BundleID } from "..";
@@ -7,6 +7,7 @@ import { BundleID } from "..";
 import StateStatus from "./StateStatus";
 
 import "@ui5/webcomponents-icons-tnt/dist/AllIcons.js";
+import ApiHubButton from "./ApiHubButton";
 
 const types: Record<string, string> = require("../types.json");
 
@@ -14,7 +15,7 @@ export default function ElementTab({ slot, object, action }: {
     object?: ObjectElement;
     action: Dispatch<SetStateAction<ObjectElement | undefined>>;
 } & HTMLAttributes<unknown>) {
-    const { version } = useContext(AtcContext);
+    const { version } = useContext(DataContext);
     const cloudType = Files[version];
 
     const typeLabel = types[object?.objectType ?? ""];
@@ -25,7 +26,10 @@ export default function ElementTab({ slot, object, action }: {
             headerTitle={<DynamicPageTitle
                     header={object?.objectKey}
                     subHeader={typeLabel ? `${typeLabel} (${object?.objectType})` : object?.objectType}
-                    actions={<Button design="Transparent" icon="decline" onClick={() => action(undefined)} />}
+                    actions={<>
+                        <ApiHubButton object={object} />
+                        <Button design="Transparent" icon="decline" onClick={() => action(undefined)} />
+                    </>}
                 >
                     <StateStatus object={object} />
                 </DynamicPageTitle>

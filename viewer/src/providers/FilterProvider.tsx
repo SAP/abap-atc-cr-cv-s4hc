@@ -1,5 +1,5 @@
 import { Context, Dispatch, PropsWithChildren, SetStateAction, createContext, useContext, useEffect, useState } from "react";
-import { AtcContext, ElementState, ObjectElement, State, States } from "./AtcProvider";
+import { DataContext, ElementState, ObjectElement, State, States } from "./DataProvider";
 import { SetURLSearchParams, useSearchParams } from "react-router-dom";
 
 export type KeyValueStates = {
@@ -36,18 +36,6 @@ export function ExtrudeSoftwareComponents(objectElements?: ObjectElement[]): str
     return Array.from(new Set(objectElements?.flatMap(value => value.softwareComponent)))
 }
 
-export function ExtrudeStringFilter(key: string, defaultValues: string[]) {
-    const [ query ] = useSearchParams();
-
-    const queryValues = query.get(key)?.split(",");
-
-    if (queryValues) {
-        return defaultValues.filter(x => !queryValues.includes(x))
-    } else {
-        return defaultValues;
-    }
-}
-
 export function HandleVersionFilter(key: string, filters: string[], setFilters: Dispatch<SetStateAction<string[]>>, values: string[], query: URLSearchParams, setQuery: SetURLSearchParams) {
     let copyFilter = []
 
@@ -70,7 +58,7 @@ export function HandleVersionFilter(key: string, filters: string[], setFilters: 
 }
 
 export function FilterProvider({ children }: PropsWithChildren) {
-    const { value } = useContext(AtcContext);
+    const { value } = useContext(DataContext);
 
     const [ query, setQuery ] = useSearchParams();
 

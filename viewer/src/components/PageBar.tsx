@@ -2,7 +2,7 @@ import { Icon, Input, InputPropTypes, ResponsivePopoverDomRef, ShellBar, ShellBa
 import { RefObject, useContext, useRef } from "react";
 import { useSearchParams } from "react-router-dom";
 import { useI18nBundle } from '@ui5/webcomponents-react-base';
-import { AtcContext } from "../providers/AtcProvider";
+import { DataContext } from "../providers/DataProvider";
 import { BundleID } from "..";
 
 export default function PageBar({ themeRef }: {
@@ -10,7 +10,7 @@ export default function PageBar({ themeRef }: {
 }) {
     const i18nBundle = useI18nBundle(BundleID);
 
-    const { value } = useContext(AtcContext);
+    const { value } = useContext(DataContext);
     const [ query, setQuery ] = useSearchParams();
 
     const timeOutRef = useRef<NodeJS.Timeout>();
