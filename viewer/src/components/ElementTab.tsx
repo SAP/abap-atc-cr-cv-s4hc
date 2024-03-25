@@ -1,5 +1,5 @@
-import { AnalyticalTable, Button, DynamicPage, DynamicPageHeader, DynamicPageTitle, FlexBox, IllustratedMessage, Label, Text, Title } from "@ui5/webcomponents-react";
-import { DataContext, CloudType, Files, ObjectElement, ReleaseInfoElementConcept, ReleaseInfoElementOther } from "../providers/DataProvider";
+import { AnalyticalTable, AnalyticalTablePropTypes, Button, DynamicPage, DynamicPageHeader, DynamicPageTitle, FlexBox, IllustratedMessage, Label, Text, Title } from "@ui5/webcomponents-react";
+import { DataContext, CloudType, Files, ObjectElement, ReleaseInfoElementConcept, ReleaseInfoElementOther, BaseObjectElementSuccessor } from "../providers/DataProvider";
 import { Dispatch, HTMLAttributes, PropsWithChildren, SetStateAction, useContext } from "react";
 import { useI18nBundle } from '@ui5/webcomponents-react-base';
 import { BundleID } from "..";
@@ -11,9 +11,12 @@ import ApiHubButton from "./ApiHubButton";
 
 const types: Record<string, string> = require("../types.json");
 
-export default function ElementTab({ slot, object, action }: {
+type SuccessorAction = Dispatch<SetStateAction<ObjectElement | undefined>>;
+
+export default function ElementTab({ slot, object, action, successorAction }: {
     object?: ObjectElement;
     action: Dispatch<SetStateAction<ObjectElement | undefined>>;
+    successorAction: SuccessorAction;
 } & HTMLAttributes<unknown>) {
     const { version } = useContext(DataContext);
     const cloudType = Files[version];
@@ -42,7 +45,7 @@ export default function ElementTab({ slot, object, action }: {
                 <HeaderInformation label="Object Type">{object?.objectType}</HeaderInformation>
             </DynamicPageHeader>}
         >
-            {<SuccessorElement object={object} cloudType={cloudType} />}
+            {<SuccessorElement object={object} cloudType={cloudType} successorAction={successorAction}/>}
         </DynamicPage>
     )
 }
@@ -58,11 +61,20 @@ export function HeaderInformation({ label, children }: {
     </FlexBox> : <></>
 }
 
-export function SuccessorElement({ object, cloudType }: {
+export function SuccessorElement({ object, cloudType, successorAction }: {
     object?: ObjectElement;
     cloudType: CloudType;
+    successorAction: SuccessorAction;
 }) {
     const i18nBundle = useI18nBundle(BundleID);
+    const { value } = useContext(DataContext);
+
+    const handleRowSelect: AnalyticalTablePropTypes["onRowSelect"] = function (event) {
+        const successorElement = event?.detail.row?.original as BaseObjectElementSuccessor;
+        const element = value?.find(element => element.objectKey === successorElement.objectKey)
+
+        successorAction(element)
+    }
 
     switch (cloudType.format) {
         case "1":
@@ -80,9 +92,9 @@ export function SuccessorElement({ object, cloudType }: {
                         marginBottom: 16
                     }}>Successors</Title>
                     <AnalyticalTable
+                        onRowSelect={handleRowSelect}
                         selectionMode="SingleSelect"
                         data={object.successors}
-                        selectionBehavior="RowSelector"
                         columns={[
                             {
                                 Header: "Object Key",

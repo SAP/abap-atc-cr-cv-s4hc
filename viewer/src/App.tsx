@@ -26,6 +26,7 @@ function App() {
 
     const [ sort, setSort ] = useState<Sort>();
     const [ selected, setSelected ] = useState<ObjectElement>();
+    const [ successor, setSuccessor ] = useState<ObjectElement>();
 
     const searchQuery = query.get("q");
 
@@ -179,8 +180,9 @@ function App() {
                         ]
                     }
                 />}
-                midColumn={<ElementTab object={selected} action={setSelected} />}
-                layout={selected ? "TwoColumnsStartExpanded" : "OneColumn"}
+                midColumn={<ElementTab object={selected} action={setSelected} successorAction={setSuccessor} />}
+                endColumn={<ElementTab object={successor} action={setSuccessor} successorAction={setSuccessor} />}
+                layout={selected ? successor ? "ThreeColumnsMidExpanded" : "TwoColumnsStartExpanded" : "OneColumn"}
             /> : <IllustratedMessage />}
         </div>
     );
