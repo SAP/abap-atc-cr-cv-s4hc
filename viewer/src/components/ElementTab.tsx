@@ -8,6 +8,7 @@ import StateStatus from "./StateStatus";
 
 import "@ui5/webcomponents-icons-tnt/dist/AllIcons.js";
 import ApiHubButton from "./ApiHubButton";
+import { GetArrowElement } from "../App";
 
 const types: Record<string, string> = require("../types.json");
 
@@ -40,7 +41,7 @@ export default function ElementTab({ slot, object, action, successorAction }: {
             headerContent={<DynamicPageHeader>
                 <HeaderInformation label="Application Component">{object?.applicationComponent}</HeaderInformation>
                 <HeaderInformation label="Software Component">{object?.softwareComponent}</HeaderInformation>
-                <HeaderInformation label="Object Name">{object?.tadirObjName}</HeaderInformation>
+                <HeaderInformation label="Main Object Name">{object?.tadirObjName}</HeaderInformation>
                 <HeaderInformation label="Main Object Type">{object?.tadirObject}</HeaderInformation>
                 <HeaderInformation label="Object Type">{object?.objectType}</HeaderInformation>
             </DynamicPageHeader>}
@@ -105,7 +106,8 @@ export function SuccessorElement({ object, cloudType, successorAction }: {
                                 Header: "Object Type",
                                 accessor: "objectType",
                                 headerTooltip: "Object Type"
-                            }
+                            },
+                            GetArrowElement(object.successors, successorAction)
                         ]}
                     />
                 </>

@@ -1,6 +1,6 @@
 import { AnalyticalTable, AnalyticalTableColumnDefinition, AnalyticalTablePropTypes, FlexibleColumnLayout, Icon, IllustratedMessage } from "@ui5/webcomponents-react";
 import { useContext, useEffect, useState } from "react";
-import { DataContext, ObjectElement } from "./providers/DataProvider";
+import { BaseObjectElementSuccessor, DataContext, ObjectElement } from "./providers/DataProvider";
 import { useSearchParams } from "react-router-dom";
 import { FilterContext } from "./providers/FilterProvider";
 
@@ -15,6 +15,36 @@ export type SortDirection =  "asc" | "desc";
 export type Sort = {
     column: AnalyticalTableColumnDefinition;
     sortDirection: SortDirection;
+}
+
+type IconClickFunction = (element: ObjectElement | undefined) => void;
+
+export function GetArrowElement(elements: BaseObjectElementSuccessor[], iconClick: IconClickFunction): AnalyticalTableColumnDefinition {
+    return {
+        accessor(_, rowIndex) {
+            return elements[rowIndex]
+        },
+        Cell: ({ value }: {
+            value?: ObjectElement
+        }) => {
+            function handleIconClick() {
+                iconClick(value)
+            }
+
+            if (value?.successorClassification === undefined ||
+                value?.successorClassification === "") {
+                return <Icon name="navigation-right-arrow" onClick={handleIconClick} />
+            }
+
+            return <Icon name="open-command-field" onClick={handleIconClick} />
+        },
+        disableFilters: true,
+        disableGroupBy: true,
+        disableResizing: true,
+        disableSortBy: true,
+        id: 'arrow',
+        width: 75
+    }
 }
 
 function App() {
@@ -152,31 +182,7 @@ function App() {
                                 },
                                 headerTooltip: "State"
                             },
-                            {
-                                accessor(_, rowIndex) {
-                                    return spliced[rowIndex]
-                                },
-                                Cell: ({ value }: {
-                                    value?: ObjectElement
-                                }) => {
-                                    function handleIconClick() {
-                                        setSelected(value)
-                                    }
-
-                                    if (value?.successorClassification === undefined ||
-                                        value?.successorClassification === "") {
-                                        return <Icon name="navigation-right-arrow" onClick={handleIconClick} />
-                                    }
-
-                                    return <Icon name="open-command-field" onClick={handleIconClick} />
-                                },
-                                disableFilters: true,
-                                disableGroupBy: true,
-                                disableResizing: true,
-                                disableSortBy: true,
-                                id: 'arrow',
-                                width: 75
-                            }
+                            GetArrowElement(spliced, setSelected)
                         ]
                     }
                 />}
