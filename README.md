@@ -46,11 +46,11 @@ The JSON file conatins the positive list of ClassicAPIs. Entries with value noCl
 
 ## Cloudification API Viewer
 
-S/4HANA CLoud Public Edition https://sap.github.io/abap-atc-cr-cv-s4hc/
+S/4HANA Cloud Public Edition https://sap.github.io/abap-atc-cr-cv-s4hc/
 
 S/4HANA Cloud Private Edition https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectReleaseInfo_PCE2023_1.json
 
-S/4HANA Cloud Private Edition - Classic APIs https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectClassification.json
+S/4HANA Cloud Private Edition - Classic APIs https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectClassifications.json
 
 *Click on a row to get more details about successors*
 
