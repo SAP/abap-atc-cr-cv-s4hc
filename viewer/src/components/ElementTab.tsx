@@ -1,28 +1,29 @@
 import { AnalyticalTable, AnalyticalTablePropTypes, Button, DynamicPage, DynamicPageHeader, DynamicPageTitle, FlexBox, IllustratedMessage, Label, Text, Title } from "@ui5/webcomponents-react";
 import { DataContext, CloudType, Files, ObjectElement, ReleaseInfoElementConcept, ReleaseInfoElementOther, BaseObjectElementSuccessor } from "../providers/DataProvider";
 import { Dispatch, HTMLAttributes, PropsWithChildren, SetStateAction, useContext } from "react";
+import { CombinedElement, GetArrowElement } from "../App";
 import { useI18nBundle } from '@ui5/webcomponents-react-base';
 import { BundleID } from "..";
 
+import ApiHubButton from "./ApiHubButton";
 import StateStatus from "./StateStatus";
 
 import "@ui5/webcomponents-icons-tnt/dist/AllIcons.js";
-import ApiHubButton from "./ApiHubButton";
-import { GetArrowElement } from "../App";
 
 const types: Record<string, string> = require("../types.json");
 
-type SuccessorAction = Dispatch<SetStateAction<ObjectElement | undefined>>;
+type SuccessorAction = Dispatch<SetStateAction<CombinedElement | undefined>>;
 
 export default function ElementTab({ slot, object, action, successorAction }: {
-    object?: ObjectElement;
-    action: Dispatch<SetStateAction<ObjectElement | undefined>>;
+    object?: CombinedElement;
+    action: Dispatch<SetStateAction<CombinedElement | undefined>>;
     successorAction: SuccessorAction;
 } & HTMLAttributes<unknown>) {
     const { version } = useContext(DataContext);
-    const cloudType = Files[version];
 
+    const cloudType = Files[version];
     const typeLabel = types[object?.objectType ?? ""];
+    const castedObjectElement = object as ObjectElement | undefined;
 
     return (
         <DynamicPage
@@ -35,18 +36,18 @@ export default function ElementTab({ slot, object, action, successorAction }: {
                         <Button design="Transparent" icon="decline" onClick={() => action(undefined)} />
                     </>}
                 >
-                    <StateStatus object={object} />
+                    {<StateStatus object={castedObjectElement} />}
                 </DynamicPageTitle>
             }
             headerContent={<DynamicPageHeader>
-                <HeaderInformation label="Application Component">{object?.applicationComponent}</HeaderInformation>
-                <HeaderInformation label="Software Component">{object?.softwareComponent}</HeaderInformation>
+                {castedObjectElement?.applicationComponent && <HeaderInformation label="Application Component">{castedObjectElement.applicationComponent}</HeaderInformation>}
+                {castedObjectElement?.softwareComponent && <HeaderInformation label="Software Component">{castedObjectElement.softwareComponent}</HeaderInformation>}
                 <HeaderInformation label="Main Object Name">{object?.tadirObjName}</HeaderInformation>
                 <HeaderInformation label="Main Object Type">{object?.tadirObject}</HeaderInformation>
                 <HeaderInformation label="Object Type">{object?.objectType}</HeaderInformation>
             </DynamicPageHeader>}
         >
-            {<SuccessorElement object={object} cloudType={cloudType} successorAction={successorAction}/>}
+            {<SuccessorElement object={castedObjectElement} cloudType={cloudType} successorAction={successorAction}/>}
         </DynamicPage>
     )
 }
@@ -74,7 +75,7 @@ export function SuccessorElement({ object, cloudType, successorAction }: {
         const successorElement = event?.detail.row?.original as BaseObjectElementSuccessor;
         const element = value?.find(element => element.objectKey === successorElement.objectKey)
 
-        successorAction(element)
+        successorAction(element || successorElement)
     }
 
     switch (cloudType.format) {

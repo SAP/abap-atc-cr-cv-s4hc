@@ -1,10 +1,10 @@
-import { DataContext, Files, ObjectElement } from "../providers/DataProvider";
+import { BaseObjectElementSuccessor, DataContext, Files } from "../providers/DataProvider";
 import { useContext, useEffect, useState } from "react";
 import { Button } from "@ui5/webcomponents-react";
 
 const APIHubURL = "https://api.sap.com/odata/1.0/catalog.svc/";
 
-export function BuildApiHubUrl(version: string, object?: ObjectElement): [
+export function BuildApiHubUrl(version: string, object?: BaseObjectElementSuccessor): [
     url: string,
     objectName: string,
     urlType: string
@@ -45,7 +45,7 @@ export function BuildApiHubUrl(version: string, object?: ObjectElement): [
 }
 
 export default function ApiHubButton({ object }: {
-    object?: ObjectElement
+    object?: BaseObjectElementSuccessor
 }) {
     const { version } = useContext(DataContext);
     const [ apiHub, setApiHub ] = useState<string>();

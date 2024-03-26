@@ -17,6 +17,8 @@ export type Sort = {
     sortDirection: SortDirection;
 }
 
+export type CombinedElement = BaseObjectElementSuccessor | ObjectElement;
+
 type IconClickFunction = (element: ObjectElement | undefined) => void;
 
 export function GetArrowElement(elements: BaseObjectElementSuccessor[], iconClick: IconClickFunction): AnalyticalTableColumnDefinition {
@@ -55,8 +57,8 @@ function App() {
     const [ index, setIndex ] = useState(DefaultIndex);
 
     const [ sort, setSort ] = useState<Sort>();
-    const [ selected, setSelected ] = useState<ObjectElement>();
-    const [ successor, setSuccessor ] = useState<ObjectElement>();
+    const [ selected, setSelected ] = useState<CombinedElement>();
+    const [ successor, setSuccessor ] = useState<CombinedElement>();
 
     const searchQuery = query.get("q");
 

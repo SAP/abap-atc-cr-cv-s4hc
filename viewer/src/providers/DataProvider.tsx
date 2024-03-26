@@ -125,15 +125,13 @@ export interface CloudType {
     format: "1"
 }
 
-export const Files: {[key: string]: CloudType} = files as any;
+export const Files: Record<string, CloudType> = files as any;
 
 export const DataContext: Context<DataContextProps> = createContext({} as DataContextProps);
 
 export const defaultVersion: FileName = "objectReleaseInfoLatest.json";
 
-export const States: {
-    [key: string]: State
-} = {
+export const States: Record<string, State> = {
     deprecated: {
         label: "Deprecated",
         state: "Error"
@@ -157,6 +155,10 @@ export const States: {
     noClassicAPI: {
         label: "No Classic API",
         state: "Error"
+    },
+    unknown: {
+        label: "Unknown",
+        state: "None"
     }
 }
 
