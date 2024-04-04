@@ -8,6 +8,8 @@ The repository contains the list of released APIs of S/4HANA Cloud. In addition 
 
 Please implement note "ATC Check for Github Repo: https://launchpad.support.sap.com/#/notes/3284711
 + note https://launchpad.support.sap.com/#/notes/3377462
++ Private Cloud Only: Note https://launchpad.support.sap.com/#/notes/3449860
+- ATC Checks 'Usage of Released APIs' and 'Usage of Released APIs (Cloudification Repository)' Support Classic APIs
 
 ## Download and Usage
 
@@ -36,6 +38,8 @@ S/4HANA Cloud Private Edition; example Release 2023 FPS1
 --> https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCE2023_1.json
 
 The corresponding CSV files can be consumed for offline processing in any spreadsheet tool.
+With the note https://launchpad.support.sap.com/#/notes/3449860
+- ATC Checks 'Usage of Released APIs' and 'Usage of Released APIs (Cloudification Repository)' Support Classic APIs
 
 The files objectReleaseInfo_PCE*.json or objectReleaseInfo_PCE*.csv contains the APIs released by SAP to be consumed in your tier 1 implementations of the 3-tier extensibility model.
 
