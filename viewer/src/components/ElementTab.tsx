@@ -5,7 +5,6 @@ import { CombinedElement, GetArrowElement } from "../App";
 import { useI18nBundle } from '@ui5/webcomponents-react-base';
 import { BundleID } from "..";
 
-import ApiHubButton from "./ApiHubButton";
 import StateStatus from "./StateStatus";
 
 import "@ui5/webcomponents-icons-tnt/dist/AllIcons.js";
@@ -31,10 +30,7 @@ export default function ElementTab({ slot, object, action, successorAction }: {
             headerTitle={<DynamicPageTitle
                     header={object?.objectKey}
                     subHeader={typeLabel ? `${typeLabel} (${object?.objectType})` : object?.objectType}
-                    actions={<>
-                        <ApiHubButton object={object} />
-                        <Button design="Transparent" icon="decline" onClick={() => action(undefined)} />
-                    </>}
+                    actions={<Button design="Transparent" icon="decline" onClick={() => action(undefined)} />}
                 >
                     {<StateStatus object={castedObjectElement} />}
                 </DynamicPageTitle>
