@@ -67,6 +67,8 @@ function App() {
         setSelected(undefined);
     }, [value])
 
+    useEffect(() => setSuccessor(undefined), [selected])
+
     useEffect(() => {
         const regex = new RegExp((searchQuery ?? "").replace(/\*/g, '.*'), "i");
         
