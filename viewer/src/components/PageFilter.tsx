@@ -39,8 +39,7 @@ export default function PageFilter() {
             label="Repository Selection"
         >
             <Select onChange={handleSelectChange}>
-                {/* Will be removed when objectClassification.json is removed in the repository */}
-                {selectValues.filter(a => a.name !== "objectClassification.json").map(iterator => (
+                {selectValues.map(iterator => (
                     <Option
                         selected={iterator.name === version}
                         icon={iterator.cloud === "public" ? "cloud" : iterator.cloud === "private" ? "SAP-icons-TNT/private-cloud" : "inspect-down"}
