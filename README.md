@@ -58,6 +58,11 @@ S/4HANA Cloud Private Edition - Classic APIs https://sap.github.io/abap-atc-cr-c
 
 *Click on a row to get more details about successors*
 
+## Related projects
+
+Use the tier2 wrapper generator https://github.com/SAP-samples/tier2-rfc-proxy with details on https://community.sap.com/t5/technology-blogs-by-sap/how-to-generate-a-wrapper-for-function-modules-bapis-in-tier-2/ba-p/13692790#M172258
+
+
 ## How to obtain support
 
 This project is provided "as-is", with no expected changes or support. Of course you can always report bugs via GitHub issues.
