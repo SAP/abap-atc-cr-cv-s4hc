@@ -2174,6 +2174,42 @@
   },
   {
    "tadirObject":"FUGR",
+   "tadirObjName":"/ATL/FOREC_INTRFACE",
+   "objectType":"FUNC",
+   "objectKey":"/ATL/BAPI_FOREC_CHANGE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FI-LOC-FI-IL",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/ATL/FOREC_INTRFACE",
+   "objectType":"FUNC",
+   "objectKey":"/ATL/BAPI_FOREC_CREATE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FI-LOC-FI-IL",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/ATL/FOREC_INTRFACE",
+   "objectType":"FUNC",
+   "objectKey":"/ATL/BAPI_FOREC_EXISTENCECHECK",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FI-LOC-FI-IL",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/ATL/FOREC_INTRFACE",
+   "objectType":"FUNC",
+   "objectKey":"/ATL/BAPI_FOREC_GETDETAIL",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FI-LOC-FI-IL",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
    "tadirObjName":"/CPD/PFP_FG_API_RFC",
    "objectType":"FUNC",
    "objectKey":"/CPD/FP_RFC_GET_PLN_VER_DETAIL",
@@ -2377,6 +2413,33 @@
    "objectKey":"/SAPF15/KZ_CHECK_AND_GET",
    "softwareComponent":"EA-PS",
    "applicationComponent":"PSM-FM",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/SAPMP/VBWU",
+   "objectType":"FUNC",
+   "objectKey":"/SAPMP/BAPI_BMUOM_SAVEREPLMULT",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"IS-MP-LO",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/SAPMP/MB_BUS2017",
+   "objectType":"FUNC",
+   "objectKey":"/SAPMP/BAPI_GOODSMVT_CREATE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"IS-MP-MM",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/SAPMP/MB_BUS2017_CLA",
+   "objectType":"FUNC",
+   "objectKey":"/SAPMP/BAPI_GOODSMVT_CREATE_CL",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"IS-MP-MM",
    "state":"classicAPI"
   },
   {
@@ -6904,15 +6967,6 @@
    "tadirObject":"FUGR",
    "tadirObjName":"DPR_BUS2169",
    "objectType":"FUNC",
-   "objectKey":"BAPI_BUS2169_DOCUMT_SET_AUTH",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"PPM-PRO-EXT-API",
-   "state":"classicAPI"
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"DPR_BUS2169",
-   "objectType":"FUNC",
    "objectKey":"BAPI_BUS2169_DOCUMT_SET_STATUS",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PPM-PRO-EXT-API",
@@ -6959,15 +7013,6 @@
    "tadirObjName":"DPR_BUS2169",
    "objectType":"FUNC",
    "objectKey":"BAPI_BUS2169_FOLDER_REMOVE",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"PPM-PRO-EXT-API",
-   "state":"classicAPI"
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"DPR_BUS2169",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUS2169_FOLDER_SET_AUTH",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PPM-PRO-EXT-API",
    "state":"classicAPI"
@@ -10031,6 +10076,24 @@
   },
   {
    "tadirObject":"FUGR",
+   "tadirObjName":"CTBP",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_CHARACT_REMOVELONGTEXT",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-CL-CHR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"CTBP",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_CHARACT_RENAME",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-CL-CHR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
    "tadirObjName":"CLAIMWF",
    "objectType":"FUNC",
    "objectKey":"BAPI_CLAIM_CREATE",
@@ -10126,6 +10189,15 @@
    "tadirObjName":"CLBP",
    "objectType":"FUNC",
    "objectKey":"BAPI_CLASS_GET_CHARACTERISTICS",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-CL-CLS",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"CLBP",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_CLASS_RENAME",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"CA-CL-CLS",
    "state":"classicAPI"
@@ -16779,6 +16851,33 @@
   },
   {
    "tadirObject":"FUGR",
+   "tadirObjName":"VHU_BASIC_BAPIS",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_HU_PI_CHANGE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"LO-HU-MD",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"VHU_BASIC_BAPIS",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_HU_PI_CREATE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"LO-HU-MD",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"VHU_BASIC_BAPIS",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_HU_PI_READ",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"LO-HU-MD",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
    "tadirObjName":"HU_BASIC_BAPIS",
    "objectType":"FUNC",
    "objectKey":"BAPI_HU_PROCESS_MSG",
@@ -17391,174 +17490,12 @@
   },
   {
    "tadirObject":"FUGR",
-   "tadirObjName":"MPKV",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_KANBANCC_ADDEVENTDRKANBAN",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"PP-KAB",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
-    }
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"MPKV",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_KANBANCC_CHANGE",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"PP-KAB",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
-    }
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"MPKV",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_KANBANCC_CREATE",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"PP-KAB",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
-    }
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"MPKV",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_KANBANCC_DELETE",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"PP-KAB",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
-    }
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"MPKV",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_KANBANCC_WITHDRAWQUANTITY",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"PP-KAB",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
-    }
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"MPKW",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_KANBAN_CHANGE",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"PP-KAB",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
-    }
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"MPKW",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_KANBAN_CHANGESTATUS",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"PP-KAB",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
-    }
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
    "tadirObjName":"MPKW",
    "objectType":"FUNC",
    "objectKey":"BAPI_KANBAN_CHANGESTATUS1",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PP-KAB",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
-    }
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"MPKW",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_KANBAN_SETINPROCESS",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"PP-KAB",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
-    }
-   ]
+   "state":"classicAPI"
   },
   {
    "tadirObject":"FUGR",
@@ -17707,6 +17644,24 @@
    "objectKey":"BAPI_MATERIAL_AVAILABILITY",
    "softwareComponent":"S4CORE",
    "applicationComponent":"SD-BF-AC",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BUS1001",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_MATERIAL_GETCHARMERCHHIER",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"LO-MD-MM",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BUS1001",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_MATERIAL_GETINTNUMBERRET",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"LO-MD-MM",
    "state":"classicAPI"
   },
   {
@@ -23051,6 +23006,42 @@
   },
   {
    "tadirObject":"FUGR",
+   "tadirObjName":"CLAF",
+   "objectType":"FUNC",
+   "objectKey":"CLAF_CHECK_ALLOCATION",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-CL-CL",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"CLAS",
+   "objectType":"FUNC",
+   "objectKey":"CLAS_READ_FEATURE_INFO",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-CL-CLS",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"CLAS",
+   "objectType":"FUNC",
+   "objectKey":"CLAS_READ_FEATURE_INFO_VALUES",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-CL-CLS",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"CLBPH",
+   "objectType":"FUNC",
+   "objectKey":"CLBPH_CONVERT_STRUCTURE",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-CL-CL",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
    "tadirObjName":"CLFU",
    "objectType":"FUNC",
    "objectKey":"CLFU_REPORT_READ",
@@ -23107,6 +23098,33 @@
    "tadirObject":"FUGR",
    "tadirObjName":"CLME",
    "objectType":"FUNC",
+   "objectKey":"CLME_FEATURES_OF_CLASS",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-CL-CLS",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"CLME",
+   "objectType":"FUNC",
+   "objectKey":"CLME_FEATURES_OF_CLASS_ALL",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-CL-CLS",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"CLME",
+   "objectType":"FUNC",
+   "objectKey":"CLME_FEATURES_OF_CLASS_INH",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-CL-CLS",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"CLME",
+   "objectType":"FUNC",
    "objectKey":"CLME_FEATURE_ATTR_OF_CLASS",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"CA-CL-CLS",
@@ -23117,6 +23135,15 @@
    "tadirObjName":"CLME",
    "objectType":"FUNC",
    "objectKey":"CLME_FEATURE_ATTR_OF_CLASS_ALL",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-CL-CLS",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"CLME",
+   "objectType":"FUNC",
+   "objectKey":"CLME_FEATURE_ATTR_OF_CLASS_INH",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"CA-CL-CLS",
    "state":"classicAPI"
@@ -23364,6 +23391,24 @@
    "objectKey":"CTBP_CONVERT_VALUE_INT_TO_EXT",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"CA-CL-CHR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"CTCU",
+   "objectType":"FUNC",
+   "objectKey":"CTCU_CONTROL",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-CL-CL",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"CTCU",
+   "objectType":"FUNC",
+   "objectKey":"CTCU_GET_GROUPS",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-CL-CL",
    "state":"classicAPI"
   },
   {
@@ -24789,6 +24834,15 @@
    "objectKey":"MB_MES_GOODSMVT_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PP-MES",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"MILL_OC",
+   "objectType":"FUNC",
+   "objectKey":"MILL_OC_ORDER_MERGE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"IS-MP-PP",
    "state":"classicAPI"
   },
   {
