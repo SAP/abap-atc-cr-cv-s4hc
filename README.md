@@ -44,6 +44,7 @@ With the note https://launchpad.support.sap.com/#/notes/3449860
 The files objectReleaseInfo_PCE*.json or objectReleaseInfo_PCE*.csv contains the APIs released by SAP to be consumed in your tier 1 implementations of the 3-tier extensibility model.
 
 The files objectClassifications.json or objectClassifications.csv contains the classic APIs  to be consumed in your tier 2 implementations of the 3-tier extensibility model.
+--> https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectClassifications.json
 
 Remark: CSV file contains more detailed information including the object list which will not be recommended. The reasons are internal consumptions or ABAP Cloud violations.
 The JSON file conatins the positive list of ClassicAPIs. Entries with value noClassicAPI will offer you a corresponding successor object.
