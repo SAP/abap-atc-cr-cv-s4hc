@@ -132,14 +132,12 @@ export function FilterProvider({ children }: PropsWithChildren) {
                 const hasStateFilter = stateFilter.length !== 0
                 const hasObjectTypeFilter = objectTypesFilter.length !== 0
                 const hasSoftwareComponents = softwareComponentsFilter.length !== 0
-
-                const labelFilterCompatible = labels.length === 0
                 const hasLabelsFilter = labelsFilter.length !== 0
 
                 return  (hasStateFilter ? stateFilter : Object.keys(states)).includes(value.state as string) &&
                         (hasObjectTypeFilter ? objectTypesFilter : objectTypes).includes(value.objectType) &&
                         (hasSoftwareComponents ? softwareComponentsFilter : softwareComponents).includes(value.softwareComponent) &&
-                        (labelFilterCompatible || hasLabel(value, hasLabelsFilter ? labelsFilter : labels))
+                        (hasLabelsFilter ? hasLabel(value, hasLabelsFilter ? labelsFilter : labels) : true)
             })
     }
 
