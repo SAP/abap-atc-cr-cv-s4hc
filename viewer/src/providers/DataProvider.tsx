@@ -42,6 +42,7 @@ export interface BaseObjectElement extends BaseObjectElementSuccessor {
     softwareComponent: string;
     applicationComponent: string;
     state: ElementState;
+    labels?: string[];
 }
 
 /**

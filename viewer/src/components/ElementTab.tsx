@@ -43,6 +43,7 @@ export default function ElementTab({ slot, object, action, successorAction }: {
                 <HeaderInformation label="Object Type">{object?.objectType}</HeaderInformation>
             </DynamicPageHeader>}
         >
+            {<LabelElement object={castedObjectElement} />}
             {<SuccessorElement object={castedObjectElement} cloudType={cloudType} successorAction={successorAction}/>}
         </DynamicPage>
     )
@@ -57,6 +58,31 @@ export function HeaderInformation({ label, children }: {
             marginLeft: '2px'
         }}>{children}</Text>
     </FlexBox> : <></>
+}
+
+export function LabelElement({ object }: { object?: ObjectElement }) {
+    if (!object?.labels) {
+        return <></>;
+    }
+
+    return <>
+        <Title level="H4" style={{
+            marginBottom: 16
+        }}>Labels</Title>
+        <AnalyticalTable
+            minRows={1}
+            style={{marginBottom: 16}}
+            selectionMode="None"
+            data={object.labels.map(label => ({label}))}
+            columns={[
+                {
+                    Header: "Label",
+                    accessor: "label",
+                    headerTooltip: "Label"
+                },
+            ]}
+        />
+    </>
 }
 
 export function SuccessorElement({ object, cloudType, successorAction }: {

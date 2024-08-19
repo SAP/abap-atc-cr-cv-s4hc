@@ -116,18 +116,23 @@ function App() {
 
         return searchValues.sort((a, b) => {
             const key = currentSort.column.id as keyof ObjectElement;
-            const aValue: string | number = a[key];
-            const bValue: string | number = b[key];
+            if ((typeof a[key] === "string" && typeof b[key] === "string")
+                || (typeof a[key] === "number" && typeof b[key] === "number")) {
 
-            let compare = 0;
-            
-            if(aValue > bValue) {
-                compare = 1;
-            } else if(aValue < bValue) {
-                compare = -1;
+                const aValue: string | number = a[key] as string | number;
+                const bValue: string | number = b[key] as string | number;
+
+                let compare = 0;
+
+                if (aValue > bValue) {
+                    compare = 1;
+                } else if (aValue < bValue) {
+                    compare = -1;
+                }
+
+                return currentSort.sortDirection === "desc" ? compare * -1 : compare;
             }
-
-            return currentSort.sortDirection === "desc" ? compare * -1 : compare;
+            return 0
         })
     }
 

@@ -4,7 +4,7 @@ import { FilterContext } from "../providers/FilterProvider";
 import { useContext } from "react";
 
 export default function PageFilter() {
-    const { states, stateFilter, setStateFilter, setObjectTypesFilter, objectTypes, objectTypesFilter, softwareComponents, softwareComponentsFilter, setSoftwareComponentsFilter } = useContext(FilterContext);
+    const { states, stateFilter, setStateFilter, setObjectTypesFilter, objectTypes, objectTypesFilter, softwareComponents, softwareComponentsFilter, setSoftwareComponentsFilter, labels, labelsFilter, setLabelsFilter } = useContext(FilterContext);
     const { version, value, handleSelectChange } = useContext(DataContext);
 
     const handleStateSelectChange: MultiComboBoxPropTypes["onSelectionChange"] = function(event) {
@@ -23,6 +23,10 @@ export default function PageFilter() {
         setSoftwareComponentsFilter(event.detail.items.flatMap(item => item.text))
     }
 
+    const handleLabelFilterChange: MultiComboBoxPropTypes["onSelectionChange"] = function (event) {
+        setLabelsFilter(event.detail.items.flatMap(item => item.text))
+    }
+
     const selectValues = Object.values(Files);
     const isValueValid = value !== null;
 
@@ -36,11 +40,13 @@ export default function PageFilter() {
 
     return <FilterBar>
         <FilterGroupItem
+            key="repositoryFilter"
             label="Repository Selection"
         >
             <Select onChange={handleSelectChange}>
                 {selectValues.map(iterator => (
                     <Option
+                        key={iterator.name}
                         selected={iterator.name === version}
                         icon={iterator.cloud === "public" ? "cloud" : iterator.cloud === "private" ? "SAP-icons-TNT/private-cloud" : "inspect-down"}
                     >{iterator.name}</Option>
@@ -48,12 +54,14 @@ export default function PageFilter() {
             </Select>
         </FilterGroupItem> 
         <FilterGroupItem
+            key="stateFilter"
             visible={isValueValid}
             label="State"
         >
             <MultiComboBox onSelectionChange={handleStateSelectChange} placeholder="Select State">
                 {Object.entries(states).map(([key, value]) => (
                     <MultiComboBoxItem
+                        key={key}
                         text={value.label}
                         selected={stateFilter.includes(key)}
                     />
@@ -61,12 +69,14 @@ export default function PageFilter() {
             </MultiComboBox>
         </FilterGroupItem>
         <FilterGroupItem
+            key="objectTypeFilter"
             visible={isValueValid}
             label="Object Type"
         >
             <MultiComboBox onSelectionChange={handleObjectTypeFilterChange} placeholder="Select Object Type">
                 {objectTypes.map(data => (
                     <MultiComboBoxItem
+                        key={data}
                         text={data}
                         selected={objectTypesFilter.includes(data)}
                     />
@@ -74,14 +84,31 @@ export default function PageFilter() {
             </MultiComboBox>
         </FilterGroupItem>
         <FilterGroupItem
+            key="softwareComponentFilter"
             visible={isValueValid}
             label="Software Component"
         >
             <MultiComboBox onSelectionChange={handleSoftwareComponentFilterChange} placeholder="Select Software Component">
                 {softwareComponents.map(data => (
                     <MultiComboBoxItem
+                        key={data}
                         text={data}
                         selected={softwareComponentsFilter.includes(data)}
+                    />
+                ))}
+            </MultiComboBox>
+        </FilterGroupItem>
+        <FilterGroupItem
+            key="labelFilter"
+            visible={isValueValid && labels.length > 0}
+            label="Label"
+        >
+            <MultiComboBox onSelectionChange={handleLabelFilterChange} placeholder="Select Label">
+                {labels.map(data => (
+                    <MultiComboBoxItem
+                        key={data}
+                        text={data}
+                        selected={labelsFilter.includes(data)}
                     />
                 ))}
             </MultiComboBox>
