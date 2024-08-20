@@ -25241,6 +25241,32 @@
    "tadirObject":"FUGR",
    "tadirObjName":"PCA_MASTER_BAPI",
    "objectType":"FUNC",
+   "objectKey":"BAPI_PCA_MASTER_CHANGE",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"AP-MD-PCA",
+   "state":"classicAPI",
+   "labels":
+   [
+    "remote-enabled"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"PCA_MASTER_BAPI",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_PCA_MASTER_CREATE",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"AP-MD-PCA",
+   "state":"classicAPI",
+   "labels":
+   [
+    "remote-enabled"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"PCA_MASTER_BAPI",
+   "objectType":"FUNC",
    "objectKey":"BAPI_PCA_MASTER_EXISTCHECK",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"AP-MD-PCA",
