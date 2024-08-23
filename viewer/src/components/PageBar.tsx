@@ -44,7 +44,7 @@ export default function PageBar({ themeRef }: {
         logo={<img alt="SAP Logo" src={process.env.PUBLIC_URL + "/logo.svg"} />}
         primaryTitle="Cloudification Repository Viewer"
         searchField={value && <Input placeholder={i18nBundle.getText("SEARCH")} icon={<Icon name="search" />} value={searchQuery || ""} onInput={handleSearchChange} showClearIcon/>}
-        secondaryTitle="Object Search - BETA"
+        secondaryTitle="Object Search"
         showSearchField
     >
         <ShellBarItem
