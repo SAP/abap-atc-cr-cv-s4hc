@@ -922,6 +922,15 @@
   },
   {
    "tadirObject":"CLAS",
+   "tadirObjName":"CL_SOMU_FORM_SERVICES",
+   "objectType":"CLAS",
+   "objectKey":"CL_SOMU_FORM_SERVICES",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-FP-OM",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
    "tadirObjName":"CL_USMDZ7_ENTITY_SERVICES",
    "objectType":"CLAS",
    "objectKey":"CL_USMDZ7_ENTITY_SERVICES",
@@ -34952,6 +34961,24 @@
    "tadirObjName":"BSVA",
    "objectType":"FUNC",
    "objectKey":"STATUS_CHANGE_EXTERN",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-GTF-TS-SMT",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BSVA",
+   "objectType":"FUNC",
+   "objectKey":"STATUS_CHANGE_FOR_ACTIVITY",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-GTF-TS-SMT",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BSVA",
+   "objectType":"FUNC",
+   "objectKey":"STATUS_READ",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"CA-GTF-TS-SMT",
    "state":"classicAPI"
