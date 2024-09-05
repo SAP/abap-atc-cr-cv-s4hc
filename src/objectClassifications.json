@@ -1313,6 +1313,51 @@
   },
   {
    "tadirObject":"DDLS",
+   "tadirObjName":"I_BANKPOWEROFATTORNEY",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_BANKPOWEROFATTORNEY",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-CLM-BAM",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"DDLS",
+   "tadirObjName":"I_BKPOAAUTHZDREPRESENTATIVE",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_BKPOAAUTHZDREPRESENTATIVE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-CLM-BAM",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"DDLS",
+   "tadirObjName":"I_BKPOABANKACCOUNT",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_BKPOABANKACCOUNT",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-CLM-BAM",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"DDLS",
+   "tadirObjName":"I_BKPOACOMPANYCODE",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_BKPOACOMPANYCODE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-CLM-BAM",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"DDLS",
+   "tadirObjName":"I_BKPOAIMPLMTNREPRESENTATIVE",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_BKPOAIMPLMTNREPRESENTATIVE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FIN-FSCM-CLM-BAM",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"DDLS",
    "tadirObjName":"I_BR_BCBCOUNTRYCODE",
    "objectType":"CDS_STOB",
    "objectKey":"I_BR_BCBCOUNTRYCODE",
@@ -2340,11 +2385,29 @@
   },
   {
    "tadirObject":"DDLS",
+   "tadirObjName":"I_SUPLRDELIVERYPREDICTIONCACHE",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_SUPLRDELIVERYPREDICTIONCACHE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"MM-PUR-GF-MON",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"DDLS",
    "tadirObjName":"I_TECHNICALOBJECTLABELVH",
    "objectType":"CDS_STOB",
    "objectKey":"I_TECHNICALOBJECTLABELVH",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PM-WOC-MN",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"DDLS",
+   "tadirObjName":"P_SUPLRDELIVPREDICT_V01",
+   "objectType":"CDS_STOB",
+   "objectKey":"P_SUPLRDELIVPREDICT_V01",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"MM-PUR-GF-MON",
    "state":"classicAPI"
   },
   {
@@ -34256,6 +34319,15 @@
    "tadirObjName":"F013",
    "objectType":"FUNC",
    "objectKey":"PERIOD_DAY_DETERMINE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FI",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"FIPI",
+   "objectType":"FUNC",
+   "objectKey":"POSTING_INTERFACE_CLEARING",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI",
    "state":"classicAPI"
