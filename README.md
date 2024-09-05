@@ -45,6 +45,11 @@ With the note https://launchpad.support.sap.com/#/notes/3449860
 With the note https://me.sap.com/notes/3489660
 - “Enable deployment into UI5 ABAP Repository with language version "ABAP for Cloud Development" using development namespaces”
 
+Looking for >20000 Tier1 released dataelements for S/4HANA Cloud Private edition.
+
+- Collection note https://me.sap.com/notes/3470426
+ 
+
 The files objectReleaseInfo_PCE*.json or objectReleaseInfo_PCE*.csv contains the APIs released by SAP to be consumed in your tier 1 implementations of the 3-tier extensibility model.
 
 The files objectClassifications.json or objectClassifications.csv contains the classic APIs  to be consumed in your tier 2 implementations of the 3-tier extensibility model.
