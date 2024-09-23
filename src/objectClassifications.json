@@ -711,6 +711,24 @@
   },
   {
    "tadirObject":"CLAS",
+   "tadirObjName":"CL_HTTP_CLIENT",
+   "objectType":"CLAS",
+   "objectKey":"CL_HTTP_CLIENT",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-ICF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CL_HTTP_UTILITY",
+   "objectType":"CLAS",
+   "objectKey":"CL_HTTP_UTILITY",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-ICF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
    "tadirObjName":"CL_IBO_INBOX_FEEDER_WI",
    "objectType":"CLAS",
    "objectKey":"CL_IBO_INBOX_FEEDER_WI",
@@ -779,6 +797,15 @@
    "objectKey":"CL_MDG_BS_MAT_SERVICES",
    "softwareComponent":"MDG_APPL",
    "applicationComponent":"CA-MDG-APP-MM",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CL_OAUTH2_CLIENT",
+   "objectType":"CLAS",
+   "objectKey":"CL_OAUTH2_CLIENT",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SEC-LGN-OA2",
    "state":"classicAPI"
   },
   {
