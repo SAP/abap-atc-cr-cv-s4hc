@@ -34,8 +34,8 @@ The corresponding CSV files can be consumed for offline processing in any spread
 For S/4HANA Cloud Private Edition or on-premise, you can use the release version file with the string *PCE* included.
 e.g. https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/  + filename
 
-S/4HANA Cloud Private Edition; example Release 2023 FPS1
---> https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCE2023_1.json
+S/4HANA Cloud Private Edition; example Release 2023 FPS02
+--> https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCE2023_2.json
 
 The corresponding CSV files can be consumed for offline processing in any spreadsheet tool.
 
@@ -49,7 +49,6 @@ Looking for >20000 Tier1 released dataelements for S/4HANA Cloud Private edition
 
 - Collection note https://me.sap.com/notes/3470426
  
-
 The files objectReleaseInfo_PCE*.json or objectReleaseInfo_PCE*.csv contains the APIs released by SAP to be consumed in your tier 1 implementations of the 3-tier extensibility model.
 
 The files objectClassifications.json or objectClassifications.csv contains the classic APIs  to be consumed in your tier 2 implementations of the 3-tier extensibility model.
@@ -62,7 +61,7 @@ The JSON file conatins the positive list of ClassicAPIs. Entries with value noCl
 
 S/4HANA Cloud Public Edition https://sap.github.io/abap-atc-cr-cv-s4hc/
 
-S/4HANA Cloud Private Edition https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectReleaseInfo_PCE2023_1.json
+S/4HANA Cloud Private Edition https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectReleaseInfo_PCELatest.json
 
 S/4HANA Cloud Private Edition - Classic APIs https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectClassifications.json
 
