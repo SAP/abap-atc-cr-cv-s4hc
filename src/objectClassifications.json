@@ -35089,6 +35089,15 @@
   },
   {
    "tadirObject":"FUGR",
+   "tadirObjName":"BSVA",
+   "objectType":"FUNC",
+   "objectKey":"STATUS_TEXT_EDIT",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-GTF-TS-SMT",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
    "tadirObjName":"CEI0",
    "objectType":"FUNC",
    "objectKey":"VC_I_GET_CONFIGURATION_IBASE",
