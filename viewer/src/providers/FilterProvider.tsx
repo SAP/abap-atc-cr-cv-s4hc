@@ -155,11 +155,17 @@ export function FilterProvider({ children }: PropsWithChildren) {
                 const hasApplicationComponents = applicationComponentsFilter.length !== 0
                 const hasLabelsFilter = labelsFilter.length !== 0
 
-                return  (hasStateFilter ? stateFilter : Object.keys(states)).includes(value.state as string) &&
-                        (hasObjectTypeFilter ? objectTypesFilter : objectTypes).includes(value.objectType) &&
-                        (hasSoftwareComponents ? softwareComponentsFilter : softwareComponents).includes(value.softwareComponent) &&
-                        (hasApplicationComponents ? applicationComponentsFilter : applicationComponents).includes(value.applicationComponent) &&
-                        (hasLabelsFilter ? hasLabel(value, hasLabelsFilter ? labelsFilter : labels) : true)
+                const filteredStates = hasStateFilter ? stateFilter : Object.keys(states)
+                const filteredObjectTypes = hasObjectTypeFilter ? objectTypesFilter : objectTypes
+                const filteredSoftwareComponents = hasSoftwareComponents ? softwareComponentsFilter : softwareComponents
+                const filteredApplicationComponents = hasApplicationComponents ? applicationComponentsFilter : applicationComponents
+                const filteredLabels = hasLabelsFilter ? labelsFilter : labels
+
+                return  filteredStates.includes(value.state) &&
+                        filteredObjectTypes.includes(value.objectType) &&
+                        filteredSoftwareComponents.includes(value.softwareComponent) &&
+                        filteredApplicationComponents.includes(value.applicationComponent) &&
+                        hasLabelsFilter ? hasLabel(value, filteredLabels) : true
             })
     }
 
