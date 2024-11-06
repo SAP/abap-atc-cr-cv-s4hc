@@ -4,7 +4,11 @@ import { FilterContext } from "../providers/FilterProvider";
 import { useContext } from "react";
 
 export default function PageFilter() {
-    const { states, stateFilter, setStateFilter, setObjectTypesFilter, objectTypes, objectTypesFilter, softwareComponents, softwareComponentsFilter, setSoftwareComponentsFilter, labels, labelsFilter, setLabelsFilter } = useContext(FilterContext);
+    const { states, stateFilter, setStateFilter, 
+        setObjectTypesFilter, objectTypes, objectTypesFilter, 
+        softwareComponents, softwareComponentsFilter, setSoftwareComponentsFilter, 
+        applicationComponents, applicationComponentsFilter, setApplicationComponentsFilter, 
+        labels, labelsFilter, setLabelsFilter } = useContext(FilterContext);
     const { version, value, handleSelectChange } = useContext(DataContext);
 
     const handleStateSelectChange: MultiComboBoxPropTypes["onSelectionChange"] = function(event) {
@@ -21,6 +25,10 @@ export default function PageFilter() {
 
     const handleSoftwareComponentFilterChange: MultiComboBoxPropTypes["onSelectionChange"] = function(event) {
         setSoftwareComponentsFilter(event.detail.items.flatMap(item => item.text))
+    }
+
+    const handleApplicationComponentFilterChange: MultiComboBoxPropTypes["onSelectionChange"] = function(event) {
+        setApplicationComponentsFilter(event.detail.items.flatMap(item => item.text))
     }
 
     const handleLabelFilterChange: MultiComboBoxPropTypes["onSelectionChange"] = function (event) {
@@ -94,6 +102,21 @@ export default function PageFilter() {
                         key={data}
                         text={data}
                         selected={softwareComponentsFilter.includes(data)}
+                    />
+                ))}
+            </MultiComboBox>
+        </FilterGroupItem>
+        <FilterGroupItem
+            key="applicationComponentFilter"
+            visible={isValueValid}
+            label="Application Component"
+        >
+            <MultiComboBox onSelectionChange={handleApplicationComponentFilterChange} placeholder="Select Application Component">
+                {applicationComponents.map(data => (
+                    <MultiComboBoxItem
+                        key={data}
+                        text={data}
+                        selected={applicationComponentsFilter.includes(data)}
                     />
                 ))}
             </MultiComboBox>

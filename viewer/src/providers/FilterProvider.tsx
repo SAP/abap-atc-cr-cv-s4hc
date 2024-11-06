@@ -19,6 +19,9 @@ export interface FilterContextProps {
     softwareComponents: string[];
     softwareComponentsFilter: string[];
     setSoftwareComponentsFilter: Dispatch<SetStateAction<string[]>>;
+    applicationComponents: string[];
+    applicationComponentsFilter: string[];
+    setApplicationComponentsFilter: Dispatch<SetStateAction<string[]>>;
     labels: string[];
     labelsFilter: string[];
     setLabelsFilter: Dispatch<SetStateAction<string[]>>;
@@ -37,6 +40,10 @@ export function ExtrudeObjectStates(objectElements?: ObjectElement[]) {
 
 export function ExtrudeSoftwareComponents(objectElements?: ObjectElement[]): string[] {
     return Array.from(new Set(objectElements?.flatMap(value => value.softwareComponent)))
+}
+
+export function ExtrudeApplicationComponents(objectElements?: ObjectElement[]): string[] {
+    return Array.from(new Set(objectElements?.flatMap(value => value.applicationComponent)))
 }
 
 export function ExtrudeLabels(objectElements?: ObjectElement[]): string[] {
@@ -78,6 +85,9 @@ export function FilterProvider({ children }: PropsWithChildren) {
     const [ softwareComponents, setSoftwareComponents ] = useState(ExtrudeSoftwareComponents(value!));
     const [ softwareComponentsFilter, setSoftwareComponentsFilter ] = useState<string[]>(query.get("softwareComponents")?.split(",") ?? []);
 
+    const [ applicationComponents, setApplicationComponents ] = useState(ExtrudeApplicationComponents(value!));
+    const [ applicationComponentsFilter, setApplicationComponentsFilter ] = useState<string[]>(query.get("applicationComponents")?.split(",") ?? []);
+
     const [ labels, setLabels ] = useState(ExtrudeLabels(value!));
     const [ labelsFilter, setLabelsFilter ] = useState<string[]>(query.get("labels")?.split(",") ?? []);
 
@@ -87,6 +97,7 @@ export function FilterProvider({ children }: PropsWithChildren) {
         setObjectTypes(ExtrudeObjectTypes(value!));
         setStates(ExtrudeObjectStates(value!));
         setSoftwareComponents(ExtrudeSoftwareComponents(value!));
+        setApplicationComponents(ExtrudeApplicationComponents(value!));
         setLabels(ExtrudeLabels(value!));
     }, [value])
 
@@ -117,6 +128,15 @@ export function FilterProvider({ children }: PropsWithChildren) {
         setQuery
     ), [softwareComponentsFilter, softwareComponents, query, setQuery])
 
+    useEffect(() => HandleVersionFilter(
+        "applicationComponents",
+        applicationComponentsFilter,
+        setApplicationComponentsFilter,
+        applicationComponents,
+        query,
+        setQuery
+    ), [applicationComponentsFilter, applicationComponents, query, setQuery])
+
     useEffect(() =>  HandleVersionFilter(
         "labels",
         labelsFilter,
@@ -132,11 +152,13 @@ export function FilterProvider({ children }: PropsWithChildren) {
                 const hasStateFilter = stateFilter.length !== 0
                 const hasObjectTypeFilter = objectTypesFilter.length !== 0
                 const hasSoftwareComponents = softwareComponentsFilter.length !== 0
+                const hasApplicationComponents = applicationComponentsFilter.length !== 0
                 const hasLabelsFilter = labelsFilter.length !== 0
 
                 return  (hasStateFilter ? stateFilter : Object.keys(states)).includes(value.state as string) &&
                         (hasObjectTypeFilter ? objectTypesFilter : objectTypes).includes(value.objectType) &&
                         (hasSoftwareComponents ? softwareComponentsFilter : softwareComponents).includes(value.softwareComponent) &&
+                        (hasApplicationComponents ? applicationComponentsFilter : applicationComponents).includes(value.applicationComponent) &&
                         (hasLabelsFilter ? hasLabel(value, hasLabelsFilter ? labelsFilter : labels) : true)
             })
     }
@@ -155,6 +177,9 @@ export function FilterProvider({ children }: PropsWithChildren) {
             softwareComponents,
             softwareComponentsFilter,
             setSoftwareComponentsFilter,
+            applicationComponents,
+            applicationComponentsFilter,
+            setApplicationComponentsFilter,
             labels,
             setLabelsFilter,
             labelsFilter
