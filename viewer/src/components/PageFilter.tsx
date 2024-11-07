@@ -111,7 +111,7 @@ export default function PageFilter() {
             visible={isValueValid}
             label="Application Component"
         >
-            <MultiComboBox onSelectionChange={handleApplicationComponentFilterChange} placeholder="Select Application Component">
+            <MultiComboBox onSelectionChange={handleApplicationComponentFilterChange} placeholder="Select Application Component" filter="Contains">
                 {applicationComponents.map(data => (
                     <MultiComboBoxItem
                         key={data}
