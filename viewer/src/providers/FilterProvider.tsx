@@ -43,7 +43,7 @@ export function ExtrudeSoftwareComponents(objectElements?: ObjectElement[]): str
 }
 
 export function ExtrudeApplicationComponents(objectElements?: ObjectElement[]): string[] {
-    return Array.from(new Set(objectElements?.flatMap(value => value.applicationComponent)))
+    return Array.from(new Set(objectElements?.flatMap(value => value.applicationComponent))).sort()
 }
 
 export function ExtrudeLabels(objectElements?: ObjectElement[]): string[] {
@@ -165,7 +165,7 @@ export function FilterProvider({ children }: PropsWithChildren) {
                         filteredObjectTypes.includes(value.objectType) &&
                         filteredSoftwareComponents.includes(value.softwareComponent) &&
                         filteredApplicationComponents.includes(value.applicationComponent) &&
-                        hasLabelsFilter ? hasLabel(value, filteredLabels) : true
+                        (hasLabelsFilter ? hasLabel(value, filteredLabels) : true)
             })
     }
 
