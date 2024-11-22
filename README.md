@@ -6,10 +6,14 @@ The repository contains the list of released APIs of S/4HANA Cloud. In addition 
 
 ## Requirements
 
-Please implement note "ATC Check for Github Repo: https://launchpad.support.sap.com/#/notes/3284711
-+ note https://launchpad.support.sap.com/#/notes/3377462
-+ Private Cloud Only: Note https://launchpad.support.sap.com/#/notes/3449860
+Please implement 
++ note "ATC Check for Github Repo: [3284711](https://launchpad.support.sap.com/#/notes/3284711)
++ note "Fix error in ATC Check" [3377462](https://launchpad.support.sap.com/#/notes/3377462)
+
++ for Private Cloud Only: Classic APIs support -note [3449860](https://launchpad.support.sap.com/#/notes/3449860)
++ Validate SimplificationitemDB - Using transaction SYCM: Menu Simplification Database - Show Information. Follow the update information in note note [2241080](https://launchpad.support.sap.com/#/notes/2241080)
 - ATC Checks 'Usage of Released APIs' and 'Usage of Released APIs (Cloudification Repository)' Support Classic APIs
+  
 
 ## Download and Usage
 
@@ -39,15 +43,13 @@ S/4HANA Cloud Private Edition; example Release 2023 FPS02
 
 The corresponding CSV files can be consumed for offline processing in any spreadsheet tool.
 
-With the note https://launchpad.support.sap.com/#/notes/3449860
-- ATC Checks 'Usage of Released APIs' and 'Usage of Released APIs (Cloudification Repository)' support for Classic APIs
+With the note [3449860](https://launchpad.support.sap.com/#/notes/3449860)- ATC Checks 'Usage of Released APIs' and 'Usage of Released APIs (Cloudification Repository)' support for Classic APIs
 
-With the note https://me.sap.com/notes/3489660
-- “Enable deployment into UI5 ABAP Repository with language version "ABAP for Cloud Development" using development namespaces”
+With the note [3489660](https://me.sap.com/notes/3489660)- “Enable deployment into UI5 ABAP Repository with language version "ABAP for Cloud Development" using development namespaces”
 
 Looking for >20000 Tier1 released dataelements for S/4HANA Cloud Private edition.
 
-- Collection note https://me.sap.com/notes/3470426
+- Collection note 83470426](https://me.sap.com/notes/3470426)
  
 The files objectReleaseInfo_PCE*.json or objectReleaseInfo_PCE*.csv contains the APIs released by SAP to be consumed in your tier 1 implementations of the 3-tier extensibility model.
 
@@ -59,11 +61,11 @@ The JSON file conatins the positive list of ClassicAPIs. Entries with value noCl
 
 ## Cloudification API Viewer
 
-S/4HANA Cloud Public Edition https://sap.github.io/abap-atc-cr-cv-s4hc/
+[S/4HANA Cloud Public Edition](https://sap.github.io/abap-atc-cr-cv-s4hc/)
 
-S/4HANA Cloud Private Edition https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectReleaseInfo_PCELatest.json
+[S/4HANA Cloud Private Edition](https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectReleaseInfo_PCELatest.json)
 
-S/4HANA Cloud Private Edition - Classic APIs https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectClassifications.json
+[S/4HANA Cloud Private Edition](Classic APIs https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectClassifications.json)
 
 *Click on a row to get more details about successors*
 
@@ -76,9 +78,9 @@ Use the tier2 wrapper generator https://github.com/SAP-samples/tier2-rfc-proxy w
 
 This project is provided "as-is", with no expected changes or support. Of course you can always report bugs via GitHub issues.
 Request for new APIs please use the corresponding CI channel for 
-- S/4HANA Cloud Public Edition https://influence.sap.com/sap/ino/#campaign/2759 or
-- S/4HANA Cloud Private Edition https://influence.sap.com/sap/ino/#/campaign/3516 or
-get details in note https://launchpad.support.sap.com/#/notes/3126893
+- [Customer Influence Channel for S/4HANA Cloud Public Edition](https://influence.sap.com/sap/ino/#campaign/2759) or
+- [Customer Influence Channel S/4HANA Cloud Private Edition](https://influence.sap.com/sap/ino/#/campaign/3516) or
+get more details in note [3126893](https://launchpad.support.sap.com/#/notes/3126893)
 
 ## Contributing
 
