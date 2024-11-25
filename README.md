@@ -9,6 +9,7 @@ The repository contains the list of released APIs of S/4HANA Cloud. In addition 
 Please implement 
 + note "ATC Check for Github Repo: [3284711](https://launchpad.support.sap.com/#/notes/3284711)
 + note "Fix error in ATC Check" [3377462](https://launchpad.support.sap.com/#/notes/3377462)
++ note "own released objects support" [3507814](https://launchpad.support.sap.com/#/notes/3507814)
 
 + for Private Cloud Only: Classic APIs support -note [3449860](https://launchpad.support.sap.com/#/notes/3449860)
 + Validate SimplificationitemDB - Using transaction SYCM: Menu Simplification Database - Show Information. Follow the update information in note note [2241080](https://launchpad.support.sap.com/#/notes/2241080)
