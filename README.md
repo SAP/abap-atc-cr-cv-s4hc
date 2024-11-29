@@ -66,7 +66,7 @@ The JSON file conatins the positive list of ClassicAPIs. Entries with value noCl
 
 [S/4HANA Cloud Private Edition](https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectReleaseInfo_PCELatest.json)
 
-[S/4HANA Cloud Private Edition Classic APIs] (https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectClassifications.json)
+[S/4HANA Cloud Private Edition Classic APIs](https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectClassifications.json)
 
 *Click on a row to get more details about successors*
 
