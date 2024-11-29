@@ -2082,7 +2082,7 @@
    "objectType":"CDS_STOB",
    "objectKey":"I_GLACCOUNTYEARTODATEBALANCEC",
    "softwareComponent":"S4CORE",
-   "applicationComponent":"FI-GL-IS",
+   "applicationComponent":"FI-FIO-GL-IS",
    "state":"classicAPI"
   },
   {
@@ -24408,6 +24408,19 @@
    "objectKey":"BAPI_MATERIAL_GETVARNUMBERS",
    "softwareComponent":"S4CORE",
    "applicationComponent":"LO-MD-MM",
+   "state":"classicAPI",
+   "labels":
+   [
+    "remote-enabled"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"MRP1001",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_MATERIAL_STOCK_REQ_LIST",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"PP-MRP-BD",
    "state":"classicAPI",
    "labels":
    [
