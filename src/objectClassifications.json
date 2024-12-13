@@ -2448,6 +2448,15 @@
   },
   {
    "tadirObject":"DDLS",
+   "tadirObjName":"I_TEXTFILEHEADER",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_TEXTFILEHEADER",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"MM-PUR",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"DDLS",
    "tadirObjName":"P_SUPLRDELIVPREDICT_V01",
    "objectType":"CDS_STOB",
    "objectKey":"P_SUPLRDELIVPREDICT_V01",
@@ -30687,52 +30696,6 @@
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SEC-USR-ADM",
    "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SU_USER",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_USER_LOCK",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-SEC-USR-ADM",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_IDENTITY_FACTORY",
-     "objectType":"CLAS",
-     "objectKey":"CL_IDENTITY_FACTORY"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SU_USER",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_USER_UNLOCK",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-SEC-USR-ADM",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_IDENTITY_FACTORY",
-     "objectType":"CLAS",
-     "objectKey":"CL_IDENTITY_FACTORY"
-    }
-   ],
    "labels":
    [
     "remote-enabled"
