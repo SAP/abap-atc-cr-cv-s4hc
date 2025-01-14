@@ -32156,6 +32156,24 @@
   },
   {
    "tadirObject":"FUGR",
+   "tadirObjName":"ISOC",
+   "objectType":"FUNC",
+   "objectKey":"COUNTRY_CODE_ISO_TO_SAP",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-ALE",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"ISOC",
+   "objectType":"FUNC",
+   "objectKey":"COUNTRY_CODE_SAP_TO_ISO",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-ALE",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
    "tadirObjName":"CO_MES_INT",
    "objectType":"FUNC",
    "objectKey":"CO_MES_CONF_PROGRESS_READ",
@@ -32435,6 +32453,42 @@
    "objectKey":"CUCB_GET_CONFIGURATION",
    "softwareComponent":"S4CORE",
    "applicationComponent":"LO-VC",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"ISOC",
+   "objectType":"FUNC",
+   "objectKey":"CURRENCY_AMOUNT_BAPI_TO_SAP",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-ALE",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"ISOC",
+   "objectType":"FUNC",
+   "objectKey":"CURRENCY_AMOUNT_SAP_TO_BAPI",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-ALE",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"ISOC",
+   "objectType":"FUNC",
+   "objectKey":"CURRENCY_CODE_ISO_TO_SAP",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-ALE",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"ISOC",
+   "objectType":"FUNC",
+   "objectKey":"CURRENCY_CODE_SAP_TO_ISO",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-ALE",
    "state":"classicAPI"
   },
   {
@@ -34010,6 +34064,24 @@
   },
   {
    "tadirObject":"FUGR",
+   "tadirObjName":"ISOC",
+   "objectType":"FUNC",
+   "objectKey":"LANGUAGE_CODE_ISO_TO_SAP",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-ALE",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"ISOC",
+   "objectType":"FUNC",
+   "objectKey":"LANGUAGE_CODE_SAP_TO_ISO",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-ALE",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
    "tadirObjName":"FM_IDOC_FUNDS",
    "objectType":"FUNC",
    "objectKey":"MASTERIDOC_CREATE_FUNDMAS",
@@ -35070,6 +35142,24 @@
    "objectKey":"STATUS_TEXT_EDIT",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"CA-GTF-TS-SMT",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SCV0",
+   "objectType":"FUNC",
+   "objectKey":"UNIT_OF_MEASURE_ISO_TO_SAP",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-ASF-UOM",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SCV0",
+   "objectType":"FUNC",
+   "objectKey":"UNIT_OF_MEASURE_SAP_TO_ISO",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-ASF-UOM",
    "state":"classicAPI"
   },
   {
