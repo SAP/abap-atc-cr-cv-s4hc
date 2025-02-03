@@ -819,6 +819,25 @@
   },
   {
    "tadirObject":"CLAS",
+   "tadirObjName":"CL_MD_BP_MAINTAIN",
+   "objectType":"CLAS",
+   "objectKey":"CL_MD_BP_MAINTAIN",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"LO-MD-BP",
+   "state":"noClassicAPI",
+   "successorClassification":"oneObject",
+   "successors":
+   [
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CVI_EI_ADAPTER",
+     "objectType":"CLAS",
+     "objectKey":"CVI_EI_ADAPTER"
+    }
+   ]
+  },
+  {
+   "tadirObject":"CLAS",
    "tadirObjName":"CL_OAUTH2_CLIENT",
    "objectType":"CLAS",
    "objectKey":"CL_OAUTH2_CLIENT",
@@ -1139,10 +1158,10 @@
    "successors":
    [
     {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
+     "tadirObject":"CLAS",
+     "tadirObjName":"CVI_EI_ADAPTER",
+     "objectType":"CLAS",
+     "objectKey":"CVI_EI_ADAPTER"
     }
    ]
   },
@@ -3681,19 +3700,6 @@
    "tadirObject":"FUGR",
    "tadirObjName":"ACC9",
    "objectType":"FUNC",
-   "objectKey":"BAPI_ACC_DOCUMENT_CHECK",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"AC-INT",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"ACC9",
-   "objectType":"FUNC",
    "objectKey":"BAPI_ACC_DOCUMENT_POST",
    "softwareComponent":"S4CORE",
    "applicationComponent":"AC-INT",
@@ -5864,19 +5870,6 @@
   },
   {
    "tadirObject":"FUGR",
-   "tadirObjName":"HRBEN00BENADJREAS",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BEN_BENADJREAS_GET_LIST",
-   "softwareComponent":"S4HCMRXX",
-   "applicationComponent":"PA-BN",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
    "tadirObjName":"HRBEN00BUS302901",
    "objectType":"FUNC",
    "objectKey":"BAPI_BEN_BUS302901_GET_DEP",
@@ -6139,19 +6132,6 @@
    "tadirObject":"FUGR",
    "tadirObjName":"HRBEN00BUS3029",
    "objectType":"FUNC",
-   "objectKey":"BAPI_BEN_BUS3029_GET_OPEN_PERI",
-   "softwareComponent":"S4HCMRXX",
-   "applicationComponent":"PA-BN",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"HRBEN00BUS3029",
-   "objectType":"FUNC",
    "objectKey":"BAPI_BEN_BUS3029_GET_PARTICIP",
    "softwareComponent":"S4HCMRXX",
    "applicationComponent":"PA-BN",
@@ -6168,19 +6148,6 @@
    "objectKey":"BAPI_BEN_GENBENINFO_GET_OPENP",
    "softwareComponent":"S4HCMRXX",
    "applicationComponent":"PA-BN",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FKKBIX_BIT_BAPI",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BILLABLEITEMS_CREATE",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"FI-CA-INV",
    "state":"classicAPI",
    "labels":
    [
@@ -6462,98 +6429,6 @@
   },
   {
    "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_ALIAS",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_ALIAS_ADD",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_ALIAS",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_ALIAS_CHANGE",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_ALIAS",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_ALIAS_GET",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MDBPCVI_READER",
-     "objectType":"CLAS",
-     "objectKey":"CL_MDBPCVI_READER"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_ALIAS",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_ALIAS_REMOVE",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
    "tadirObjName":"BUBA_3",
    "objectType":"FUNC",
    "objectKey":"BAPI_BUPA_BANKDETAILS_GET",
@@ -6671,587 +6546,12 @@
   },
   {
    "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_CREDIT_STANDING",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_CREDIT_STANDING_GET",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_CREDIT_STANDING",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_CREDIT_STANDING_SET",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_FS_ATTRIBUTES",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_ATTRIBUTES_GET",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MDBPCVI_READER",
-     "objectType":"CLAS",
-     "objectKey":"CL_MDBPCVI_READER"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_FS_ATTRIBUTES",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_ATTRIBUTES_SET",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_BANK_DATA",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_BANK_GET",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MDBPCVI_READER",
-     "objectType":"CLAS",
-     "objectKey":"CL_MDBPCVI_READER"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_BANK_DATA",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_BANK_SET",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_TAXC",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_BPTAXC_ADD",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_TAXC",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_BPTAXC_CHANGE",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_TAXC",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_BPTAXC_GET",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MDBPCVI_READER",
-     "objectType":"CLAS",
-     "objectKey":"CL_MDBPCVI_READER"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_TAXC",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_BPTAXC_REMOVE",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
    "tadirObjName":"FS_BP_BAPI_CONSISTENCY",
    "objectType":"FUNC",
    "objectKey":"BAPI_BUPA_FS_CHECK",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"FS-BP",
    "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_CREATE_FROM_DATA2",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_EMPLOYMENT",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_EMPLOYM_ADD",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_EMPLOYMENT",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_EMPLOYM_CHANGE",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_EMPLOYMENT",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_EMPLOYM_GET",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MDBPCVI_READER",
-     "objectType":"CLAS",
-     "objectKey":"CL_MDBPCVI_READER"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_EMPLOYMENT",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_EMPLOYM_REMOVE",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_FISCAL_YEAR",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_FISCYEAR_ADD2",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_FISCAL_YEAR",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_FISCYEAR_CHANGE2",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_FISCAL_YEAR",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_FISCYEAR_GET2",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MDBPCVI_READER",
-     "objectType":"CLAS",
-     "objectKey":"CL_MDBPCVI_READER"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_FISCAL_YEAR",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_FISCYEAR_REMOVE2",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_RATING",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_RATING_ADD",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_RATING",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_RATING_CHANGE",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_RATING",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_RATING_GET",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_RATING",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_RATING_REMOVE",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_LEGAL_DATA",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_REPORTING_GET",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MDBPCVI_READER",
-     "objectType":"CLAS",
-     "objectKey":"CL_MDBPCVI_READER"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FS_BAPI_LEGAL_DATA",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_FS_REPORTING_SET",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
    "labels":
    [
     "remote-enabled"
@@ -7417,46 +6717,10 @@
    "tadirObject":"FUGR",
    "tadirObjName":"BUBA_3",
    "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_ROLES_GET",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"AP-MD-BP",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"BUBA_3",
-   "objectType":"FUNC",
    "objectKey":"BAPI_BUPA_ROLES_GET_2",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"AP-MD-BP",
    "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"BUBA_3",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_ROLE_ADD",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"AP-MD-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"BUBA_3",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_BUPA_ROLE_ADD_2"
-    }
-   ],
    "labels":
    [
     "remote-enabled"
@@ -7492,19 +6756,6 @@
    "tadirObject":"FUGR",
    "tadirObjName":"BUBA_3",
    "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_ROLE_EXISTENCE_CHECK",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"AP-MD-BP",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"BUBA_3",
-   "objectType":"FUNC",
    "objectKey":"BAPI_BUPA_ROLE_EXIST_CHECK_2",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"AP-MD-BP",
@@ -7519,19 +6770,6 @@
    "tadirObjName":"BUBA_3",
    "objectType":"FUNC",
    "objectKey":"BAPI_BUPA_ROLE_REMOVE",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"AP-MD-BP",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"BUBA_3",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPA_SEARCH",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"AP-MD-BP",
    "state":"classicAPI",
@@ -7912,121 +7150,6 @@
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"AP-MD-BP",
    "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FSBP_BAPI_SHAREHOLDER_REL",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPR_GEN_SHAREHOLD_CHANGE",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FSBP_BAPI_SHAREHOLDER_REL",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPR_GEN_SHAREHOLD_CREATE",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FSBP_BAPI_SHAREHOLDER_REL",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPR_GEN_SHAREHOLD_DELETE",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FSBP_BAPI_SHAREHOLDER_REL",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPR_GEN_SHAREHOLD_DETAIL",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MDBPCVI_READER",
-     "objectType":"CLAS",
-     "objectKey":"CL_MDBPCVI_READER"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"FSBP_BAPI_SHAREHOLDER_REL",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_BUPR_GEN_SHAREHOLD_EXISTS",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"FS-BP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MD_BP_MAINTAIN",
-     "objectType":"CLAS",
-     "objectKey":"CL_MD_BP_MAINTAIN"
-    }
-   ],
    "labels":
    [
     "remote-enabled"
@@ -13491,10 +12614,10 @@
    "successors":
    [
     {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_BUSINESSAREA",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_BUSINESSAREA"
     }
    ],
    "labels":
@@ -13514,10 +12637,10 @@
    "successors":
    [
     {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_BUSINESSAREA",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_BUSINESSAREA"
     }
    ],
    "labels":
@@ -13537,10 +12660,10 @@
    "successors":
    [
     {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_BUSINESSAREA",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_BUSINESSAREA"
     }
    ],
    "labels":
@@ -14113,10 +13236,10 @@
    "successors":
    [
     {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_COMPANYCODE",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_COMPANYCODE"
     }
    ],
    "labels":
@@ -14136,10 +13259,10 @@
    "successors":
    [
     {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_COMPANYCODE",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_COMPANYCODE"
     }
    ],
    "labels":
@@ -14159,10 +13282,10 @@
    "successors":
    [
     {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_COMPANYCODE",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_COMPANYCODE"
     }
    ],
    "labels":
@@ -14736,45 +13859,6 @@
    "objectKey":"BAPI_COSTCENTER_DELETEMULTIPLE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"CO-OM",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"KGR2",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_COSTELEMENTGRP_ADDNODE",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"FI-SL-SL-MD-SE",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"KGR2",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_COSTELEMENTGRP_CREATE",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"FI-SL-SL-MD-SE",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"KGR2",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_COSTELEMENTGRP_GETDETAIL",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"FI-SL-SL-MD-SE",
    "state":"classicAPI",
    "labels":
    [
@@ -15861,29 +14945,6 @@
    "tadirObject":"FUGR",
    "tadirObjName":"V02D",
    "objectType":"FUNC",
-   "objectKey":"BAPI_CUSTOMER_CHANGEFROMDATA",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"LO-MD-BP-CM",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"V02D",
-   "objectType":"FUNC",
    "objectKey":"BAPI_CUSTOMER_CHANGEFROMDATA1",
    "softwareComponent":"S4CORE",
    "applicationComponent":"LO-MD-BP-CM",
@@ -15892,10 +14953,10 @@
    "successors":
    [
     {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
+     "tadirObject":"CLAS",
+     "tadirObjName":"CVI_EI_ADAPTER",
+     "objectType":"CLAS",
+     "objectKey":"CVI_EI_ADAPTER"
     }
    ],
    "labels":
@@ -15915,33 +14976,10 @@
    "successors":
    [
     {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"V02D",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_CUSTOMER_CREATEFROMDATA",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"LO-MD-BP-CM",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
+     "tadirObject":"CLAS",
+     "tadirObjName":"CVI_EI_ADAPTER",
+     "objectType":"CLAS",
+     "objectKey":"CVI_EI_ADAPTER"
     }
    ],
    "labels":
@@ -15961,10 +14999,10 @@
    "successors":
    [
     {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
+     "tadirObject":"CLAS",
+     "tadirObjName":"CVI_EI_ADAPTER",
+     "objectType":"CLAS",
+     "objectKey":"CVI_EI_ADAPTER"
     }
    ],
    "labels":
@@ -16002,125 +15040,10 @@
    "tadirObject":"FUGR",
    "tadirObjName":"LC01",
    "objectType":"FUNC",
-   "objectKey":"BAPI_CUSTOMER_GETCONTACTLIST",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"LO-MD-BP-CM",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MDBPCVI_READER",
-     "objectType":"CLAS",
-     "objectKey":"CL_MDBPCVI_READER"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"V02D",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_CUSTOMER_GETDETAIL",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"LO-MD-BP-CM",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MDBPCVI_READER",
-     "objectType":"CLAS",
-     "objectKey":"CL_MDBPCVI_READER"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"V02D",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_CUSTOMER_GETDETAIL1",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"LO-MD-BP-CM",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MDBPCVI_READER",
-     "objectType":"CLAS",
-     "objectKey":"CL_MDBPCVI_READER"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"LC01",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_CUSTOMER_GETDETAIL2",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"LO-MD-BP-CM",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MDBPCVI_READER",
-     "objectType":"CLAS",
-     "objectKey":"CL_MDBPCVI_READER"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"LC01",
-   "objectType":"FUNC",
    "objectKey":"BAPI_CUSTOMER_GETINTNUMBER",
    "softwareComponent":"S4CORE",
    "applicationComponent":"LO-MD-BP-CM",
    "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"LC01",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_CUSTOMER_GETLIST",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"LO-MD-BP-CM",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MDBPCVI_READER",
-     "objectType":"CLAS",
-     "objectKey":"CL_MDBPCVI_READER"
-    }
-   ],
    "labels":
    [
     "remote-enabled"
@@ -16134,52 +15057,6 @@
    "softwareComponent":"S4CORE",
    "applicationComponent":"QM-CA-MD",
    "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"V02D",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_CUSTOMER_SEARCH",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"LO-MD-BP-CM",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"LC01",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_CUSTOMER_FIND"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"V02D",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_CUSTOMER_SEARCH1",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"LO-MD-BP-CM",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"LC01",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_CUSTOMER_FIND"
-    }
-   ],
    "labels":
    [
     "remote-enabled"
@@ -16303,52 +15180,6 @@
    "tadirObject":"FUGR",
    "tadirObjName":"CVBAPI",
    "objectType":"FUNC",
-   "objectKey":"BAPI_DOCUMENT_CHECKIN",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"CA-DMS",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"CVBAPI",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_DOCUMENT_CHANGE2"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"CVBAPI",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_DOCUMENT_CHECKOUTMODIFY",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"CA-DMS",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"CVBAPI",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_DOCUMENT_CHANGE2"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"CVBAPI",
-   "objectType":"FUNC",
    "objectKey":"BAPI_DOCUMENT_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"CA-DMS",
@@ -16399,29 +15230,6 @@
    "tadirObjName":"CVBAPI",
    "objectType":"FUNC",
    "objectKey":"BAPI_DOCUMENT_EXISTENCECHECK",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"CA-DMS",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"CVBAPI",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_DOCUMENT_GETDETAIL2"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"CVBAPI",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_DOCUMENT_GETDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"CA-DMS",
    "state":"noClassicAPI",
@@ -18180,29 +16988,6 @@
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI-AA-AA",
    "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"1022",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_FIXEDASSET_CREATE",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"FI-AA-AA",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"1022",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_FIXEDASSET_CREATE1"
-    }
-   ],
    "labels":
    [
     "remote-enabled"
@@ -21077,19 +19862,6 @@
   },
   {
    "tadirObject":"FUGR",
-   "tadirObjName":"FTR_BUS2042",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_FTR_GETDETAIL",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"FIN-FSCM-TRM-TM-TR",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
    "tadirObjName":"FTR_BAPI_FXOPTIONS",
    "objectType":"FUNC",
    "objectKey":"BAPI_FTR_GETDETAIL_FWD_FXFVA",
@@ -22762,10 +21534,10 @@
    "successors":
    [
     {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_FUNCTIONALAREA",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_FUNCTIONALAREA"
     }
    ],
    "labels":
@@ -22785,10 +21557,10 @@
    "successors":
    [
     {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_FUNCTIONALAREA",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_FUNCTIONALAREA"
     }
    ],
    "labels":
@@ -22808,10 +21580,10 @@
    "successors":
    [
     {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_FUNCTIONALAREA",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_FUNCTIONALAREA"
     }
    ],
    "labels":
@@ -23998,136 +22770,6 @@
   },
   {
    "tadirObject":"FUGR",
-   "tadirObjName":"ECABAPIS",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUACCOUNT_CHANGE",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-MD-CA",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"ECABAPIS",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUACCOUNT_CREATEFROMDATA",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-MD-CA",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"ECABAPIS",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUACCOUNT_GETDETAIL",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-MD-CA",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EMOBAPIS",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUCONTRCT_CHANGEFROMDATA",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-CS-BT-IO",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EBPBAPIS",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUPARTNER_CHANGE",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-MD-BP",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EBPBAPIS",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUPARTNER_CREATEFROMDATA",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-MD-BP",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EBPBAPIS",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUPARTNER_GETDETAIL",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-MD-BP",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EEDM_UI_BAPI",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUPOD_GETDEVICE",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-MD-POD",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EEDM_UI_BAPI",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUPOD_GETINSTALLATION",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-MD-POD",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EEDM_UI_BAPI",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUPOD_GETPARTNER",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-MD-POD",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
    "tadirObjName":"RHPE_JOBREQUIRE_PROF_BAPI",
    "objectType":"FUNC",
    "objectKey":"BAPI_JOBREQUIREPROF_CHANGE",
@@ -24650,32 +23292,6 @@
    "objectKey":"BAPI_MOSRVAPS_SAVETMPLPPM",
    "softwareComponent":"S4COREOP",
    "applicationComponent":"SCM-APO-INT-EXT",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"MTRREADDOC",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_MTRREADDOC_GETLIST",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-DM-MR",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"MTRREADDOC",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_MTRREADDOC_UPLOAD",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-DM-MR",
    "state":"classicAPI",
    "labels":
    [
@@ -25287,19 +23903,6 @@
   },
   {
    "tadirObject":"FUGR",
-   "tadirObjName":"V50I",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_OUTB_DELIVERY_CREATE_STO",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"LE-IDW",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
    "tadirObjName":"2021",
    "objectType":"FUNC",
    "objectKey":"BAPI_PAYMENTREQUEST_CANCEL",
@@ -25881,58 +24484,12 @@
   },
   {
    "tadirObject":"FUGR",
-   "tadirObjName":"MEWP",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_PO_CREATE",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"MM-PUR-GF",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"2012",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_PO_CREATE1"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
    "tadirObjName":"2012",
    "objectType":"FUNC",
    "objectKey":"BAPI_PO_CREATE1",
    "softwareComponent":"S4CORE",
    "applicationComponent":"MM-PUR-PO",
    "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"MEWP",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_PO_GETDETAIL",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"MM-PUR-GF",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"2012",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_PO_GETDETAIL1"
-    }
-   ],
    "labels":
    [
     "remote-enabled"
@@ -26148,19 +24705,6 @@
   },
   {
    "tadirObject":"FUGR",
-   "tadirObjName":"2016",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_PROCORDCONF_GETLIST",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"PP-SFC-EXE-CON",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
    "tadirObjName":"0001_BAPI",
    "objectType":"FUNC",
    "objectKey":"BAPI_PROCORD_EXIST_CHECK",
@@ -26256,19 +24800,6 @@
    "tadirObjName":"2116",
    "objectType":"FUNC",
    "objectKey":"BAPI_PRODORDCONF_CREATE_TT",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"PP-SFC-EXE-CON",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"2116",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_PRODORDCONF_GETDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PP-SFC-EXE-CON",
    "state":"classicAPI",
@@ -27265,52 +25796,6 @@
    "tadirObject":"FUGR",
    "tadirObjName":"MEWQ",
    "objectType":"FUNC",
-   "objectKey":"BAPI_REQUISITION_CHANGE",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"MM-PUR-GF",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"2105",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_PR_CHANGE"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"MEWQ",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_REQUISITION_CREATE",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"MM-PUR-GF",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"2105",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_PR_CREATE"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"MEWQ",
-   "objectType":"FUNC",
    "objectKey":"BAPI_REQUISITION_DELETE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"MM-PUR-GF",
@@ -27323,29 +25808,6 @@
      "tadirObjName":"2105",
      "objectType":"FUNC",
      "objectKey":"BAPI_PR_CHANGE"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"MEWQ",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_REQUISITION_GETDETAIL",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"MM-PUR-GF",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"2105",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_PR_GETDETAIL"
     }
    ],
    "labels":
@@ -29167,29 +27629,6 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SEPA_MANDATE_BAPIS",
    "objectType":"FUNC",
-   "objectKey":"BAPI_SEPA_MANDATE_CHANGE",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"CA-BK-SEP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"SEPA_MANDATE_ALE",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_SEPAMANDAT_CHANGE"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SEPA_MANDATE_BAPIS",
-   "objectType":"FUNC",
    "objectKey":"BAPI_SEPA_MANDATE_CHANGE1",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"CA-BK-SEP",
@@ -29202,29 +27641,6 @@
      "tadirObjName":"SEPA_MANDATE_ALE",
      "objectType":"FUNC",
      "objectKey":"BAPI_SEPAMANDAT_CHANGE"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SEPA_MANDATE_BAPIS",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_SEPA_MANDATE_CREATE",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"CA-BK-SEP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"SEPA_MANDATE_ALE",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_SEPAMANDAT_CREATE"
     }
    ],
    "labels":
@@ -29260,52 +27676,6 @@
    "tadirObjName":"SEPA_MANDATE_BAPIS",
    "objectType":"FUNC",
    "objectKey":"BAPI_SEPA_MANDATE_EXISTENCECH1",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"CA-BK-SEP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"SEPA_MANDATE_ALE",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_SEPAMANDAT_GETDETAIL"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SEPA_MANDATE_BAPIS",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_SEPA_MANDATE_EXISTENCECHK",
-   "softwareComponent":"SAP_ABA",
-   "applicationComponent":"CA-BK-SEP",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"SEPA_MANDATE_ALE",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_SEPAMANDAT_GETDETAIL"
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SEPA_MANDATE_BAPIS",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_SEPA_MANDATE_READ",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"CA-BK-SEP",
    "state":"noClassicAPI",
@@ -30653,6 +29023,29 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SU_USER",
    "objectType":"FUNC",
+   "objectKey":"BAPI_USER_ACTGROUPS_DELETE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SEC-USR-ADM",
+   "state":"noClassicAPI",
+   "successorClassification":"oneObject",
+   "successors":
+   [
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_IDENTITY_FACTORY",
+     "objectType":"CLAS",
+     "objectKey":"CL_IDENTITY_FACTORY"
+    }
+   ],
+   "labels":
+   [
+    "remote-enabled"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SU_USER",
+   "objectType":"FUNC",
    "objectKey":"BAPI_USER_DISPLAY",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SEC-USR-ADM",
@@ -30716,42 +29109,6 @@
   },
   {
    "tadirObject":"FUGR",
-   "tadirObjName":"UTILINSTALLATION",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_UTILINSTALLATION_CHANFACT",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-BI",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"LC01",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_VENDOR_CREATE",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"LO-MD-BP-CM",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"",
-     "tadirObjName":"",
-     "objectType":"",
-     "objectKey":""
-    }
-   ],
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
    "tadirObjName":"LC01",
    "objectType":"FUNC",
    "objectKey":"BAPI_VENDOR_EXISTENCECHECK",
@@ -30771,29 +29128,6 @@
    "softwareComponent":"S4CORE",
    "applicationComponent":"LO-MD-BP-CM",
    "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"LC01",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_VENDOR_GETDETAIL",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"LO-MD-BP-CM",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_MDBPCVI_READER",
-     "objectType":"CLAS",
-     "objectKey":"CL_MDBPCVI_READER"
-    }
-   ],
    "labels":
    [
     "remote-enabled"
@@ -33957,25 +32291,6 @@
    "softwareComponent":"S4CORE",
    "applicationComponent":"PM-WOC-MN",
    "state":"classicAPI"
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"ES20",
-   "objectType":"FUNC",
-   "objectKey":"ISU_S_CONTRACT_CHANGE",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-MD",
-   "state":"noClassicAPI",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"FUGR",
-     "tadirObjName":"EMOBAPIS",
-     "objectType":"FUNC",
-     "objectKey":"BAPI_ISUCONTRCT_CHANGEFROMDATA"
-    }
-   ]
   },
   {
    "tadirObject":"FUGR",
