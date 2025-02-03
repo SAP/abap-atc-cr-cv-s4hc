@@ -30,9 +30,9 @@ describe('template spec', () => {
         cy.get("ui5-input[slot=\"searchField\"]")
         .find("input")
         .first()
-        .type("BAPI_BUPA_CREDIT_STANDING_GET")
+        .type("BAPI_ACCSERV_CHECKACCASSIGNMT")
 
-        cy.url().should("include", "BAPI_BUPA_CREDIT_STANDING_GET")
+        cy.url().should("include", "BAPI_ACCSERV_CHECKACCASSIGNMT")
         cy.get("[data-component-name=\"AnalyticalTableBodyScrollableContainer\"]")
             .find("[role=\"row\"]")
             .first()
