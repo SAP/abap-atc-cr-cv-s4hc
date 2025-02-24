@@ -40,8 +40,8 @@ The corresponding CSV files can be consumed for offline processing in any spread
 For S/4HANA Cloud Private Edition or on-premise, you can use the release version file with the string *PCE* included.
 e.g. https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/  + filename
 
-S/4HANA Cloud Private Edition; example Release 2023 FPS02
---> https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCE2023_2.json
+S/4HANA Cloud Private Edition; example Release 2023 FPS03
+--> https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCE2023_3.json
 
 The corresponding CSV files can be consumed for offline processing in any spreadsheet tool.
 
