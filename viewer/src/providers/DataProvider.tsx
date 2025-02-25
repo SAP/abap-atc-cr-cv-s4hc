@@ -160,7 +160,15 @@ export const States: Record<string, State> = {
     unknown: {
         label: "Unknown",
         state: "None"
-    }
+    },
+    noAPI: {
+        label: "No API",
+        state: "Error",
+    },
+    internalAPI: {
+        label: "Internal API",
+        state: "Warning",
+    },
 }
 
 export function LoadObjectRelease(name: string): ObjectElement[] | null {
