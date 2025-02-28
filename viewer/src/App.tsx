@@ -1,6 +1,6 @@
 import { AnalyticalTable, AnalyticalTableColumnDefinition, AnalyticalTablePropTypes, FlexibleColumnLayout, Icon, IllustratedMessage } from "@ui5/webcomponents-react";
 import { useContext, useEffect, useState } from "react";
-import { BaseObjectElementSuccessor, DataContext, ObjectElement } from "./providers/DataProvider";
+import { BaseObjectElementSuccessor, DataContext, ObjectElement, ReleaseInfoElementOther } from "./providers/DataProvider";
 import { useSearchParams } from "react-router-dom";
 import { FilterContext } from "./providers/FilterProvider";
 
@@ -21,21 +21,19 @@ export type CombinedElement = BaseObjectElementSuccessor | ObjectElement;
 
 type IconClickFunction = (element: ObjectElement | undefined) => void;
 
-export function GetArrowElement(elements: BaseObjectElementSuccessor[], iconClick: IconClickFunction): AnalyticalTableColumnDefinition {
+export function GetArrowElement(elements: (BaseObjectElementSuccessor | ReleaseInfoElementOther)[], iconClick: IconClickFunction): AnalyticalTableColumnDefinition {
     return {
-        accessor(_, rowIndex) {
-            return elements[rowIndex]
-        },
-        Cell: ({ value }: {
-            value?: ObjectElement
-        }) => {
+        accessor: (_, rowIndex) => elements[rowIndex],
+        Cell: ({ value }: { value?: ReleaseInfoElementOther }) => {
+
             function handleIconClick() {
-                iconClick(value)
+                iconClick(value);
             }
 
-            if (value?.successorClassification === undefined ||
-                value?.successorClassification === "") {
-                return <Icon name="navigation-right-arrow" onClick={handleIconClick} />
+            const hasSuccessors = value?.successors && value?.successors.length > 0;
+
+            if (!hasSuccessors) {
+                return <Icon name="navigation-right-arrow" onClick={handleIconClick} />;
             }
 
             return <Icon name="open-command-field" onClick={handleIconClick} />
