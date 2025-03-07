@@ -3098,6 +3098,15 @@
   },
   {
    "tadirObject":"CLAS",
+   "tadirObjName":"CL_ARCH_WRITE_PRG_FORMS",
+   "objectType":"CLAS",
+   "objectKey":"CL_ARCH_WRITE_PRG_FORMS",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-CCM-ADK",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
    "tadirObjName":"CL_BADI_QUERY",
    "objectType":"CLAS",
    "objectKey":"CL_BADI_QUERY",
@@ -4712,6 +4721,15 @@
    "objectKey":"CL_GBT_MULTIRELATED_SERVICE",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-COM",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CL_GDT_CONVERSION",
+   "objectType":"CLAS",
+   "objectKey":"CL_GDT_CONVERSION",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-BR",
    "state":"classicAPI"
   },
   {
@@ -6926,6 +6944,15 @@
   },
   {
    "tadirObject":"CLAS",
+   "tadirObjName":"CL_RFC",
+   "objectType":"CLAS",
+   "objectKey":"CL_RFC",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-RFC",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
    "tadirObjName":"CL_RMPS_CASE",
    "objectType":"CLAS",
    "objectKey":"CL_RMPS_CASE",
@@ -8330,6 +8357,15 @@
   },
   {
    "tadirObject":"CLAS",
+   "tadirObjName":"CL_SEL_SCREEN_STANDARD",
+   "objectType":"CLAS",
+   "objectKey":"CL_SEL_SCREEN_STANDARD",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-CCM-ADK",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
    "tadirObjName":"CL_SEND_REQUEST_BCS",
    "objectType":"CLAS",
    "objectKey":"CL_SEND_REQUEST_BCS",
@@ -8443,11 +8479,7 @@
    "objectKey":"CL_SOMU_FORM_SERVICES",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-FP-OM",
-   "state":"classicAPI",
-   "labels":
-   [
-    "transactional-consistent"
-   ]
+   "state":"classicAPI"
   },
   {
    "tadirObject":"CLAS",
@@ -12646,6 +12678,15 @@
    "objectKey":"CX_GBT_MIME",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-COM",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CX_GDT_CONVERSION",
+   "objectType":"CLAS",
+   "objectKey":"CX_GDT_CONVERSION",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-BR",
    "state":"classicAPI"
   },
   {
@@ -21429,7 +21470,7 @@
    "objectKey":"BAPI_ACC_DOCUMENT_DISPLAY",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI",
-   "state":"classicAPI",
+   "state":"noAPI",
    "labels":
    [
     "remote-enabled"
@@ -21445,8 +21486,7 @@
    "state":"classicAPI",
    "labels":
    [
-    "remote-enabled",
-    "transactional-consistent"
+    "remote-enabled"
    ]
   },
   {
@@ -21459,8 +21499,7 @@
    "state":"classicAPI",
    "labels":
    [
-    "remote-enabled",
-    "transactional-consistent"
+    "remote-enabled"
    ]
   },
   {
@@ -21473,8 +21512,7 @@
    "state":"classicAPI",
    "labels":
    [
-    "remote-enabled",
-    "transactional-consistent"
+    "remote-enabled"
    ]
   },
   {
@@ -39108,7 +39146,16 @@
    "objectKey":"BAPI_COSTCENTER_GETDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"CO-OM",
-   "state":"classicAPI",
+   "state":"noAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"0012",
+     "objectType":"FUNC",
+     "objectKey":"BAPI_COSTCENTER_GETDETAIL1"
+    }
+   ],
    "labels":
    [
     "remote-enabled"
@@ -39160,7 +39207,7 @@
    "objectKey":"BAPI_COSTELEMENTGRP_ADDNODE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI-SL-SL-MD-SE",
-   "state":"classicAPI",
+   "state":"noAPI",
    "labels":
    [
     "remote-enabled"
@@ -39173,7 +39220,7 @@
    "objectKey":"BAPI_COSTELEMENTGRP_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI-SL-SL-MD-SE",
-   "state":"classicAPI",
+   "state":"noAPI",
    "labels":
    [
     "remote-enabled"
@@ -40834,7 +40881,7 @@
    "objectKey":"BAPI_CTR_ACTIVATE_MULTIPLE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"CO-OM",
-   "state":"classicAPI",
+   "state":"noAPI",
    "labels":
    [
     "remote-enabled"
@@ -46771,7 +46818,7 @@
    "objectKey":"BAPI_FIXEDASSET_OVRTAKE_CREATE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI-AA-AA",
-   "state":"classicAPI",
+   "state":"noAPI",
    "labels":
    [
     "remote-enabled"
@@ -46784,7 +46831,7 @@
    "objectKey":"BAPI_FIXEDASSET_OVRTAKE_POST",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI-AA-AA",
-   "state":"classicAPI",
+   "state":"noAPI",
    "labels":
    [
     "remote-enabled"
@@ -51784,7 +51831,7 @@
    "objectKey":"BAPI_GL_GETGLACCBALANCE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI-GL-GL-N",
-   "state":"classicAPI",
+   "state":"noAPI",
    "labels":
    [
     "remote-enabled"
@@ -51797,7 +51844,7 @@
    "objectKey":"BAPI_GL_GETGLACCCURRENTBALANCE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI-GL-GL-N",
-   "state":"classicAPI",
+   "state":"noAPI",
    "labels":
    [
     "remote-enabled"
@@ -51810,7 +51857,7 @@
    "objectKey":"BAPI_GL_GETGLACCPERIODBALANCES",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI-GL-GL-N",
-   "state":"classicAPI",
+   "state":"noAPI",
    "labels":
    [
     "remote-enabled"
@@ -53548,7 +53595,7 @@
    "objectKey":"BAPI_INTERNALORDER_SAVEREPLICA",
    "softwareComponent":"S4CORE",
    "applicationComponent":"CO-OM-OPA",
-   "state":"classicAPI",
+   "state":"noAPI",
    "labels":
    [
     "remote-enabled"
@@ -53684,19 +53731,6 @@
    "softwareComponent":"S4CORE",
    "applicationComponent":"IM-FA-IP",
    "state":"noAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EE_INVOICE_BAPI",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_INVRADVDOC_CREATE",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-IDE",
-   "state":"classicAPI",
    "labels":
    [
     "remote-enabled"
@@ -54593,7 +54627,7 @@
    "objectKey":"BAPI_ISUCADOC_CREATEFROMDATA",
    "softwareComponent":"IS-UT",
    "applicationComponent":"IS-U-MD-CA",
-   "state":"noAPI",
+   "state":"internalAPI",
    "successors":
    [
     {
@@ -54615,32 +54649,6 @@
    "objectKey":"BAPI_ISUCONTRCT_CHANGEFROMDATA",
    "softwareComponent":"IS-UT",
    "applicationComponent":"IS-U-CS-BT-IO",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"ISUFINDER",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUFINDER_FINDOBJOFDATA",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-CS",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"E10LOT_MISC",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISULOT_INS_SAMPLE_DEVICES",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-DM",
    "state":"classicAPI",
    "labels":
    [
@@ -54742,32 +54750,6 @@
    "tadirObject":"FUGR",
    "tadirObjName":"EEDM_UI_BAPI",
    "objectType":"FUNC",
-   "objectKey":"BAPI_ISUPOD_GETFROMINSTLN",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-MD-POD",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EEDM_UI_BAPI",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUPOD_GETFROMPREMISE",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-MD-POD",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EEDM_UI_BAPI",
-   "objectType":"FUNC",
    "objectKey":"BAPI_ISUPOD_GETINSTALLATION",
    "softwareComponent":"IS-UT",
    "applicationComponent":"IS-U-MD-POD",
@@ -54797,201 +54779,6 @@
    "objectKey":"BAPI_ISUPOD_GETPOD",
    "softwareComponent":"IS-UT",
    "applicationComponent":"IS-U-MD-POD",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EEDM_BAPI_PROFILE_EXPORT",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUPROFILE_GET",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-EDM",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EEDM_BAPI_PROFILE_EXPORT",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUPROFILE_GET_POD",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-EDM",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EEDM_BAPI_PROFILE_IMPORT",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUPROFILE_IMPORT",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-EDM",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EEDM_BAPI_PROFILE_IMPORT",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUPROFILE_UPLOAD",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-EDM",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EPROPBAPIS",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUPROP_CANCEL",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-MD",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EPROPBAPIS",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUPROP_CHANGE",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-MD",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EPROPBAPIS",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUPROP_CREATEFROMDATA",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-MD",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EPROPBAPIS",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUPROP_GETDETAIL",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-MD",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EEWM_SV_NTF",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUSMNOTIF_CREATEMULTIPLE",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-WM-PC",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EEWM_SV_NTF",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUSMNOTIF_SETCOMPLETED",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-WM-PC",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EEWM_SV_NTF",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUSMNOTIF_USERSTATUSSET",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-WM-PC",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EEWM_SV_ORD",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUSMORDER_CREATEMULTIPLE",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-WM-PC",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EEWM_SV_ORD",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUSMORDER_SETSTATUSTECHN",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-WM-PC",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EEWM_SV_ORD",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUSMORDER_USERSTATUSSET",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-WM-PC",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"EDATEX_BAPI",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ISUTASK_GETCOMMCONTROL",
-   "softwareComponent":"IS-UT",
-   "applicationComponent":"IS-U-IDE",
    "state":"classicAPI",
    "labels":
    [
@@ -60286,7 +60073,7 @@
    "objectKey":"BAPI_PROCESS_ACTIVATE_MULTIPLE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"CO-OM-ABC",
-   "state":"classicAPI",
+   "state":"noAPI",
    "labels":
    [
     "remote-enabled"
@@ -60424,7 +60211,7 @@
    "objectKey":"BAPI_PROCESS_SAVE_REPLICA",
    "softwareComponent":"S4CORE",
    "applicationComponent":"CO-OM-ABC",
-   "state":"classicAPI",
+   "state":"noAPI",
    "labels":
    [
     "remote-enabled"
@@ -60619,6 +60406,19 @@
    "tadirObjName":"0001_BAPI",
    "objectType":"FUNC",
    "objectKey":"BAPI_PROCORD_CHANGE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"PP-SFC",
+   "state":"classicAPI",
+   "labels":
+   [
+    "remote-enabled"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"0001_BAPI",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_PROCORD_COMPLETE_TECH",
    "softwareComponent":"S4CORE",
    "applicationComponent":"PP-SFC",
    "state":"classicAPI",
@@ -65969,6 +65769,19 @@
      "objectKey":"BAPI_SEPAMANDAT_GETDETAIL"
     }
    ],
+   "labels":
+   [
+    "remote-enabled"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BAPISERVFREQ",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_SERVFREQ_UPLOAD",
+   "softwareComponent":"IS-UT",
+   "applicationComponent":"IS-U-WA",
+   "state":"classicAPI",
    "labels":
    [
     "remote-enabled"
@@ -77491,7 +77304,7 @@
    "objectKey":"ISU_S_CONTRACT_CHANGE",
    "softwareComponent":"IS-UT",
    "applicationComponent":"IS-U-MD",
-   "state":"noAPI",
+   "state":"internalAPI",
    "successors":
    [
     {
@@ -82270,6 +82083,32 @@
    "tadirObjName":"BSVA",
    "objectType":"FUNC",
    "objectKey":"STATUS_CHANGE_FOR_ACTIVITY",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-GTF-TS-SMT",
+   "state":"classicAPI",
+   "labels":
+   [
+    "transactional-consistent"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BSVA",
+   "objectType":"FUNC",
+   "objectKey":"STATUS_CHANGE_INTERN_MULTI",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-GTF-TS-SMT",
+   "state":"classicAPI",
+   "labels":
+   [
+    "transactional-consistent"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BSVA",
+   "objectType":"FUNC",
+   "objectKey":"STATUS_PROFILE_CHANGE",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"CA-GTF-TS-SMT",
    "state":"classicAPI",
