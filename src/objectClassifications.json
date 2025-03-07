@@ -986,15 +986,6 @@
   },
   {
    "tadirObject":"CLAS",
-   "tadirObjName":"CL_SOMU_FORM_SERVICES",
-   "objectType":"CLAS",
-   "objectKey":"CL_SOMU_FORM_SERVICES",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-SRV-FP-OM",
-   "state":"classicAPI"
-  },
-  {
-   "tadirObject":"CLAS",
    "tadirObjName":"CL_USMDZ7_ENTITY_SERVICES",
    "objectType":"CLAS",
    "objectKey":"CL_USMDZ7_ENTITY_SERVICES",
@@ -3690,45 +3681,6 @@
    "objectKey":"BAPI_ACC_CO_DOCUMENT_FIND",
    "softwareComponent":"S4CORE",
    "applicationComponent":"CO",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"ACC9",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ACC_DOCUMENT_POST",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"AC-INT",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"ACC9",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ACC_DOCUMENT_REV_CHECK",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"AC-INT",
-   "state":"classicAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"ACC9",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_ACC_DOCUMENT_REV_POST",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"AC-INT",
    "state":"classicAPI",
    "labels":
    [
@@ -22770,6 +22722,29 @@
   },
   {
    "tadirObject":"FUGR",
+   "tadirObjName":"ESLBAPIS",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_ISUCADOC_CREATEFROMDATA",
+   "softwareComponent":"IS-UT",
+   "applicationComponent":"IS-U-MD-CA",
+   "state":"noClassicAPI",
+   "successorClassification":"oneObject",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"FKK_BOR_DOC",
+     "objectType":"FUNC",
+     "objectKey":"BAPI_CTRACDOCUMENT_CREATE"
+    }
+   ],
+   "labels":
+   [
+    "remote-enabled"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
    "tadirObjName":"RHPE_JOBREQUIRE_PROF_BAPI",
    "objectType":"FUNC",
    "objectKey":"BAPI_JOBREQUIREPROF_CHANGE",
@@ -32294,6 +32269,25 @@
   },
   {
    "tadirObject":"FUGR",
+   "tadirObjName":"ES20",
+   "objectType":"FUNC",
+   "objectKey":"ISU_S_CONTRACT_CHANGE",
+   "softwareComponent":"IS-UT",
+   "applicationComponent":"IS-U-MD",
+   "state":"noClassicAPI",
+   "successorClassification":"oneObject",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"EMOBAPIS",
+     "objectType":"FUNC",
+     "objectKey":"BAPI_ISUCONTRCT_CHANGEFROMDATA"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
    "tadirObjName":"J1BS",
    "objectType":"FUNC",
    "objectKey":"J_1BREAD_BRANCH_DATA",
@@ -33437,6 +33431,24 @@
    "tadirObjName":"BSVA",
    "objectType":"FUNC",
    "objectKey":"STATUS_CHANGE_FOR_ACTIVITY",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-GTF-TS-SMT",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BSVA",
+   "objectType":"FUNC",
+   "objectKey":"STATUS_CHANGE_INTERN_MULTI",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-GTF-TS-SMT",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BSVA",
+   "objectType":"FUNC",
+   "objectKey":"STATUS_PROFILE_CHANGE",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"CA-GTF-TS-SMT",
    "state":"classicAPI"
