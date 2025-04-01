@@ -4,6 +4,24 @@
  [
   {
    "tadirObject":"CLAS",
+   "tadirObjName":"/AIF/CL_ENABLER_IDOC",
+   "objectType":"CLAS",
+   "objectKey":"/AIF/CL_ENABLER_IDOC",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"/AIF/CL_ENABLER_SYNC_LOG",
+   "objectType":"CLAS",
+   "objectKey":"/AIF/CL_ENABLER_SYNC_LOG",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
    "tadirObjName":"/AIF/CL_ENABLER_XML",
    "objectType":"CLAS",
    "objectKey":"/AIF/CL_ENABLER_XML",
@@ -13,9 +31,90 @@
   },
   {
    "tadirObject":"CLAS",
+   "tadirObjName":"/AIF/CL_NRT_CONFIG_BASE",
+   "objectType":"CLAS",
+   "objectKey":"/AIF/CL_NRT_CONFIG_BASE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"/AIF/CL_NRT_TRANSFER_PROCESS",
+   "objectType":"CLAS",
+   "objectKey":"/AIF/CL_NRT_TRANSFER_PROCESS",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"/AIF/CL_NRT_TRANSFER_SIMPLE",
+   "objectType":"CLAS",
+   "objectKey":"/AIF/CL_NRT_TRANSFER_SIMPLE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"/AIF/CL_PERS_QUEUE",
+   "objectType":"CLAS",
+   "objectKey":"/AIF/CL_PERS_QUEUE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"/AIF/CL_TRANSFORM_DATA",
+   "objectType":"CLAS",
+   "objectKey":"/AIF/CL_TRANSFORM_DATA",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"noAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"/AIF/CX_AIF_ENGINE_BASE",
+   "objectType":"CLAS",
+   "objectKey":"/AIF/CX_AIF_ENGINE_BASE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"/AIF/CX_AIF_ENGINE_NOT_FOUND",
+   "objectType":"CLAS",
+   "objectKey":"/AIF/CX_AIF_ENGINE_NOT_FOUND",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"/AIF/CX_ENABLER_BASE",
+   "objectType":"CLAS",
+   "objectKey":"/AIF/CX_ENABLER_BASE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
    "tadirObjName":"/AIF/CX_ERROR_HANDLING_GENERAL",
    "objectType":"CLAS",
    "objectKey":"/AIF/CX_ERROR_HANDLING_GENERAL",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"/AIF/CX_INF_DET_BASE",
+   "objectType":"CLAS",
+   "objectKey":"/AIF/CX_INF_DET_BASE",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-AIF",
    "state":"classicAPI"
@@ -1942,6 +2041,15 @@
    "objectKey":"/UI2/CX_URL",
    "softwareComponent":"SAP_UI",
    "applicationComponent":"BC-FES-BUS-RUN",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"/UI5/CL_UI5_BSP_APPLICATION",
+   "objectType":"CLAS",
+   "objectKey":"/UI5/CL_UI5_BSP_APPLICATION",
+   "softwareComponent":"SAP_UI",
+   "applicationComponent":"CA-UI5-ABA-SAR",
    "state":"classicAPI"
   },
   {
@@ -16578,7 +16686,7 @@
    "objectType":"CDS_STOB",
    "objectKey":"I_MAINTPLANNINGBUCKETTYPE",
    "softwareComponent":"S4CORE",
-   "applicationComponent":"PM",
+   "applicationComponent":"PM-WOC",
    "state":"classicAPI",
    "labels":
    [
@@ -16591,7 +16699,7 @@
    "objectType":"CDS_STOB",
    "objectKey":"I_MAINTPLNGBUCKETRCRRCTYPETXT",
    "softwareComponent":"S4CORE",
-   "applicationComponent":"PM",
+   "applicationComponent":"PM-WOC",
    "state":"classicAPI",
    "labels":
    [
@@ -16688,6 +16796,267 @@
    [
     "transactional-consistent"
    ]
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/ALERT_DET_RECIPIENTS",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/ALERT_DET_RECIPIENTS",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/APP_LOG_VIEW_BADI",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/APP_LOG_VIEW_BADI",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"noAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/ARCHIVING_CUST",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/ARCHIVING_CUST",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"noAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/CANCEL_SYNC_MSG",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/CANCEL_SYNC_MSG",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/CHANGEABLE_FIELDS",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/CHANGEABLE_FIELDS",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"noAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/CHANGE_IDOC_STATUS",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/CHANGE_IDOC_STATUS",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/CUSTOM_FUNCTION_BADI",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/CUSTOM_FUNCTION_BADI",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/DETERMINE_MDI_DATA_BADI",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/DETERMINE_MDI_DATA_BADI",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"noAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/FRUN_GET_STATUS_TEXT",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/FRUN_GET_STATUS_TEXT",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/FRUN_INTEGRATION_BADI",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/FRUN_INTEGRATION_BADI",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/INTERFACE_DETERMINATION",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/INTERFACE_DETERMINATION",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/LFA_PROCESS_FINISHED_BADI",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/LFA_PROCESS_FINISHED_BADI",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/MESSAGE_DELETION_BADI",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/MESSAGE_DELETION_BADI",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/MSG_LOGSYS",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/MSG_LOGSYS",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"noAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/NRT_CONFIG_BADI",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/NRT_CONFIG_BADI",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/NRT_RUNTIME_EVENTS",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/NRT_RUNTIME_EVENTS",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/PER_ENGINE_PROXY",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/PER_ENGINE_PROXY",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"noAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/POST_MESSAGE_PROCESS",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/POST_MESSAGE_PROCESS",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/RECEIVER_DETERMINATION",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/RECEIVER_DETERMINATION",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"noAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/RESTART_SYNC_MSG",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/RESTART_SYNC_MSG",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/RUNTIME_METHODS",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/RUNTIME_METHODS",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"noAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/SELECT_IF_SYNC_LOG",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/SELECT_IF_SYNC_LOG",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/UPLOAD_FILES_LFA_BADI",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/UPLOAD_FILES_LFA_BADI",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/V1_ACT",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/V1_ACT",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/V2_STRUCTURE",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/V2_STRUCTURE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/V3_ACT",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/V3_ACT",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/V5_ACT",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/V5_ACT",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/V5_APPL_LOG",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/V5_APPL_LOG",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"/AIF/V5_CHANGEABLE_FIELDS",
+   "objectType":"ENHS",
+   "objectKey":"/AIF/V5_CHANGEABLE_FIELDS",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
   },
   {
    "tadirObject":"ENHS",
@@ -17401,6 +17770,136 @@
     "remote-enabled",
     "transactional-consistent"
    ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/AIF/FILE",
+   "objectType":"FUNC",
+   "objectKey":"/AIF/FILE_GET_GLOBALS",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/AIF/FILE",
+   "objectType":"FUNC",
+   "objectKey":"/AIF/FILE_PROCESS_DATA",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"noAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/AIF/IDOC_UTIL",
+   "objectType":"FUNC",
+   "objectKey":"/AIF/IDOC_ACTION_FUNCTION",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/AIF/IDOC_UTIL",
+   "objectType":"FUNC",
+   "objectKey":"/AIF/IDOC_INB_PRE_PROCESS_0",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/AIF/IDOC_UTIL",
+   "objectType":"FUNC",
+   "objectKey":"/AIF/IDOC_INB_PRE_PROCESS_1",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/AIF/IDOC_UTIL",
+   "objectType":"FUNC",
+   "objectKey":"/AIF/IDOC_INB_PRE_PROCESS_2",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/AIF/IDOC_UTIL",
+   "objectType":"FUNC",
+   "objectKey":"/AIF/IDOC_INB_PROCESS_FUNC_0",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/AIF/IDOC_UTIL",
+   "objectType":"FUNC",
+   "objectKey":"/AIF/IDOC_INB_PROCESS_FUNC_1",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/AIF/IDOC_UTIL",
+   "objectType":"FUNC",
+   "objectKey":"/AIF/IDOC_INB_PROCESS_FUNC_2",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/AIF/IDOC_UTIL",
+   "objectType":"FUNC",
+   "objectKey":"/AIF/IDOC_RESTART",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI",
+   "labels":
+   [
+    "remote-enabled"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/AIF/LFA_EXCEL_ACTIONS",
+   "objectType":"FUNC",
+   "objectKey":"/AIF/LFA_EXCEL_DOWN_MERGE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"noAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/AIF/FILE",
+   "objectType":"FUNC",
+   "objectKey":"/AIF/PERFORM_VALUE_MAPPING",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"noAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/AIF/FILE",
+   "objectType":"FUNC",
+   "objectKey":"/AIF/RESTART_MSG",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"/AIF/FILE",
+   "objectType":"FUNC",
+   "objectKey":"/AIF/SEND_WITH_PROXY",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-AIF",
+   "state":"classicAPI"
   },
   {
    "tadirObject":"FUGR",
@@ -51831,7 +52330,7 @@
    "objectKey":"BAPI_GL_GETGLACCBALANCE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI-GL-GL-N",
-   "state":"noAPI",
+   "state":"classicAPI",
    "labels":
    [
     "remote-enabled"
@@ -51844,7 +52343,7 @@
    "objectKey":"BAPI_GL_GETGLACCCURRENTBALANCE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI-GL-GL-N",
-   "state":"noAPI",
+   "state":"classicAPI",
    "labels":
    [
     "remote-enabled"
@@ -51857,7 +52356,7 @@
    "objectKey":"BAPI_GL_GETGLACCPERIODBALANCES",
    "softwareComponent":"S4CORE",
    "applicationComponent":"FI-GL-GL-N",
-   "state":"noAPI",
+   "state":"classicAPI",
    "labels":
    [
     "remote-enabled"
@@ -76292,7 +76791,7 @@
    "objectType":"FUNC",
    "objectKey":"HR_GET_INTERNAL_APPLICANT",
    "softwareComponent":"S4HCMRXX",
-   "applicationComponent":"PA-PA",
+   "applicationComponent":"PA-BN",
    "state":"classicAPI",
    "labels":
    [
@@ -76372,7 +76871,7 @@
    "objectType":"FUNC",
    "objectKey":"HR_GET_VACANCY_DETAIL",
    "softwareComponent":"S4HCMRXX",
-   "applicationComponent":"PA-PA",
+   "applicationComponent":"PA-BN",
    "state":"classicAPI",
    "labels":
    [
@@ -76386,7 +76885,7 @@
    "objectType":"FUNC",
    "objectKey":"HR_GET_VACANCY_LIST",
    "softwareComponent":"S4HCMRXX",
-   "applicationComponent":"PA-PA",
+   "applicationComponent":"PA-BN",
    "state":"classicAPI",
    "labels":
    [
@@ -79008,6 +79507,19 @@
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-RFC",
    "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SDTX",
+   "objectType":"FUNC",
+   "objectKey":"RFC_READ_TABLE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SEC-AIS-TOO",
+   "state":"noAPI",
+   "labels":
+   [
+    "remote-enabled"
+   ]
   },
   {
    "tadirObject":"FUGR",
