@@ -79330,6 +79330,15 @@
   },
   {
    "tadirObject":"FUGR",
+   "tadirObjName":"SKBE",
+   "objectType":"FUNC",
+   "objectKey":"REUSE_ALV_EXTRACT_LOAD",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-ALV",
+   "state":"noAPI"
+  },
+  {
+   "tadirObject":"FUGR",
    "tadirObjName":"SLVC_FULLSCREEN",
    "objectType":"FUNC",
    "objectKey":"REUSE_ALV_GRID_COMMENTARY_SET",
