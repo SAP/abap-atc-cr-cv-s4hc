@@ -15,7 +15,11 @@ Please implement
 + Validate SimplificationitemDB - Using transaction SYCM: Menu Simplification Database - Show Information. Follow the update information in note note [2241080](https://launchpad.support.sap.com/#/notes/2241080)
 - ATC Checks 'Usage of Released APIs' and 'Usage of Released APIs (Cloudification Repository)' Support Classic APIs
 
+NEW NEW NEW
+- ATC Checks "Usage of APIs" and "Allowed Enhancement Technologies" [3565942](https://me.sap.com/notes/3565942)
+
 Please ensure [SSL setup](https://docs.abapgit.org/user-guide/setup/ssl-setup.html) to access git from S/4 system via ATC
+[3582797 - ATC Check "Usage of APIs": SSL Handshake Failed](https://me.sap.com/notes/3582797/E)
 
 ## Download and Usage
 
@@ -34,8 +38,8 @@ The corresponding CSV files can be consumed for offline processing in any spread
 
 1. Activate in your ATC check variant the check "Cloud Readiness" -> Usage of Released APIs (Cloudification Repository)
 
-2. In the attributes of the check enter the URL to this git repository e.g https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCE2023_1.json
-(content valid for S/4HANA Cloud Private Edition)
+2. In the attributes of the check enter the URL to this git repository e.g https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCELatest.json
+(content valid only for the latest S/4HANA Cloud Private Edition version)
 
 For S/4HANA Cloud Private Edition or on-premise, you can use the release version file with the string *PCE* included.
 e.g. https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/  + filename
@@ -52,14 +56,14 @@ With the note [3489660](https://me.sap.com/notes/3489660)- “Enable deployment 
 Looking for >20000 Tier1 released dataelements for S/4HANA Cloud Private edition.
 
 - Collection note 83470426](https://me.sap.com/notes/3470426)
- 
+
+Outdated Classic API files
 The files objectReleaseInfo_PCE*.json or objectReleaseInfo_PCE*.csv contains the APIs released by SAP to be consumed in your tier 1 implementations of the 3-tier extensibility model.
+There are still valid, if you use the former ATC check. The files objectClassifications.json or objectClassifications.csv contains the classic APIs  to be consumed in your tier 2 implementations of the 3-tier extensibility model. --> https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectClassifications.json
 
-The files objectClassifications.json or objectClassifications.csv contains the classic APIs  to be consumed in your tier 2 implementations of the 3-tier extensibility model.
---> https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectClassifications.json
-
-Remark: CSV file contains more detailed information including the object list which will not be recommended. The reasons are internal consumptions or ABAP Cloud violations.
-The JSON file conatins the positive list of ClassicAPIs. Entries with value noClassicAPI will offer you a corresponding successor object.
+*NEW NEW NEW*
+With the introduction of the new ATC check 3565942 - ATC Checks "Usage of APIs" and "Allowed Enhancement Technologies" [https://me.sap.com/notes/3565942]
+a new data format is needed and persited in file [objectClassifications_3TierModel.json](https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/refs/heads/main/src/objectClassifications_3TierModel.json)
 
 ## Cloudification API Viewer
 
@@ -67,7 +71,9 @@ The JSON file conatins the positive list of ClassicAPIs. Entries with value noCl
 
 [S/4HANA Cloud Private Edition](https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectReleaseInfo_PCELatest.json)
 
-[S/4HANA Cloud Private Edition Classic APIs](https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectClassifications.json)
+[S/4HANA Cloud Private Edition Classic API 3TierModel](https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectClassifications_3TierModel.json)
+
+[S/4HANA Cloud Private Edition Classic APIs *outddated*](https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectClassifications.json)
 
 *Click on a row to get more details about successors*
 
