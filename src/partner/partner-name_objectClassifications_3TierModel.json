@@ -1,0 +1,15 @@
+{
+ "formatVersion":"2",
+ "objectClassifications":
+ [
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"/PARTNER/CL_CLASS",
+   "objectType":"CLAS",
+   "objectKey":"/PARTNER/CL_CLASS",
+   "softwareComponent":"",
+   "applicationComponent":"",
+   "state":"classicAPI"
+  }
+ ]
+}
