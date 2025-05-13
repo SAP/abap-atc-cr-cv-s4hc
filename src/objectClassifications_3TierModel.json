@@ -5383,8 +5383,8 @@
    "tadirObjName":"CL_HRBAS_PD_OBJECT",
    "objectType":"CLAS",
    "objectKey":"CL_HRBAS_PD_OBJECT",
-   "softwareComponent":"S4FND",
-   "applicationComponent":"CA-EPT-OM",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-OM",
    "state":"classicAPI",
    "labels":
    [
@@ -5396,8 +5396,8 @@
    "tadirObjName":"CL_HRBAS_PD_OBJECT_ADMIN",
    "objectType":"CLAS",
    "objectKey":"CL_HRBAS_PD_OBJECT_ADMIN",
-   "softwareComponent":"S4FND",
-   "applicationComponent":"CA-EPT-OM",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-OM",
    "state":"classicAPI",
    "labels":
    [
@@ -80360,6 +80360,24 @@
    "tadirObject":"FUGR",
    "tadirObjName":"RHDB",
    "objectType":"FUNC",
+   "objectKey":"RH_DYNAMIC_WHERE_BUILD",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-OM",
+   "state":"internalAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_PFW_SELTAB",
+     "objectType":"CLAS",
+     "objectKey":"CL_PFW_SELTAB"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"RHDB",
+   "objectType":"FUNC",
    "objectKey":"RH_EXIST_OBJECT",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-BMT-OM",
@@ -81007,7 +81025,7 @@
   },
   {
    "tadirObject":"FUGR",
-   "tadirObjName":"SEUK",
+   "tadirObjName":"STRAN_DT_API",
    "objectType":"FUNC",
    "objectKey":"RPY_TRANSACTION_DELETE",
    "softwareComponent":"SAP_BASIS",
@@ -81016,7 +81034,7 @@
   },
   {
    "tadirObject":"FUGR",
-   "tadirObjName":"SEUK",
+   "tadirObjName":"STRAN_DT_API",
    "objectType":"FUNC",
    "objectKey":"RPY_TRANSACTION_INSERT",
    "softwareComponent":"SAP_BASIS",
