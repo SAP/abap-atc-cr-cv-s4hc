@@ -453,8 +453,8 @@
    "tadirObjName":"CL_HRBAS_PD_OBJECT",
    "objectType":"CLAS",
    "objectKey":"CL_HRBAS_PD_OBJECT",
-   "softwareComponent":"S4FND",
-   "applicationComponent":"CA-EPT-OM",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-OM",
    "state":"classicAPI"
   },
   {
@@ -462,8 +462,8 @@
    "tadirObjName":"CL_HRBAS_PD_OBJECT_ADMIN",
    "objectType":"CLAS",
    "objectKey":"CL_HRBAS_PD_OBJECT_ADMIN",
-   "softwareComponent":"S4FND",
-   "applicationComponent":"CA-EPT-OM",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-OM",
    "state":"classicAPI"
   },
   {
@@ -2399,7 +2399,7 @@
    "objectType":"CDS_STOB",
    "objectKey":"I_MAINTPLANNINGBUCKETTYPE",
    "softwareComponent":"S4CORE",
-   "applicationComponent":"PM",
+   "applicationComponent":"PM-WOC",
    "state":"classicAPI"
   },
   {
@@ -2408,7 +2408,7 @@
    "objectType":"CDS_STOB",
    "objectKey":"I_MAINTPLNGBUCKETRCRRCTYPETXT",
    "softwareComponent":"S4CORE",
-   "applicationComponent":"PM",
+   "applicationComponent":"PM-WOC",
    "state":"classicAPI"
   },
   {
@@ -7099,6 +7099,19 @@
    "tadirObjName":"BUBA_3",
    "objectType":"FUNC",
    "objectKey":"BAPI_BUPR_EMPLO_GETDETAIL",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"AP-MD-BP",
+   "state":"classicAPI",
+   "labels":
+   [
+    "remote-enabled"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BUBA_3",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_BUPR_RELATIONSHIP_CREATE",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"AP-MD-BP",
    "state":"classicAPI",
@@ -31799,7 +31812,7 @@
    "objectType":"FUNC",
    "objectKey":"HR_GET_INTERNAL_APPLICANT",
    "softwareComponent":"S4HCMRXX",
-   "applicationComponent":"PA-PA",
+   "applicationComponent":"PA-BN",
    "state":"classicAPI",
    "labels":
    [
@@ -31861,7 +31874,7 @@
    "objectType":"FUNC",
    "objectKey":"HR_GET_VACANCY_DETAIL",
    "softwareComponent":"S4HCMRXX",
-   "applicationComponent":"PA-PA",
+   "applicationComponent":"PA-BN",
    "state":"classicAPI",
    "labels":
    [
@@ -31874,7 +31887,7 @@
    "objectType":"FUNC",
    "objectKey":"HR_GET_VACANCY_LIST",
    "softwareComponent":"S4HCMRXX",
-   "applicationComponent":"PA-PA",
+   "applicationComponent":"PA-BN",
    "state":"classicAPI",
    "labels":
    [
@@ -33048,6 +33061,25 @@
    "tadirObject":"FUGR",
    "tadirObjName":"RHDB",
    "objectType":"FUNC",
+   "objectKey":"RH_DYNAMIC_WHERE_BUILD",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-OM",
+   "state":"noClassicAPI",
+   "successorClassification":"oneObject",
+   "successors":
+   [
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_PFW_SELTAB",
+     "objectType":"CLAS",
+     "objectKey":"CL_PFW_SELTAB"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"RHDB",
+   "objectType":"FUNC",
    "objectKey":"RH_EXIST_OBJECT",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-BMT-OM",
@@ -33440,6 +33472,15 @@
    "tadirObjName":"BSVA",
    "objectType":"FUNC",
    "objectKey":"STATUS_CHANGE_INTERN_MULTI",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-GTF-TS-SMT",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BSVA",
+   "objectType":"FUNC",
+   "objectKey":"STATUS_PRE_READ",
    "softwareComponent":"SAP_ABA",
    "applicationComponent":"CA-GTF-TS-SMT",
    "state":"classicAPI"
