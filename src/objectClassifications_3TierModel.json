@@ -6883,6 +6883,33 @@
   },
   {
    "tadirObject":"CLAS",
+   "tadirObjName":"CL_PFW_SELCOMP",
+   "objectType":"CLAS",
+   "objectKey":"CL_PFW_SELCOMP",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-DB-HDB-PFW",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CL_PFW_SELTAB",
+   "objectType":"CLAS",
+   "objectKey":"CL_PFW_SELTAB",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-DB-HDB-PFW",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CL_PFW_SELTREE",
+   "objectType":"CLAS",
+   "objectKey":"CL_PFW_SELTREE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-DB-HDB-PFW",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
    "tadirObjName":"CL_PHTMLB_MESSAGEBAR",
    "objectType":"CLAS",
    "objectKey":"CL_PHTMLB_MESSAGEBAR",
@@ -8623,6 +8650,15 @@
    "objectKey":"CL_SF_PRINT_PPF",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-GBT-PPF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CL_SHDB_SELTAB",
+   "objectType":"CLAS",
+   "objectKey":"CL_SHDB_SELTAB",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"HAN-DB",
    "state":"classicAPI"
   },
   {
@@ -61918,11 +61954,7 @@
    "objectKey":"BAPI_QTASRVAPSIF_RECEIVELIST",
    "softwareComponent":"S4CORE",
    "applicationComponent":"SCM-BAS-INT-EXT",
-   "state":"noAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
+   "state":"noAPI"
   },
   {
    "tadirObject":"FUGR",
