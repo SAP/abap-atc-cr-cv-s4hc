@@ -3636,6 +3636,24 @@
   },
   {
    "tadirObject":"CLAS",
+   "tadirObjName":"CL_CFD_BAPI_MAPPING",
+   "objectType":"CLAS",
+   "objectKey":"CL_CFD_BAPI_MAPPING",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-APS-EXT-FLD",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CL_CFD_BAPI_MAPPING_ONPREM",
+   "objectType":"CLAS",
+   "objectKey":"CL_CFD_BAPI_MAPPING_ONPREM",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-APS-EXT-FLD",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
    "tadirObjName":"CL_CHIP_API_UTIL",
    "objectType":"CLAS",
    "objectKey":"CL_CHIP_API_UTIL",
@@ -73274,6 +73292,32 @@
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-ASF-UOM",
    "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"OMCV",
+   "objectType":"FUNC",
+   "objectKey":"CONVERSION_EXIT_MATN1_INPUT",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-GTF-TS-LO",
+   "state":"classicAPI",
+   "labels":
+   [
+    "transactional-consistent"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"OMCV",
+   "objectType":"FUNC",
+   "objectKey":"CONVERSION_EXIT_MATN1_OUTPUT",
+   "softwareComponent":"SAP_ABA",
+   "applicationComponent":"CA-GTF-TS-LO",
+   "state":"classicAPI",
+   "labels":
+   [
+    "transactional-consistent"
+   ]
   },
   {
    "tadirObject":"FUGR",
