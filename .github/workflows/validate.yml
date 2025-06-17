@@ -1,0 +1,29 @@
+name: Validate JSON
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '16'
+
+    - name: Install ajv-cli
+      run: npm install -g ajv-cli
+
+    - name: Validate JSON files
+      run: |
+        ajv validate --strict=false -s ./schema/classicAPI-schema.json -d ./src/objectClassifications_3TierModel.json
