@@ -5,47 +5,57 @@
     "properties": {
       "formatVersion": {
         "title": "ABAP File Format Version",
-        "description": "The ABAP file format version",
+        "description": "Specifies the version of the ABAP file format.",
         "type": "string",
         "const": "2"
       },
       "objectClassifications": {
+        "title": "Object Classifications",
+        "description": "A list of classifications for objects in the API.",
         "type": "array",
         "uniqueItems": true,
         "items": {
           "type": "object",
           "properties": {
             "tadirObject": {
-              "description": "Object Type in Object Directory",
+              "title": "TADIR Object Type",
+              "description": "The type of the object in the Object Directory (TADIR).",
               "type": "string",
               "maxLength": 4
             },
             "tadirObjName": {
-              "description": "Object Name in Object Directory",
+              "title": "TADIR Object Name",
+              "description": "The name of the object in the Object Directory (TADIR).",
               "type": "string",
               "maxLength": 40
             },
             "objectType": {
-              "description": "Type of API Subobject",
+              "title": "Object Type",
+              "description": "Defines the type of the API subobject.",
               "type": "string",
               "maxLength": 20
             },
             "objectKey": {
-              "description": "Name of API Subobject",
+              "title": "Object Key",
+              "description": "Specifies the name of the API subobject.",
               "type": "string",
               "maxLength": 120
             },
             "softwareComponent": {
-              "description": "Software Component",
+              "title": "Software Component",
+              "description": "The software component to which the object belongs.",
               "type": "string",
               "maxLength": 30
             },
             "applicationComponent": {
-              "description": "Application component ID",
+              "title": "Application Component",
+              "description": "The ID of the application component.",
               "type": "string",
               "maxLength": 24
             },
             "state": {
+              "title": "State",
+              "description": "The current state of the API object.",
               "type": "string",
               "enum": [
                 "classicAPI",
@@ -53,38 +63,45 @@
                 "internalAPI"
               ],
               "enumTitles": [
-                "",
-                "",
-                ""
+                "Classic API",
+                "No API",
+                "Internal API"
               ]
             },
             "successorConceptName": {
-              "description": "API Release: Successor Concept Name",
+              "title": "Successor Concept Name",
+              "description": "The name of the successor concept for API release.",
               "type": "string",
               "maxLength": 50
             },
             "successors": {
+              "title": "Successors",
+              "description": "A list of successor objects for the API.",
               "type": "array",
               "items": {
                 "type": "object",
                 "properties": {
                   "tadirObject": {
-                    "description": "Object Type in Object Directory",
+                    "title": "TADIR Object Type",
+                    "description": "The type of the object in the Object Directory (TADIR).",
                     "type": "string",
                     "maxLength": 4
                   },
                   "tadirObjName": {
-                    "description": "Object Name in Object Directory",
+                    "title": "TADIR Object Name",
+                    "description": "The name of the object in the Object Directory (TADIR).",
                     "type": "string",
                     "maxLength": 40
                   },
                   "objectType": {
-                    "description": "Type of API Subobject",
+                    "title": "Object Type",
+                    "description": "Defines the type of the API subobject.",
                     "type": "string",
                     "maxLength": 20
                   },
                   "objectKey": {
-                    "description": "Name of API Subobject",
+                    "title": "Object Key",
+                    "description": "Specifies the name of the API subobject.",
                     "type": "string",
                     "maxLength": 120
                   }
@@ -100,23 +117,23 @@
             },
             "labels": {
               "title": "Labels",
-              "description": "labels",
+              "description": "A list of labels associated with the object.",
               "type": "array",
               "items": {
                 "title": "Label",
-                "description": "Label",
+                "description": "A single label associated with the object.",
                 "type": "string",
                 "enum": [
                   "remote-enabled",
                   "transactional-consistent"
                 ],
                 "enumTitles": [
-                  "Remote-Enabled",
-                  "Transactional-Consistent"
+                  "Remote Enabled",
+                  "Transactional Consistent"
                 ],
                 "enumDescriptions": [
-                  "remote-enabled",
-                  "transactional-consistent"
+                  "Indicates that the object is remote-enabled.",
+                  "Indicates that the object is transactional-consistent."
                 ]
               }
             }
