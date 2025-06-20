@@ -1,0 +1,10 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "src/objectClassifications_3TierModel.json"
+            ],
+            "url": "./schema/classicAPI-schema.json"
+        }
+    ]
+}
