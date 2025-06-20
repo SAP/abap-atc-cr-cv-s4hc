@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/abap-atc-cr-cv-s4hc/static/css/main.4306799c.css",
-    "main.js": "/abap-atc-cr-cv-s4hc/static/js/main.b93d1a3c.js",
+    "main.js": "/abap-atc-cr-cv-s4hc/static/js/main.01cc4e81.js",
     "static/js/46453.0590215c.chunk.js": "/abap-atc-cr-cv-s4hc/static/js/46453.0590215c.chunk.js",
     "ui5-webcomponents-sap-icons-tnt-v3.js": "/abap-atc-cr-cv-s4hc/static/js/ui5-webcomponents-sap-icons-tnt-v3.f42c7983.chunk.js",
     "ui5-webcomponents-sap-icons-tnt-v2.js": "/abap-atc-cr-cv-s4hc/static/js/ui5-webcomponents-sap-icons-tnt-v2.0b447377.chunk.js",
@@ -797,7 +797,7 @@
     "ui5-webcomponents-react-messagebundle-zh_TW.js": "/abap-atc-cr-cv-s4hc/static/js/ui5-webcomponents-react-messagebundle-zh_TW.10a9a4a3.chunk.js",
     "index.html": "/abap-atc-cr-cv-s4hc/index.html",
     "main.4306799c.css.map": "/abap-atc-cr-cv-s4hc/static/css/main.4306799c.css.map",
-    "main.b93d1a3c.js.map": "/abap-atc-cr-cv-s4hc/static/js/main.b93d1a3c.js.map",
+    "main.01cc4e81.js.map": "/abap-atc-cr-cv-s4hc/static/js/main.01cc4e81.js.map",
     "46453.0590215c.chunk.js.map": "/abap-atc-cr-cv-s4hc/static/js/46453.0590215c.chunk.js.map",
     "ui5-webcomponents-fiori-addcolumn.30bbc84a.chunk.js.map": "/abap-atc-cr-cv-s4hc/static/js/ui5-webcomponents-fiori-addcolumn.30bbc84a.chunk.js.map",
     "ui5-webcomponents-fiori-adddimensions.0ec80adc.chunk.js.map": "/abap-atc-cr-cv-s4hc/static/js/ui5-webcomponents-fiori-adddimensions.0ec80adc.chunk.js.map",
@@ -1267,6 +1267,6 @@
   },
   "entrypoints": [
     "static/css/main.4306799c.css",
-    "static/js/main.b93d1a3c.js"
+    "static/js/main.01cc4e81.js"
   ]
 }
