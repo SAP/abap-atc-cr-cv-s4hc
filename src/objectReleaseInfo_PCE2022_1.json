@@ -146957,7 +146957,7 @@
    "softwareComponent":"SAPSCORE",
    "applicationComponent":"FI-GL-GL-N",
    "state":"notToBeReleased",
-   "successorClassification":"multipleObjects",
+   "successorClassification":"oneObject",
    "successors":
    [
     {
@@ -146965,14 +146965,8 @@
      "tadirObjName":"I_FINANCIALSTATEMENTHIER",
      "objectType":"CDS_STOB",
      "objectKey":"I_FINANCIALSTATEMENTHIER"
-    },
-    {
-     "tadirObject":"DDLS",
-     "tadirObjName":"I_FINANCIALSTATEMENTHIER",
-     "objectType":"CDS_STOB",
-     "objectKey":"I_FINANCIALSTATEMENTHIER"
     }
-   ]
+    ]
   },
   {
    "tadirObject":"TABL",
