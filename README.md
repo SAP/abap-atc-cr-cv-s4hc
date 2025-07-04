@@ -67,8 +67,8 @@ a new data format is needed and persited in file [objectClassifications_3TierMod
 
 ## Cloudification API Viewer
 
-NEW NEW NEW
-Cloudufucation Viewer will display now the number of APIs behind the repository name.
+*NEW NEW NEW*
+Cloudification Viewer will display now the number of APIs behind the repository name.
 
 [S/4HANA Cloud Public Edition](https://sap.github.io/abap-atc-cr-cv-s4hc/)
 
