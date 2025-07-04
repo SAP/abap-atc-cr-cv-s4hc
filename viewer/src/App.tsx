@@ -1,12 +1,12 @@
-import { AnalyticalTable, AnalyticalTableColumnDefinition, AnalyticalTablePropTypes, FlexibleColumnLayout, Icon, IllustratedMessage } from "@ui5/webcomponents-react";
+import { AnalyticalTable, AnalyticalTableColumnDefinition, AnalyticalTablePropTypes, FlexibleColumnLayout, Icon, IllustratedMessage, Title, Toolbar } from "@ui5/webcomponents-react";
 import { useContext, useEffect, useState } from "react";
-import { BaseObjectElementSuccessor, DataContext, ObjectElement, ReleaseInfoElementOther } from "./providers/DataProvider";
 import { useSearchParams } from "react-router-dom";
+import { BaseObjectElementSuccessor, DataContext, ObjectElement, ReleaseInfoElementOther } from "./providers/DataProvider";
 import { FilterContext } from "./providers/FilterProvider";
 
 import StateStatus from "./components/StateStatus";
 import ElementTab from "./components/ElementTab";
-import classes from  "./App.module.css";
+import classes from "./App.module.css";
 
 const DefaultIndex = 25;
 
@@ -134,7 +134,8 @@ function App() {
         })
     }
 
-    const spliced = handleFilter(sortValues()).splice(0, index) || [];
+    const filtered = handleFilter(sortValues());
+    const spliced = filtered.slice(0, index) || [];
 
     /*
     When attempting to implement additional table columns based on versions (Name, Cloud Type, ...),
@@ -144,9 +145,13 @@ function App() {
     */
     return (
         <div className={classes.scrollContainer}>
+            <Toolbar style={{ margin: "1rem 0 1rem 0.5rem" }}>
+                <Title level="H4">{version} ({filtered.length})</Title>
+            </Toolbar>
             {spliced.length > 0 ? <FlexibleColumnLayout style={{
                 position: "relative",
-                height: "100%"
+                height: "calc(100vh - 4.5rem)",
+                width: "100vw"
             }}
                 startColumn={<AnalyticalTable
                     selectionMode="SingleSelect"
