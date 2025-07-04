@@ -4,9 +4,9 @@ import { useSearchParams } from "react-router-dom";
 import { BaseObjectElementSuccessor, DataContext, ObjectElement, ReleaseInfoElementOther } from "./providers/DataProvider";
 import { FilterContext } from "./providers/FilterProvider";
 
-import StateStatus from "./components/StateStatus";
-import ElementTab from "./components/ElementTab";
 import classes from "./App.module.css";
+import ElementTab from "./components/ElementTab";
+import StateStatus from "./components/StateStatus";
 
 const DefaultIndex = 25;
 
@@ -150,10 +150,10 @@ function App() {
             </Toolbar>
             {spliced.length > 0 ? <FlexibleColumnLayout style={{
                 position: "relative",
-                height: "calc(100vh - 4.5rem)",
-                width: "100vw"
+                height: "calc(100vh - 17rem)",
             }}
                 startColumn={<AnalyticalTable
+                    style={{ height: "100%" }}
                     selectionMode="SingleSelect"
                     onLoadMore={handleLoadMore}
                     onRowSelect={handleRowSelect}
