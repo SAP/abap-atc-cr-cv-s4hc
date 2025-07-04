@@ -4,9 +4,9 @@ import { useSearchParams } from "react-router-dom";
 import { BaseObjectElementSuccessor, DataContext, ObjectElement, ReleaseInfoElementOther } from "./providers/DataProvider";
 import { FilterContext } from "./providers/FilterProvider";
 
-import classes from "./App.module.css";
-import ElementTab from "./components/ElementTab";
 import StateStatus from "./components/StateStatus";
+import ElementTab from "./components/ElementTab";
+import classes from "./App.module.css";
 
 const DefaultIndex = 25;
 
