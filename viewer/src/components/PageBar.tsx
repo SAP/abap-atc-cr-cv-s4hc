@@ -1,9 +1,9 @@
 import { Icon, Input, InputPropTypes, ResponsivePopoverDomRef, ShellBar, ShellBarItem, ShellBarItemPropTypes } from "@ui5/webcomponents-react";
+import { useI18nBundle } from '@ui5/webcomponents-react-base';
 import { RefObject, useContext, useRef } from "react";
 import { useSearchParams } from "react-router-dom";
-import { useI18nBundle } from '@ui5/webcomponents-react-base';
-import { DataContext } from "../providers/DataProvider";
 import { BundleID } from "..";
+import { DataContext } from "../providers/DataProvider";
 
 export default function PageBar({ themeRef }: {
     themeRef: RefObject<ResponsivePopoverDomRef>
@@ -35,6 +35,7 @@ export default function PageBar({ themeRef }: {
                 setQuery(query)
             }, 250);
         } else {
+            clearTimeout(timeOutRef.current);
             query.delete("q");
             setQuery(query)
         }
