@@ -27,3 +27,7 @@ jobs:
     - name: Validate JSON files
       run: |
         ajv validate --strict=false -s ./schema/classicAPI-schema.json -d ./src/objectClassifications_3TierModel.json
+        ajv validate --strict=false -s ./schema/classicAPI-schema.json -d ./src/objectClassifications_SAP.json
+    - name: Validate partner API JSON files
+      run: |
+        ajv validate --strict=false -s ./schema/classicAPI-schema.json -d "./src/partner/partnerAPI_*.json"
