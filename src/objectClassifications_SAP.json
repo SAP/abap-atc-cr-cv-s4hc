@@ -61972,7 +61972,11 @@
    "objectKey":"BAPI_QTASRVAPSIF_RECEIVELIST",
    "softwareComponent":"S4CORE",
    "applicationComponent":"SCM-BAS-INT-EXT",
-   "state":"noAPI"
+   "state":"noAPI",
+   "labels":
+   [
+    "remote-enabled"
+   ]
   },
   {
    "tadirObject":"FUGR",
@@ -84320,6 +84324,15 @@
    "tadirObjName":"SLOG",
    "objectType":"FUNC",
    "objectKey":"TR_APPEND_LOG",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-CTS-ORG",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"STRD",
+   "objectType":"FUNC",
+   "objectKey":"TR_APPEND_TO_COMM",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-CTS-ORG",
    "state":"classicAPI"
