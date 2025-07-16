@@ -74,9 +74,7 @@ Cloudification Viewer will display now the number of APIs behind the repository 
 
 [S/4HANA Cloud Private Edition](https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectReleaseInfo_PCELatest.json)
 
-[S/4HANA Cloud Private Edition Classic API Clean Core Model](https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectClassifications_3TierModel.json)
-
-[S/4HANA Cloud Private Edition Classic APIs *outddated*](https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectClassifications.json)
+[S/4HANA Cloud Private Edition Classic API Clean Core Model](https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectClassifications_SAP.json)
 
 *Click on a row to get more details about successors*
 
