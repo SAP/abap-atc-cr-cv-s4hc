@@ -23,6 +23,14 @@ NEW NEW NEW  Clean Core Check
 Please ensure [SSL setup](https://docs.abapgit.org/user-guide/setup/ssl-setup.html) to access git from S/4 system via ATC
 [3582797 - ATC Check "Usage of APIs": SSL Handshake Failed](https://me.sap.com/notes/3582797/E)
 
+## Partner Extensions
+
+Partner are able to offer released APIs as part of the extension shipment. Customer will be able to consume the released APIs as part of customer ABAP Cloud development.
+In case partner wants to offer Classic APIs to support customers to follow a clean core strategy.
+Please implement note [Classic API Support in ATC Check "Usage of APIs" for Partners](https://me.sap.com/notes/3630552) and use Report SYCM_API_CLASSIFICATION_MANAGR to generate your partner JSON file. 
+Ensure it follow the right JSON structure and includes only objects in own namespace. Every namespace needs it own JSON filename format objectClassification_NAMESPACE.json.
+As part of a pull request, the file will be offered in folder [src/partner](https://github.com/SAP/abap-atc-cr-cv-s4hc/tree/main/src/partner) if it is wished by partner.
+
 ## Download and Usage
 
 ### Target product S/4HANA Cloud Public Edition
