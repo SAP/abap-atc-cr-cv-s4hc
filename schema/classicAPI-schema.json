@@ -132,8 +132,8 @@
                   "Transactional Consistent"
                 ],
                 "enumDescriptions": [
-                  "Indicates that the object is remote-enabled.",
-                  "Indicates that the object is transactional-consistent."
+                  "The API is enabled for remote calls (RFC-enabled).",
+                  "The API supports transactional integrity, i.e., commit/rollback semantics are respected."
                 ]
               }
             }
