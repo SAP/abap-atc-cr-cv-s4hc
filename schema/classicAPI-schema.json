@@ -68,12 +68,6 @@
                 "Internal API"
               ]
             },
-            "successorConceptName": {
-              "title": "Successor Concept Name",
-              "description": "The name of the successor concept for API release.",
-              "type": "string",
-              "maxLength": 50
-            },
             "successors": {
               "title": "Successors",
               "description": "A list of successor objects for the API.",
