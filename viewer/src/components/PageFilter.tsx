@@ -1,17 +1,17 @@
 import { FilterBar, FilterGroupItem, MultiComboBox, MultiComboBoxItem, MultiComboBoxPropTypes, Option, Select } from "@ui5/webcomponents-react";
-import { DataContext, CloudType, Files } from "../providers/DataProvider";
-import { FilterContext } from "../providers/FilterProvider";
 import { useContext } from "react";
+import { DataContext, Editions } from "../providers/DataProvider";
+import { FilterContext } from "../providers/FilterProvider";
 
 export default function PageFilter() {
-    const { states, stateFilter, setStateFilter, 
-        setObjectTypesFilter, objectTypes, objectTypesFilter, 
-        softwareComponents, softwareComponentsFilter, setSoftwareComponentsFilter, 
-        applicationComponents, applicationComponentsFilter, setApplicationComponentsFilter, 
+    const { states, stateFilter, setStateFilter,
+        setObjectTypesFilter, objectTypes, objectTypesFilter,
+        softwareComponents, softwareComponentsFilter, setSoftwareComponentsFilter,
+        applicationComponents, applicationComponentsFilter, setApplicationComponentsFilter,
         labels, labelsFilter, setLabelsFilter } = useContext(FilterContext);
-    const { version, value, handleSelectChange } = useContext(DataContext);
+    const { edition: selectedEdition, release: selectedRelease, availableReleases, handleEditionChange, handleReleaseChange } = useContext(DataContext);
 
-    const handleStateSelectChange: MultiComboBoxPropTypes["onSelectionChange"] = function(event) {
+    const handleStateSelectChange: MultiComboBoxPropTypes["onSelectionChange"] = function (event) {
         setStateFilter(
             Object.entries(states)
                 .filter(([_, state]) => event.detail.items.map(item => item.text).includes(state.label))
@@ -19,15 +19,15 @@ export default function PageFilter() {
         )
     }
 
-    const handleObjectTypeFilterChange: MultiComboBoxPropTypes["onSelectionChange"] = function(event) {
+    const handleObjectTypeFilterChange: MultiComboBoxPropTypes["onSelectionChange"] = function (event) {
         setObjectTypesFilter(event.detail.items.flatMap(item => item.text))
     }
 
-    const handleSoftwareComponentFilterChange: MultiComboBoxPropTypes["onSelectionChange"] = function(event) {
+    const handleSoftwareComponentFilterChange: MultiComboBoxPropTypes["onSelectionChange"] = function (event) {
         setSoftwareComponentsFilter(event.detail.items.flatMap(item => item.text))
     }
 
-    const handleApplicationComponentFilterChange: MultiComboBoxPropTypes["onSelectionChange"] = function(event) {
+    const handleApplicationComponentFilterChange: MultiComboBoxPropTypes["onSelectionChange"] = function (event) {
         setApplicationComponentsFilter(event.detail.items.flatMap(item => item.text))
     }
 
@@ -35,35 +35,33 @@ export default function PageFilter() {
         setLabelsFilter(event.detail.items.flatMap(item => item.text))
     }
 
-    const selectValues = Object.values(Files);
-    const isValueValid = value !== null;
-
-    if (!isValueValid) {
-        selectValues.push({
-            name: version as CloudType["name"],
-            cloud: "invalid",
-            format: "1"
-        })
-    }
-
     return <FilterBar>
-        <FilterGroupItem
-            key="repositoryFilter"
-            label="Repository Selection"
-        >
-            <Select onChange={handleSelectChange}>
-                {selectValues.map(iterator => (
+        <FilterGroupItem key="editionFilter" label="Edition">
+            <Select onChange={handleEditionChange} value={selectedEdition}>
+                {Object.entries(Editions).map(([key, value]) => (
                     <Option
-                        key={iterator.name}
-                        selected={iterator.name === version}
-                        icon={iterator.cloud === "public" ? "cloud" : iterator.cloud === "private" ? "SAP-icons-TNT/private-cloud" : "inspect-down"}
-                    >{iterator.name}</Option>
+                        key={key}
+                        icon={value.private ? "SAP-icons-TNT/private-cloud" : "cloud"}
+                        value={key}
+                        selected={selectedEdition === key}
+                    >
+                    {value.name}
+                </Option>
                 ))}
             </Select>
-        </FilterGroupItem> 
+        </FilterGroupItem>
+        <FilterGroupItem key="releaseFilter" label="Release">
+            <Select onChange={handleReleaseChange} value={selectedRelease}>
+                {availableReleases.map(release => (
+                    <Option key={release.filename} value={release.release} selected={release.release === selectedRelease}>
+                        {release.release}
+                    </Option>
+                ))}
+            </Select>
+        </FilterGroupItem>
+
         <FilterGroupItem
             key="stateFilter"
-            visible={isValueValid}
             label="State"
         >
             <MultiComboBox onSelectionChange={handleStateSelectChange} placeholder="Select State">
@@ -78,7 +76,6 @@ export default function PageFilter() {
         </FilterGroupItem>
         <FilterGroupItem
             key="objectTypeFilter"
-            visible={isValueValid}
             label="Object Type"
         >
             <MultiComboBox onSelectionChange={handleObjectTypeFilterChange} placeholder="Select Object Type">
@@ -93,7 +90,6 @@ export default function PageFilter() {
         </FilterGroupItem>
         <FilterGroupItem
             key="softwareComponentFilter"
-            visible={isValueValid}
             label="Software Component"
         >
             <MultiComboBox onSelectionChange={handleSoftwareComponentFilterChange} placeholder="Select Software Component">
@@ -108,7 +104,6 @@ export default function PageFilter() {
         </FilterGroupItem>
         <FilterGroupItem
             key="applicationComponentFilter"
-            visible={isValueValid}
             label="Application Component"
         >
             <MultiComboBox onSelectionChange={handleApplicationComponentFilterChange} placeholder="Select Application Component" filter="Contains">
@@ -123,7 +118,6 @@ export default function PageFilter() {
         </FilterGroupItem>
         <FilterGroupItem
             key="labelFilter"
-            visible={isValueValid && labels.length > 0}
             label="Label"
         >
             <MultiComboBox onSelectionChange={handleLabelFilterChange} placeholder="Select Label">

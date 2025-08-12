@@ -1,7 +1,7 @@
 import { AnalyticalTable, AnalyticalTableColumnDefinition, AnalyticalTablePropTypes, FlexibleColumnLayout, Icon, IllustratedMessage, Title, Toolbar } from "@ui5/webcomponents-react";
 import { useContext, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import { BaseObjectElementSuccessor, DataContext, ObjectElement, ReleaseInfoElementOther } from "./providers/DataProvider";
+import { BaseObjectElementSuccessor, DataContext, Editions, ObjectElement, ReleaseInfoElementOther } from "./providers/DataProvider";
 import { FilterContext } from "./providers/FilterProvider";
 
 import classes from "./App.module.css";
@@ -49,7 +49,7 @@ export function GetArrowElement(elements: (BaseObjectElementSuccessor | ReleaseI
 
 function App() {
     const { handleFilter, setSearchValues, searchValues } = useContext(FilterContext);
-    const { value, version } = useContext(DataContext);
+    const { fileContent, edition, selectedFile } = useContext(DataContext);
 
     const [ query ] = useSearchParams();
     const [ index, setIndex ] = useState(DefaultIndex);
@@ -63,19 +63,19 @@ function App() {
     useEffect(() => {
         setIndex(DefaultIndex);
         setSelected(undefined);
-    }, [value])
+    }, [fileContent])
 
     useEffect(() => setSuccessor(undefined), [selected])
 
     useEffect(() => {
         const regex = new RegExp((searchQuery ?? "").replace(/\*/g, '.*'), "i");
         
-        setSearchValues([...value!].filter(element =>
+        setSearchValues([...fileContent!].filter(element =>
             regex.test(element.applicationComponent) ||
             regex.test(element.objectKey) ||
             regex.test(element.tadirObjName)
         ));
-    }, [value, query, searchQuery, setSearchValues])
+    }, [fileContent, query, searchQuery, setSearchValues])
 
     function handleLoadMore() {
         setIndex(index + DefaultIndex)
@@ -108,7 +108,7 @@ function App() {
             sortDirection: "desc"
         }
 
-        if (version.startsWith("objectClassification")) {
+        if (edition.startsWith("objectClassification")) {
             currentSort.sortDirection = currentSort.sortDirection === "asc" ? "desc" : "asc"
         } 
 
@@ -137,6 +137,8 @@ function App() {
     const filtered = handleFilter(sortValues());
     const spliced = filtered.slice(0, index) || [];
 
+    const containsClassicAPIs = Editions[edition as keyof typeof Editions].private;
+
     /*
     When attempting to implement additional table columns based on versions (Name, Cloud Type, ...),
     refer to this commit that also had a similar implementation.
@@ -146,7 +148,7 @@ function App() {
     return (
         <div className={classes.scrollContainer}>
             <Toolbar style={{ margin: "1rem 0 1rem 0.5rem" }}>
-                <Title level="H4">{version} ({filtered.length})</Title>
+                <Title level="H4">{Editions[edition as keyof typeof Editions].name} {selectedFile?.release} {containsClassicAPIs ? " + Classic APIs" : ""} ({filtered.length})</Title>
             </Toolbar>
             {spliced.length > 0 ? <FlexibleColumnLayout style={{
                 position: "relative",

@@ -1,14 +1,14 @@
-import { Context, PropsWithChildren, createContext, createRef, useEffect, useState } from "react";
 import { IllustratedMessage, ResponsivePopoverDomRef, SelectPropTypes, ValueState } from "@ui5/webcomponents-react";
-import { useSearchParams } from "react-router-dom";
-import { FilterProvider } from "./FilterProvider";
 import { useI18nBundle } from "@ui5/webcomponents-react-base";
+import { Context, PropsWithChildren, createContext, createRef, useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import { BundleID } from "..";
+import { FilterProvider } from "./FilterProvider";
 
-import files from "../data/contents.json";
 import PageBar from "../components/PageBar";
 import PageFilter from "../components/PageFilter";
 import ThemePopover from "../components/ThemePopover";
+import files from "../data/contents.json";
 
 /**
  * @interface ObjectRelease
@@ -24,11 +24,26 @@ export interface ObjectRelease {
     objectClassifications: ObjectElement[];
 }
 
+export interface ABAPRelease {
+    filename: string;
+    release: string;
+}
+export type ABAPContents = {
+    s4public: ABAPRelease[];
+    s4private: ABAPRelease[];
+    btp: ABAPRelease[];
+};
+export const Files: ABAPContents = files as any;
+
+export const Editions = {
+    s4public: { private: false, name: "S/4 HANA Cloud Public Edition" },
+    s4private: { private: true, name: "S/4 HANA Cloud Private Edition" },
+    btp: { private: false, name: "SAP BTP ABAP Environment" }
+}
+
 export type Classification = "concept" | "oneObject" | "multipleObjects" | "";
 
 export type ElementState = keyof typeof States;
-
-export type FileName = keyof typeof files;
 
 /**
  * @interface BaseObjectElement
@@ -110,9 +125,13 @@ export type ObjectElement = ReleaseInfoElementConcept | ReleaseInfoElementOther;
  * @param {void} handleSelectChange The function to handle select change
  */
 export interface DataContextProps {
-    value: ObjectElement[] | null;
-    version: string;
-    handleSelectChange: SelectPropTypes["onChange"];
+    fileContent: ObjectElement[] | null;
+    selectedFile: ABAPRelease | undefined;
+    edition: string;
+    release: string;
+    availableReleases: ABAPRelease[];
+    handleEditionChange: SelectPropTypes["onChange"];
+    handleReleaseChange: SelectPropTypes["onChange"];
 }
 
 export interface State {
@@ -120,17 +139,7 @@ export interface State {
     state: keyof typeof ValueState;
 }
 
-export interface CloudType {
-    name: FileName;
-    cloud: "public" | "private" | "invalid",
-    format: "1"
-}
-
-export const Files: Record<string, CloudType> = files as any;
-
 export const DataContext: Context<DataContextProps> = createContext({} as DataContextProps);
-
-export const defaultVersion: FileName = "objectReleaseInfoLatest.json";
 
 export const States: Record<string, State> = {
     deprecated: {
@@ -140,10 +149,6 @@ export const States: Record<string, State> = {
     notToBeReleased: {
         label: "Not To Be Released",
         state: "Warning"
-    },
-    notToBeReleasedStable: {
-        label: "Not To Be Released Stable",
-        state: "Information"
     },
     released: {
         label: "Released",
@@ -171,9 +176,9 @@ export const States: Record<string, State> = {
     },
 }
 
-export function LoadObjectRelease(name: string): ObjectElement[] | null {
+export function loadFile(filename: string): ObjectElement[] | null {
     try {
-        const data = require("../data/contents/" + name) as ObjectRelease;
+        const data = require("../data/contents/" + filename) as ObjectRelease;
         return data.objectReleaseInfo || data.objectClassifications;
     } catch (error) {
         return null
@@ -183,51 +188,109 @@ export function LoadObjectRelease(name: string): ObjectElement[] | null {
 export function DataProvider({ children }: PropsWithChildren) {
     const i18nBundle = useI18nBundle(BundleID);
 
-    const [ query, setQuery ] = useSearchParams();
+    const [query, setQuery] = useSearchParams();
 
-    const [ version, setVersion ] = useState<string>(query.get("version") || defaultVersion);
-    const [ value, setValue ] = useState<ObjectElement[] | null>(LoadObjectRelease(version));
+    const defaultEdition = "s4private";
+    const defaultRelease = "Latest";
 
-    const themeRef = createRef<ResponsivePopoverDomRef>();
+    const [classicAPIs] = useState<ObjectElement[] | null>(loadFile("objectClassifications_SAP.json"));
+
+    const [edition, setEdition] = useState<string>(query.get("edition") || defaultEdition);
+    const [release, setRelease] = useState<string>(query.get("release") || defaultRelease);
+    const [fileContent, setFileContent] = useState<ObjectElement[] | null>(null);
+
+    const availableReleases = useMemo(() => {
+        const editionKey = edition as keyof typeof Files;
+        return Files[editionKey];
+    }, [edition]);
+
+    const selectedFile = useMemo(() => {
+        const editionKey = edition as keyof typeof Files;
+        return Files[editionKey]?.find((item: any) => item.release === release)
+    }, [edition, release]);
 
     useEffect(() => {
-        if (version === defaultVersion) {
-            query.delete("version");
+        const isCurrentReleaseAvailable = availableReleases.some(some => some.release === release);
+        if (!isCurrentReleaseAvailable) {
+            setRelease(defaultRelease);
+        }
+    }, [availableReleases])
+
+    useEffect(() => {
+        console.log("File Content updated", fileContent?.length);
+    }, [fileContent])
+
+    useEffect(() => {
+        if (edition === defaultEdition) {
+            query.delete("edition");
         } else {
-            query.set("version", version);
+            query.set("edition", edition);
+        }
+        if (release === defaultRelease) {
+            query.delete("release");
+        } else {
+            query.set("release", release);
         }
 
-        setQuery(query)
-    }, [query, setQuery, version])
+        setQuery(query);
+    }, [edition, release, query, setQuery]);
 
-    useEffect(() => setValue(LoadObjectRelease(version)), [version])
+    useEffect(() => {
+        if (selectedFile) {
+            const releasedAPIs = loadFile(selectedFile.filename);
+            console.log("Released APIs: ", releasedAPIs?.length);
+            console.log("Classic APIs: ", classicAPIs?.length);
+            if (Editions[edition as keyof typeof Editions].private && releasedAPIs && classicAPIs) {
+                console.log("Loaded file content with classic APIs", releasedAPIs.length, classicAPIs.length);
+                setFileContent([...releasedAPIs, ...classicAPIs])
+            } else {
+                console.log("Loaded file content without classic APIs", releasedAPIs?.length);
+                setFileContent(releasedAPIs);
+            }
+        }
+    }, [selectedFile, classicAPIs]);
 
-    const handleSelectChange: DataContextProps["handleSelectChange"] = function(event) {
+    const handleEditionChange: DataContextProps["handleEditionChange"] = function (event) {
         const value = event.target.value;
 
         if (value) {
-            setVersion(value);
+            setEdition(value);
+            return;
+        }
+
+        event.preventDefault();
+    }
+    const handleReleaseChange: DataContextProps["handleReleaseChange"] = function (event) {
+        const value = event.target.value;
+
+        if (value) {
+            setRelease(value);
             return;
         }
 
         event.preventDefault();
     }
 
+    const themeRef = createRef<ResponsivePopoverDomRef>();
     return (
         <DataContext.Provider value={{
-            value,
-            version,
-            handleSelectChange
+            fileContent: fileContent,
+            selectedFile: selectedFile,
+            edition: edition,
+            release: release,
+            availableReleases: availableReleases,
+            handleEditionChange: handleEditionChange,
+            handleReleaseChange: handleReleaseChange
         }}>
             <FilterProvider>
                 <PageBar themeRef={themeRef} />
                 <ThemePopover ref={themeRef} />
                 <PageFilter />
 
-                {value ? children : <IllustratedMessage
+                {fileContent ? children : <IllustratedMessage
                     name="TntUnableToLoad"
                     titleText={i18nBundle.getText("VERSION_NOT_FOUND")}
-                    subtitleText={i18nBundle.getText("FILE_NOT_FOUND", version)}
+                    subtitleText={i18nBundle.getText("FILE_NOT_FOUND", edition)}
                 />}
             </FilterProvider>
         </DataContext.Provider>
