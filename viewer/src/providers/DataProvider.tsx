@@ -36,9 +36,9 @@ export type ABAPContents = {
 export const Files: ABAPContents = files as any;
 
 export const Editions = {
-    s4public: { private: false, name: "S/4 HANA Cloud Public Edition" },
-    s4private: { private: true, name: "S/4 HANA Cloud Private Edition" },
-    btp: { private: false, name: "SAP BTP ABAP Environment" }
+    s4public: { private: false, name: "SAP S/4HANA Cloud Public Edition" },
+    s4private: { private: true, name: "SAP S/4HANA Cloud Private Edition" },
+    btp: { private: false, name: "SAP BTP ABAP environment" }
 }
 
 export type Classification = "concept" | "oneObject" | "multipleObjects" | "";
