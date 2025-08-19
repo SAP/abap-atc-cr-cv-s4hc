@@ -1,6 +1,6 @@
 import { FilterBar, FilterGroupItem, MultiComboBox, MultiComboBoxItem, MultiComboBoxPropTypes, Option, Select } from "@ui5/webcomponents-react";
 import { useContext } from "react";
-import { DataContext, Editions } from "../providers/DataProvider";
+import { DataContext, Products } from "../providers/DataProvider";
 import { FilterContext } from "../providers/FilterProvider";
 
 export default function PageFilter() {
@@ -9,7 +9,7 @@ export default function PageFilter() {
         softwareComponents, softwareComponentsFilter, setSoftwareComponentsFilter,
         applicationComponents, applicationComponentsFilter, setApplicationComponentsFilter,
         labels, labelsFilter, setLabelsFilter } = useContext(FilterContext);
-    const { edition: selectedEdition, release: selectedRelease, availableReleases, handleEditionChange, handleReleaseChange } = useContext(DataContext);
+    const { product, release: selectedRelease, availableReleases, handleProductChange, handleReleaseChange } = useContext(DataContext);
 
     const handleStateSelectChange: MultiComboBoxPropTypes["onSelectionChange"] = function (event) {
         setStateFilter(
@@ -36,29 +36,31 @@ export default function PageFilter() {
     }
 
     return <FilterBar>
-        <FilterGroupItem key="editionFilter" label="Edition">
-            <Select onChange={handleEditionChange} value={selectedEdition}>
-                {Object.entries(Editions).map(([key, value]) => (
+        <FilterGroupItem key="productFilter" label="SAP Product">
+            <Select onChange={handleProductChange} value={product}>
+                {Object.entries(Products).map(([key, value]) => (
                     <Option
                         key={key}
                         icon={value.private ? "SAP-icons-TNT/private-cloud" : "cloud"}
                         value={key}
-                        selected={selectedEdition === key}
+                        selected={product === key}
                     >
-                    {value.name}
-                </Option>
-                ))}
-            </Select>
-        </FilterGroupItem>
-        <FilterGroupItem key="releaseFilter" label="Release">
-            <Select onChange={handleReleaseChange} value={selectedRelease}>
-                {availableReleases.map(release => (
-                    <Option key={release.filename} value={release.release} selected={release.release === selectedRelease}>
-                        {release.release}
+                        {value.name}
                     </Option>
                 ))}
             </Select>
         </FilterGroupItem>
+        {availableReleases.length > 1 &&
+            <FilterGroupItem key="releaseFilter" label="Release">
+                <Select onChange={handleReleaseChange} value={selectedRelease}>
+                    {availableReleases.map(release => (
+                        <Option key={release.filename} value={release.release} selected={release.release === selectedRelease}>
+                            {release.release}
+                        </Option>
+                    ))}
+                </Select>
+            </FilterGroupItem>
+        }
 
         <FilterGroupItem
             key="stateFilter"

@@ -35,10 +35,10 @@ export type ABAPContents = {
 };
 export const Files: ABAPContents = files as any;
 
-export const Editions = {
-    s4public: { private: false, name: "SAP S/4HANA Cloud Public Edition" },
-    s4private: { private: true, name: "SAP S/4HANA Cloud Private Edition" },
-    btp: { private: false, name: "SAP BTP ABAP environment" }
+export const Products = {
+    s4public: { private: false, name: "S/4HANA Cloud Public Edition" },
+    s4private: { private: true, name: "S/4HANA Cloud Private Edition" },
+    btp: { private: false, name: "BTP ABAP environment" }
 }
 
 export type Classification = "concept" | "oneObject" | "multipleObjects" | "";
@@ -127,10 +127,10 @@ export type ObjectElement = ReleaseInfoElementConcept | ReleaseInfoElementOther;
 export interface DataContextProps {
     fileContent: ObjectElement[] | null;
     selectedFile: ABAPRelease | undefined;
-    edition: string;
+    product: string;
     release: string;
     availableReleases: ABAPRelease[];
-    handleEditionChange: SelectPropTypes["onChange"];
+    handleProductChange: SelectPropTypes["onChange"];
     handleReleaseChange: SelectPropTypes["onChange"];
 }
 
@@ -190,24 +190,24 @@ export function DataProvider({ children }: PropsWithChildren) {
 
     const [query, setQuery] = useSearchParams();
 
-    const defaultEdition = "s4private";
+    const defaultProduct = "s4private";
     const defaultRelease = "Latest";
 
     const [classicAPIs] = useState<ObjectElement[] | null>(loadFile("objectClassifications_SAP.json"));
 
-    const [edition, setEdition] = useState<string>(query.get("edition") || defaultEdition);
+    const [product, setProduct] = useState<string>(query.get("product") || defaultProduct);
     const [release, setRelease] = useState<string>(query.get("release") || defaultRelease);
     const [fileContent, setFileContent] = useState<ObjectElement[] | null>(null);
 
     const availableReleases = useMemo(() => {
-        const editionKey = edition as keyof typeof Files;
-        return Files[editionKey];
-    }, [edition]);
+        const productKey = product as keyof typeof Files;
+        return Files[productKey];
+    }, [product]);
 
     const selectedFile = useMemo(() => {
-        const editionKey = edition as keyof typeof Files;
-        return Files[editionKey]?.find((item: any) => item.release === release)
-    }, [edition, release]);
+        const productKey = product as keyof typeof Files;
+        return Files[productKey]?.find((item: any) => item.release === release)
+    }, [product, release]);
 
     useEffect(() => {
         const isCurrentReleaseAvailable = availableReleases.some(some => some.release === release);
@@ -221,10 +221,10 @@ export function DataProvider({ children }: PropsWithChildren) {
     }, [fileContent])
 
     useEffect(() => {
-        if (edition === defaultEdition) {
-            query.delete("edition");
+        if (product === defaultProduct) {
+            query.delete("product");
         } else {
-            query.set("edition", edition);
+            query.set("product", product);
         }
         if (release === defaultRelease) {
             query.delete("release");
@@ -233,28 +233,24 @@ export function DataProvider({ children }: PropsWithChildren) {
         }
 
         setQuery(query);
-    }, [edition, release, query, setQuery]);
+    }, [product, release, query, setQuery]);
 
     useEffect(() => {
         if (selectedFile) {
             const releasedAPIs = loadFile(selectedFile.filename);
-            console.log("Released APIs: ", releasedAPIs?.length);
-            console.log("Classic APIs: ", classicAPIs?.length);
-            if (Editions[edition as keyof typeof Editions].private && releasedAPIs && classicAPIs) {
-                console.log("Loaded file content with classic APIs", releasedAPIs.length, classicAPIs.length);
+            if (Products[product as keyof typeof Products].private && releasedAPIs && classicAPIs) {
                 setFileContent([...releasedAPIs, ...classicAPIs])
             } else {
-                console.log("Loaded file content without classic APIs", releasedAPIs?.length);
                 setFileContent(releasedAPIs);
             }
         }
     }, [selectedFile, classicAPIs]);
 
-    const handleEditionChange: DataContextProps["handleEditionChange"] = function (event) {
+    const handleProductChange: DataContextProps["handleProductChange"] = function (event) {
         const value = event.target.value;
 
         if (value) {
-            setEdition(value);
+            setProduct(value);
             return;
         }
 
@@ -276,10 +272,10 @@ export function DataProvider({ children }: PropsWithChildren) {
         <DataContext.Provider value={{
             fileContent: fileContent,
             selectedFile: selectedFile,
-            edition: edition,
+            product: product,
             release: release,
             availableReleases: availableReleases,
-            handleEditionChange: handleEditionChange,
+            handleProductChange: handleProductChange,
             handleReleaseChange: handleReleaseChange
         }}>
             <FilterProvider>
@@ -290,7 +286,7 @@ export function DataProvider({ children }: PropsWithChildren) {
                 {fileContent ? children : <IllustratedMessage
                     name="TntUnableToLoad"
                     titleText={i18nBundle.getText("VERSION_NOT_FOUND")}
-                    subtitleText={i18nBundle.getText("FILE_NOT_FOUND", edition)}
+                    subtitleText={i18nBundle.getText("FILE_NOT_FOUND", product)}
                 />}
             </FilterProvider>
         </DataContext.Provider>

@@ -1,7 +1,7 @@
 import { AnalyticalTable, AnalyticalTableColumnDefinition, AnalyticalTablePropTypes, FlexibleColumnLayout, Icon, IllustratedMessage, Title, Toolbar } from "@ui5/webcomponents-react";
 import { useContext, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import { BaseObjectElementSuccessor, DataContext, Editions, ObjectElement, ReleaseInfoElementOther } from "./providers/DataProvider";
+import { BaseObjectElementSuccessor, DataContext, ObjectElement, Products, ReleaseInfoElementOther } from "./providers/DataProvider";
 import { FilterContext } from "./providers/FilterProvider";
 
 import classes from "./App.module.css";
@@ -49,7 +49,7 @@ export function GetArrowElement(elements: (BaseObjectElementSuccessor | ReleaseI
 
 function App() {
     const { handleFilter, setSearchValues, searchValues } = useContext(FilterContext);
-    const { fileContent, edition, selectedFile } = useContext(DataContext);
+    const { fileContent, product, selectedFile } = useContext(DataContext);
 
     const [ query ] = useSearchParams();
     const [ index, setIndex ] = useState(DefaultIndex);
@@ -108,7 +108,7 @@ function App() {
             sortDirection: "desc"
         }
 
-        if (edition.startsWith("objectClassification")) {
+        if (product.startsWith("objectClassification")) {
             currentSort.sortDirection = currentSort.sortDirection === "asc" ? "desc" : "asc"
         } 
 
@@ -137,7 +137,7 @@ function App() {
     const filtered = handleFilter(sortValues());
     const spliced = filtered.slice(0, index) || [];
 
-    const containsClassicAPIs = Editions[edition as keyof typeof Editions].private;
+    const containsClassicAPIs = Products[product as keyof typeof Products].private;
 
     /*
     When attempting to implement additional table columns based on versions (Name, Cloud Type, ...),
@@ -148,7 +148,7 @@ function App() {
     return (
         <div className={classes.scrollContainer}>
             <Toolbar style={{ margin: "1rem 0 1rem 0.5rem" }}>
-                <Title level="H4">{Editions[edition as keyof typeof Editions].name} {selectedFile?.release} {containsClassicAPIs ? " + Classic APIs" : ""} ({filtered.length})</Title>
+                <Title level="H4">{Products[product as keyof typeof Products].name} {selectedFile?.release} {containsClassicAPIs ? " + Classic APIs" : ""} ({filtered.length})</Title>
             </Toolbar>
             {spliced.length > 0 ? <FlexibleColumnLayout style={{
                 position: "relative",
