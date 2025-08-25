@@ -65,13 +65,9 @@ With the introduction of the new ATC check 3565942 - ATC Checks "Usage of APIs" 
 a new data format is needed and persited in file [objectClassifications_SAP.json](https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/refs/heads/main/src/objectClassifications_SAP.json)
 
 
-Looking for >20000 Tier1 released dataelements for S/4HANA Cloud Private edition.
+Looking for >20000 Level A released dataelements for S/4HANA Cloud Private edition.
 
 - Collection note 83470426](https://me.sap.com/notes/3470426)
-
-Outdated Classic API files
-The files objectReleaseInfo_PCE*.json or objectReleaseInfo_PCE*.csv contains the APIs released by SAP to be consumed in your tier 1 implementations of the 3-tier extensibility model.
-There are still valid, if you use the former ATC check. The files objectClassifications.json or objectClassifications.csv contains the classic APIs  to be consumed in your tier 2 implementations of the 3-tier extensibility model. --> https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectClassifications.json
 
 
 
@@ -86,11 +82,17 @@ Cloudification Viewer will display now the number of APIs behind the repository 
 
 [S/4HANA Cloud Private Edition Classic API Clean Core Model](https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectClassifications_SAP.json)
 
+
+
 *Click on a row to get more details about successors*
 
 ## Related projects
 
+[Classic APIs to used as wrapper to bridge ABAP Cloud](https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectClassifications_SAP.json&states=classicAPI&labels=transactional-consistent)
+Use filter value: classic API + label: transactional-consistent
+
 Use the wrapper generator https://github.com/SAP-samples/tier2-rfc-proxy with details on https://community.sap.com/t5/technology-blogs-by-sap/how-to-generate-a-wrapper-for-function-modules-bapis-in-tier-2/ba-p/13692790#M172258
+
 
 
 ## How to obtain support
