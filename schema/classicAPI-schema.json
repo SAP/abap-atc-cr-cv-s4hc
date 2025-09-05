@@ -59,13 +59,11 @@
               "type": "string",
               "enum": [
                 "classicAPI",
-                "noAPI",
-                "internalAPI"
+                "noAPI"
               ],
               "enumTitles": [
                 "Classic API",
-                "No API",
-                "Internal API"
+                "No API"
               ]
             },
             "successors": {
