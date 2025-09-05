@@ -4,10 +4,10 @@ import { FilterContext } from "../providers/FilterProvider";
 import { useContext } from "react";
 
 export default function PageFilter() {
-    const { states, stateFilter, setStateFilter, 
-        setObjectTypesFilter, objectTypes, objectTypesFilter, 
-        softwareComponents, softwareComponentsFilter, setSoftwareComponentsFilter, 
-        applicationComponents, applicationComponentsFilter, setApplicationComponentsFilter, 
+    const { states, stateFilter, setStateFilter,
+        setObjectTypesFilter, objectTypes, objectTypesFilter,
+        softwareComponents, softwareComponentsFilter, setSoftwareComponentsFilter,
+        applicationComponents, applicationComponentsFilter, setApplicationComponentsFilter,
         labels, labelsFilter, setLabelsFilter } = useContext(FilterContext);
     const { version, value, handleSelectChange } = useContext(DataContext);
 
@@ -46,7 +46,7 @@ export default function PageFilter() {
         })
     }
 
-    return <FilterBar>
+    return <FilterBar filterContainerWidth="17rem">
         <FilterGroupItem
             key="repositoryFilter"
             label="Repository Selection"
@@ -60,7 +60,7 @@ export default function PageFilter() {
                     >{iterator.name}</Option>
                 ))}
             </Select>
-        </FilterGroupItem> 
+        </FilterGroupItem>
         <FilterGroupItem
             key="stateFilter"
             visible={isValueValid}
