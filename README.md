@@ -68,7 +68,7 @@ a new data format is needed and persited in file [objectClassifications_SAP.json
 
 Looking for >20000 Level A released dataelements for SAP Cloud ERP Private.
 
-- Collection note 83470426](https://me.sap.com/notes/3470426)
+- Collection note [3470426](https://me.sap.com/notes/3470426)
 
 
 
