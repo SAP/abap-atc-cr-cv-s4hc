@@ -61,7 +61,6 @@ export default function PageFilter() {
                 </Select>
             </FilterGroupItem>
         }
-
         <FilterGroupItem
             key="stateFilter"
             label="State"

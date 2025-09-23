@@ -1,0 +1,21 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/XPR/320_CL_SCALE",
+      "objectType": "CLAS",
+      "objectKey": "/XPR/320_CL_SCALE",
+      "softwareComponent": "XPR32001",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/XPR/320_CL_SCALE_FACTORY",
+      "objectType": "CLAS",
+      "objectKey": "/XPR/320_CL_SCALE_FACTORY",
+      "softwareComponent": "XPR32001",
+      "state": "classicAPI"
+    }
+  ]
+}
