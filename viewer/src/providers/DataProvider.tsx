@@ -1,4 +1,4 @@
-import { IllustratedMessage, ResponsivePopoverDomRef, SelectPropTypes, ValueState } from "@ui5/webcomponents-react";
+import { IllustratedMessage, MultiComboBoxPropTypes, ResponsivePopoverDomRef, SelectPropTypes, ValueState } from "@ui5/webcomponents-react";
 import { useI18nBundle } from "@ui5/webcomponents-react-base";
 import { Context, PropsWithChildren, createContext, createRef, useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "react-router-dom";
@@ -28,10 +28,15 @@ export interface ABAPRelease {
     filename: string;
     release: string;
 }
+export interface PartnerAPI {
+    filename: string;
+    namespace: string;
+}
 export type ABAPContents = {
     s4public: ABAPRelease[];
     s4private: ABAPRelease[];
     btp: ABAPRelease[];
+    partnerAPIs: PartnerAPI[];
 };
 export const Files: ABAPContents = files as any;
 
@@ -39,6 +44,11 @@ export const Products = {
     s4public: { private: false, name: "S/4HANA Cloud Public Edition" },
     s4private: { private: true, name: "S/4HANA Cloud Private Edition" },
     btp: { private: false, name: "BTP ABAP environment" }
+}
+
+// Type guard to differentiate real product keys (those with ABAP release arrays) from other collections like partnerAPIs
+function isProductKey(key: string): key is keyof typeof Products {
+    return Object.prototype.hasOwnProperty.call(Products, key);
 }
 
 export type Classification = "concept" | "oneObject" | "multipleObjects" | "";
@@ -129,9 +139,12 @@ export interface DataContextProps {
     selectedFile: ABAPRelease | undefined;
     product: string;
     release: string;
+    partnerAPIs: string[];
     availableReleases: ABAPRelease[];
+    availablePartnerNamespaces: PartnerAPI[];
     handleProductChange: SelectPropTypes["onChange"];
     handleReleaseChange: SelectPropTypes["onChange"];
+    handleNamespacesChange: MultiComboBoxPropTypes["onSelectionChange"];
 }
 
 export interface State {
@@ -192,6 +205,7 @@ export function DataProvider({ children }: PropsWithChildren) {
 
     const defaultProduct = "s4private";
     const defaultRelease = "Latest";
+    const defaultPartnerAPIs = "";
 
     const [classicAPIs] = useState<ObjectElement[] | null>(loadFile("objectClassifications_SAP.json"));
 
@@ -200,7 +214,7 @@ export function DataProvider({ children }: PropsWithChildren) {
     if (version) {
         for (const product in Files) {
             const productKey = product as keyof typeof Files;
-            for (const release of Files[productKey]) {
+            for (const release of Files[productKey] as ABAPRelease[]) {
                 if (release.filename === version) {
                     query.set("product", product);
                     query.set("release", release.release);
@@ -214,16 +228,28 @@ export function DataProvider({ children }: PropsWithChildren) {
 
     const [product, setProduct] = useState<string>(query.get("product") || defaultProduct);
     const [release, setRelease] = useState<string>(query.get("release") || defaultRelease);
+    const [partnerAPIs, setPartnerAPIs] = useState<string[]>(query.get("partnerNamespaces")?.split(",") ?? []);
     const [fileContent, setFileContent] = useState<ObjectElement[] | null>(null);
 
     const availableReleases = useMemo(() => {
         const productKey = product as keyof typeof Files;
-        return Files[productKey];
+        return Files[productKey] as ABAPRelease[];
+    }, [product]);
+
+    const availablePartnerNamespaces = useMemo(() => {
+        if (product !== "s4private") {
+            return [];
+        }
+        return Files["partnerAPIs"];
     }, [product]);
 
     const selectedFile = useMemo(() => {
-        const productKey = product as keyof typeof Files;
-        return Files[productKey]?.find((item: any) => item.release === release)
+        if (!isProductKey(product)) {
+            return undefined;
+        }
+        // Within this branch product is limited to s4public | s4private | btp and thus the array contains ABAPRelease entries
+        const releases = Files[product] as ABAPRelease[];
+        return releases.find(item => item.release === release);
     }, [product, release]);
 
     useEffect(() => {
@@ -234,8 +260,12 @@ export function DataProvider({ children }: PropsWithChildren) {
     }, [availableReleases])
 
     useEffect(() => {
-        console.log("File Content updated", fileContent?.length);
-    }, [fileContent])
+        const isValidPartnerAPIs = partnerAPIs.every(usedPartnerAPI => availablePartnerNamespaces.some(available => available.namespace === usedPartnerAPI));
+        console.log({ availablePartnerNamespaces, partnerAPIs, isValidPartnerAPIs });
+        if (!isValidPartnerAPIs) {
+            setPartnerAPIs([]);
+        }
+    }, [availablePartnerNamespaces])
 
     useEffect(() => {
         if (product === defaultProduct) {
@@ -249,19 +279,31 @@ export function DataProvider({ children }: PropsWithChildren) {
             query.set("release", release);
         }
 
+        const partnerAPIsString = partnerAPIs.join(",");
+        if (partnerAPIs.length === 0 || partnerAPIsString === defaultPartnerAPIs) {
+            query.delete("partnerNamespaces");
+        } else {
+            query.set("partnerNamespaces", partnerAPIsString);
+        }
+
         setQuery(query);
-    }, [product, release, query, setQuery]);
+    }, [product, release, partnerAPIs, query, setQuery]);
 
     useEffect(() => {
         if (selectedFile) {
             const releasedAPIs = loadFile(selectedFile.filename);
             if (Products[product as keyof typeof Products].private && releasedAPIs && classicAPIs) {
-                setFileContent([...releasedAPIs, ...classicAPIs])
+                const extraPartnerAPIs = partnerAPIs
+                    .map(partnerAPI => Files.partnerAPIs.find(item => item.namespace === partnerAPI)?.filename)
+                    .filter((item): item is string => !!item)
+                    .map(filename => loadFile(filename))
+                    .flatMap(item => item || []);
+                setFileContent([...releasedAPIs, ...classicAPIs, ...extraPartnerAPIs])
             } else {
                 setFileContent(releasedAPIs);
             }
         }
-    }, [selectedFile, classicAPIs]);
+    }, [selectedFile, classicAPIs, partnerAPIs]);
 
     const handleProductChange: DataContextProps["handleProductChange"] = function (event) {
         const value = event.target.value;
@@ -283,6 +325,10 @@ export function DataProvider({ children }: PropsWithChildren) {
 
         event.preventDefault();
     }
+    const handleNamespacesChange: MultiComboBoxPropTypes["onSelectionChange"] = function (event) {
+        setPartnerAPIs(event.detail.items.map(item => item.text))
+        event.preventDefault();
+    }
 
     const themeRef = createRef<ResponsivePopoverDomRef>();
     return (
@@ -291,9 +337,12 @@ export function DataProvider({ children }: PropsWithChildren) {
             selectedFile: selectedFile,
             product: product,
             release: release,
+            partnerAPIs: partnerAPIs,
             availableReleases: availableReleases,
+            availablePartnerNamespaces: availablePartnerNamespaces,
             handleProductChange: handleProductChange,
-            handleReleaseChange: handleReleaseChange
+            handleReleaseChange: handleReleaseChange,
+            handleNamespacesChange: handleNamespacesChange
         }}>
             <FilterProvider>
                 <PageBar themeRef={themeRef} />

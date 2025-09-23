@@ -9,7 +9,8 @@ export default function PageFilter() {
         softwareComponents, softwareComponentsFilter, setSoftwareComponentsFilter,
         applicationComponents, applicationComponentsFilter, setApplicationComponentsFilter,
         labels, labelsFilter, setLabelsFilter } = useContext(FilterContext);
-    const { product, release: selectedRelease, availableReleases, handleProductChange, handleReleaseChange } = useContext(DataContext);
+    const { product, release: selectedRelease, availableReleases, availablePartnerNamespaces, partnerAPIs: selectedPartnerAPIs,
+        handleProductChange, handleReleaseChange, handleNamespacesChange } = useContext(DataContext);
 
     const handleStateSelectChange: MultiComboBoxPropTypes["onSelectionChange"] = function (event) {
         setStateFilter(
@@ -59,6 +60,19 @@ export default function PageFilter() {
                         </Option>
                     ))}
                 </Select>
+            </FilterGroupItem>
+        }
+        {availablePartnerNamespaces.length > 0 &&
+            <FilterGroupItem key="namespaceFilter" label="Partner Namespace">
+                <MultiComboBox onSelectionChange={handleNamespacesChange} placeholder="Select Partner Namespace">
+                    {availablePartnerNamespaces.map(data => (
+                        <MultiComboBoxItem
+                            key={data.namespace}
+                            text={"/" + data.namespace + "/"}
+                            selected={selectedPartnerAPIs.includes(data.namespace)}
+                        />
+                    ))}
+                </MultiComboBox>
             </FilterGroupItem>
         }
         <FilterGroupItem

@@ -5,10 +5,12 @@ const dataPath = path.join(__dirname, "../viewer/src/data");
 const contentsPath = dataPath + "/contents";
 
 const srcPath = path.join(__dirname, "../src");
+const partnerPath = path.join(__dirname, "../src/partner");
 
 const editionS4Public = "s4public";
 const editionS4Private = "s4private";
 const editionBTP = "btp";
+const partnerAPIs = "partnerAPIs";
 
 if (fs.existsSync(dataPath)) {
     fs.rmSync(dataPath, {
@@ -23,24 +25,43 @@ fs.mkdirSync(contentsPath, {
 const contentObjects = {
     [editionS4Public]: [],
     [editionS4Private]: [],
-    [editionBTP]: []
+    [editionBTP]: [],
+    [partnerAPIs]: []
 };
+
 const srcFiles = fs.readdirSync(srcPath);
+const partnerFiles = fs.existsSync(partnerPath) ? fs.readdirSync(partnerPath) : [];
 
 srcFiles.forEach(file => {
     if (path.extname(file) === '.json') {
         const type = file.includes("objectClassifications") ? "classicAPIs" : "releasedAPIs";
-        if (type === "classicAPIs") return
 
-        const edition = getEdition(file);
-        const release = getRelease(edition, file);
+        if (type === "releasedAPIs") {
+            const edition = getEdition(file);
+            const release = getRelease(edition, file);
 
-        contentObjects[edition].push({
-            filename: file,
-            release: release || "Latest",
-        });
+            contentObjects[edition].push({
+                filename: file,
+                release: release || "Latest",
+            });
 
-        fs.copyFileSync(path.join(srcPath, file), path.join(contentsPath, file));
+            fs.copyFileSync(path.join(srcPath, file), path.join(contentsPath, file));
+        }
+    }
+});
+
+partnerFiles.forEach(file => {
+    if (path.extname(file) === '.json') {
+        const match = file.match(/objectClassifications_(.+)\.json/);
+        if (match) {
+            const namespace = match[1];
+            contentObjects[partnerAPIs].push({
+                filename: file,
+                namespace: namespace
+            });
+
+            fs.copyFileSync(path.join(partnerPath, file), path.join(contentsPath, file));
+        }
     }
 });
 

@@ -1,0 +1,21 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/BCO/320_CL_SCALE",
+      "objectType": "CLAS",
+      "objectKey": "/BCO/320_CL_SCALE",
+      "softwareComponent": "BCOXPR32001",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/BCO/320_CL_SCALE_FACTORY",
+      "objectType": "CLAS",
+      "objectKey": "/BCO/320_CL_SCALE_FACTORY",
+      "softwareComponent": "BCOXPR32001",
+      "state": "classicAPI"
+    }
+  ]
+}
