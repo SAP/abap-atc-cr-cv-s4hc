@@ -195,6 +195,23 @@ export function DataProvider({ children }: PropsWithChildren) {
 
     const [classicAPIs] = useState<ObjectElement[] | null>(loadFile("objectClassifications_SAP.json"));
 
+    // compatibility with old file names
+    const version = query.get("version");
+    if (version) {
+        for (const product in Files) {
+            const productKey = product as keyof typeof Files;
+            for (const release of Files[productKey]) {
+                if (release.filename === version) {
+                    query.set("product", product);
+                    query.set("release", release.release);
+                    break;
+                }
+            }
+        }
+        query.delete("version");
+        setQuery(query);
+    }
+
     const [product, setProduct] = useState<string>(query.get("product") || defaultProduct);
     const [release, setRelease] = useState<string>(query.get("release") || defaultRelease);
     const [fileContent, setFileContent] = useState<ObjectElement[] | null>(null);
