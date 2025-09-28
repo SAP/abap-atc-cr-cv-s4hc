@@ -150,6 +150,7 @@ export interface DataContextProps {
 export interface State {
     label: string;
     state: keyof typeof ValueState;
+    level: string;
 }
 
 export const DataContext: Context<DataContextProps> = createContext({} as DataContextProps);
@@ -157,35 +158,43 @@ export const DataContext: Context<DataContextProps> = createContext({} as DataCo
 export const States: Record<string, State> = {
     deprecated: {
         label: "Deprecated",
-        state: "Error"
+        state: "Error",
+        level: "B"
     },
     notToBeReleased: {
         label: "Not To Be Released",
-        state: "Warning"
+        state: "Warning",
+        level: "C"
     },
     released: {
         label: "Released",
-        state: "Success"
+        state: "Success",
+        level: "A"
     },
     classicAPI: {
         label: "Classic API",
-        state: "Success"
+        state: "Success",
+        level: "B"
     },
     noClassicAPI: {
         label: "No Classic API",
-        state: "Error"
+        state: "Error",
+        level: "D"
     },
     unknown: {
         label: "Unknown",
-        state: "None"
+        state: "None",
+        level: "Unknown"
     },
     noAPI: {
         label: "No API",
         state: "Error",
+        level: "D"
     },
     internalAPI: {
         label: "Internal API",
         state: "Warning",
+        level: "C"
     },
 }
 
@@ -261,7 +270,6 @@ export function DataProvider({ children }: PropsWithChildren) {
 
     useEffect(() => {
         const isValidPartnerAPIs = partnerAPIs.every(usedPartnerAPI => availablePartnerNamespaces.some(available => available.namespace === usedPartnerAPI));
-        console.log({ availablePartnerNamespaces, partnerAPIs, isValidPartnerAPIs });
         if (!isValidPartnerAPIs) {
             setPartnerAPIs([]);
         }

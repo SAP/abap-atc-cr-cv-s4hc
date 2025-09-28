@@ -68,7 +68,7 @@ export default function PageFilter() {
                     {availablePartnerNamespaces.map(data => (
                         <MultiComboBoxItem
                             key={data.namespace}
-                            text={"/" + data.namespace + "/"}
+                            text={data.namespace}
                             selected={selectedPartnerAPIs.includes(data.namespace)}
                         />
                     ))}
@@ -80,13 +80,16 @@ export default function PageFilter() {
             label="State"
         >
             <MultiComboBox onSelectionChange={handleStateSelectChange} placeholder="Select State">
-                {Object.entries(states).map(([key, value]) => (
-                    <MultiComboBoxItem
-                        key={key}
-                        text={value.label}
-                        selected={stateFilter.includes(key)}
-                    />
-                ))}
+                {Object.entries(states)
+                    .sort((a, b) => a[1].level.localeCompare(b[1].level))
+                    .map(([key, value]) => (
+                        <MultiComboBoxItem
+                            key={key}
+                            text={value.label}
+                            additionalText={"Level " + value.level}
+                            selected={stateFilter.includes(key)}
+                        />
+                    ))}
             </MultiComboBox>
         </FilterGroupItem>
         <FilterGroupItem
