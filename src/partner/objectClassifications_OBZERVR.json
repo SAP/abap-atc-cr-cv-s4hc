@@ -1,0 +1,189 @@
+{
+    "formatVersion": "2",
+    "objectClassifications": [
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_CREATE_MEASUREDOCS",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_CREATE_MEASUREDOCS",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_CREATE_NOTI",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_CREATE_NOTI",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_CREATE_TIME_CONF",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_CREATE_TIME_CONF",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_CREATE_WORKORDERS",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_CREATE_WORKORDERS",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_EQUIP_UN_INSTALL",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_EQUIP_UN_INSTALL",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_GOS_DOCUMENTS_UPD",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_GOS_DOCUMENTS_UPD",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_NOTIFICATION_UPD",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_NOTIFICATION_UPD",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_OBZERVR_PROXY",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_OBZERVR_PROXY",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_READ_ACTIVITY_TYPE",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_READ_ACTIVITY_TYPE",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_READ_CATALOGCODGRP",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_READ_CATALOGCODGRP",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_READ_CODE_GROUPS",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_READ_CODE_GROUPS",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_READ_CODES",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_READ_CODES",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_READ_EQUIPMENT",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_READ_EQUIPMENT",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_READ_FUNC_LOCATION",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_READ_FUNC_LOCATION",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_READ_LRP",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_READ_LRP",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_READ_MATERIALS",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_READ_MATERIALS",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_READ_MEASURE_DOCS",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_READ_MEASURE_DOCS",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_READ_PERMITS",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_READ_PERMITS",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_READ_PLANNER_GROUP",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_READ_PLANNER_GROUP",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_READ_WORKORDERS",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_READ_WORKORDERS",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_READ_WORK_CENTERS",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_READ_WORK_CENTERS",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_WORK_ORDER_UPDATE",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_WORK_ORDER_UPDATE",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUNC",
+            "tadirObjName": "/OBZERVR/FM_READ_PRTS",
+            "objectType": "FUNC",
+            "objectKey": "/OBZERVR/FM_READ_PRTS",
+            "softwareComponent": "OBZERVR",
+            "state": "classicAPI"
+        }
+    ]
+}
