@@ -1,0 +1,77 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/TOP/TP_CL_PROCESS_CONFIG",
+      "objectType": "CLAS",
+      "objectKey": "/TOP/TP_CL_PROCESS_CONFIG",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/TOP/TP_CL_PROCESS_DATA",
+      "objectType": "CLAS",
+      "objectKey": "/TOP/TP_CL_PROCESS_DATA",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/TOP/TP_CL_TICKET",
+      "objectType": "CLAS",
+      "objectKey": "/TOP/TP_CL_TICKET",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/TOP/TP_CL_TICKET_CONFIG",
+      "objectType": "CLAS",
+      "objectKey": "/TOP/TP_CL_TICKET_CONFIG",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/TOP/TPL_HEAD",
+      "objectType": "CDS_STOB",
+      "objectKey": "/TOP/TPL_HEAD",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/TOP/TPL_ITEM",
+      "objectType": "CDS_STOB",
+      "objectKey": "/TOP/TPL_ITEM",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/TOP/TPL_XRF_DAT",
+      "objectType": "CDS_STOB",
+      "objectKey": "/TOP/TPL_XRF_DAT",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/TOP/TP_BO",
+      "objectType": "FUNC",
+      "objectKey": "/TOP/TP_CREATE_TICKET",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    }
+  ]
+}

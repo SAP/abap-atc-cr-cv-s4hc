@@ -1,0 +1,83 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/PAT/CL_MAPPING",
+      "objectType": "CLAS",
+      "objectKey": "/PAT/CL_MAPPING",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/PAT/CX_STATIC",
+      "objectType": "CLAS",
+      "objectKey": "/PAT/CX_STATIC",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PAT/DC_BO_DATA_COLLATION",
+      "objectType": "FUNC",
+      "objectKey": "/PAT/BAPI_DC_CHANGE",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PAT/DC_BO_DATA_COLLATION",
+      "objectType": "FUNC",
+      "objectKey": "/PAT/BAPI_DC_CREATE",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PAT/DC_BO_DATA_COLLATION",
+      "objectType": "FUNC",
+      "objectKey": "/PAT/BAPI_DC_DEACTIVATE",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PAT/DC_BO_DATA_COLLATION",
+      "objectType": "FUNC",
+      "objectKey": "/PAT/BAPI_DC_POST",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PAT/DC_BO_DATA_COLLATION",
+      "objectType": "FUNC",
+      "objectKey": "/PAT/BAPI_DC_REVERSAL",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    }
+  ]
+}
