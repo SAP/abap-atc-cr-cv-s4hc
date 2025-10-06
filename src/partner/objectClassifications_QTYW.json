@@ -1,0 +1,62 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/QTYW/CL_QAPI_UTILITIES",
+      "objectType": "CLAS",
+      "objectKey": "/QTYW/CL_QAPI_UTILITIES",
+      "softwareComponent": "QTYW",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/QTYW/QAPI",
+      "objectType": "FUNC",
+      "objectKey": "/QTYW/QAPI_CALCULATE",
+      "softwareComponent": "QTYW",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled",
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/QTYW/QAPI",
+      "objectType": "FUNC",
+      "objectKey": "/QTYW/QAPI_CALC_CONTEXT_GET",
+      "softwareComponent": "QTYW",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled",
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/QTYW/QAPI",
+      "objectType": "FUNC",
+      "objectKey": "/QTYW/QAPI_PREPARE_QCI",
+      "softwareComponent": "QTYW",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/QTYW/IF_BCC_CONSTANTS",
+      "objectType": "INTF",
+      "objectKey": "/QTYW/IF_BCC_CONSTANTS",
+      "softwareComponent": "QTYW",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    }
+  ]
+}
