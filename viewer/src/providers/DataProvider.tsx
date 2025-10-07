@@ -41,9 +41,9 @@ export type ABAPContents = {
 export const Files: ABAPContents = files as any;
 
 export const Products = {
-    s4public: { private: false, name: "S/4HANA Cloud Public Edition" },
-    s4private: { private: true, name: "S/4HANA Cloud Private Edition" },
-    btp: { private: false, name: "BTP ABAP environment" }
+    s4public: { private: false, name: "SAP Cloud ERP" },
+    s4private: { private: true, name: "SAP Cloud ERP Private" },
+    btp: { private: false, name: "SAP BTP ABAP Environment" }
 }
 
 // Type guard to differentiate real product keys (those with ABAP release arrays) from other collections like partnerAPIs

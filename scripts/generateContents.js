@@ -52,6 +52,10 @@ srcFiles.forEach(file => {
 
 partnerFiles.forEach(file => {
     if (path.extname(file) === '.json') {
+        if (path.basename(file) === "objectClassifications_NAMESPACE.json") {
+            return;
+        }
+
         const match = file.match(/objectClassifications_(.+)\.json/);
         if (match) {
             const namespace = match[1];
