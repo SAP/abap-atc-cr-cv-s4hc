@@ -266,14 +266,14 @@ export function DataProvider({ children }: PropsWithChildren) {
         if (!isCurrentReleaseAvailable) {
             setRelease(defaultRelease);
         }
-    }, [availableReleases])
+    }, [availableReleases, release])
 
     useEffect(() => {
         const isValidPartnerAPIs = partnerAPIs.every(usedPartnerAPI => availablePartnerNamespaces.some(available => available.namespace === usedPartnerAPI));
         if (!isValidPartnerAPIs) {
             setPartnerAPIs([]);
         }
-    }, [availablePartnerNamespaces])
+    }, [availablePartnerNamespaces, partnerAPIs])
 
     useEffect(() => {
         if (product === defaultProduct) {
@@ -311,7 +311,7 @@ export function DataProvider({ children }: PropsWithChildren) {
                 setFileContent(releasedAPIs);
             }
         }
-    }, [selectedFile, classicAPIs, partnerAPIs]);
+    }, [selectedFile, classicAPIs, partnerAPIs, product]);
 
     const handleProductChange: DataContextProps["handleProductChange"] = function (event) {
         const value = event.target.value;
