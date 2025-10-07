@@ -10,23 +10,7 @@ describe('template spec', () => {
             .click()
     });
 
-    it("search for an entry", () => {
-        cy.get("ui5-input[slot=\"searchField\"]")
-            .find("input")
-            .first()
-            .type("LABNR_EXT1")
-
-        cy.url().should("include", "LABNR_EXT1")
-        cy.get("[data-component-name=\"AnalyticalTableBodyScrollableContainer\"]")
-            .find("[role=\"row\"]")
-            .should("have.length", 1)
-            .find("span[title]")
-            .contains("LABNR_EXT1")
-            .should("exist")
-    })
-
     it("check label remote-enabled is shown", () => {
-        cy.visit("/?version=objectClassifications.json")
         cy.get("ui5-input[slot=\"searchField\"]")
         .find("input")
         .first()

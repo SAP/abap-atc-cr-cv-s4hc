@@ -10,7 +10,7 @@ export default function PageBar({ themeRef }: {
 }) {
     const i18nBundle = useI18nBundle(BundleID);
 
-    const { value } = useContext(DataContext);
+    const { fileContent: value } = useContext(DataContext);
     const [ query, setQuery ] = useSearchParams();
 
     const timeOutRef = useRef<NodeJS.Timeout>();
