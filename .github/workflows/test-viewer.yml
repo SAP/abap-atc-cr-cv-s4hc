@@ -1,0 +1,56 @@
+name: Test Viewer
+
+on:
+    pull_request:
+        paths:
+            - "viewer/**"
+            - ".github/workflows/test-viewer.yml"
+
+jobs:
+    prepare:
+        permissions:
+            contents: write
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout main branch
+              uses: actions/checkout@v4
+
+            - name: Use Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+
+            - name: Run JS script to generate contents.json
+              run: node scripts/generateContents.js
+
+            - name: Upload data
+              uses: actions/upload-artifact@v4
+              with:
+                  name: data
+                  path: viewer/src/data
+
+    build:
+        needs: prepare
+        permissions:
+            contents: write
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout main branch
+              uses: actions/checkout@v4
+
+            - name: Download data
+              uses: actions/download-artifact@v4
+              with:
+                  path: viewer/src
+
+            - name: Use Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+
+            - name: Cypress run
+              uses: cypress-io/github-action@v6
+              with:
+                  start: npm run start
+                  wait-on: "http://localhost:3000"
+                  working-directory: viewer
