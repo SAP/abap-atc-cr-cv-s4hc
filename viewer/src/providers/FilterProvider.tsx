@@ -51,6 +51,11 @@ export function ExtrudeLabels(objectElements?: ObjectElement[]): string[] {
 }
 
 export function HandleVersionFilter(key: string, filters: string[], setFilters: Dispatch<SetStateAction<string[]>>, values: string[], query: URLSearchParams, setQuery: SetURLSearchParams) {
+    const notYetInitialized = filters.length === 0;
+    if (notYetInitialized) {
+        return
+    }
+
     let copyFilter = []
 
     for (const element of filters) {
