@@ -134,7 +134,7 @@ export default function PageFilter() {
                 ))}
             </MultiComboBox>
         </FilterGroupItem>
-        <FilterGroupItem
+        {labels.length > 0 && <FilterGroupItem
             key="labelFilter"
             label="Label"
         >
@@ -147,6 +147,6 @@ export default function PageFilter() {
                     />
                 ))}
             </MultiComboBox>
-        </FilterGroupItem>
+        </FilterGroupItem>}
     </FilterBar>
 }
