@@ -75,9 +75,9 @@ Looking for >20000 Level A released dataelements for SAP Cloud ERP Private.
 ## Cloudification API Viewer
 
 *NEW NEW NEW*
-- new layout of cloudification repository viewer - [Blog](https://community.sap.com/t5/technology-blog-posts-by-sap/new-cloudification-repository-viewer-for-clean-core-governance-and/ba-p/14236110)
+- New layout of cloudification repository viewer - [Blog](https://community.sap.com/t5/technology-blog-posts-by-sap/new-cloudification-repository-viewer-for-clean-core-governance-and/ba-p/14236110)
 - Cloudification Viewer will display now the number of APIs behind the repository name.
-- Supporting partner classic APIs now 
+- Supporting partner classic APIs now (Partner Level A APIs will available as part of the partner addon installation) 
 
 [SAP Cloud ERP](https://sap.github.io/abap-atc-cr-cv-s4hc/)
 
@@ -85,9 +85,7 @@ Looking for >20000 Level A released dataelements for SAP Cloud ERP Private.
 
 [SAP Cloud ERP Private - Classic API Clean Core Model](https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectClassifications_SAP.json)
 
-
-
-*Click on a row to get more details about successors*
+*Click on a row with a double arrow to get more details about successors*
 
 ## Related projects
 
