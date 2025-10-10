@@ -86,7 +86,6 @@ export default function PageFilter() {
                         <MultiComboBoxItem
                             key={key}
                             text={value.label}
-                            additionalText={"Level " + value.level}
                             selected={stateFilter.includes(key)}
                         />
                     ))}
