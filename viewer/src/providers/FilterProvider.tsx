@@ -51,7 +51,7 @@ export function ExtrudeLabels(objectElements?: ObjectElement[]): string[] {
 }
 
 export function HandleVersionFilter(key: string, filters: string[], setFilters: Dispatch<SetStateAction<string[]>>, values: string[], query: URLSearchParams, setQuery: SetURLSearchParams) {
-    const notYetInitialized = filters.length === 0;
+    const notYetInitialized = filters.length === 0 || values.length === 0;
     if (notYetInitialized) {
         return
     }
