@@ -139,6 +139,15 @@
   },
   {
    "tadirObject":"CLAS",
+   "tadirObjName":"/APE/CL_PROC",
+   "objectType":"CLAS",
+   "objectKey":"/APE/CL_PROC",
+   "softwareComponent":"IS-UT",
+   "applicationComponent":"CA-GTF-APE",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
    "tadirObjName":"/BCV/CL_AUT_AUTHORIZATION",
    "objectType":"CLAS",
    "objectKey":"/BCV/CL_AUT_AUTHORIZATION",
@@ -25278,19 +25287,6 @@
    "softwareComponent":"S4CORE",
    "applicationComponent":"SD-SLS-GF",
    "state":"noAPI",
-   "labels":
-   [
-    "remote-enabled"
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"2032",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_SALESORDER_CREATEFROMDAT2",
-   "softwareComponent":"S4CORE",
-   "applicationComponent":"SD-SLS-GF",
-   "state":"classicAPI",
    "successors":
    [
     {
@@ -25309,10 +25305,32 @@
    "tadirObject":"FUGR",
    "tadirObjName":"2032",
    "objectType":"FUNC",
+   "objectKey":"BAPI_SALESORDER_CREATEFROMDAT2",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"SD-SLS-GF",
+   "state":"classicAPI",
+   "labels":
+   [
+    "remote-enabled"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"2032",
+   "objectType":"FUNC",
    "objectKey":"BAPI_SALESORDER_CREATEFROMDATA",
    "softwareComponent":"S4CORE",
    "applicationComponent":"SD-SLS-GF",
    "state":"noAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"2032",
+     "objectType":"FUNC",
+     "objectKey":"BAPI_SALESORDER_CREATEFROMDAT2"
+    }
+   ],
    "labels":
    [
     "remote-enabled"
@@ -46687,7 +46705,7 @@
    "objectType":"FUNC",
    "objectKey":"BUKRS_AUTHORITY_CHECK",
    "softwareComponent":"S4CORE",
-   "applicationComponent":"FI-GL-IS",
+   "applicationComponent":"FI-GL-GL-D",
    "state":"classicAPI",
    "labels":
    [
@@ -48799,7 +48817,7 @@
    "objectType":"FUNC",
    "objectKey":"DETERMINE_DUE_DATE",
    "softwareComponent":"S4CORE",
-   "applicationComponent":"FI-GL-IS",
+   "applicationComponent":"FI-GL-GL-D",
    "state":"classicAPI",
    "labels":
    [
@@ -74799,7 +74817,11 @@
    "objectKey":"BAPI_TSSRVSCMBIF_RECDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"SCM-BAS-TDL",
-   "state":"classicAPI"
+   "state":"classicAPI",
+   "labels":
+   [
+    "remote-enabled"
+   ]
   },
   {
    "tadirObject":"FUGR",
@@ -74808,7 +74830,11 @@
    "objectKey":"BAPI_TSSRVSCMBIF_RECKFIGVAL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"SCM-BAS-TDL",
-   "state":"classicAPI"
+   "state":"classicAPI",
+   "labels":
+   [
+    "remote-enabled"
+   ]
   },
   {
    "tadirObject":"FUGR",
@@ -74913,7 +74939,11 @@
    "objectKey":"BAPI_FDSRVSCMBIF_RECEIVELIST",
    "softwareComponent":"S4CORE",
    "applicationComponent":"SCM-BAS-TDL",
-   "state":"classicAPI"
+   "state":"classicAPI",
+   "labels":
+   [
+    "remote-enabled"
+   ]
   },
   {
    "tadirObject":"FUGR",
@@ -74922,7 +74952,11 @@
    "objectKey":"BAPI_FDSRVSCMBIF_RECREASONCODE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"SCM-BAS-TDL",
-   "state":"classicAPI"
+   "state":"classicAPI",
+   "labels":
+   [
+    "remote-enabled"
+   ]
   },
   {
    "tadirObject":"FUGR",
