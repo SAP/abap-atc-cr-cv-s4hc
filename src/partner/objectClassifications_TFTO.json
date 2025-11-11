@@ -1,0 +1,109 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/TFTO/TX_SFMI",
+      "objectType": "FUNC",
+      "objectKey": "/TFTO/TX_SFMI_ALV_GRID_TOP",
+      "softwareComponent": "TFTO",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/TFTO/TX_SFMI",
+      "objectType": "FUNC",
+      "objectKey": "/TFTO/TX_SFMI_ALV_LIST_TOP",
+      "softwareComponent": "TFTO",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/TFTO/TX_SFMI",
+      "objectType": "FUNC",
+      "objectKey": "/TFTO/TX_SFMI_CALL_SCRIPT",
+      "softwareComponent": "TFTO",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/TFTO/TX_SFMI",
+      "objectType": "FUNC",
+      "objectKey": "/TFTO/TX_SFMI_DEFINE_LFIELDS",
+      "softwareComponent": "TFTO",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/TFTO/TX_SFMI",
+      "objectType": "FUNC",
+      "objectKey": "/TFTO/TX_SFMI_DEFINE_NEEDED",
+      "softwareComponent": "TFTO",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/TFTO/TX_SFMI",
+      "objectType": "FUNC",
+      "objectKey": "/TFTO/TX_SFMI_DEFINE_SORT",
+      "softwareComponent": "TFTO",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/TFTO/TX_SFMI",
+      "objectType": "FUNC",
+      "objectKey": "/TFTO/TX_SFMI_DEFINE_WANTED",
+      "softwareComponent": "TFTO",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/TFTO/TX_SFMI",
+      "objectType": "FUNC",
+      "objectKey": "/TFTO/TX_SFMI_F4_VARIANT",
+      "softwareComponent": "TFTO",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/TFTO/TX_SFMI",
+      "objectType": "FUNC",
+      "objectKey": "/TFTO/TX_SFMI_GET_HTML_TOP",
+      "softwareComponent": "TFTO",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/TFTO/TX_SFMI",
+      "objectType": "FUNC",
+      "objectKey": "/TFTO/TX_SFMI_RFC_BEHAVIOR",
+      "softwareComponent": "TFTO",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/TFTO/TX_SFMI",
+      "objectType": "FUNC",
+      "objectKey": "/TFTO/TX_SFMI_SHOW_DOCU",
+      "softwareComponent": "TFTO",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/TFTO/TX_SFMI",
+      "objectType": "FUNC",
+      "objectKey": "/TFTO/TX_SFMI_USER_SETTINGS",
+      "softwareComponent": "TFTO",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/TFTO/TX_SFMI",
+      "objectType": "FUNC",
+      "objectKey": "/TFTO/TX_SFMI_USETT_2_RANGE",
+      "softwareComponent": "TFTO",
+      "state": "classicAPI"
+    }
+  ]
+}
