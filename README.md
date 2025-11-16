@@ -95,9 +95,10 @@ Use filter value: classic API + label: transactional-consistent
 Use the wrapper generator https://github.com/SAP-samples/tier2-rfc-proxy with details on https://community.sap.com/t5/technology-blogs-by-sap/how-to-generate-a-wrapper-for-function-modules-bapis-in-tier-2/ba-p/13692790#M172258
 
 ## LLM Support for SAP APIs
+
 In pilot mode we support the brand new TOON format and offer a more compressed version of
-Classic APIs in objectClassifications_SAP.toon with a compression optimization of 18,3%
-Released API in objectReleaseInfo_PCELatest.toon going down from 3659440 to 2989644 tokens.
+Classic APIs in [objectClassifications_SAP.toon](https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectClassifications_SAP.toon) with a compression optimization of 18,3%
+Released API in [objectReleaseInfo_PCELatest.toon](https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectReleaseInfo_PCELatest.toon) going down from 3659440 to 2989644 tokens.
 
 ## How to obtain support
 
