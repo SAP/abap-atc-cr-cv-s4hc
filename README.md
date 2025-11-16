@@ -97,8 +97,8 @@ Use the wrapper generator https://github.com/SAP-samples/tier2-rfc-proxy with de
 ## LLM Support for SAP APIs
 
 In pilot mode we support the brand new TOON format and offer a more compressed version of
-Classic APIs in [objectClassifications_SAP.toon](https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectClassifications_SAP.toon) with a compression optimization of 18,3%
-Released API in [objectReleaseInfo_PCELatest.toon](https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectReleaseInfo_PCELatest.toon) going down from 3659440 to 2989644 tokens.
+Classic APIs in [objectClassifications_SAP.toon](https://github.com/SAP/abap-atc-cr-cv-s4hc/blob/main/src/objectClassifications_SAP.toon) with a compression optimization of 18,3%
+Released API in [objectReleaseInfo_PCELatest.toon](https://github.com/SAP/abap-atc-cr-cv-s4hc/blob/main/src/objectReleaseInfo_PCELatest.toon) going down from 3659440 to 2989644 tokens.
 
 ## How to obtain support
 
