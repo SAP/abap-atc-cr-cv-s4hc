@@ -1,9 +1,9 @@
 import { AnalyticalTable, AnalyticalTablePropTypes, Button, DynamicPage, DynamicPageHeader, DynamicPageTitle, FlexBox, IllustratedMessage, Label, Text, Title } from "@ui5/webcomponents-react";
-import { DataContext, CloudType, Files, ObjectElement, ReleaseInfoElementConcept, ReleaseInfoElementOther, BaseObjectElementSuccessor } from "../providers/DataProvider";
-import { Dispatch, HTMLAttributes, PropsWithChildren, SetStateAction, useContext } from "react";
-import { CombinedElement, GetArrowElement } from "../App";
 import { useI18nBundle } from '@ui5/webcomponents-react-base';
+import { Dispatch, HTMLAttributes, PropsWithChildren, SetStateAction, useContext } from "react";
 import { BundleID } from "..";
+import { CombinedElement, GetArrowElement } from "../App";
+import { BaseObjectElementSuccessor, DataContext, ObjectElement, ReleaseInfoElementConcept, ReleaseInfoElementOther } from "../providers/DataProvider";
 
 import StateStatus from "./StateStatus";
 
@@ -18,9 +18,6 @@ export default function ElementTab({ slot, object, action, successorAction }: {
     action: Dispatch<SetStateAction<CombinedElement | undefined>>;
     successorAction: SuccessorAction;
 } & HTMLAttributes<unknown>) {
-    const { version } = useContext(DataContext);
-
-    const cloudType = Files[version];
     const typeLabel = types[object?.objectType ?? ""];
     const castedObjectElement = object as ObjectElement | undefined;
 
@@ -28,12 +25,12 @@ export default function ElementTab({ slot, object, action, successorAction }: {
         <DynamicPage
             slot={slot}
             headerTitle={<DynamicPageTitle
-                    header={object?.objectKey}
-                    subHeader={typeLabel ? `${typeLabel} (${object?.objectType})` : object?.objectType}
-                    actions={<Button design="Transparent" icon="decline" onClick={() => action(undefined)} />}
-                >
-                    {<StateStatus object={castedObjectElement} />}
-                </DynamicPageTitle>
+                header={object?.objectKey}
+                subHeader={typeLabel ? `${typeLabel} (${object?.objectType})` : object?.objectType}
+                actions={<Button design="Transparent" icon="decline" onClick={() => action(undefined)} />}
+            >
+                {<StateStatus object={castedObjectElement} />}
+            </DynamicPageTitle>
             }
             headerContent={<DynamicPageHeader>
                 {castedObjectElement?.applicationComponent && <HeaderInformation label="Application Component">{castedObjectElement.applicationComponent}</HeaderInformation>}
@@ -44,7 +41,7 @@ export default function ElementTab({ slot, object, action, successorAction }: {
             </DynamicPageHeader>}
         >
             {<LabelElement object={castedObjectElement} />}
-            {<SuccessorElement object={castedObjectElement} cloudType={cloudType} successorAction={successorAction}/>}
+            {<SuccessorElement object={castedObjectElement} successorAction={successorAction} />}
         </DynamicPage>
     )
 }
@@ -53,7 +50,7 @@ export function HeaderInformation({ label, children }: {
     label?: string;
 } & PropsWithChildren) {
     return label && children ? <FlexBox>
-        <Label showColon>{label}</Label>  
+        <Label showColon>{label}</Label>
         <Text style={{
             marginLeft: '2px'
         }}>{children}</Text>
@@ -71,9 +68,9 @@ export function LabelElement({ object }: { object?: ObjectElement }) {
         }}>Labels</Title>
         <AnalyticalTable
             minRows={1}
-            style={{marginBottom: 16}}
+            style={{ marginBottom: 16 }}
             selectionMode="None"
-            data={object.labels.map(label => ({label}))}
+            data={object.labels.map(label => ({ label }))}
             columns={[
                 {
                     Header: "Label",
@@ -85,13 +82,12 @@ export function LabelElement({ object }: { object?: ObjectElement }) {
     </>
 }
 
-export function SuccessorElement({ object, cloudType, successorAction }: {
+export function SuccessorElement({ object, successorAction }: {
     object?: ObjectElement;
-    cloudType: CloudType;
     successorAction: SuccessorAction;
 }) {
     const i18nBundle = useI18nBundle(BundleID);
-    const { value } = useContext(DataContext);
+    const { fileContent: value } = useContext(DataContext);
 
     const handleRowSelect: AnalyticalTablePropTypes["onRowSelect"] = function (event) {
         const successorElement = event?.detail.row?.original as BaseObjectElementSuccessor;
@@ -100,52 +96,43 @@ export function SuccessorElement({ object, cloudType, successorAction }: {
         successorAction(element || successorElement)
     }
 
-    switch (cloudType.format) {
-        case "1":
-            object = object as ReleaseInfoElementConcept | ReleaseInfoElementOther | undefined;
+    object = object as ReleaseInfoElementConcept | ReleaseInfoElementOther | undefined;
 
-            if (object?.successorClassification === "concept") {
-                return <IllustratedMessage
-                    name="TntNoApplications"
-                    titleText={i18nBundle.getText("CONCEPT_REGISTERED")}
-                    subtitleText={i18nBundle.getText("CONCEPT_NAME", (object as ReleaseInfoElementConcept).successorConceptName)}
-                />
-            } else if (object?.successors) {
-                return <>
-                    <Title level="H4" style={{
-                        marginBottom: 16
-                    }}>Successors</Title>
-                    <AnalyticalTable
-                        onRowSelect={handleRowSelect}
-                        selectionMode="SingleSelect"
-                        data={object.successors}
-                        columns={[
-                            {
-                                Header: "Object Key",
-                                accessor: "objectKey",
-                                headerTooltip: "Object Key"
-                            },
-                            {
-                                Header: "Object Type",
-                                accessor: "objectType",
-                                headerTooltip: "Object Type"
-                            },
-                            GetArrowElement(object.successors, successorAction)
-                        ]}
-                    />
-                </>
-            }
-
-            return <IllustratedMessage
-                name="NoData"
-                titleText={i18nBundle.getText("NO_SUCCESSOR_FOUND")}
-                subtitleText={i18nBundle.getText("NO_REGISTERED_SUCCESSORS")}
+    if (object?.successorClassification === "concept") {
+        return <IllustratedMessage
+            name="TntNoApplications"
+            titleText={i18nBundle.getText("CONCEPT_REGISTERED")}
+            subtitleText={i18nBundle.getText("CONCEPT_NAME", (object as ReleaseInfoElementConcept).successorConceptName)}
+        />
+    } else if (object?.successors) {
+        return <>
+            <Title level="H4" style={{
+                marginBottom: 16
+            }}>Successors</Title>
+            <AnalyticalTable
+                onRowSelect={handleRowSelect}
+                selectionMode="SingleSelect"
+                data={object.successors}
+                columns={[
+                    {
+                        Header: "Object Key",
+                        accessor: "objectKey",
+                        headerTooltip: "Object Key"
+                    },
+                    {
+                        Header: "Object Type",
+                        accessor: "objectType",
+                        headerTooltip: "Object Type"
+                    },
+                    GetArrowElement(object.successors, successorAction)
+                ]}
             />
-        default:
-            return <IllustratedMessage
-                name="NoTasks"
-                titleText={i18nBundle.getText("INVALID_FORMAT")}
-                subtitleText={i18nBundle.getText("NOT_IMPLEMENTED_FORMAT")}
-            />
+        </>
     }
+
+    return <IllustratedMessage
+        name="NoData"
+        titleText={i18nBundle.getText("NO_SUCCESSOR_FOUND")}
+        subtitleText={i18nBundle.getText("NO_REGISTERED_SUCCESSORS")}
+    />
 }

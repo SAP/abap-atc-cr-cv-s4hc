@@ -139,6 +139,15 @@
   },
   {
    "tadirObject":"CLAS",
+   "tadirObjName":"/APE/CL_PROC",
+   "objectType":"CLAS",
+   "objectKey":"/APE/CL_PROC",
+   "softwareComponent":"IS-UT",
+   "applicationComponent":"CA-GTF-APE",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
    "tadirObjName":"/BCV/CL_AUT_AUTHORIZATION",
    "objectType":"CLAS",
    "objectKey":"/BCV/CL_AUT_AUTHORIZATION",
@@ -1837,6 +1846,51 @@
   },
   {
    "tadirObject":"CLAS",
+   "tadirObjName":"/IWNGW/CL_NC_LOGGER",
+   "objectType":"CLAS",
+   "objectKey":"/IWNGW/CL_NC_LOGGER",
+   "softwareComponent":"SAP_GWFND",
+   "applicationComponent":"OPU-GW-NOT",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"/IWNGW/CL_NOTIFICATION_API",
+   "objectType":"CLAS",
+   "objectKey":"/IWNGW/CL_NOTIFICATION_API",
+   "softwareComponent":"SAP_GWFND",
+   "applicationComponent":"OPU-GW-NOT",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"/IWNGW/CL_NOTIF_PROVIDER_ABS",
+   "objectType":"CLAS",
+   "objectKey":"/IWNGW/CL_NOTIF_PROVIDER_ABS",
+   "softwareComponent":"SAP_GWFND",
+   "applicationComponent":"OPU-GW-NOT",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"/IWNGW/CX_NOTIFICATION_API",
+   "objectType":"CLAS",
+   "objectKey":"/IWNGW/CX_NOTIFICATION_API",
+   "softwareComponent":"SAP_GWFND",
+   "applicationComponent":"OPU-GW-NOT",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"/IWNGW/CX_NOTIF_PROVIDER",
+   "objectType":"CLAS",
+   "objectKey":"/IWNGW/CX_NOTIF_PROVIDER",
+   "softwareComponent":"SAP_GWFND",
+   "applicationComponent":"OPU-GW-NOT",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
    "tadirObjName":"/IWPGW/CL_TGW_EDP_TASK",
    "objectType":"CLAS",
    "objectKey":"/IWPGW/CL_TGW_EDP_TASK",
@@ -2069,6 +2123,96 @@
    "softwareComponent":"SAP_UI",
    "applicationComponent":"CA-UI5-ABA-SAR",
    "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CF_REBD_BUILDING",
+   "objectType":"CLAS",
+   "objectKey":"CF_REBD_BUILDING",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"RE-FX-BD",
+   "state":"noAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"REBD_BAPI_BUILDING",
+     "objectType":"FUNC",
+     "objectKey":"BAPI_RE_BU_GET_DETAIL"
+    }
+   ]
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CF_REBD_BUSINESS_ENTITY",
+   "objectType":"CLAS",
+   "objectKey":"CF_REBD_BUSINESS_ENTITY",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"RE-FX-BD",
+   "state":"noAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"REBD_BAPI_BUS_ENTITY",
+     "objectType":"FUNC",
+     "objectKey":"BAPI_RE_BE_GET_DETAIL"
+    }
+   ]
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CF_REBD_RENTAL_OBJECT",
+   "objectType":"CLAS",
+   "objectKey":"CF_REBD_RENTAL_OBJECT",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"RE-FX-BD",
+   "state":"noAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"REBD_BAPI_RENTAL_OBJECT",
+     "objectType":"FUNC",
+     "objectKey":"BAPI_RE_RO_GET_DETAIL"
+    }
+   ]
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CF_RECN_CONTRACT",
+   "objectType":"CLAS",
+   "objectKey":"CF_RECN_CONTRACT",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"RE-FX-CN",
+   "state":"noAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"RECN_BAPI_CONTRACT",
+     "objectType":"FUNC",
+     "objectKey":"BAPI_RE_CN_GET_DETAIL"
+    }
+   ]
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CF_RESC_SETTL_UNIT",
+   "objectType":"CLAS",
+   "objectKey":"CF_RESC_SETTL_UNIT",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"RE-FX-SC",
+   "state":"noAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"RESC_BAPI_SETTL_UNIT",
+     "objectType":"FUNC",
+     "objectKey":"BAPI_RE_SU_GET_DETAIL"
+    }
+   ]
   },
   {
    "tadirObject":"CLAS",
@@ -6330,6 +6474,15 @@
   },
   {
    "tadirObject":"CLAS",
+   "tadirObjName":"CL_MANAGER_PPF",
+   "objectType":"CLAS",
+   "objectKey":"CL_MANAGER_PPF",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-GBT-PPF",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
    "tadirObjName":"CL_MDBPCVI_READER",
    "objectType":"CLAS",
    "objectKey":"CL_MDBPCVI_READER",
@@ -6949,6 +7102,78 @@
    "labels":
    [
     "transactional-consistent"
+   ]
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CL_REBD_ARCH_OBJECT",
+   "objectType":"CLAS",
+   "objectKey":"CL_REBD_ARCH_OBJECT",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"RE-FX-BD",
+   "state":"noAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"REBD_BAPI_ARCH_OBJECT",
+     "objectType":"FUNC",
+     "objectKey":"BAPI_RE_AO_GET_DETAIL"
+    }
+   ]
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CL_REBD_RENTAL_OBJECT",
+   "objectType":"CLAS",
+   "objectKey":"CL_REBD_RENTAL_OBJECT",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"RE-FX-BD",
+   "state":"noAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"REBD_BAPI_RENTAL_OBJECT",
+     "objectType":"FUNC",
+     "objectKey":"BAPI_RE_RO_GET_DETAIL"
+    }
+   ]
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CL_RECN_CONTRACT",
+   "objectType":"CLAS",
+   "objectKey":"CL_RECN_CONTRACT",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"RE-FX-CN",
+   "state":"noAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"RECN_BAPI_CONTRACT",
+     "objectType":"FUNC",
+     "objectKey":"BAPI_RE_CN_GET_DETAIL"
+    }
+   ]
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CL_REEXC_COMPANY_CODE",
+   "objectType":"CLAS",
+   "objectKey":"CL_REEXC_COMPANY_CODE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"RE-FX",
+   "state":"noAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"FACSCORE",
+     "objectType":"FUNC",
+     "objectKey":"FI_COMPANY_CODE_DATA"
+    }
    ]
   },
   {
@@ -8524,6 +8749,15 @@
    "objectKey":"CL_SIMPLE_TREE_MODEL",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-DWB-UTL",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CL_SMTG_EMAIL_API",
+   "objectType":"CLAS",
+   "objectKey":"CL_SMTG_EMAIL_API",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-COM-OM",
    "state":"classicAPI"
   },
   {
@@ -15229,6 +15463,42 @@
   },
   {
    "tadirObject":"DDLS",
+   "tadirObjName":"I_ACCRUALOBJECT",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_ACCRUALOBJECT",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FI-GL-GL-ACE",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_ACCRENGINEACCRUALOBJECT",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_ACCRENGINEACCRUALOBJECT"
+    }
+   ]
+  },
+  {
+   "tadirObject":"DDLS",
+   "tadirObjName":"I_ACCRUALSUBOBJECT",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_ACCRUALSUBOBJECT",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"FI-GL-GL-ACE",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_ACCRENGINEACCRUALSUBOBJECT",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_ACCRENGINEACCRUALSUBOBJECT"
+    }
+   ]
+  },
+  {
+   "tadirObject":"DDLS",
    "tadirObjName":"I_ADVNCDPLNGPLANNINGVERS",
    "objectType":"CDS_STOB",
    "objectKey":"I_ADVNCDPLNGPLANNINGVERS",
@@ -16266,6 +16536,60 @@
   },
   {
    "tadirObject":"DDLS",
+   "tadirObjName":"I_MAINTENANCEORDER",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_MAINTENANCEORDER",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"PM-WOC-MO",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_MAINTENANCEORDERDEX",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_MAINTENANCEORDERDEX"
+    }
+   ]
+  },
+  {
+   "tadirObject":"DDLS",
+   "tadirObjName":"I_MAINTENANCEORDERCOMPONENT",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_MAINTENANCEORDERCOMPONENT",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"PM-WOC-MO",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_MAINTORDERCOMPONENTDEX",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_MAINTORDERCOMPONENTDEX"
+    }
+   ]
+  },
+  {
+   "tadirObject":"DDLS",
+   "tadirObjName":"I_MAINTENANCEORDEROPERATION",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_MAINTENANCEORDEROPERATION",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"PM-WOC-MO",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_MAINTORDEROPERATION_DEX",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_MAINTORDEROPERATION_DEX"
+    }
+   ]
+  },
+  {
+   "tadirObject":"DDLS",
    "tadirObjName":"I_MAINTENANCEORDERPHASECONTROL",
    "objectType":"CDS_STOB",
    "objectKey":"I_MAINTENANCEORDERPHASECONTROL",
@@ -16279,6 +16603,24 @@
   },
   {
    "tadirObject":"DDLS",
+   "tadirObjName":"I_MAINTENANCEORDERSUBOPERATION",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_MAINTENANCEORDERSUBOPERATION",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"PM-WOC-MO",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_MAINTORDEROPERATION_DEX",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_MAINTORDEROPERATION_DEX"
+    }
+   ]
+  },
+  {
+   "tadirObject":"DDLS",
    "tadirObjName":"I_MAINTOBJBREAKDOWNCUBE",
    "objectType":"CDS_STOB",
    "objectKey":"I_MAINTOBJBREAKDOWNCUBE",
@@ -16288,6 +16630,24 @@
    "labels":
    [
     "transactional-consistent"
+   ]
+  },
+  {
+   "tadirObject":"DDLS",
+   "tadirObjName":"I_MAINTORDCHGHISTORY",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_MAINTORDCHGHISTORY",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"PM-WOC-MO",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_MAINTORDCHANGEDOCUMENTDEX",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_MAINTORDCHANGEDOCUMENTDEX"
+    }
    ]
   },
   {
@@ -16318,6 +16678,42 @@
   },
   {
    "tadirObject":"DDLS",
+   "tadirObjName":"I_MAINTORDEROPERCOMP",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_MAINTORDEROPERCOMP",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"PM-WOC-MO",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_MAINTORDERCOMPONENTDEX",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_MAINTORDERCOMPONENTDEX"
+    }
+   ]
+  },
+  {
+   "tadirObject":"DDLS",
+   "tadirObjName":"I_MAINTORDEROPERTECHOBJ",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_MAINTORDEROPERTECHOBJ",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"PM-WOC-MO",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_MAINTORDEROPERATION_DEX",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_MAINTORDEROPERATION_DEX"
+    }
+   ]
+  },
+  {
+   "tadirObject":"DDLS",
    "tadirObjName":"I_MAINTORDEROPPHASECONTROL",
    "objectType":"CDS_STOB",
    "objectKey":"I_MAINTORDEROPPHASECONTROL",
@@ -16327,6 +16723,60 @@
    "labels":
    [
     "transactional-consistent"
+   ]
+  },
+  {
+   "tadirObject":"DDLS",
+   "tadirObjName":"I_MAINTORDERQUERYNODE",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_MAINTORDERQUERYNODE",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"PM",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_MAINTENANCEORDERDEX",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_MAINTENANCEORDERDEX"
+    }
+   ]
+  },
+  {
+   "tadirObject":"DDLS",
+   "tadirObjName":"I_MAINTORDERSUBOPERTECHOBJ",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_MAINTORDERSUBOPERTECHOBJ",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"PM-WOC-MO",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_MAINTORDEROPERATION_DEX",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_MAINTORDEROPERATION_DEX"
+    }
+   ]
+  },
+  {
+   "tadirObject":"DDLS",
+   "tadirObjName":"I_MAINTORDERTECHOBJ",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_MAINTORDERTECHOBJ",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"PM-WOC-MO",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"DDLS",
+     "tadirObjName":"I_MAINTENANCEORDERDEX",
+     "objectType":"CDS_STOB",
+     "objectKey":"I_MAINTENANCEORDERDEX"
+    }
    ]
   },
   {
@@ -24837,6 +25287,15 @@
    "softwareComponent":"S4CORE",
    "applicationComponent":"SD-SLS-GF",
    "state":"noAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"2032",
+     "objectType":"FUNC",
+     "objectKey":"BAPI_SALESORDER_CREATEFROMDAT2"
+    }
+   ],
    "labels":
    [
     "remote-enabled"
@@ -24863,6 +25322,15 @@
    "softwareComponent":"S4CORE",
    "applicationComponent":"SD-SLS-GF",
    "state":"noAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"2032",
+     "objectType":"FUNC",
+     "objectKey":"BAPI_SALESORDER_CREATEFROMDAT2"
+    }
+   ],
    "labels":
    [
     "remote-enabled"
@@ -46237,7 +46705,7 @@
    "objectType":"FUNC",
    "objectKey":"BUKRS_AUTHORITY_CHECK",
    "softwareComponent":"S4CORE",
-   "applicationComponent":"FI-GL-IS",
+   "applicationComponent":"FI-GL-GL-D",
    "state":"classicAPI",
    "labels":
    [
@@ -48349,7 +48817,7 @@
    "objectType":"FUNC",
    "objectKey":"DETERMINE_DUE_DATE",
    "softwareComponent":"S4CORE",
-   "applicationComponent":"FI-GL-IS",
+   "applicationComponent":"FI-GL-GL-D",
    "state":"classicAPI",
    "labels":
    [
@@ -55043,6 +55511,24 @@
    "tadirObject":"FUGR",
    "tadirObjName":"HRBAS00SEARCH",
    "objectType":"FUNC",
+   "objectKey":"REUSE_HR_OBJID_F4",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-OM",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"HRBAS00SEARCH",
+     "objectType":"FUNC",
+     "objectKey":"REUSE_HR_OBJID_CHECK"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"HRBAS00SEARCH",
+   "objectType":"FUNC",
    "objectKey":"RH_SELECT_OBJECTS_FOR_OTYPE",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-BMT-OM",
@@ -55528,6 +56014,24 @@
    "labels":
    [
     "remote-enabled"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"HRMM",
+   "objectType":"FUNC",
+   "objectKey":"HR_MAINTAIN_MASTERDATA",
+   "softwareComponent":"S4HCMRXX",
+   "applicationComponent":"PA-PA",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_HRPA_MASTERDATA_BL",
+     "objectType":"CLAS",
+     "objectKey":"CL_HRPA_MASTERDATA_BL"
+    }
    ]
   },
   {
@@ -70094,6 +70598,78 @@
    "tadirObject":"FUGR",
    "tadirObjName":"RHAC",
    "objectType":"FUNC",
+   "objectKey":"RH_AUTHORITY_CHECK_FROM_ADMIN",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-OM",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"RHAC",
+     "objectType":"FUNC",
+     "objectKey":"RH_STRU_AUTHORITY_CHECK"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"RHAC",
+   "objectType":"FUNC",
+   "objectKey":"RH_AUTHORITY_CHECK_OFF",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-OM",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"RHAC",
+     "objectType":"FUNC",
+     "objectKey":"RH_STRU_AUTHORITY_CHECK"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"RHAC",
+   "objectType":"FUNC",
+   "objectKey":"RH_AUTHORITY_CHECK_ON",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-OM",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"RHAC",
+     "objectType":"FUNC",
+     "objectKey":"RH_STRU_AUTHORITY_CHECK"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"RHAC",
+   "objectType":"FUNC",
+   "objectKey":"RH_AUTHORITY_CHECK_STATUS",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-OM",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"RHAC",
+     "objectType":"FUNC",
+     "objectKey":"RH_STRU_AUTHORITY_CHECK"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"RHAC",
+   "objectType":"FUNC",
    "objectKey":"RH_DATE_VIEW_FILL",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-BMT-OM",
@@ -70261,6 +70837,152 @@
   },
   {
    "tadirObject":"FUGR",
+   "tadirObjName":"RHAS",
+   "objectType":"FUNC",
+   "objectKey":"PATH_APPEND",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-OM",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"RH_STRUCTURE_GET",
+     "objectType":"FUNC",
+     "objectKey":"RH_STRUC_GET"
+    }
+   ],
+   "labels":
+   [
+    "remote-enabled"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"RHAS",
+   "objectType":"FUNC",
+   "objectKey":"PATH_BUILD",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-OM",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"RH_STRUCTURE_GET",
+     "objectType":"FUNC",
+     "objectKey":"RH_STRUC_GET"
+    }
+   ],
+   "labels":
+   [
+    "remote-enabled"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"RHAS",
+   "objectType":"FUNC",
+   "objectKey":"PATH_DELETE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-OM",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"RH_STRUCTURE_GET",
+     "objectType":"FUNC",
+     "objectKey":"RH_STRUC_GET"
+    }
+   ],
+   "labels":
+   [
+    "remote-enabled"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"RHAS",
+   "objectType":"FUNC",
+   "objectKey":"PATH_DELETE_ALL",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-OM",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"RH_STRUCTURE_GET",
+     "objectType":"FUNC",
+     "objectKey":"RH_STRUC_GET"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"RHAS",
+   "objectType":"FUNC",
+   "objectKey":"PATH_GET",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-OM",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"RH_STRUCTURE_GET",
+     "objectType":"FUNC",
+     "objectKey":"RH_STRUC_GET"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"RHAS",
+   "objectType":"FUNC",
+   "objectKey":"PATH_ID_DELETE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-OM",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"RH_STRUCTURE_GET",
+     "objectType":"FUNC",
+     "objectKey":"RH_STRUC_GET"
+    }
+   ],
+   "labels":
+   [
+    "remote-enabled"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"RHAS",
+   "objectType":"FUNC",
+   "objectKey":"PATH_ID_GET",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-OM",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"RH_STRUCTURE_GET",
+     "objectType":"FUNC",
+     "objectKey":"RH_STRUC_GET"
+    }
+   ],
+   "labels":
+   [
+    "remote-enabled"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
    "tadirObjName":"RHDB",
    "objectType":"FUNC",
    "objectKey":"RH_CONDITION_BUILD",
@@ -70296,6 +71018,24 @@
    "labels":
    [
     "transactional-consistent"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"RHDB",
+   "objectType":"FUNC",
+   "objectKey":"RH_DYNAMIC_WHERE_BUILD",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-OM",
+   "state":"classicAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_PFW_SELTAB",
+     "objectType":"CLAS",
+     "objectKey":"CL_PFW_SELTAB"
+    }
    ]
   },
   {
@@ -74077,7 +74817,11 @@
    "objectKey":"BAPI_TSSRVSCMBIF_RECDETAIL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"SCM-BAS-TDL",
-   "state":"classicAPI"
+   "state":"classicAPI",
+   "labels":
+   [
+    "remote-enabled"
+   ]
   },
   {
    "tadirObject":"FUGR",
@@ -74086,7 +74830,11 @@
    "objectKey":"BAPI_TSSRVSCMBIF_RECKFIGVAL",
    "softwareComponent":"S4CORE",
    "applicationComponent":"SCM-BAS-TDL",
-   "state":"classicAPI"
+   "state":"classicAPI",
+   "labels":
+   [
+    "remote-enabled"
+   ]
   },
   {
    "tadirObject":"FUGR",
@@ -74191,7 +74939,11 @@
    "objectKey":"BAPI_FDSRVSCMBIF_RECEIVELIST",
    "softwareComponent":"S4CORE",
    "applicationComponent":"SCM-BAS-TDL",
-   "state":"classicAPI"
+   "state":"classicAPI",
+   "labels":
+   [
+    "remote-enabled"
+   ]
   },
   {
    "tadirObject":"FUGR",
@@ -74200,7 +74952,11 @@
    "objectKey":"BAPI_FDSRVSCMBIF_RECREASONCODE",
    "softwareComponent":"S4CORE",
    "applicationComponent":"SCM-BAS-TDL",
-   "state":"classicAPI"
+   "state":"classicAPI",
+   "labels":
+   [
+    "remote-enabled"
+   ]
   },
   {
    "tadirObject":"FUGR",
@@ -86037,6 +86793,15 @@
   },
   {
    "tadirObject":"INTF",
+   "tadirObjName":"/IWNGW/IF_NOTIF_PROVIDER_EXT",
+   "objectType":"INTF",
+   "objectKey":"/IWNGW/IF_NOTIF_PROVIDER_EXT",
+   "softwareComponent":"SAP_GWFND",
+   "applicationComponent":"OPU-GW-NOT",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"INTF",
    "tadirObjName":"/IWPGW/IF_TGW_TYPES",
    "objectType":"INTF",
    "objectKey":"/IWPGW/IF_TGW_TYPES",
@@ -91847,6 +92612,19 @@
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-CM",
    "state":"classicAPI"
+  },
+  {
+   "tadirObject":"INTF",
+   "tadirObjName":"IF_SD_DOC_CATEGORY",
+   "objectType":"INTF",
+   "objectKey":"IF_SD_DOC_CATEGORY",
+   "softwareComponent":"S4CORE",
+   "applicationComponent":"SD-CRF",
+   "state":"classicAPI",
+   "labels":
+   [
+    "transactional-consistent"
+   ]
   },
   {
    "tadirObject":"INTF",

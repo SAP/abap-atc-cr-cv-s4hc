@@ -1,7 +1,7 @@
 import { FilterBar, FilterGroupItem, MultiComboBox, MultiComboBoxItem, MultiComboBoxPropTypes, Option, Select } from "@ui5/webcomponents-react";
-import { DataContext, CloudType, Files } from "../providers/DataProvider";
-import { FilterContext } from "../providers/FilterProvider";
 import { useContext } from "react";
+import { DataContext, Products } from "../providers/DataProvider";
+import { FilterContext } from "../providers/FilterProvider";
 
 export default function PageFilter() {
     const { states, stateFilter, setStateFilter,
@@ -9,9 +9,10 @@ export default function PageFilter() {
         softwareComponents, softwareComponentsFilter, setSoftwareComponentsFilter,
         applicationComponents, applicationComponentsFilter, setApplicationComponentsFilter,
         labels, labelsFilter, setLabelsFilter } = useContext(FilterContext);
-    const { version, value, handleSelectChange } = useContext(DataContext);
+    const { product, release: selectedRelease, availableReleases, availablePartnerNamespaces, partnerAPIs: selectedPartnerAPIs,
+        handleProductChange, handleReleaseChange, handleNamespacesChange } = useContext(DataContext);
 
-    const handleStateSelectChange: MultiComboBoxPropTypes["onSelectionChange"] = function(event) {
+    const handleStateSelectChange: MultiComboBoxPropTypes["onSelectionChange"] = function (event) {
         setStateFilter(
             Object.entries(states)
                 .filter(([_, state]) => event.detail.items.map(item => item.text).includes(state.label))
@@ -19,15 +20,15 @@ export default function PageFilter() {
         )
     }
 
-    const handleObjectTypeFilterChange: MultiComboBoxPropTypes["onSelectionChange"] = function(event) {
+    const handleObjectTypeFilterChange: MultiComboBoxPropTypes["onSelectionChange"] = function (event) {
         setObjectTypesFilter(event.detail.items.flatMap(item => item.text))
     }
 
-    const handleSoftwareComponentFilterChange: MultiComboBoxPropTypes["onSelectionChange"] = function(event) {
+    const handleSoftwareComponentFilterChange: MultiComboBoxPropTypes["onSelectionChange"] = function (event) {
         setSoftwareComponentsFilter(event.detail.items.flatMap(item => item.text))
     }
 
-    const handleApplicationComponentFilterChange: MultiComboBoxPropTypes["onSelectionChange"] = function(event) {
+    const handleApplicationComponentFilterChange: MultiComboBoxPropTypes["onSelectionChange"] = function (event) {
         setApplicationComponentsFilter(event.detail.items.flatMap(item => item.text))
     }
 
@@ -35,50 +36,63 @@ export default function PageFilter() {
         setLabelsFilter(event.detail.items.flatMap(item => item.text))
     }
 
-    const selectValues = Object.values(Files);
-    const isValueValid = value !== null;
-
-    if (!isValueValid) {
-        selectValues.push({
-            name: version as CloudType["name"],
-            cloud: "invalid",
-            format: "1"
-        })
-    }
-
-    return <FilterBar filterContainerWidth="17rem">
-        <FilterGroupItem
-            key="repositoryFilter"
-            label="Repository Selection"
-        >
-            <Select onChange={handleSelectChange}>
-                {selectValues.map(iterator => (
+    return <FilterBar>
+        <FilterGroupItem key="productFilter" label="SAP Product">
+            <Select onChange={handleProductChange} value={product}>
+                {Object.entries(Products).map(([key, value]) => (
                     <Option
-                        key={iterator.name}
-                        selected={iterator.name === version}
-                        icon={iterator.cloud === "public" ? "cloud" : iterator.cloud === "private" ? "SAP-icons-TNT/private-cloud" : "inspect-down"}
-                    >{iterator.name}</Option>
+                        key={key}
+                        icon={value.private ? "SAP-icons-TNT/private-cloud" : "cloud"}
+                        value={key}
+                        selected={product === key}
+                    >
+                        {value.name}
+                    </Option>
                 ))}
             </Select>
         </FilterGroupItem>
+        {availableReleases.length > 1 &&
+            <FilterGroupItem key="releaseFilter" label="Release">
+                <Select onChange={handleReleaseChange} value={selectedRelease}>
+                    {availableReleases.map(release => (
+                        <Option key={release.filename} value={release.release} selected={release.release === selectedRelease}>
+                            {release.release}
+                        </Option>
+                    ))}
+                </Select>
+            </FilterGroupItem>
+        }
+        {availablePartnerNamespaces.length > 0 &&
+            <FilterGroupItem key="namespaceFilter" label="Partner Namespace">
+                <MultiComboBox onSelectionChange={handleNamespacesChange} placeholder="Select Partner Namespace">
+                    {availablePartnerNamespaces.map(data => (
+                        <MultiComboBoxItem
+                            key={data.namespace}
+                            text={data.namespace}
+                            selected={selectedPartnerAPIs.includes(data.namespace)}
+                        />
+                    ))}
+                </MultiComboBox>
+            </FilterGroupItem>
+        }
         <FilterGroupItem
             key="stateFilter"
-            visible={isValueValid}
             label="State"
         >
             <MultiComboBox onSelectionChange={handleStateSelectChange} placeholder="Select State">
-                {Object.entries(states).map(([key, value]) => (
-                    <MultiComboBoxItem
-                        key={key}
-                        text={value.label}
-                        selected={stateFilter.includes(key)}
-                    />
-                ))}
+                {Object.entries(states)
+                    .sort((a, b) => a[1].level.localeCompare(b[1].level))
+                    .map(([key, value]) => (
+                        <MultiComboBoxItem
+                            key={key}
+                            text={value.label}
+                            selected={stateFilter.includes(key)}
+                        />
+                    ))}
             </MultiComboBox>
         </FilterGroupItem>
         <FilterGroupItem
             key="objectTypeFilter"
-            visible={isValueValid}
             label="Object Type"
         >
             <MultiComboBox onSelectionChange={handleObjectTypeFilterChange} placeholder="Select Object Type">
@@ -93,7 +107,6 @@ export default function PageFilter() {
         </FilterGroupItem>
         <FilterGroupItem
             key="softwareComponentFilter"
-            visible={isValueValid}
             label="Software Component"
         >
             <MultiComboBox onSelectionChange={handleSoftwareComponentFilterChange} placeholder="Select Software Component">
@@ -108,7 +121,6 @@ export default function PageFilter() {
         </FilterGroupItem>
         <FilterGroupItem
             key="applicationComponentFilter"
-            visible={isValueValid}
             label="Application Component"
         >
             <MultiComboBox onSelectionChange={handleApplicationComponentFilterChange} placeholder="Select Application Component" filter="Contains">
@@ -121,9 +133,8 @@ export default function PageFilter() {
                 ))}
             </MultiComboBox>
         </FilterGroupItem>
-        <FilterGroupItem
+        {labels.length > 0 && <FilterGroupItem
             key="labelFilter"
-            visible={isValueValid && labels.length > 0}
             label="Label"
         >
             <MultiComboBox onSelectionChange={handleLabelFilterChange} placeholder="Select Label">
@@ -135,6 +146,6 @@ export default function PageFilter() {
                     />
                 ))}
             </MultiComboBox>
-        </FilterGroupItem>
+        </FilterGroupItem>}
     </FilterBar>
 }

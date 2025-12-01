@@ -68,14 +68,16 @@ a new data format is needed and persited in file [objectClassifications_SAP.json
 
 Looking for >20000 Level A released dataelements for SAP Cloud ERP Private.
 
-- Collection note 83470426](https://me.sap.com/notes/3470426)
+- Collection note [3470426](https://me.sap.com/notes/3470426)
 
 
 
 ## Cloudification API Viewer
 
 *NEW NEW NEW*
-Cloudification Viewer will display now the number of APIs behind the repository name.
+- New layout of cloudification repository viewer - [Blog](https://community.sap.com/t5/technology-blog-posts-by-sap/new-cloudification-repository-viewer-for-clean-core-governance-and/ba-p/14236110)
+- Cloudification Viewer will display now the number of APIs behind the repository name.
+- Supporting partner classic APIs now (Partner Level A APIs will available as part of the partner addon installation) 
 
 [SAP Cloud ERP](https://sap.github.io/abap-atc-cr-cv-s4hc/)
 
@@ -83,9 +85,7 @@ Cloudification Viewer will display now the number of APIs behind the repository 
 
 [SAP Cloud ERP Private - Classic API Clean Core Model](https://sap.github.io/abap-atc-cr-cv-s4hc/?version=objectClassifications_SAP.json)
 
-
-
-*Click on a row to get more details about successors*
+*Click on a row with a double arrow to get more details about successors*
 
 ## Related projects
 
@@ -94,7 +94,11 @@ Use filter value: classic API + label: transactional-consistent
 
 Use the wrapper generator https://github.com/SAP-samples/tier2-rfc-proxy with details on https://community.sap.com/t5/technology-blogs-by-sap/how-to-generate-a-wrapper-for-function-modules-bapis-in-tier-2/ba-p/13692790#M172258
 
+## LLM Support for SAP APIs
 
+In pilot mode we support the brand new TOON format and offer a more compressed version of
+Classic APIs in [objectClassifications_SAP.toon](https://github.com/SAP/abap-atc-cr-cv-s4hc/blob/main/src/objectClassifications_SAP.toon) with a compression optimization of 18,3%
+Released API in [objectReleaseInfo_PCELatest.toon](https://github.com/SAP/abap-atc-cr-cv-s4hc/blob/main/src/objectReleaseInfo_PCELatest.toon) going down from 3659440 to 2989644 tokens.
 
 ## How to obtain support
 

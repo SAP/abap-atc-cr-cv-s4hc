@@ -1,6 +1,6 @@
 import { Context, Dispatch, PropsWithChildren, SetStateAction, createContext, useContext, useEffect, useState } from "react";
-import { DataContext, ElementState, ObjectElement, State, States } from "./DataProvider";
 import { SetURLSearchParams, useSearchParams } from "react-router-dom";
+import { DataContext, ElementState, ObjectElement, State, States } from "./DataProvider";
 
 export type KeyValueStates = {
     [k: string]: State;
@@ -51,6 +51,11 @@ export function ExtrudeLabels(objectElements?: ObjectElement[]): string[] {
 }
 
 export function HandleVersionFilter(key: string, filters: string[], setFilters: Dispatch<SetStateAction<string[]>>, values: string[], query: URLSearchParams, setQuery: SetURLSearchParams) {
+    const notYetInitialized = filters.length === 0 || values.length === 0;
+    if (notYetInitialized) {
+        return
+    }
+
     let copyFilter = []
 
     for (const element of filters) {
@@ -72,7 +77,7 @@ export function HandleVersionFilter(key: string, filters: string[], setFilters: 
 }
 
 export function FilterProvider({ children }: PropsWithChildren) {
-    const { value } = useContext(DataContext);
+    const { fileContent: value } = useContext(DataContext);
 
     const [ query, setQuery ] = useSearchParams();
 
