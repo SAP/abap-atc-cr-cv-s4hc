@@ -1,0 +1,13 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CONLUTIO/CL_XTMAIL_API_SIMPLE",
+      "objectType": "CLAS",
+      "objectKey": "/CONLUTIO/CL_XTMAIL_API_SIMPLE",
+      "softwareComponent": "XTMS",
+      "state": "classicAPI"
+    }
+  ]
+}
