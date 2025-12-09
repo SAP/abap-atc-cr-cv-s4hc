@@ -1,0 +1,660 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF01_CL_INTERFACE_LOOKUP",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF01_CL_INTERFACE_LOOKUP",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF01_CL_MODULE_HANDLER",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF01_CL_MODULE_HANDLER",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF01_CL_REGISTER_DOC",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF01_CL_REGISTER_DOC",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF01_CL_REGISTER_IDOC",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF01_CL_REGISTER_IDOC",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF01_CL_REGISTER_MAIL",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF01_CL_REGISTER_MAIL",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF01_CL_REGISTER_OAWD",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF01_CL_REGISTER_OAWD",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF01_CL_REGISTER_OCC",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF01_CL_REGISTER_OCC",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF01_CL_REGISTER_PIPELINE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF01_CL_REGISTER_PIPELINE",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF02_CL_FIELD_MAPPING",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF02_CL_FIELD_MAPPING",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "BC",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF02_CL_FIELD_MAPPING_CL",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF02_CL_FIELD_MAPPING_CL",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "BC",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF02_CL_PROCESS_EXT_RESLT",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF02_CL_PROCESS_EXT_RESLT",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "BC",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF04_CL_ACTION",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF04_CL_ACTION",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF04_CL_CATEGORY",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF04_CL_CATEGORY",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF04_CL_DATA",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF04_CL_DATA",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF04_CL_MODULE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF04_CL_MODULE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF04_CL_PROC_SPLIT",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF04_CL_PROC_SPLIT",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF04_CL_PROFILE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF04_CL_PROFILE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF04_CL_ROLE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF04_CL_ROLE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF11_CL_ENTITY_HANDLE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF11_CL_ENTITY_HANDLE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF31_CL_BPF_WI_WEB_HANDLE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF31_CL_BPF_WI_WEB_HANDLE",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF31_CL_BPF_WI_WEB_PERS",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF31_CL_BPF_WI_WEB_PERS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF31_CL_MON_WI_WEB_HANDLE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF31_CL_MON_WI_WEB_HANDLE",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF40_CL_ACTION_PANE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF40_CL_ACTION_PANE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF40_CL_DETAIL_PANE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF40_CL_DETAIL_PANE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF40_CL_FLD_HANDLER",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF40_CL_FLD_HANDLER",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF40_CL_IDX_SCREEN",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF40_CL_IDX_SCREEN",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF40_CL_INFO_PANE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF40_CL_INFO_PANE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF40_CL_REFERRAL",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF40_CL_REFERRAL",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF40_CL_TABSTRIP",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF40_CL_TABSTRIP",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF41_CL_IDX_SUBSCREEN",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF41_CL_IDX_SUBSCREEN",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF63_CL_ACTION_DIALOG",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF63_CL_ACTION_DIALOG",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF63_CL_DACO_WOBJ",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF63_CL_DACO_WOBJ",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF63_CL_SEM_OBJ_NAV",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF63_CL_SEM_OBJ_NAV",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PS00_CL_BED_INV_HANDLE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PS00_CL_BED_INV_HANDLE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PS00_CL_BED_ORDER_HANDLE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PS00_CL_BED_ORDER_HANDLE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PS00_CL_DYN_COLUMNS_MAP",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PS00_CL_DYN_COLUMNS_MAP",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF01_UTILITIES",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF01_UTIL_EXIT_REG_MAIL",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF01_UTILITIES",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF01_UTIL_IDOC_INPUT",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF01_UTILITIES",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF01_UTIL_PIPELINE_INPUT",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF02_DATA_PREPARATION",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF02_INIT_WORKFLOW_EXT",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "BC",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF01_IF_CONSTANTS_IDF",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF01_IF_CONSTANTS_IDF",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF01_IF_CONSTANTS_LOG",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF01_IF_CONSTANTS_LOG",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF01_IF_HANDLER",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF01_IF_HANDLER",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF01_IF_LOOKUP",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF01_IF_LOOKUP",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF01_IF_MODULE",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF01_IF_MODULE",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF01_IF_REGISTRATION",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF01_IF_REGISTRATION",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF03_IF_ACTION",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF03_IF_ACTION",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF03_IF_CHANGE_ALV",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF03_IF_CHANGE_ALV",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF03_IF_CHANGE_SELECT",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF03_IF_CHANGE_SELECT",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF03_IF_DYNAMIC_NODE",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF03_IF_DYNAMIC_NODE",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF03_IF_SEL_CRITERIA",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF03_IF_SEL_CRITERIA",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF03_IF_UI_DATA_VIEW",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF03_IF_UI_DATA_VIEW",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF03_IF_WOBJ",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF03_IF_WOBJ",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF03_IF_WOBJ_HANDLER",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF03_IF_WOBJ_HANDLER",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF03_IF_WOBJ_TYPE",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF03_IF_WOBJ_TYPE",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF04_IF_ACTION",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF04_IF_ACTION",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF04_IF_CATEGORY",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF04_IF_CATEGORY",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF04_IF_DATA_ENRICH_EX",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF04_IF_DATA_ENRICH_EX",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF04_IF_MODULE",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF04_IF_MODULE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF04_IF_PROFILE_DETERMINE",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF04_IF_PROFILE_DETERMINE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF04_IF_ROLE",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF04_IF_ROLE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF11_IF_CONSTANTS",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF11_IF_CONSTANTS",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF11_IF_ENTITY_ATTR",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF11_IF_ENTITY_ATTR",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF11_IF_FIELD_ATTR",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF11_IF_FIELD_ATTR",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF11_IF_HANDLE_RESULT",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF11_IF_HANDLE_RESULT",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF20_IF_FIELD_MAPPING",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF20_IF_FIELD_MAPPING",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "BC",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF32_IF_CONSTANTS",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF32_IF_CONSTANTS",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF62_IF_ACTION_DIALOG",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF62_IF_ACTION_DIALOG",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF62_IF_CONSTANTS",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF62_IF_CONSTANTS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF62_IF_DATA_COLLECTION",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF62_IF_DATA_COLLECTION",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF62_IF_ITEM_HANDLER",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF62_IF_ITEM_HANDLER",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF62_IF_NODE",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF62_IF_NODE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF62_IF_PERSPECTIVE_CLASS",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF62_IF_PERSPECTIVE_CLASS",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF63_IF_CONV_FIELD_VALUE",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF63_IF_CONV_FIELD_VALUE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF63_IF_CONV_PARAM_VALUES",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF63_IF_CONV_PARAM_VALUES",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF63_IF_FS_LIST",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF63_IF_FS_LIST",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF63_IF_SEM_OBJ_NAV",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF63_IF_SEM_OBJ_NAV",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    }
+  ]
+}
