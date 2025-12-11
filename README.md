@@ -110,7 +110,7 @@ get more details in note [3126893](https://launchpad.support.sap.com/#/notes/312
 
 ## Contributing
 
-This project is provided "as-is" and is mirroring the state as it is used in the SAP Cloud Platform ABAP Environment product, therefore we will accept bug reports but unfortunately we can't accept any pull requests from customers.
+This project is provided "as-is" and is mirroring the state as it is used in the SAP Cloud Platform ABAP Environment product, therefore we will only accept bug reports for the repository viewer but unfortunately we can't accept any pull requests from customers.
 Partner products with own namespace will receive a possibility to contribute via pull requests for own classic APIs JSONs.
 
 ## Licensing
