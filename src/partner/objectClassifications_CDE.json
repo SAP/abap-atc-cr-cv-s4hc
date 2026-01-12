@@ -1,0 +1,61 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CDE/CL_BOOLEAN_EXP_CHECK",
+      "objectType": "CLAS",
+      "objectKey": "/CDE/CL_BOOLEAN_EXP_CHECK",
+      "softwareComponent": "CDE",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CDE/CL_CLOUD_SERVICES_DPC",
+      "objectType": "CLAS",
+      "objectKey": "/CDE/CL_CLOUD_SERVICES_DPC",
+      "softwareComponent": "CDE",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CDE/CL_CLOUD_SERVICES_DPC_EXT",
+      "objectType": "CLAS",
+      "objectKey": "/CDE/CL_CLOUD_SERVICES_DPC_EXT",
+      "softwareComponent": "CDE",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CDE/CL_CLOUD_SERVICES_MPC",
+      "objectType": "CLAS",
+      "objectKey": "/CDE/CL_CLOUD_SERVICES_MPC",
+      "softwareComponent": "CDE",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CDE/CL_CLOUD_SERVICES_MPC_EXT",
+      "objectType": "CLAS",
+      "objectKey": "/CDE/CL_CLOUD_SERVICES_MPC_EXT",
+      "softwareComponent": "CDE",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CDE/CL_PA_INFOTYPE",
+      "objectType": "CLAS",
+      "objectKey": "/CDE/CL_PA_INFOTYPE",
+      "softwareComponent": "CDE",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CDE/CL_USER_MAPPING",
+      "objectType": "CLAS",
+      "objectKey": "/CDE/CL_USER_MAPPING",
+      "softwareComponent": "CDE",
+      "state": "classicAPI"
+    }
+  ]
+}
