@@ -54,8 +54,8 @@ The corresponding CSV files can be consumed for offline processing in any spread
 For SAP Cloud ERP Private  or on-premise, you can use the release version file with the string *PCE* included.
 e.g. https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/  + filename
 
-SAP Cloud ERP Private; example Release 2023 FPS03
---> https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCE2023_3.json
+SAP Cloud ERP Private; example Release 2025 FPS00
+--> https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCE2025.json
 
 With the note [3449860](https://launchpad.support.sap.com/#/notes/3449860)- ATC Checks 'Usage of Released APIs' and 'Usage of Released APIs (Cloudification Repository)' support for Classic APIs
 
