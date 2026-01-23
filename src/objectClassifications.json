@@ -815,6 +815,15 @@
   },
   {
    "tadirObject":"CLAS",
+   "tadirObjName":"CL_RAP_DRAFT_DURABLE_LOCK",
+   "objectType":"CLAS",
+   "objectKey":"CL_RAP_DRAFT_DURABLE_LOCK",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-ESI-RAP-SRV",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
    "tadirObjName":"CL_USMDZ7_ENTITY_SERVICES",
    "objectType":"CLAS",
    "objectKey":"CL_USMDZ7_ENTITY_SERVICES",
