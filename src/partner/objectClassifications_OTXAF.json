@@ -1,0 +1,16 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTXAF/CORE_FUGR",
+      "objectType": "FUNC",
+      "objectKey": "/OTXAF/ARCHIVE_WF_COMPLETE",
+      "softwareComponent": "OTXAF",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    }
+  ]
+}
