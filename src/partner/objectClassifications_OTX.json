@@ -3,6 +3,89 @@
   "objectClassifications": [
     {
       "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/CX_RLSA_SAM_PROP_PROV",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/CX_RLSA_SAM_PROP_PROV",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/CX_RM_PP_NO_DECLARING",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/CX_RM_PP_NO_DECLARING",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/CX_RM_PROPERTY_PROVIDER",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/CX_RM_PROPERTY_PROVIDER",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/CX_RM_WSC",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/CX_RM_WSC",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/CX_RM_WSCI_NO_DECLARING",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/CX_RM_WSCI_NO_DECLARING",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/CX_RM_WSCI_WSPROVIDER",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/CX_RM_WSCI_WSPROVIDER",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/CX_RM_XECM_SRV",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/CX_RM_XECM_SRV",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
       "tadirObjName": "/OTX/PF01_CL_INTERFACE_LOOKUP",
       "objectType": "CLAS",
       "objectKey": "/OTX/PF01_CL_INTERFACE_LOOKUP",
@@ -302,6 +385,333 @@
       "objectKey": "/OTX/PS00_CL_DYN_COLUMNS_MAP",
       "softwareComponent": "OTVIMBAS",
       "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_0_CL_PP_MATERIAL",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_0_CL_PP_MATERIAL",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_0_S4_CL_PP_AL_FIACC",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_0_S4_CL_PP_AL_FIACC",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_0_S4_CL_PP_BUPA",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_0_S4_CL_PP_BUPA",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_HR_CL_PP_EMPLOYEE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_HR_CL_PP_EMPLOYEE",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_PM_CL_PP_EQUIPMENT",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_PM_CL_PP_EQUIPMENT",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_PM_CL_PP_FUNC_LOC",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_PM_CL_PP_FUNC_LOC",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_PM_CL_PP_NOTIFICAT",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_PM_CL_PP_NOTIFICAT",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_PM_CL_PP_ORDER",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_PM_CL_PP_ORDER",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_PM_CL_PP_ORDER_OP",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_PM_CL_PP_ORDER_OP",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_PM_CL_PP_TASK_LST",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_PM_CL_PP_TASK_LST",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_PM_CL_PP_TASK_LST_OP",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_PM_CL_PP_TASK_LST_OP",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_PR_CL_PP_CONTRACT",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_PR_CL_PP_CONTRACT",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_PR_CL_PP_ORDER",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_PR_CL_PP_ORDER",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_PR_CL_PP_QUOTATION",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_PR_CL_PP_QUOTATION",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_PR_CL_PP_REQUISITION",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_PR_CL_PP_REQUISITION",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_RE_CL_PP_BUILDING",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_RE_CL_PP_BUILDING",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_RE_CL_PP_BUS_ENTITY",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_RE_CL_PP_BUS_ENTITY",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_RE_CL_PP_CONTRACT",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_RE_CL_PP_CONTRACT",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_RE_CL_PP_PROPERTY",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_RE_CL_PP_PROPERTY",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_RE_CL_PP_RENTAL_OBJ",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_RE_CL_PP_RENTAL_OBJ",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RLSA_SD_CL_PP_SALESDOC",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RLSA_SD_CL_PP_SALESDOC",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RM_CL_CONTREF_ALINK",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RM_CL_CONTREF_ALINK",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RM_CL_PP_ALINK",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RM_CL_PP_ALINK",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RM_CL_XECM_FACTORY",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RM_CL_XECM_FACTORY",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RM_GEN_PP_CL_ALINK_DOC",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RM_GEN_PP_CL_ALINK_DOC",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RM_GEN_PP_CL_BO",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RM_GEN_PP_CL_BO",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RM_WSCI_CL_WSPROV_DEFAULT",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RM_WSCI_CL_WSPROV_DEFAULT",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RM_WSC_CL_BOR_API_FACTORY",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RM_WSC_CL_BOR_API_FACTORY",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/RM_WSC_CL_Q_ITEM",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/RM_WSC_CL_Q_ITEM",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
     },
     {
       "tadirObject": "FUGR",
@@ -655,6 +1065,65 @@
       "objectKey": "/OTX/PF63_IF_SEM_OBJ_NAV",
       "softwareComponent": "OTVIMBAS",
       "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/RLSA_SAM_IF_UPLOAD_PP",
+      "objectType": "INTF",
+      "objectKey": "/OTX/RLSA_SAM_IF_UPLOAD_PP",
+      "softwareComponent": "OTCMBSC",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/RM_IF_CONTENT_REF",
+      "objectType": "INTF",
+      "objectKey": "/OTX/RM_IF_CONTENT_REF",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/RM_IF_IMPERSONATE",
+      "objectType": "INTF",
+      "objectKey": "/OTX/RM_IF_IMPERSONATE",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/RM_IF_XECM_SRV",
+      "objectType": "INTF",
+      "objectKey": "/OTX/RM_IF_XECM_SRV",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/RM_WSC_IF_ECMLINK_BOR_API",
+      "objectType": "INTF",
+      "objectKey": "/OTX/RM_WSC_IF_ECMLINK_BOR_API",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "transactional-consistent"
+      ]
     }
   ]
 }
