@@ -12,10 +12,12 @@ Please implement
 + note "Fix error in ATC Check" [3377462](https://launchpad.support.sap.com/#/notes/3377462)
 + note "own released objects support" [3507814](https://launchpad.support.sap.com/#/notes/3507814)
 
+
 Following the Clean Core approach:
 + for SAP Cloud ERP Private only: Classic APIs support -note [3449860](https://launchpad.support.sap.com/#/notes/3449860)
 + Validate SimplificationitemDB - Using transaction SYCM: Menu Simplification Database - Show Information. Follow the update information in note note [2241080](https://launchpad.support.sap.com/#/notes/2241080)
 - ATC Checks 'Usage of Released APIs' and 'Usage of Released APIs (Cloudification Repository)' Support Classic APIs
+- + note function group fix [3710789](https://launchpad.support.sap.com/#/notes/3710789)
 
 NEW NEW NEW  Clean Core Check
 - ATC Checks "Usage of APIs" and "Allowed Enhancement Technologies" [3565942](https://me.sap.com/notes/3565942)
