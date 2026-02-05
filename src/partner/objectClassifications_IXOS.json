@@ -1,0 +1,23 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/IXOS/RT_AL",
+      "objectType": "FUNC",
+      "objectKey": "/IXOS/RT_BASIC_ARCHIVELINK",
+      "softwareComponent": "OTEXBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/IXOS/RT_KPRO",
+      "objectType": "FUNC",
+      "objectKey": "/IXOS/RT_KPRO_BASIS",
+      "softwareComponent": "OTEXBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    }
+  ]
+}
