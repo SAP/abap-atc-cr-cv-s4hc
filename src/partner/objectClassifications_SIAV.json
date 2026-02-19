@@ -1,0 +1,1025 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/ARCHIFLOW_SERVICE",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/ARCHIFLOW_SERVICE",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/ARCHIFLOW_WEB",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/ARCHIFLOW_WEB",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/ARF_ATTACHMENTS",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/ARF_ATTACHMENTS",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CL_ARF_LOG",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CL_ARF_LOG",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CO_ISAP_SERVICE_CONTRACT",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CO_ISAP_SERVICE_CONTRACT",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA10",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA10",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA11",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA11",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA12",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA12",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA13",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA13",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA14",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA14",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA15",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA15",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA16",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA16",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA17",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA17",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA18",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA18",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA19",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA19",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA20",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA20",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA21",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA21",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA22",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA22",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA23",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA23",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA24",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA24",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA25",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA25",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA26",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA26",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA27",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA27",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA28",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA28",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA29",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA29",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA30",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA30",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA31",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA31",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA32",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA32",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA33",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA33",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA34",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA34",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA35",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA35",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA36",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA36",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA37",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA37",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA38",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA38",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA39",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA39",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA40",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA40",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA41",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA41",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA42",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA42",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA43",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA43",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA44",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA44",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA45",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA45",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA46",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA46",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA47",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA47",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA48",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA48",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA49",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA49",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA50",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA50",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA51",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA51",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA52",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA52",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA53",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA53",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA54",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA54",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA55",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA55",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA56",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA56",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA57",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA57",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA58",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA58",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA59",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA59",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA60",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA60",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA61",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA61",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA62",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA62",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA63",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA63",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA64",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA64",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA65",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA65",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA66",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA66",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA67",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA67",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA68",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA68",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA69",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA69",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA70",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA70",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA71",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA71",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA72",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA72",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRA73",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRA73",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRAC1",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRAC1",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRAC2",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRAC2",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRAC3",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRAC3",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRAC4",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRAC4",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRAC5",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRAC5",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRAC6",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRAC6",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRAC7",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRAC7",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRAC8",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRAC8",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRAC9",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRAC9",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_ISAP_SERVICE_CONTRACT",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_ISAP_SERVICE_CONTRACT",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/CX_SIAV_VFS_ERROR",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/CX_SIAV_VFS_ERROR",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/EXT_ATTACH",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/EXT_ATTACH",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/INTERACTIVE_DASHBOARD",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/INTERACTIVE_DASHBOARD",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/JSON_PARSER",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/JSON_PARSER",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/REST",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/REST",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/SEND_META",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/SEND_META",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/SERVICE",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/SERVICE",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SIAV/VFS_ERROR",
+      "objectType": "CLAS",
+      "objectKey": "/SIAV/VFS_ERROR",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/AP_HTML_VIEWER",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/AP_HTML_VIEWER",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/ARCHIVE",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/ARCHIVE_ORDER",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/ARCHIVE",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/ID_FOR_ARCHIVE_GET",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/ARF_BADI_LINK",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/ARF_LINK_CHANGED",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/ARF_CALL",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/ARF_CALL_ARCHIFLOW_WEB",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/ARF_CALL",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/ARF_CALL_INTERACTIVDASH",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/ARF_CALL",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/ARF_CARD_DISPLAY",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/ARF_CALL",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/TEST_NEW_ARF_MASSIVO",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/ARF_CFG_DT",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/ARF_CFG_DT_GET",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/BKPF_DTYPE",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/BKPF_DTYPE_GET",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/F4_VALUES",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/F4_VALUES",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_META_BKPF",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_META_BKPF_2",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_META_BKPF_EDOC",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_META_BUS2012",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_META_BUS2014",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_META_BUS2017",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_META_BUS2032",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_META_BUS2078",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_META_BUS2081",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_META_BUS2105",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_META_LIKP",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_META_VBAK",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_META_VBAK_2",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_META_VBRK",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_RELA_BKPF",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_RELA_BKPF_SDI",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_RELA_BUS2012",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_RELA_BUS2017",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_RELA_BUS2032",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_RELA_BUS2081",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_RELA_BUS2105",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_RELA_LIKP",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_RELA_MOD",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/METADATA",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/SEND_RELA_VBRK",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/PARAMS",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/GET_PARAM",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/POPUP",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/POPUP_GET_STRING",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/WS_IF",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/WS_AF2SAP",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SIAV/WS_IF",
+      "objectType": "FUNC",
+      "objectKey": "/SIAV/WS_BARCODE_SENDLIST",
+      "softwareComponent": "SIAV",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    }
+  ]
+}
