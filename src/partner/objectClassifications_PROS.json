@@ -1,0 +1,301 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/PROS/CL_EX_MDO_CUST_EXIT",
+      "objectType": "CLAS",
+      "objectKey": "/PROS/CL_EX_MDO_CUST_EXIT",
+      "softwareComponent": "PROS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_COMMON_FG_V1",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_CONDENSE_DATA",
+      "softwareComponent": "PROS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_COMMON_FG_V1",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_GET_ADDRESS_DATA",
+      "softwareComponent": "PROS",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_COMMON_FG_V1",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_GET_ADDRESS_DATA_V1",
+      "softwareComponent": "PROS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_COMMON_FG_V1",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_GET_DROP_VALUES",
+      "softwareComponent": "PROS",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_COMMON_FG_V2",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_GET_XSD_OF_TABLE",
+      "softwareComponent": "PROS",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_CONVERT_LONGTEXT",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_ITF_TO_RTF",
+      "softwareComponent": "PROS",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_CONVERT_LONGTEXT",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_RTF_TO_ITF",
+      "softwareComponent": "PROS",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_DOCUMENT_ATTACH",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_DOCUMENT_ATTACH",
+      "softwareComponent": "PROS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_EQUIP_NEW",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_GET_EQUIPMENT",
+      "softwareComponent": "PROSEAM",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_EQUIP_NEW",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_GET_EQUI_DATA",
+      "softwareComponent": "PROSEAM",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_FLOC_EQUIP_FG",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_ADDRESS_INSERT",
+      "softwareComponent": "PROSEAM",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_FLOC_EQUIP_FG",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_FLOC_RELABELING_V1",
+      "softwareComponent": "PROSEAM",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_FLOC_EQUIP_FG",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_GET_REF_FLOC_DATA",
+      "softwareComponent": "PROSEAM",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_FLOC_EQUIP_FG",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_GET_REF_FLOC_DETAIL",
+      "softwareComponent": "PROSEAM",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_FLOC_EQUIP_FG_V1",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_EQUIPMENT_MASTER_V2",
+      "softwareComponent": "PROSEAM",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_FLOC_EQUIP_FG_V1",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_FLOC_INHERITANCE_V2",
+      "softwareComponent": "PROSEAM",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_FLOC_EQUIP_FG_V1",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_FUNCTIONAL_LOCATI_V2",
+      "softwareComponent": "PROSEAM",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_FUNLOC_FG_NEW",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_GET_FLOC_DATA",
+      "softwareComponent": "PROSEAM",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_FUNLOC_FG_NEW",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_GET_FL_DATA_V1",
+      "softwareComponent": "PROSEAM",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_LINEAR_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_LINEAR_DATA_CALC",
+      "softwareComponent": "PROSEAM",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_MATERIAL_DELETE",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_MATERIAL_DELETE",
+      "softwareComponent": "PROSMM",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_MATERIAL_MAST_FG",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_MATERIAL_MASTER_V2",
+      "softwareComponent": "PROSMM",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_MATERIAL_PRIC_FG",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_MAT_PRICE_CHANGE",
+      "softwareComponent": "PROSMM",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_MATERIAL_PRIC_FG",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_M_CREATEPRICECHANGE",
+      "softwareComponent": "PROSMM",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_MM_V1",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_GET_MM_DATA",
+      "softwareComponent": "PROSMM",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/PROS/MDO_MM_V1",
+      "objectType": "FUNC",
+      "objectKey": "/PROS/MDO_GET_MM_DATA_V1",
+      "softwareComponent": "PROSMM",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/PROS/IF_EX_MDO_CUST_EXIT",
+      "objectType": "INTF",
+      "objectKey": "/PROS/IF_EX_MDO_CUST_EXIT",
+      "softwareComponent": "PROS",
+      "state": "classicAPI"
+    }
+  ]
+}
