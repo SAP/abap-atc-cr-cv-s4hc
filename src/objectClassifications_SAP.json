@@ -85156,7 +85156,7 @@
    "objectType":"FUNC",
    "objectKey":"BAPI_MATERIAL_GET_PRODUCTHIER",
    "softwareComponent":"S4CORE",
-   "applicationComponent":"SD-MD-MM",
+   "applicationComponent":"SD-SLS",
    "state":"classicAPI",
    "labels":
    [
