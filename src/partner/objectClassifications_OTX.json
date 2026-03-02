@@ -3,6 +3,58 @@
   "objectClassifications": [
     {
       "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/CX_PF00_EXCEPTION",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/CX_PF00_EXCEPTION",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/CX_PF03_EXCEPTION",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/CX_PF03_EXCEPTION",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/CX_PF04_EXCEPTION",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/CX_PF04_EXCEPTION",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/CX_PF31_EXCEPTION",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/CX_PF31_EXCEPTION",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/CX_PF40_EXCEPTION",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/CX_PF40_EXCEPTION",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/CX_PF62_EXCEPTION",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/CX_PF62_EXCEPTION",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
       "tadirObjName": "/OTX/CX_RLSA_SAM_PROP_PROV",
       "objectType": "CLAS",
       "objectKey": "/OTX/CX_RLSA_SAM_PROP_PROV",
@@ -86,6 +138,95 @@
     },
     {
       "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF00_CL_AI_JOB_LOG_DELETE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF00_CL_AI_JOB_LOG_DELETE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF00_CL_PLUGIN",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF00_CL_PLUGIN",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF00_CL_PLUGIN_DEF_IMAGE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF00_CL_PLUGIN_DEF_IMAGE",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF00_CL_PLUGIN_DEF_LOG",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF00_CL_PLUGIN_DEF_LOG",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF00_CL_PLUGIN_DEF_TABLE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF00_CL_PLUGIN_DEF_TABLE",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF00_CL_PLUGIN_DEF_TEXT",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF00_CL_PLUGIN_DEF_TEXT",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF00_CL_PLUGIN_DEF_TREE_C",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF00_CL_PLUGIN_DEF_TREE_C",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF00_CL_RFC_HANDLER",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF00_CL_RFC_HANDLER",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF00_CL_TEXT",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF00_CL_TEXT",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF00_CL_WRAPPER_HTTP",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF00_CL_WRAPPER_HTTP",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
       "tadirObjName": "/OTX/PF01_CL_INTERFACE_LOOKUP",
       "objectType": "CLAS",
       "objectKey": "/OTX/PF01_CL_INTERFACE_LOOKUP",
@@ -158,6 +299,15 @@
     },
     {
       "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF02_CL_ADHOC_PROCESSING",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF02_CL_ADHOC_PROCESSING",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "BC",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
       "tadirObjName": "/OTX/PF02_CL_FIELD_MAPPING",
       "objectType": "CLAS",
       "objectKey": "/OTX/PF02_CL_FIELD_MAPPING",
@@ -185,11 +335,55 @@
     },
     {
       "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF02_CL_PROCESS_LOG",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF02_CL_PROCESS_LOG",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "BC",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF02_CL_WI_EXIT_CONTROL",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF02_CL_WI_EXIT_CONTROL",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "BC",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF02_CL_WORKFLOW",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF02_CL_WORKFLOW",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "BC",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF03_CL_UI_CONTROLLER",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF03_CL_UI_CONTROLLER",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
       "tadirObjName": "/OTX/PF04_CL_ACTION",
       "objectType": "CLAS",
       "objectKey": "/OTX/PF04_CL_ACTION",
       "softwareComponent": "OTVIMBAS",
       "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF04_CL_BPF_HANDLER",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF04_CL_BPF_HANDLER",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
     },
     {
       "tadirObject": "CLAS",
@@ -241,11 +435,395 @@
     },
     {
       "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF04_CL_WF_HANDLER",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF04_CL_WF_HANDLER",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF04_CL_WI_HANDLER",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF04_CL_WI_HANDLER",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF05_CL_CUST04",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF05_CL_CUST04",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF05_CL_CUSTOMIZING",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF05_CL_CUSTOMIZING",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF05_CL_VERSION",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF05_CL_VERSION",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF08_CL_INB_ANLY_COMPARE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF08_CL_INB_ANLY_COMPARE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF08_CL_INB_ANLY_IES_PROF",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF08_CL_INB_ANLY_IES_PROF",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF11_CL_DATA_EXTRACTION",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF11_CL_DATA_EXTRACTION",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF11_CL_DATA_EXT_MANAGER",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF11_CL_DATA_EXT_MANAGER",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
       "tadirObjName": "/OTX/PF11_CL_ENTITY_HANDLE",
       "objectType": "CLAS",
       "objectKey": "/OTX/PF11_CL_ENTITY_HANDLE",
       "softwareComponent": "OTVIMBAS",
       "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF11_CL_FEEDBACK_MANAGER",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF11_CL_FEEDBACK_MANAGER",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF11_CL_PROFILE_MANAGER",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF11_CL_PROFILE_MANAGER",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF11_CL_PROFILE_UI",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF11_CL_PROFILE_UI",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF11_CL_RFC_ADAPTER",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF11_CL_RFC_ADAPTER",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF11_CL_SNAPSHOT",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF11_CL_SNAPSHOT",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF11_CL_TRACE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF11_CL_TRACE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF11_CL_TRACE_DAO",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF11_CL_TRACE_DAO",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF11_CL_TRACE_UI",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF11_CL_TRACE_UI",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF11_CL_TRANSFORMATION",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF11_CL_TRANSFORMATION",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF11_CL_UI_VALIDATION",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF11_CL_UI_VALIDATION",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF12_CL_FACTORY",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF12_CL_FACTORY",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF12_CL_REP_DAO",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF12_CL_REP_DAO",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF12_CL_REP_HANDLER",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF12_CL_REP_HANDLER",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF12_CL_REP_LOCAL",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF12_CL_REP_LOCAL",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF12_CL_SERVICE_HNDL_REPO",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF12_CL_SERVICE_HNDL_REPO",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF12_CL_SNAPSHOT_BASE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF12_CL_SNAPSHOT_BASE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF12_CL_SNAPSHOT_REMOTE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF12_CL_SNAPSHOT_REMOTE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF12_CL_UTILITIES",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF12_CL_UTILITIES",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF13_CL_COM_BIDIRECT",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF13_CL_COM_BIDIRECT",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF13_CL_COM_UNIDIRECT",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF13_CL_COM_UNIDIRECT",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF13_CL_CONNECTION_EXTR",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF13_CL_CONNECTION_EXTR",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF13_CL_FACTORY_INJECTOR",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF13_CL_FACTORY_INJECTOR",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF13_CL_FACTORY_MOCK",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF13_CL_FACTORY_MOCK",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF13_CL_JSON",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF13_CL_JSON",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF13_CL_OAUTH_REQUEST",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF13_CL_OAUTH_REQUEST",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF13_CL_PARALLEL_PROC",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF13_CL_PARALLEL_PROC",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF13_CL_PROCESSING_SLOT",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF13_CL_PROCESSING_SLOT",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF13_CL_PROCESSING_SLOT_M",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF13_CL_PROCESSING_SLOT_M",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF13_CL_REQUEST",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF13_CL_REQUEST",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF13_CL_REQUEST_TRACE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF13_CL_REQUEST_TRACE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF13_CL_RESPONSE_HANDLER",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF13_CL_RESPONSE_HANDLER",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF13_CL_SEND_QUEUE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF13_CL_SEND_QUEUE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF13_CL_SESSION",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF13_CL_SESSION",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF20_CL_BASIS_API_ADAPTER",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF20_CL_BASIS_API_ADAPTER",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "BC",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF20_CL_LOCK",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF20_CL_LOCK",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "BC",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF20_CL_LOG",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF20_CL_LOG",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "BC",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF20_CL_LVL",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF20_CL_LVL",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "BC",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF20_CL_SERVICES",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF20_CL_SERVICES",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "BC",
+      "state": "noAPI"
     },
     {
       "tadirObject": "CLAS",
@@ -337,6 +915,159 @@
       "objectKey": "/OTX/PF41_CL_IDX_SUBSCREEN",
       "softwareComponent": "OTVIMBAS",
       "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_BATCH_CUST",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_BATCH_CUST",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_CREATE_LAY_ADLG",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_CREATE_LAY_ADLG",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_DCUI",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_DCUI",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_DC_ADV_LI",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_DC_ADV_LI",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_DC_ADV_LI_ACTNDLG",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_DC_ADV_LI_ACTNDLG",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_DC_BULK_ACTION",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_DC_BULK_ACTION",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_DC_CHECKBOXES",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_DC_CHECKBOXES",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_DC_CREATE_PERSPEC",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_DC_CREATE_PERSPEC",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_DC_FILE_UPLOAD",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_DC_FILE_UPLOAD",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_DC_FS_LIST",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_DC_FS_LIST",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_DC_PREHEAT",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_DC_PREHEAT",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_PSP_RENAME_DLG",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_PSP_RENAME_DLG",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_UTIL",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_UTIL",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_UTIL_REQUEST",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_UTIL_REQUEST",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_UTIL_VARIANT",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_UTIL_VARIANT",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_UTIL_WOBJ",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_UTIL_WOBJ",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_UTIL_WPLACE_REQ",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_UTIL_WPLACE_REQ",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
     },
     {
       "tadirObject": "CLAS",
@@ -715,6 +1446,48 @@
     },
     {
       "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF01_ILM",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF01_ILM_LHM_DISPLAY",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF01_ILM",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF01_ILM_ORIGIN_GET",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF01_RFC",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF01_RFC_DEC_PNT_INBOUND",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF01_RFC",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF01_RFC_DEC_PNT_INB_MULT",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
       "tadirObjName": "/OTX/PF01_UTILITIES",
       "objectType": "FUNC",
       "objectKey": "/OTX/PF01_UTIL_EXIT_REG_MAIL",
@@ -751,6 +1524,896 @@
       "labels": [
         "remote-enabled"
       ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF04_STEP_EXITS",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF04_AFT_GETPN_CLEAR_AHSU",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF04_WI_EXITS",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF04_WI_EXIT",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF31_BPF",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF31_BPF_WF_DISPLAY_INDEX",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF40_IDX_UI",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF40_IDX_SCREEN_POPUP",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_BULK_ACTIONS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_CHECK_FIELDS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_CHECK_LINEITM_FIELDS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_CREATE_OBJECT",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_DELETE_DOCUMENT",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_END_DATA_COLL",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_EXECUTE_ACTIONS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_3_NODELISTCOL",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_3_NODELISTROW",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_3_NODES",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_3_OBJECTS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_ACTIONS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_ACTION_AGENTS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_ACTION_REASONS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_ACTION_VALIDAT",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_ACTION_VALID_MSG",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_ADV_LI_HEADER",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_COMMENTS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_DOCUMENTS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_DOCU_ATTRIBUTES",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_EXCEPTIONS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_FILTER_NAMES",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_FILTER_VALUES",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_FILTER_VARIANTS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_FORMATS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_FUNCTIONS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_HEADER_DETAILS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_HELPCOLS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_HELPROWS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_HISTORY_ENTRIES",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_HISTORY_MESSAGES",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_IMAGE_CTRL_PAGE",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_IMG_CTRL_FULLTXT",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_ITEM_DATA",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_ITEM_DETAILS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_ITEM_LINK_DATA",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_ITEM_TITLES",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_NODELISTCOL",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_NODELISTROW",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_NODELST_NAV_LINK",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_NODES",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_NODE_ACTION",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_NODE_ACTIONS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_OBJECTS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_OBJECT_FUNCTIONS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_OBJECT_HEADER",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_ORDER_NAMES",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_REL_BUS_OBJECT",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_SEARCH_NAMES",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_TIMELINES",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_TRANSPORTS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_USER_DETAIL",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_VARIANTS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_WEBID_ALIAS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_GET_WORKPLACES",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_HANDLE_BATCH_REQUEST",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_HANDLE_LOCK",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_HAS_OBJECT_CHANGED",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_START_DATA_COLL",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_SUBMIT_ADV_LINE_ITEM",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_UPDATE_HEADER_DETAIL",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_UPDATE_LINE_ITEM",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PF62_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PF62_UPLOAD_DOCUMENT",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PS00_ILM",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PS00_ILM_LHM_DISPLAY",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/PS00_ILM",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/PS00_ILM_ORIGIN_GET",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/RM_WSC_EVENTING",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/RM_WSC_UPD",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled",
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/RM_WSC_EVENTING",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/RM_WSC_UPD_ASYNC",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled",
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/RM_WSC_EVENTING",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/RM_WSC_UPD_EXISTING",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled",
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OTX/RM_WSC_EVENTING",
+      "objectType": "FUNC",
+      "objectKey": "/OTX/RM_WSC_UPD_EXISTING_ASYNC",
+      "softwareComponent": "OTCMFND",
+      "applicationComponent": "CA",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled",
+        "transactional-consistent"
+      ]
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF00_IF_ADAPTER_SAP",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF00_IF_ADAPTER_SAP",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF00_IF_PLUGIN",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF00_IF_PLUGIN",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF00_IF_WRAPPER_HTTP",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF00_IF_WRAPPER_HTTP",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
     },
     {
       "tadirObject": "INTF",
@@ -808,6 +2471,15 @@
     },
     {
       "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF02_IF_CONSTANTS",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF02_IF_CONSTANTS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "BC",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
       "tadirObjName": "/OTX/PF03_IF_ACTION",
       "objectType": "INTF",
       "objectKey": "/OTX/PF03_IF_ACTION",
@@ -853,12 +2525,30 @@
     },
     {
       "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF03_IF_UI_CONTROLLER",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF03_IF_UI_CONTROLLER",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "INTF",
       "tadirObjName": "/OTX/PF03_IF_UI_DATA_VIEW",
       "objectType": "INTF",
       "objectKey": "/OTX/PF03_IF_UI_DATA_VIEW",
       "softwareComponent": "OTVIMBAS",
       "applicationComponent": "CA",
       "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF03_IF_UI_NAVIGATION",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF03_IF_UI_NAVIGATION",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
     },
     {
       "tadirObject": "INTF",
@@ -894,6 +2584,14 @@
       "objectKey": "/OTX/PF04_IF_ACTION",
       "softwareComponent": "OTVIMBAS",
       "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF04_IF_BPF_HANDLER",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF04_IF_BPF_HANDLER",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
     },
     {
       "tadirObject": "INTF",
@@ -937,6 +2635,22 @@
     },
     {
       "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF04_IF_WF_HANDLER",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF04_IF_WF_HANDLER",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF04_IF_WI_HANDLER",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF04_IF_WI_HANDLER",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "INTF",
       "tadirObjName": "/OTX/PF11_IF_CONSTANTS",
       "objectType": "INTF",
       "objectKey": "/OTX/PF11_IF_CONSTANTS",
@@ -966,6 +2680,23 @@
       "objectKey": "/OTX/PF11_IF_HANDLE_RESULT",
       "softwareComponent": "OTVIMBAS",
       "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF11_IF_RFC_ADAPTER",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF11_IF_RFC_ADAPTER",
+      "softwareComponent": "OTVIMBAS",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF20_IF_BASIS_API_ADAPTER",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF20_IF_BASIS_API_ADAPTER",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "BC",
+      "state": "noAPI"
     },
     {
       "tadirObject": "INTF",
