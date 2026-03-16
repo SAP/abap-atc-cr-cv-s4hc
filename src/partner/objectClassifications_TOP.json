@@ -38,6 +38,15 @@
       "state": "classicAPI"
     },
     {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/TOP/TP_CL_TICKET_DATA",
+      "objectType": "CLAS",
+      "objectKey": "/TOP/TP_CL_TICKET_DATA",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
       "tadirObject": "DDLS",
       "tadirObjName": "/TOP/TPL_HEAD",
       "objectType": "CDS_STOB",
@@ -57,6 +66,15 @@
     },
     {
       "tadirObject": "DDLS",
+      "tadirObjName": "/TOP/TPL_MESSAGE",
+      "objectType": "CDS_STOB",
+      "objectKey": "/TOP/TPL_MESSAGE",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
       "tadirObjName": "/TOP/TPL_XRF_DAT",
       "objectType": "CDS_STOB",
       "objectKey": "/TOP/TPL_XRF_DAT",
@@ -69,15 +87,6 @@
       "tadirObjName": "/TOP/TP_BO",
       "objectType": "FUNC",
       "objectKey": "/TOP/TP_CREATE_TICKET",
-      "softwareComponent": "S4SCSD",
-      "applicationComponent": "IS-OIL-DS-OGSD",
-      "state": "classicAPI"
-    },
-    {
-      "tadirObject": "CLAS",
-      "tadirObjName": "/TOP/TP_CL_TICKET_DATA",
-      "objectType": "CLAS",
-      "objectKey": "/TOP/TP_CL_TICKET_DATA",
       "softwareComponent": "S4SCSD",
       "applicationComponent": "IS-OIL-DS-OGSD",
       "state": "classicAPI"
