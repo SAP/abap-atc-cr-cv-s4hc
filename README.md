@@ -12,10 +12,12 @@ Please implement
 + note "Fix error in ATC Check" [3377462](https://launchpad.support.sap.com/#/notes/3377462)
 + note "own released objects support" [3507814](https://launchpad.support.sap.com/#/notes/3507814)
 
+
 Following the Clean Core approach:
 + for SAP Cloud ERP Private only: Classic APIs support -note [3449860](https://launchpad.support.sap.com/#/notes/3449860)
 + Validate SimplificationitemDB - Using transaction SYCM: Menu Simplification Database - Show Information. Follow the update information in note note [2241080](https://launchpad.support.sap.com/#/notes/2241080)
 - ATC Checks 'Usage of Released APIs' and 'Usage of Released APIs (Cloudification Repository)' Support Classic APIs
+- + note function group fix [3710789](https://launchpad.support.sap.com/#/notes/3710789)
 
 NEW NEW NEW  Clean Core Check
 - ATC Checks "Usage of APIs" and "Allowed Enhancement Technologies" [3565942](https://me.sap.com/notes/3565942)
@@ -54,8 +56,9 @@ The corresponding CSV files can be consumed for offline processing in any spread
 For SAP Cloud ERP Private  or on-premise, you can use the release version file with the string *PCE* included.
 e.g. https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/  + filename
 
-SAP Cloud ERP Private; example Release 2023 FPS03
---> https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCE2023_3.json
+SAP Cloud ERP Private; example Release 2025 FPS00
+--> https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCE2025.json
+Remark: The Json files are available for Feature pack stack releases of Cloud ERP Private only. No dedicated support packages update on jason files.
 
 With the note [3449860](https://launchpad.support.sap.com/#/notes/3449860)- ATC Checks 'Usage of Released APIs' and 'Usage of Released APIs (Cloudification Repository)' support for Classic APIs
 
@@ -110,7 +113,7 @@ get more details in note [3126893](https://launchpad.support.sap.com/#/notes/312
 
 ## Contributing
 
-This project is provided "as-is" and is mirroring the state as it is used in the SAP Cloud Platform ABAP Environment product, therefore we will accept bug reports but unfortunately we can't accept any pull requests from customers.
+This project is provided "as-is" and is mirroring the state as it is used in the SAP Cloud Platform ABAP Environment product, therefore we will only accept bug reports for the repository viewer but unfortunately we can't accept any pull requests from customers.
 Partner products with own namespace will receive a possibility to contribute via pull requests for own classic APIs JSONs.
 
 ## Licensing

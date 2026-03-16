@@ -1,0 +1,41 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/INFHCM/IPM_CL_HTTP_HANDL_IPAM",
+      "objectType": "CLAS",
+      "objectKey": "/INFHCM/IPM_CL_HTTP_HANDL_IPAM",
+      "softwareComponent": "INFHCM",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/INFHCM/IPM_CL_PROJ_IPAM",
+      "objectType": "CLAS",
+      "objectKey": "/INFHCM/IPM_CL_PROJ_IPAM",
+      "softwareComponent": "INFHCM",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/INFHCM/IPM_CL_PROJ_IPAM2",
+      "objectType": "CLAS",
+      "objectKey": "/INFHCM/IPM_CL_PROJ_IPAM2",
+      "softwareComponent": "INFHCM",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INFHCM/IPM_FG_RECON",
+      "objectType": "FUNC",
+      "objectKey": "/INFHCM/IPM_FM_RECON",
+      "softwareComponent": "INFHCM",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    }
+  ]
+}
+

@@ -815,6 +815,15 @@
   },
   {
    "tadirObject":"CLAS",
+   "tadirObjName":"CL_RAP_DRAFT_DURABLE_LOCK",
+   "objectType":"CLAS",
+   "objectKey":"CL_RAP_DRAFT_DURABLE_LOCK",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-ESI-RAP-SRV",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
    "tadirObjName":"CL_USMDZ7_ENTITY_SERVICES",
    "objectType":"CLAS",
    "objectKey":"CL_USMDZ7_ENTITY_SERVICES",
@@ -27739,7 +27748,7 @@
    "objectType":"FUNC",
    "objectKey":"BUKRS_AUTHORITY_CHECK",
    "softwareComponent":"S4CORE",
-   "applicationComponent":"FI-GL-IS",
+   "applicationComponent":"FI-GL-GL-D",
    "state":"classicAPI"
   },
   {
@@ -29038,7 +29047,7 @@
    "objectType":"FUNC",
    "objectKey":"DETERMINE_DUE_DATE",
    "softwareComponent":"S4CORE",
-   "applicationComponent":"FI-GL-IS",
+   "applicationComponent":"FI-GL-GL-D",
    "state":"classicAPI"
   },
   {
