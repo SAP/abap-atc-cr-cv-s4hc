@@ -66,15 +66,6 @@
     },
     {
       "tadirObject": "DDLS",
-      "tadirObjName": "/TOP/TPL_MESSAGE",
-      "objectType": "CDS_STOB",
-      "objectKey": "/TOP/TPL_MESSAGE",
-      "softwareComponent": "S4SCSD",
-      "applicationComponent": "IS-OIL-DS-OGSD",
-      "state": "classicAPI"
-    },
-    {
-      "tadirObject": "DDLS",
       "tadirObjName": "/TOP/TPL_XRF_DAT",
       "objectType": "CDS_STOB",
       "objectKey": "/TOP/TPL_XRF_DAT",
