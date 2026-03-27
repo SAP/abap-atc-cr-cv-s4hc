@@ -36,6 +36,7 @@ export type ABAPContents = {
     s4public: ABAPRelease[];
     s4private: ABAPRelease[];
     btp: ABAPRelease[];
+    partnerOnly: ABAPRelease[];
     partnerAPIs: PartnerAPI[];
 };
 export const Files: ABAPContents = files as any;
@@ -43,7 +44,8 @@ export const Files: ABAPContents = files as any;
 export const Products = {
     s4public: { private: false, name: "SAP Cloud ERP" },
     s4private: { private: true, name: "SAP Cloud ERP Private" },
-    btp: { private: false, name: "SAP BTP ABAP Environment" }
+    btp: { private: false, name: "SAP BTP ABAP Environment" },
+    partnerOnly: { private: false, name: "Partner APIs Only" }
 }
 
 // Type guard to differentiate real product keys (those with ABAP release arrays) from other collections like partnerAPIs
@@ -246,7 +248,7 @@ export function DataProvider({ children }: PropsWithChildren) {
     }, [product]);
 
     const availablePartnerNamespaces = useMemo(() => {
-        if (product !== "s4private") {
+        if (product !== "s4private" && product !== "partnerOnly") {
             return [];
         }
         return Files["partnerAPIs"];
@@ -298,7 +300,15 @@ export function DataProvider({ children }: PropsWithChildren) {
     }, [product, release, partnerAPIs, query, setQuery]);
 
     useEffect(() => {
-        if (selectedFile) {
+        if (product === "partnerOnly") {
+            const namespacesToLoad = partnerAPIs.length > 0 ? partnerAPIs : Files.partnerAPIs.map(item => item.namespace);
+            const extraPartnerAPIs = namespacesToLoad
+                .map(partnerAPI => Files.partnerAPIs.find(item => item.namespace === partnerAPI)?.filename)
+                .filter((item): item is string => !!item)
+                .map(filename => loadFile(filename))
+                .flatMap(item => item || []);
+            setFileContent(extraPartnerAPIs);
+        } else if (selectedFile) {
             const releasedAPIs = loadFile(selectedFile.filename);
             if (Products[product as keyof typeof Products].private && releasedAPIs && classicAPIs) {
                 const extraPartnerAPIs = partnerAPIs
