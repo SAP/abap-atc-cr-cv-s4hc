@@ -1,0 +1,77 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/MIC/IF_INB_POST_REQUEST_ADDIN",
+      "objectType": "INTF",
+      "objectKey": "/MIC/IF_INB_POST_REQUEST_ADDIN",
+      "softwareComponent": "MICR6",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/MIC/IF_INB_PRE_REQUEST_ADDIN",
+      "objectType": "INTF",
+      "objectKey": "/MIC/IF_INB_PRE_REQUEST_ADDIN",
+      "softwareComponent": "MICR6",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/MIC/IF_POST_CHRL_FIELDS_ADDIN",
+      "objectType": "INTF",
+      "objectKey": "/MIC/IF_POST_CHRL_FIELDS_ADDIN",
+      "softwareComponent": "MICR6",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/MIC/IF_POST_FILTER_ADDIN",
+      "objectType": "INTF",
+      "objectKey": "/MIC/IF_POST_FILTER_ADDIN",
+      "softwareComponent": "MICR6",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/MIC/IF_POST_MAPPING_ADDIN",
+      "objectType": "INTF",
+      "objectKey": "/MIC/IF_POST_MAPPING_ADDIN",
+      "softwareComponent": "MICR6",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/MIC/IF_POST_REQUEST_ADDIN",
+      "objectType": "INTF",
+      "objectKey": "/MIC/IF_POST_REQUEST_ADDIN",
+      "softwareComponent": "MICR6",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/MIC/IF_POST_RESPONSE_ADDIN",
+      "objectType": "INTF",
+      "objectKey": "/MIC/IF_POST_RESPONSE_ADDIN",
+      "softwareComponent": "MICR6",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/MIC/IF_POST_TRIGGER_ADDIN",
+      "objectType": "INTF",
+      "objectKey": "/MIC/IF_POST_TRIGGER_ADDIN",
+      "softwareComponent": "MICR6",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/MIC/IF_PRE_REQUEST_ADDIN",
+      "objectType": "INTF",
+      "objectKey": "/MIC/IF_PRE_REQUEST_ADDIN",
+      "softwareComponent": "MICR6",
+      "state": "classicAPI"
+    }
+  ]
+}
