@@ -22,10 +22,13 @@ fs.mkdirSync(contentsPath, {
     recursive: true
 })
 
+const partnerOnly = "partnerOnly";
+
 const contentObjects = {
     [editionS4Public]: [],
     [editionS4Private]: [],
     [editionBTP]: [],
+    [partnerOnly]: [],
     [partnerAPIs]: []
 };
 
