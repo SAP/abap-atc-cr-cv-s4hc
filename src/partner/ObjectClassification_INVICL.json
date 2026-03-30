@@ -1,0 +1,530 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/INVICL/CL_DELTA_CHANGE",
+      "objectType": "CLAS",
+      "objectKey": "/INVICL/CL_DELTA_CHANGE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/INVICL/CL_ICWP_INTEGR_DPC",
+      "objectType": "CLAS",
+      "objectKey": "/INVICL/CL_ICWP_INTEGR_DPC",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/INVICL/CL_ICWP_INTEGR_DPC_EXT",
+      "objectType": "CLAS",
+      "objectKey": "/INVICL/CL_ICWP_INTEGR_DPC_EXT",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/INVICL/CL_ICWP_INTEGR_MPC",
+      "objectType": "CLAS",
+      "objectKey": "/INVICL/CL_ICWP_INTEGR_MPC",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/INVICL/CL_ICWP_INTEGR_MPC_EXT",
+      "objectType": "CLAS",
+      "objectKey": "/INVICL/CL_ICWP_INTEGR_MPC_EXT",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/INVICL/CL_IWORKORDER_CWP_MAIN",
+      "objectType": "CLAS",
+      "objectKey": "/INVICL/CL_IWORKORDER_CWP_MAIN",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/INVICL/CL_IWORKORDER_NOTIF",
+      "objectType": "CLAS",
+      "objectKey": "/INVICL/CL_IWORKORDER_NOTIF",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_ALM_CONF_CANCEL",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_ATTACHMENT_CREATE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_ATTACHMENT_DELETE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_DYNAMIC_POST",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_MEASDOCATT_CREATE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_MEASDOCU_CREATE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_MEASDOC_CREATE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_MEASPOINT_CHANGE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_MEASPOINT_CREATE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_NOTIFTASK_REL_COM",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_NOTIF_ACT_UPDATE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_NOTIF_CAUSES_UPD",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_NOTIF_CREATE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_NOTIF_ITEM_UPDATE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_NOTIF_REL_COMPL",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_WONOEQFL_ATT_LIST",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_WOOPE_CONFIRM",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_WORKORDER_UPDATE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_WO_COMPONENT_DEL",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_WO_COMPONENT_UPD",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_WO_COMP_CREATE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_WO_OBJ_NO_CREATE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_WO_OPERATION_DEL",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_WO_OPERATION_UPD",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/BAPI_WO_OPERAT_CREATE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/CLASS_VALIDATION_CHECK",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/COMPONENT_GOODS_ISSUE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/COMPONENT_GOODS_RETURN",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/DMS_ATTACHMENT_CREATE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/DYNDATA_FETCH_MULTI",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/EMERG_WORKORDER_CREATE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/ESS_TIME_ENTRY_CONFIRM",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/ESS_TIME_ENTRY_CREATE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/ESS_TIME_ENTRY_UPDATE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/FM_EQFL_DMSATTACHMENTS",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/FM_FIELDDATA_VALIDATIN",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/FM_NO_CLAS_CHAR_CHANGE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/FM_NO_CLAS_CHAR_CREATE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/FM_UPDATE_TIME_SHEET",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/IDEMPOTENT_UUID_CREATE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/I_DYNDATA_FETCH",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/RH_DYNAMIC_WHERE_BUILD",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/WORKORDER_CHANGE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/INVICL/IWORKORDER_FG",
+      "objectType": "FUNC",
+      "objectKey": "/INVICL/WORKORDER_CREATE",
+      "softwareComponent": "INVICL",
+      "applicationComponent": "AP",
+      "state": "classicAPI"
+    }
+  ]
+}
