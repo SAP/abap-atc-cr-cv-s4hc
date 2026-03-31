@@ -362,6 +362,24 @@
     },
     {
       "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF03_CL_DATA_HANDLER_DYN",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF03_CL_DATA_HANDLER_DYN",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF03_CL_DATA_VIEWER_ALV",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF03_CL_DATA_VIEWER_ALV",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
       "tadirObjName": "/OTX/PF03_CL_UI_CONTROLLER",
       "objectType": "CLAS",
       "objectKey": "/OTX/PF03_CL_UI_CONTROLLER",
@@ -1017,6 +1035,60 @@
     },
     {
       "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_PERSPECTIVE_CLASS",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_PERSPECTIVE_CLASS",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_PSP_ACTIVATE_DLG",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_PSP_ACTIVATE_DLG",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_PSP_ADVL_BINDING",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_PSP_ADVL_BINDING",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_PSP_ATTL_BINDING",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_PSP_ATTL_BINDING",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_PSP_ITEM_HANDL",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_PSP_ITEM_HANDL",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF62_CL_PSP_LAYOUT",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF62_CL_PSP_LAYOUT",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
       "tadirObjName": "/OTX/PF62_CL_PSP_RENAME_DLG",
       "objectType": "CLAS",
       "objectKey": "/OTX/PF62_CL_PSP_RENAME_DLG",
@@ -1082,6 +1154,14 @@
       "tadirObjName": "/OTX/PF63_CL_DACO_WOBJ",
       "objectType": "CLAS",
       "objectKey": "/OTX/PF63_CL_DACO_WOBJ",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF63_CL_PERSPECTIVE_BASE",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF63_CL_PERSPECTIVE_BASE",
       "softwareComponent": "OTVIMBAS",
       "state": "classicAPI"
     },
