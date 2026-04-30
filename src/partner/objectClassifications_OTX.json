@@ -146,6 +146,15 @@
     },
     {
       "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF00_CL_DATA_CONVERSION",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF00_CL_DATA_CONVERSION",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
       "tadirObjName": "/OTX/PF00_CL_PLUGIN",
       "objectType": "CLAS",
       "objectKey": "/OTX/PF00_CL_PLUGIN",
@@ -424,6 +433,14 @@
       "tadirObjName": "/OTX/PF04_CL_MODULE",
       "objectType": "CLAS",
       "objectKey": "/OTX/PF04_CL_MODULE",
+      "softwareComponent": "OTVIMBAS",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OTX/PF04_CL_MYINBOX_WI_CNTXT",
+      "objectType": "CLAS",
+      "objectKey": "/OTX/PF04_CL_MYINBOX_WI_CNTXT",
       "softwareComponent": "OTVIMBAS",
       "state": "classicAPI"
     },
@@ -2476,6 +2493,15 @@
       "softwareComponent": "OTVIMBAS",
       "applicationComponent": "CA",
       "state": "noAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/OTX/PF00_IF_DATA_CONVERSION",
+      "objectType": "INTF",
+      "objectKey": "/OTX/PF00_IF_DATA_CONVERSION",
+      "softwareComponent": "OTVIMBAS",
+      "applicationComponent": "CA",
+      "state": "classicAPI"
     },
     {
       "tadirObject": "INTF",
