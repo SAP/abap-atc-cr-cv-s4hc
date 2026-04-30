@@ -1,0 +1,60 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OPT/CL_C_UPDATE",
+      "objectType": "CLAS",
+      "objectKey": "/OPT/CL_C_UPDATE",
+      "softwareComponent": "OTVIMINV",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/OPT/CL_VIM_DOCUMENT",
+      "objectType": "CLAS",
+      "objectKey": "/OPT/CL_VIM_DOCUMENT",
+      "softwareComponent": "OTVIMINV",
+      "applicationComponent": "FI",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OPT/VIM_FG1A1",
+      "objectType": "FUNC",
+      "objectKey": "/OPT/VIM_PROCESS_DOCUMENT",
+      "softwareComponent": "OTVIMINV",
+      "applicationComponent": "FI",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OPT/VIM_FG1A2",
+      "objectType": "FUNC",
+      "objectKey": "/OPT/VIM_PROCESS_CONTROLLER",
+      "softwareComponent": "OTVIMINV",
+      "applicationComponent": "FI",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OPT/VIM_VD7_BPF",
+      "objectType": "FUNC",
+      "objectKey": "/OPT/VIM_PROCESS_LOGIC_MODULES",
+      "softwareComponent": "OTVIMINV",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/OPT/VIM_WF_UTILS",
+      "objectType": "FUNC",
+      "objectKey": "/OPT/VIM_STOP_PROCESS",
+      "softwareComponent": "OTVIMINV",
+      "applicationComponent": "FI",
+      "state": "noAPI"
+    }
+  ]
+}
