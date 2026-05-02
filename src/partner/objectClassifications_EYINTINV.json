@@ -1,0 +1,131 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/EYINTINV/APPR_QRY",
+      "objectType": "CLAS",
+      "objectKey": "/EYINTINV/APPR_QRY",
+      "softwareComponent": "EYINTINV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/EYINTINV/BP_APPRREQ",
+      "objectType": "CLAS",
+      "objectKey": "/EYINTINV/BP_APPRREQ",
+      "softwareComponent": "EYINTINV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/EYINTINV/CL_IM_APPR_UPD",
+      "objectType": "CLAS",
+      "objectKey": "/EYINTINV/CL_IM_APPR_UPD",
+      "softwareComponent": "EYINTINV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/EYINTINV/CREATE_PROXY",
+      "objectType": "CLAS",
+      "objectKey": "/EYINTINV/CREATE_PROXY",
+      "softwareComponent": "EYINTINV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/EYINTINV/CREATE_SCM",
+      "objectType": "CLAS",
+      "objectKey": "/EYINTINV/CREATE_SCM",
+      "softwareComponent": "EYINTINV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/EYINTINV/PROXY_APPR_DETAIL",
+      "objectType": "CLAS",
+      "objectKey": "/EYINTINV/PROXY_APPR_DETAIL",
+      "softwareComponent": "EYINTINV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/EYINTINV/PROXY_BSVA",
+      "objectType": "CLAS",
+      "objectKey": "/EYINTINV/PROXY_BSVA",
+      "softwareComponent": "EYINTINV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/EYINTINV/QUERY_MODEL",
+      "objectType": "CLAS",
+      "objectKey": "/EYINTINV/QUERY_MODEL",
+      "softwareComponent": "EYINTINV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/EYINTINV/SET_STATUS",
+      "objectType": "CLAS",
+      "objectKey": "/EYINTINV/SET_STATUS",
+      "softwareComponent": "EYINTINV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/EYINTINV/TRIGGERWF",
+      "objectType": "CLAS",
+      "objectKey": "/EYINTINV/TRIGGERWF",
+      "softwareComponent": "EYINTINV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/EYINTINV/_PROXY_APPRREQ",
+      "objectType": "CLAS",
+      "objectKey": "/EYINTINV/_PROXY_APPRREQ",
+      "softwareComponent": "EYINTINV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/EYINTINV/APPRREQ",
+      "objectType": "CDS_STOB",
+      "objectKey": "/EYINTINV/APPRREQ",
+      "softwareComponent": "EYINTINV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/EYINTINV/STATUS_I",
+      "objectType": "CDS_STOB",
+      "objectKey": "/EYINTINV/STATUS_I",
+      "softwareComponent": "EYINTINV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/EYINTINV/APPR_REQUEST",
+      "objectType": "FUNC",
+      "objectKey": "/EYINTINV/APPRREQUEST_CREATE",
+      "softwareComponent": "EYINTINV",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/EYINTINV/APPR_REQUEST",
+      "objectType": "FUNC",
+      "objectKey": "/EYINTINV/APPR_STATUS_CHANGE",
+      "softwareComponent": "EYINTINV",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    }
+  ]
+}
