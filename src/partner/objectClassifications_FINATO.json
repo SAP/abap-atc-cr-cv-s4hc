@@ -1,0 +1,125 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/FINATO/CL_INVOICE_DPC",
+      "objectType": "CLAS",
+      "objectKey": "/FINATO/CL_INVOICE_DPC",
+      "softwareComponent": "FINATO",
+      "applicationComponent": "MM",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/FINATO/CL_INVOICE_DPC_EXT",
+      "objectType": "CLAS",
+      "objectKey": "/FINATO/CL_INVOICE_DPC_EXT",
+      "softwareComponent": "FINATO",
+      "applicationComponent": "MM",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/FINATO/CL_INVOICE_MPC",
+      "objectType": "CLAS",
+      "objectKey": "/FINATO/CL_INVOICE_MPC",
+      "softwareComponent": "FINATO",
+      "applicationComponent": "MM",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/FINATO/CL_INVOICE_MPC_EXT",
+      "objectType": "CLAS",
+      "objectKey": "/FINATO/CL_INVOICE_MPC_EXT",
+      "softwareComponent": "FINATO",
+      "applicationComponent": "MM",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/FINATO/CL_MAT_DOC_HANDLER",
+      "objectType": "CLAS",
+      "objectKey": "/FINATO/CL_MAT_DOC_HANDLER",
+      "softwareComponent": "FINATO",
+      "applicationComponent": "MM",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/FINATO/CL_MM_INTEGRATION",
+      "objectType": "CLAS",
+      "objectKey": "/FINATO/CL_MM_INTEGRATION",
+      "softwareComponent": "FINATO",
+      "applicationComponent": "MM",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/FINATO/C_PO_GRN",
+      "objectType": "CDS_STOB",
+      "objectKey": "/FINATO/C_PO_GRN",
+      "softwareComponent": "FINATO",
+      "applicationComponent": "MM",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/FINATO/C_PO_HEADER",
+      "objectType": "CDS_STOB",
+      "objectKey": "/FINATO/C_PO_HEADER",
+      "softwareComponent": "FINATO",
+      "applicationComponent": "MM",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/FINATO/C_PO_ITEM",
+      "objectType": "CDS_STOB",
+      "objectKey": "/FINATO/C_PO_ITEM",
+      "softwareComponent": "FINATO",
+      "applicationComponent": "MM",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/FINATO/C_PO_QTYVIEW",
+      "objectType": "CDS_STOB",
+      "objectKey": "/FINATO/C_PO_QTYVIEW",
+      "softwareComponent": "FINATO",
+      "applicationComponent": "MM",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/FINATO/C_VENDOR",
+      "objectType": "CDS_STOB",
+      "objectKey": "/FINATO/C_VENDOR",
+      "softwareComponent": "FINATO",
+      "applicationComponent": "MM",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/FINATO/MM_INTEGRATION",
+      "objectType": "FUNC",
+      "objectKey": "/FINATO/MM_VENDOR_SEND",
+      "softwareComponent": "FINATO",
+      "applicationComponent": "MM",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/FINATO/MM_IF_CONTANTS",
+      "objectType": "INTF",
+      "objectKey": "/FINATO/MM_IF_CONTANTS",
+      "softwareComponent": "FINATO",
+      "applicationComponent": "MM",
+      "state": "classicAPI"
+    }
+  ]
+}
