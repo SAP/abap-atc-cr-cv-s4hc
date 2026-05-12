@@ -1,0 +1,5163 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDL_DATA_PROVIDER_MUL",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDL_DATA_PROVIDER_MUL",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDL_DATA_PROVIDER_PAR",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDL_DATA_PROVIDER_PAR",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDL_DATA_PROV_MUL_GEO",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDL_DATA_PROV_MUL_GEO",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDL_DLB_CONTEXT_LIB",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDL_DLB_CONTEXT_LIB",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDL_DLB_DATA_PROVIDER_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDL_DLB_DATA_PROVIDER_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDL_DLB_DATA_PROVIDER_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDL_DLB_DATA_PROVIDER_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDL_DLB_DATA_PROVIDER_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDL_DLB_DATA_PROVIDER_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDL_DLB_PROVIDER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDL_DLB_PROVIDER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDL_PAR_PARAMETERS_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDL_PAR_PARAMETERS_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDL_PAR_PARAMETERS_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDL_PAR_PARAMETERS_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDL_PAR_PARAMETERS_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDL_PAR_PARAMETERS_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDL_PPR_PARAMETER_PRO_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDL_PPR_PARAMETER_PRO_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDL_PPR_PARAMETER_PRO_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDL_PPR_PARAMETER_PRO_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDL_PPR_PARAMETER_PRO_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDL_PPR_PARAMETER_PRO_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ACO_PROXIES",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ACO_PROXIES",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ACT_ACTIONS_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ACT_ACTIONS_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ACT_ACTIONS_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ACT_ACTIONS_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ACT_ACTIONS_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ACT_ACTIONS_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ADR_CANVAS_LAUNCHER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ADR_CANVAS_LAUNCHER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ANALYST_CATALOGS",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ANALYST_CATALOGS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ANL_CANVAS_LAUNCHER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ANL_CANVAS_LAUNCHER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ANL_CNV_LNCH_MEM_HD",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ANL_CNV_LNCH_MEM_HD",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ANL_DATA_CONTAINER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ANL_DATA_CONTAINER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ANL_DATA_OUT",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ANL_DATA_OUT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ANL_LIST_CAN_LNCH",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ANL_LIST_CAN_LNCH",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ASYCN_INB_SER_HANDL",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ASYCN_INB_SER_HANDL",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ATY_ACTION_TYPES_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ATY_ACTION_TYPES_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ATY_ACTION_TYPES_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ATY_ACTION_TYPES_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ATY_LAUNCHER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ATY_LAUNCHER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ATY_REPORT_LCH",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ATY_REPORT_LCH",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ATY_TRANSACTION_LCH",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ATY_TRANSACTION_LCH",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_BAPI_ACO_PROXIES",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_BAPI_ACO_PROXIES",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_BAPI_CONF_CREATE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_BAPI_CONF_CREATE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_BAPI_OBJCL_DETAIL",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_BAPI_OBJCL_DETAIL",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_BAPI_OBJCL_GETCLASS",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_BAPI_OBJCL_GETCLASS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_BAPI_RES_GETDETAIL",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_BAPI_RES_GETDETAIL",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_BO_SMM_PROCESSOR",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_BO_SMM_PROCESSOR",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_BUFFER_COPY_GEOMETR",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_BUFFER_COPY_GEOMETR",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_CANVAS_EVENT_HANDLE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_CANVAS_EVENT_HANDLE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_CANVAS_LAUNCHER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_CANVAS_LAUNCHER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_CLASS_OBJ_ACO_PROXY",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_CLASS_OBJ_ACO_PROXY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_CLS_CHAR_ACO_PROXY",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_CLS_CHAR_ACO_PROXY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_CNF_CREATE_PROXY",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_CNF_CREATE_PROXY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_CNV_CANVAS_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_CNV_CANVAS_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_CNV_CANVAS_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_CNV_CANVAS_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_CONFIG_DATA_HANDLER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_CONFIG_DATA_HANDLER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_CPG_COPY_GEOMETRY",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_CPG_COPY_GEOMETRY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_CTL_CATALOG_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_CTL_CATALOG_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_CTL_CATALOG_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_CTL_CATALOG_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_CUSTOMER_TO_SMM",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_CUSTOMER_TO_SMM",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_CUSTOM_CONFIG",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_CUSTOM_CONFIG",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_CUSTOM_CONFIG_GRID",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_CUSTOM_CONFIG_GRID",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DAP_DATA_ATTR_PRO_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DAP_DATA_ATTR_PRO_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DAP_DATA_ATTR_PRO_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DAP_DATA_ATTR_PRO_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DAS_DA_SEMANTICS_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DAS_DA_SEMANTICS_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DAS_DA_SEMANTICS_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DAS_DA_SEMANTICS_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DAS_DA_SEMANTICS_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DAS_DA_SEMANTICS_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DATA_HANDLER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DATA_HANDLER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DATA_VIEW",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DATA_VIEW",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DLB_DATA_PROVIDER_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DLB_DATA_PROVIDER_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DLB_DATA_PROVIDER_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DLB_DATA_PROVIDER_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DLB_DATA_PROVIDER_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DLB_DATA_PROVIDER_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DMS_ACO_PROXIES",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DMS_ACO_PROXIES",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DMS_INBOUND_PROCESS",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DMS_INBOUND_PROCESS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DMS_INBOUND_SERVICE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DMS_INBOUND_SERVICE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DMS_INB_DEFAULT_IMP",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DMS_INB_DEFAULT_IMP",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DMS_READ_SERVICE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DMS_READ_SERVICE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DMS_SAVE_INP_RESULT",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DMS_SAVE_INP_RESULT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DMS_SAVE_NOTI",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DMS_SAVE_NOTI",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DMS_SAVE_OP",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DMS_SAVE_OP",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DMS_SAVE_OPERATION",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DMS_SAVE_OPERATION",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DMS_SAVE_WO",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DMS_SAVE_WO",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DOCUMENT_CHECK",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DOCUMENT_CHECK",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DOD_DOJ_DEFN_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DOD_DOJ_DEFN_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DOD_DOJ_DEFN_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DOD_DOJ_DEFN_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DOL_DOBJ_LAUNCHER_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DOL_DOBJ_LAUNCHER_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_DOL_DOBJ_LAUNCHER_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_DOL_DOBJ_LAUNCHER_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EAM_EEQ_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EAM_EEQ_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EAM_EFL_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EAM_EFL_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EAM_EGM_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EAM_EGM_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EAM_ELC_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EAM_ELC_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EAM_EMD_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EAM_EMD_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EAM_ENO_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EAM_ENO_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EAM_ENO_UPDATE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EAM_ENO_UPDATE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EAM_EOC_ACO_PROXY",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EAM_EOC_ACO_PROXY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EAM_EOC_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EAM_EOC_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EAM_EWBS_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EAM_EWBS_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EAM_EWO_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EAM_EWO_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EAM_EWO_UPDATE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EAM_EWO_UPDATE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EAM_NET_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EAM_NET_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ECL_CLS_CHAR_DATA_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ECL_CLS_CHAR_DATA_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ECL_CLS_CHAR_DATA_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ECL_CLS_CHAR_DATA_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ECL_CLS_CHAR_DATA_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ECL_CLS_CHAR_DATA_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ECL_CLS_CHAR_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ECL_CLS_CHAR_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EEQ_EQUIPMENT_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EEQ_EQUIPMENT_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EEQ_EQUIPMENT_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EEQ_EQUIPMENT_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EEQ_EQUIPMENT_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EEQ_EQUIPMENT_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EFL_FUNCTION_LOC_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EFL_FUNCTION_LOC_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EFL_FUNCTION_LOC_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EFL_FUNCTION_LOC_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EFL_FUNCTION_LOC_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EFL_FUNCTION_LOC_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EMD_MEASURING_DOC_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EMD_MEASURING_DOC_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EMD_MEASURING_DOC_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EMD_MEASURING_DOC_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EMD_MEASURING_DOC_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EMD_MEASURING_DOC_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EMI_MAT_INDENT_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EMI_MAT_INDENT_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EMM_MATERIAL_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EMM_MATERIAL_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ENC_AND_DEC_PSWD",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ENC_AND_DEC_PSWD",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ENO_NOTIFICATION_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ENO_NOTIFICATION_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ENO_NOTIFICATION_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ENO_NOTIFICATION_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ENO_NOTIFICATION_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ENO_NOTIFICATION_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ENTITIES_INSERT",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ENTITIES_INSERT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ENTITY",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ENTITY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ENV_ENVIRONMENT_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ENV_ENVIRONMENT_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ENV_ENVIRONMENT_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ENV_ENVIRONMENT_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EOC_OP_CONFIRM_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EOC_OP_CONFIRM_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EOC_OP_CONFIRM_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EOC_OP_CONFIRM_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EOC_OP_CONFIRM_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EOC_OP_CONFIRM_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EQUI_DOCUMENT_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EQUI_DOCUMENT_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ESL_STORAGE_LOC_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ESL_STORAGE_LOC_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ESL_STORAGE_LOC_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ESL_STORAGE_LOC_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_ESL_STORAGE_LOC_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_ESL_STORAGE_LOC_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EWO_NOT_BUNDLE_CU",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EWO_NOT_BUNDLE_CU",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EWO_WORKORDER_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EWO_WORKORDER_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EWO_WORKORDER_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EWO_WORKORDER_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_EWO_WORKORDER_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_EWO_WORKORDER_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_FEATURE_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_FEATURE_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_FEA_FEATURES_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_FEA_FEATURES_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_FEA_FEATURES_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_FEA_FEATURES_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_FILTER_ANALYST_DATA",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_FILTER_ANALYST_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GEOJSON",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GEOJSON",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_ACO_PROXY",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_ACO_PROXY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_ADDRESS_DETAILS",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_ADDRESS_DETAILS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_ASSET_CLASSES",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_ASSET_CLASSES",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_ASSET_DATA",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_ASSET_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_BADI_VALUES",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_BADI_VALUES",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_CATALOG_PROFILE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_CATALOG_PROFILE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_CHARACTERISTIC",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_CHARACTERISTIC",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_CHAR_VALUE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_CHAR_VALUE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_CONTACT_PERSON",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_CONTACT_PERSON",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_DEFAULT_J_DATA",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_DEFAULT_J_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_DOCUMENT_BASE64",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_DOCUMENT_BASE64",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_DOCUMENT_DETAIL",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_DOCUMENT_DETAIL",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_EQUIPMENT_LAYER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_EQUIPMENT_LAYER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_EQUIPMENT_VALUE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_EQUIPMENT_VALUE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_EQUI_ACTUAL_CST",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_EQUI_ACTUAL_CST",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_EQUI_VALUE_WO_V",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_EQUI_VALUE_WO_V",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_ESRI_GEO_TYPE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_ESRI_GEO_TYPE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_FL_PERMITS",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_FL_PERMITS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_FUNCTIONAL_LOC",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_FUNCTIONAL_LOC",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_INSPECTIONS",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_INSPECTIONS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_INS_RESULT",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_INS_RESULT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_JSON_TO_DATA_UI",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_JSON_TO_DATA_UI",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_MAP_CONFIG",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_MAP_CONFIG",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_MATRIAL_DOCU",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_MATRIAL_DOCU",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_MATRIAL_MASTER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_MATRIAL_MASTER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_MATRIAL_TRANS",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_MATRIAL_TRANS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_MEASURING_POINT",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_MEASURING_POINT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_MSS_VALUES",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_MSS_VALUES",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_NETWORK_VALUES",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_NETWORK_VALUES",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_NOTIFI_VALUE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_NOTIFI_VALUE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_NOTI_ACT_WO_V",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_NOTI_ACT_WO_V",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_NOTI_IACT_WO_V",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_NOTI_IACT_WO_V",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_NOTI_ICAUS_WO_V",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_NOTI_ICAUS_WO_V",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_NOTI_ITASK_WO_V",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_NOTI_ITASK_WO_V",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_NOTI_ITEM_WO_V",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_NOTI_ITEM_WO_V",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_NOTI_TASK_WO_V",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_NOTI_TASK_WO_V",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_OPERATIONS",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_OPERATIONS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_OPERATION_MODE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_OPERATION_MODE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_OP_SERVICES",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_OP_SERVICES",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_PERSON_DETAIL",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_PERSON_DETAIL",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_SELECTION_SET",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_SELECTION_SET",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_SERVM_VALUE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_SERVM_VALUE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_SMM_DATA_SERV",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_SMM_DATA_SERV",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_TARGET_FOR_DOC",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_TARGET_FOR_DOC",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_VENDOR_VALUE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_VENDOR_VALUE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_WBS_ELMNT_VALUE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_WBS_ELMNT_VALUE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GET_WO_ORDER_VALUE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GET_WO_ORDER_VALUE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GIS_ESRI_SYSTEM",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GIS_ESRI_SYSTEM",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GIS_GOOGLE_SYSTEM",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GIS_GOOGLE_SYSTEM",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GIS_OS_SYSTEM",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GIS_OS_SYSTEM",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GIS_SYSTEM",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GIS_SYSTEM",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GOODS_MOM",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GOODS_MOM",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_GOV",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_GOV",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_IEW_GRID_ALV",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_IEW_GRID_ALV",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_IEW_HELP_INFO",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_IEW_HELP_INFO",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_INBOUND_SVC_BULK",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_INBOUND_SVC_BULK",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_INB_DATA_PROCESSOR",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_INB_DATA_PROCESSOR",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_INB_DEFAULT_IMPL",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_INB_DEFAULT_IMPL",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_INB_DOD_INBOUND_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_INB_DOD_INBOUND_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_INB_DOD_INBOUND_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_INB_DOD_INBOUND_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_INB_SERVICE_HANDLER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_INB_SERVICE_HANDLER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_INB_SVC_HNDLR_ASYC",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_INB_SVC_HNDLR_ASYC",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_INB_SVC_HNDLR_BULK",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_INB_SVC_HNDLR_BULK",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_INB_SVC_HNDLR_SYNC",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_INB_SVC_HNDLR_SYNC",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_IN_REF_DEL_WRAPPER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_IN_REF_DEL_WRAPPER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_JSON_DOCUMENT",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_JSON_DOCUMENT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_JSON_PARSER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_JSON_PARSER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_LGR_LAYERGROUP_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_LGR_LAYERGROUP_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_LGR_LAYERGROUP_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_LGR_LAYERGROUP_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_LNR_LAUNCHER_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_LNR_LAUNCHER_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_LNR_LAUNCHER_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_LNR_LAUNCHER_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_LOG_HANDLER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_LOG_HANDLER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_LOG_MGR",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_LOG_MGR",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_LYR_LAYER_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_LYR_LAYER_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_LYR_LAYER_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_LYR_LAYER_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_MAP_MAPPING_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_MAP_MAPPING_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_MAP_MAPPING_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_MAP_MAPPING_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_MASS_TRIGGER_HANDLE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_MASS_TRIGGER_HANDLE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_MAT_RESRV_ACO_PROXY",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_MAT_RESRV_ACO_PROXY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_MEASURE_DEL_WRAPPER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_MEASURE_DEL_WRAPPER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_MIGO",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_MIGO",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_MR",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_MR",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_NOTIFICATION_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_NOTIFICATION_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_NOTI_GET_OPERN_MODE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_NOTI_GET_OPERN_MODE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_OBJECT_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_OBJECT_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_OP_CNF_ACO_PROXY",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_OP_CNF_ACO_PROXY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_OU_RESPONSE_HANDLER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_OU_RESPONSE_HANDLER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_PAR_PARAMETERS_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_PAR_PARAMETERS_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_PAR_PARAMETERS_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_PAR_PARAMETERS_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_PAR_PARAMETERS_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_PAR_PARAMETERS_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_PERSISTENCE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_PERSISTENCE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_PPR_PARAMETER_PRO_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_PPR_PARAMETER_PRO_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_PPR_PARAMETER_PRO_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_PPR_PARAMETER_PRO_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_PPR_PARAMETER_PRO_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_PPR_PARAMETER_PRO_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_PROCESS_REQUEST",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_PROCESS_REQUEST",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_PRO_SMM_DATA",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_PRO_SMM_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_QUM_INSPCHAR",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_QUM_INSPCHAR",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_READ_GIS_DATA",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_READ_GIS_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_READ_TABLE_SERVICE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_READ_TABLE_SERVICE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_REPLICATE_MNGR",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_REPLICATE_MNGR",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_REPLICATE_OTRS",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_REPLICATE_OTRS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_REPLICATE_RTRS",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_REPLICATE_RTRS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_REPLICATE_TRS",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_REPLICATE_TRS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_REPORT_LAUNCHER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_REPORT_LAUNCHER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_REP_CONFIG_TO_SAP",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_REP_CONFIG_TO_SAP",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_SEND_INBOUND_RESP",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_SEND_INBOUND_RESP",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_SET_GEOMETRY",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_SET_GEOMETRY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_SHARED_MEMORY_AREA",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_SHARED_MEMORY_AREA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_SHARED_MEMORY_ROOT",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_SHARED_MEMORY_ROOT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_SHM_UTILITY",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_SHM_UTILITY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_SMM_DELETE_WRAPPER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_SMM_DELETE_WRAPPER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_SMM_GRID_WRAPPER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_SMM_GRID_WRAPPER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_SMM_SYNC_MAN_MONI_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_SMM_SYNC_MAN_MONI_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_SMM_SYNC_MAN_MONI_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_SMM_SYNC_MAN_MONI_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_SMM_SYNC_MAN_MONI_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_SMM_SYNC_MAN_MONI_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_SMM_UPDATE_NOTI",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_SMM_UPDATE_NOTI",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_SMM_UPD_RPS_WRAPPER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_SMM_UPD_RPS_WRAPPER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_SYS_SYSTEM_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_SYS_SYSTEM_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_SYS_SYSTEM_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_SYS_SYSTEM_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_TRN_CANVAS_LAUNCHER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_TRN_CANVAS_LAUNCHER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_UPD_INSP_RESULTS",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_UPD_INSP_RESULTS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_UPLOAD_SMM_DATA",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_UPLOAD_SMM_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_USER_CRED",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_USER_CRED",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_USER_CRED_WRAPPER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_USER_CRED_WRAPPER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_VEW_CANVAS_LAUNCHER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_VEW_CANVAS_LAUNCHER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_WC_SAVE_EVENT_HNDLR",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_WC_SAVE_EVENT_HNDLR",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_WORK_CENTER_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_WORK_CENTER_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_WORK_ORDER_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_WORK_ORDER_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_WO_CONFIRMATION",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_WO_CONFIRMATION",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_WO_DOCUMENT_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_WO_DOCUMENT_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_WO_GET_OPERN_MODE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_WO_GET_OPERN_MODE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_WO_REMOVE_DUP_EQUNR",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_WO_REMOVE_DUP_EQUNR",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLDM_WO_UPDATE_GEOMETRY",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLDM_WO_UPDATE_GEOMETRY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLGV_ENTITY_SUPER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLGV_ENTITY_SUPER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLGV_GOVERNOR",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLGV_GOVERNOR",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLGV_MASS_READ_CONTAINER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLGV_MASS_READ_CONTAINER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLGV_PERSISTENCE_SUPER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLGV_PERSISTENCE_SUPER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLGV_REGISTRY",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLGV_REGISTRY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLLG_LOG_HANDLER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLLG_LOG_HANDLER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLLG_LOG_MANAGER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLLG_LOG_MANAGER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLRU_JSON_HANDLER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLRU_JSON_HANDLER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLRU_JSON_PARSER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLRU_JSON_PARSER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLRU_JSON_TO_ABAP_PARSER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLRU_JSON_TO_ABAP_PARSER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLRU_READ_TABLE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLRU_READ_TABLE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLRU_UOM_CURR_OPERATORS",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLRU_UOM_CURR_OPERATORS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLST_CLASS_CONFIGURATION",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLST_CLASS_CONFIGURATION",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLST_STS_STATUS_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLST_STS_STATUS_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLST_STS_STATUS_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLST_STS_STATUS_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLST_STS_STATUS_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLST_STS_STATUS_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLUF_GRID_WRAPPER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLUF_GRID_WRAPPER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLUF_MULTI_LEVEL_VIEW",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLUF_MULTI_LEVEL_VIEW",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLUF_SINGLE_VIEW",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLUF_SINGLE_VIEW",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLUF_TRANSACTION",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLUF_TRANSACTION",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLUF_TREE_WRAPPER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLUF_TREE_WRAPPER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLUF_VIEW",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLUF_VIEW",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLUT_CMT_COMMENTS_E",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLUT_CMT_COMMENTS_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLUT_CMT_COMMENTS_P",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLUT_CMT_COMMENTS_P",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CLUT_CMT_COMMENTS_R",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CLUT_CMT_COMMENTS_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CL_RU_CURR_UOM_O_DPC",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CL_RU_CURR_UOM_O_DPC",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CL_RU_CURR_UOM_O_DPC_EXT",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CL_RU_CURR_UOM_O_DPC_EXT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CL_RU_CURR_UOM_O_MPC",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CL_RU_CURR_UOM_O_MPC",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CL_RU_CURR_UOM_O_MPC_EXT",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CL_RU_CURR_UOM_O_MPC_EXT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DL_DLB_DATA_PROVIDER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DL_DLB_DATA_PROVIDER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DL_PAR_PARAMETERS",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DL_PAR_PARAMETERS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DL_PPR_PARAMETER_PRO",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DL_PPR_PARAMETER_PRO",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_ACT_ACTIONS",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_ACT_ACTIONS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_ATY_ACTION_TYPES",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_ATY_ACTION_TYPES",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_CNV_EXCEPTION",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_CNV_EXCEPTION",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_CNV_LAUNCHER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_CNV_LAUNCHER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_CPG_COPY_GEOMETRY",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_CPG_COPY_GEOMETRY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_CTL_CATALOG",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_CTL_CATALOG",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_DAP_DATA_ATTR_PRO",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_DAP_DATA_ATTR_PRO",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_DAS_DA_SEMANTICS",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_DAS_DA_SEMANTICS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_DATA_VIEW",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_DATA_VIEW",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_DLB_DATA_PROVIDER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_DLB_DATA_PROVIDER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_DMS_DOC_MANAGEMENT",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_DMS_DOC_MANAGEMENT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_DOD_DOBJ_DEFIN",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_DOD_DOBJ_DEFIN",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_DOL_DOBJ_LAUNCHER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_DOL_DOBJ_LAUNCHER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_ECL_CLS_CHAR_DATA",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_ECL_CLS_CHAR_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_EEQ_EQUIPMENT",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_EEQ_EQUIPMENT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_EFL_FUNCTION_LOC",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_EFL_FUNCTION_LOC",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_EGM_GOODS_MOVEMENT",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_EGM_GOODS_MOVEMENT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_ELC_LINEAR_C_DATA",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_ELC_LINEAR_C_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_EMD_MEASURING_DOC",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_EMD_MEASURING_DOC",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_EMI_MAT_INDENT",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_EMI_MAT_INDENT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_EMM_MATERIAL",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_EMM_MATERIAL",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_ENO_NOTIFICATION",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_ENO_NOTIFICATION",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_ENV_EXCEPTION",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_ENV_EXCEPTION",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_EOC_OP_CONFIRM",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_EOC_OP_CONFIRM",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_EWBS_SAVE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_EWBS_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_EWO_WORKORDER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_EWO_WORKORDER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_EXCEPTION",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_EXCEPTION",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_FEA_FEATURE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_FEA_FEATURE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_GIS_SYSTEM",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_GIS_SYSTEM",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_INB_DOD_INBOUND",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_INB_DOD_INBOUND",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_LAUNCHER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_LAUNCHER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_LGR_LAYERGROUP",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_LGR_LAYERGROUP",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_LOG_EXCEPTION",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_LOG_EXCEPTION",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_LYR_LAYER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_LYR_LAYER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_MAP_MAPPING",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_MAP_MAPPING",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_PAR_PARAMETERS",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_PAR_PARAMETERS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_PPR_PARAMETER_PRO",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_PPR_PARAMETER_PRO",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_REPLICATE",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_REPLICATE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_SMM_SYNC_MAN_MONI",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_SMM_SYNC_MAN_MONI",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_DM_SYSTEM_EXCEPTION",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_DM_SYSTEM_EXCEPTION",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_GV_EXCEPTION_SUPER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_GV_EXCEPTION_SUPER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_LG_EXCEPTION_SUPER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_LG_EXCEPTION_SUPER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_RU_JSON_ABAP_PARSER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_RU_JSON_ABAP_PARSER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_ST_STS_STATUS",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_ST_STS_STATUS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_UF_EXCEPTION_SUPER",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_UF_EXCEPTION_SUPER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/SAAR/CX_UT_CMT_COMMENTS",
+      "objectType": "CLAS",
+      "objectKey": "/SAAR/CX_UT_CMT_COMMENTS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_ACT",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_ACT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_CAT_G",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_CAT_G",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_CHAR",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_CHAR",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_CHAR_A",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_CHAR_A",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_CONTP",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_CONTP",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_CUSTOM",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_CUSTOM",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_EQUI",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_EQUI",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_EQUI_EXT",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_EQUI_EXT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_EXT_EQ",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_EXT_EQ",
+      "softwareComponent": "LOCAL",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_EXT_EQU",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_EXT_EQU",
+      "softwareComponent": "LOCAL",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_EXT_EQUIP",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_EXT_EQUIP",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_FUNCLOC",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_FUNCLOC",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_MAT",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_MAT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_MAT_DOC",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_MAT_DOC",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_MAT_IN",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_MAT_IN",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_NET",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_NET",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_NOTI",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_NOTI",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_NOT_CT",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_NOT_CT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_OP_DOC",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_OP_DOC",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_ROOT_WO",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_ROOT_WO",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_ROOT_WO2",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_ROOT_WO2",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_SERVICE_PRODUCT",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_SERVICE_PRODUCT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_SL_SET",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_SL_SET",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_VENDOR",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_VENDOR",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_WO",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_WO",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_WOCOMP",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_WOCOMP",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_WO_COM",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_WO_COM",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_WO_RS",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_WO_RS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_WRKCNT",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_WRKCNT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/ECDS_W_EQUI",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/ECDS_W_EQUI",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/EWOCNT_CDS",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/EWOCNT_CDS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/FUNLOC_CDS",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/FUNLOC_CDS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "DDLS",
+      "tadirObjName": "/SAAR/I_USERSTATUS",
+      "objectType": "CDS_STOB",
+      "objectKey": "/SAAR/I_USERSTATUS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DL_CTX_CONTEXT",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DL_CTX_SAVE_UDP",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DL_DLB_DATA_PROVIDER",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DL_DLB_DATA_PRO_SAVE_UDP",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DL_PAR_PARAMETERS",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DL_PAR_F4_PARAM_NAME",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DL_PAR_PARAMETERS",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DL_PAR_SAVE_UDP",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DL_PPR_PARAMETER_PRO",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DL_PPR_PARA_PRO_SAVE_UPD",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_ACT",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_ACT_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_BUSINESS_OBJECT",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_COMMON_RECIEVER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_BUSINESS_OBJECT",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SET_EVENT_PARAMETERS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_BUSINESS_OBJECT",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SET_KEY_AND_OBJECT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_CANVAS_CATEGORY",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_CNV_CAT_GET_BASE_URL",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_CANVAS_LAUNCHER",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GENERIC_LAYERS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_CANVAS_LAUNCHER",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_BUFFER_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_CANVAS_LAUNCHER",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_CNV_LNR_BY_CODE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_CANVAS_LAUNCHER",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_GEOMETRY_TYPE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_CANVAS_LAUNCHER",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_LAUNCH_CANVAS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_CANVAS_LAUNCHER",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_LAUNCH_FOR_TCODE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_CANVAS_LAUNCHER",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_LIST_ALV_REPORT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_CANVAS_LAUNCHER",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SET_CANVAS_LAUNCHER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_CANVAS_LAUNCHER",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_TRIGGER_TRAN_UPD",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_CANVAS_LAUNCHER",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_UPDATE_CALL",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_CANVAS_LAUNCHER",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_WEBDYNPRO_LAUNCHER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_COPY_GEOMETRY",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_DETER_LAYER_DETAILS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_COPY_GEOMETRY",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_DETER_REFERENCE_LAYER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_COPY_GEOMETRY",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_REFERENCE_LAYER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_CUSTOM_CONFIG",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_CALL_CONFIG_SCREEN",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_CUSTOM_CONFIG",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_UPDATE_CUSTOM_CONFIG",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_DAS",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_DAS_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_DATA_REPLICATION",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_DOM_GET_TABLE_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_DATA_REPLICATION",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_INSERT_UPDATE_DELETE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_DATA_REPLICATION",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_UPDATE_ATTRIBUTES",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_DATA_STAGING",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SET_LONG_TEXT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_DLB_DATA_PROVIDER",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_DLB_DATA_PRO_SAVE_UDP",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_DMS_VALIDATE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_BUILD_DOC_FOR_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_DMS_VALIDATE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_CHK_FILE_ALREADY_PRO",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_DMS_VALIDATE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_OP_DOCUMENT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_DMS_VALIDATE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_VALIDATE_SAP_OBJ",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_DMS_VALIDATE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_VALIDATE_SAVE_DMS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_DOD",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_DOD_GET_ALL_DOAS4DOD",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_DOD",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_DOD_GET_ALL_DODS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_CHECK_ACTIVITY_WO",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_CHECK_TECO",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_CHECK_WO_REALEASE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_CONTACTS_SAVE_TO_SMM",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_CREATE_CHARACTERISTIC",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_FUNCTIONAL_LOCATION",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GENERIC_LAYERS_QUERY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_WO_OP_LONG_TEXT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_NOTIFICATION_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SET_CHARACTERISTIC",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SET_CONTACTS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SET_DATA_EQUIPMENT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SET_DOC_DETAILS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SET_MAT_DOC_NUMBER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SET_MAT_RES_NUM",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SET_MOVEMENT_TYPE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SET_OPER_CONFIR_NUM",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SET_PERSON_NUM",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SET_PROJECT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SET_UNDERSCORE_ID",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SET_WBS_ELEMENT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SET_WORKCENTER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SET_WORK_NUMBER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_CANVAS_LAUNCH",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_VENDOR_SAVE_TO_SMM",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EAM_FUN_LOC_LEVEL",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_FUN_LOC_BY_EQ_AND_LVL",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EMD_MEASUREMENT",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_DEL_N_TH_MEASUREMENT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_EMD_MEASUREMENT",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_EMD_MEASUREMENT_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_FILTER_CATALOG",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_FILTER_CATALOG",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_GET_NEXT_NUMBER",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_NEXT_NUMBER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_GET_USER_BY_PRO",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_DECRYPT_PASSWORD",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_GET_USER_BY_PRO",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_USER_BY_PRO",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_GIS_SYSTEMS",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_AUTH_ESRI",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_GIS_SYSTEMS",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_AUTH_GEF",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_GIS_SYSTEMS",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GENERATE_ESRI_TOKEN",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_GIS_SYSTEMS",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_PERSIST_GIS_SYSLOGS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_GIS_SYSTEMS",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_UPDATE_ESRI",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_GIS_SYSTEMS",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_UPDATE_GIS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_INBOUND_SERVICE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_INB_SERVICE_HANDLER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_INBOUND_SERVICE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_INB_SER_PRO_IN_NEW_T",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_INBOUND_SERVICE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_PROC_PRE_REQUISITE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_INLINE_REF_SAVE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_DELETE_INLINE_ID",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_INLINE_REF_SAVE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_INLINE_ID",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_INLINE_REF_SAVE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_INLINE_REFERNCE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_INLINE_REF_SAVE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_INLINE_ENTITY_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_LGRP_LAYER_GROUP",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_LGRP_GROUP_EXIT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_LGRP_LAYER_GROUP",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_LGRP_PARENT_EXIT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_LGRP_VALIDATION",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_LGRP_VALIDATION",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_LYR",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_LYR_FILTER_SEC_LAYERS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_MATERIAL_TRANSFER",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_MAT_TRASFER_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_MAT_RESERVATION",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_MAT_RESERVATION_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_MN_VW_VALIDATIONS",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_VALIDATE_BEFORE_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_MN_VW_VALIDATIONS",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_VALIDATE_NEW_ENTRY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_OP_ATTACHMENT_SAV",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_OP_ATTACHMENT_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_RST_GIS_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_BOM_DEL_GIS_FEATURE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_RST_GIS_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_DEL_GIS_FEATURE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_RST_GIS_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_DEL_GIS_FEATURE_ENT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_RST_GIS_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_RST_GIS_DEL_BUFFER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_RST_GIS_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_RST_GIS_REFRESH_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_RST_GIS_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_RST_GIS_SAVE_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_RST_GIS_DATA",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_RST_GIS_UPDATE_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SERVICES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_CONVERT_JSON_TO_TABLE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SERVICES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_DMA_CROSS_LAYER_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SERVICES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_DMA_LAYER_ATTR_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SERVICES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_ANALYST_CANVASID",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SERVICES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_ANALYST_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SERVICES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_CANVAS_BY_PRODCUT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SERVICES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_CNV_LYR_BY_DAP",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SERVICES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_DODID_BY_DOA_NAME",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SERVICES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_DOD_ID_BY_LNR_ID",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SERVICES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_LAYER_METADATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SERVICES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_LYRS_BY_FIELDCAT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SERVICES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_REPORT_BY_FIELDCA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SERVICES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_SEMANTIC_OBJ",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SERVICES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_LYRID_DODID_BY_CNV_ID",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SERVICES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SAVE_DATA_TO_SHARED_M",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SAVE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_FROM_PROVIDER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SAVE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SAVE_SMM",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SAVE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SAVE_SMM_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SAVE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SET_SMM_ID",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SAVE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SMM_BUS_IN_NEW_T",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SAVE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SMM_BUS_PROCESSOR",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SAVE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SMM_BUS_RECEIVER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SAVE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SMM_DETERMINE_LAUN",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SAVE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SMM_SAVE_SMM_ENTITY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SAVE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SPLIT_LONG_MESSAGE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SAVE",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_UPDATE_LOG",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SYNC_MANG_MON",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_CONVERT_LOCAL_TO_UTC",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SYNC_MANG_MON",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_DT_TIME_ZONE_SPEC",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SYNC_MANG_MON",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_LOCAL_DATE_TIME",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SYNC_MANG_MON",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_SMM_ALV_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SYNC_MANG_MON",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_PARENT_PARAMETER_EXIT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SYNC_MANG_MON",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SMM_ARC_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SYNC_MANG_MON",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SMM_SAVE_UPDPATE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SYNC_MANG_MON",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_SMM_STATUS_MANAGE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SYNC_MANG_MON",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_UPDATE_LAST_CHANGED",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SYNC_MANG_MON",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_UPDATE_SMM_OBJ",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_SYNC_MANG_MON",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_UPLOAD_SMM_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SMM_UTILL",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_REPLACE_NEWLINE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SYSTEM_ENV",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_INSTANCE_DETAILS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SYSTEM_ENV",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_SYSTEM_UNAME_PWD",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_SYSTEM_ENV",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_SYS_INST_FOR_ENV",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_USER_CRED",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_CREATE_SCREEN",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_USER_CRED",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_ENCRYPT_PASSWORD",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_USER_CRED",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_UPDATE_SCREEN",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_UTILITIES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_CNV_EXIT_NUMCV_INPUT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_UTILITIES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_CNV_EXIT_TPLNR_INPUT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_UTILITIES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_CNV_EXIT_TPLNR_OUTPUT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_UTILITIES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_CONVERT_CSV",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_UTILITIES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_MESSAGE_FROM_OBJ",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_UTILITIES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_GET_MSG_FROM_FIELDS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_UTILITIES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_MESSAGE_SPLIT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_UTILITIES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_PERSIST_LOG_TO_DB",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_UTILITIES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_PERSIST_LOG_TO_DB_KEY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_UTILITIES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_STRING_SPLIT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/DM_UTILITIES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/DM_UPDATE_LONG_TEXT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/RU_COU_SERVICES",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/RU_CURR_UOM_OPERATOR",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/UF_FRAME",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/UF_LOAD_SCRN_VARIANT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/UF_FRAME",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/UF_SAVE_SCRN_VARIANT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/SAAR/UF_FRAME",
+      "objectType": "FUNC",
+      "objectKey": "/SAAR/UF_SHOW_VIEW",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDL_DATA_PROVIDER_PAR",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDL_DATA_PROVIDER_PAR",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDL_DLB_DATA_PROVIDER_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDL_DLB_DATA_PROVIDER_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDL_DLB_DATA_PROVIDER_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDL_DLB_DATA_PROVIDER_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDL_GET_CUSTOM_VALUE",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDL_GET_CUSTOM_VALUE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDL_GET_DOD_SPECI_VALUE",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDL_GET_DOD_SPECI_VALUE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDL_GET_MULTI_VALUE",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDL_GET_MULTI_VALUE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDL_GET_VALUE",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDL_GET_VALUE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDL_PAR_PARAMETERS_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDL_PAR_PARAMETERS_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDL_PAR_PARAMETERS_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDL_PAR_PARAMETERS_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDL_PPR_PARAMETER_PRO_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDL_PPR_PARAMETER_PRO_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDL_PPR_PARAMETER_PRO_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDL_PPR_PARAMETER_PRO_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_ACT_ACTIONS",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_ACT_ACTIONS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_ACT_ACTIONS_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_ACT_ACTIONS_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_ACT_ACTIONS_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_ACT_ACTIONS_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_ANALYST_CATALOGS",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_ANALYST_CATALOGS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_ATY_ACTION_TYPES_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_ATY_ACTION_TYPES_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_ATY_PERFORM_ACTION",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_ATY_PERFORM_ACTION",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_CANVAS_LAUNCHER",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_CANVAS_LAUNCHER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_CHECK_BEFORE_OU_TRI",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_CHECK_BEFORE_OU_TRI",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_CNV_CANVAS_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_CNV_CANVAS_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_CONFIG_CONSTANTS",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_CONFIG_CONSTANTS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_CONFIG_VALUE_UPDATE",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_CONFIG_VALUE_UPDATE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_CONTACTS_TO_SMM",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_CONTACTS_TO_SMM",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_COPY_GEOMETRY",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_COPY_GEOMETRY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_CTL_CATALOG_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_CTL_CATALOG_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_DAP_DATA_ATT_PRO_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_DAP_DATA_ATT_PRO_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_DAS_DA_SEMANTICS_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_DAS_DA_SEMANTICS_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_DAS_DA_SEMANTICS_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_DAS_DA_SEMANTICS_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_DATA_OBJECT_SAVE",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_DATA_OBJECT_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_DERIVE_REF_LYR",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_DERIVE_REF_LYR",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_DLB_DATA_PROVIDER_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_DLB_DATA_PROVIDER_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_DLB_DATA_PROVIDER_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_DLB_DATA_PROVIDER_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_DOD_DOBJ_DEFN_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_DOD_DOBJ_DEFN_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_DOL_DOBJ_LAUNCHER_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_DOL_DOBJ_LAUNCHER_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_ECL_CLS_CHAR_DATA_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_ECL_CLS_CHAR_DATA_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_ECL_CLS_CHAR_DATA_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_ECL_CLS_CHAR_DATA_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_EEQ_EQUIPMENT_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_EEQ_EQUIPMENT_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_EEQ_EQUIPMENT_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_EEQ_EQUIPMENT_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_EEQ_SAVE_AFTER",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_EEQ_SAVE_AFTER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_EEQ_SAVE_CUST_DATA",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_EEQ_SAVE_CUST_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_EFL_FUNCTION_LOC_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_EFL_FUNCTION_LOC_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_EFL_FUNCTION_LOC_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_EFL_FUNCTION_LOC_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_EFL_SAVE_AFTER",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_EFL_SAVE_AFTER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_EFL_SAVE_BEFORE",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_EFL_SAVE_BEFORE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_EMD_MEASURING_DOC_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_EMD_MEASURING_DOC_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_EMD_MEASURING_DOC_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_EMD_MEASURING_DOC_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_ENO_NOTIFICATION_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_ENO_NOTIFICATION_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_ENO_NOTIFICATION_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_ENO_NOTIFICATION_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_ENO_SAVE_AFTER",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_ENO_SAVE_AFTER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_ENO_SAVE_BEFORE",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_ENO_SAVE_BEFORE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_ENV_ENVIRONMENT_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_ENV_ENVIRONMENT_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_EOC_OP_CONFIRM_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_EOC_OP_CONFIRM_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_EOC_OP_CONFIRM_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_EOC_OP_CONFIRM_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_ESL_STORAGE_LOC_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_ESL_STORAGE_LOC_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_ESL_STORAGE_LOC_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_ESL_STORAGE_LOC_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_EWO_SAVE_AFTER",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_EWO_SAVE_AFTER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_EWO_SAVE_BEFORE",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_EWO_SAVE_BEFORE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_EWO_WORKORDER_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_EWO_WORKORDER_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_EWO_WORKORDER_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_EWO_WORKORDER_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_FEATURE_SAVE",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_FEATURE_SAVE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_FEA_FEATURES_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_FEA_FEATURES_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_FILTER_ANALYST_DATA",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_FILTER_ANALYST_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_GET_GEOMETRY_TYPE",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_GET_GEOMETRY_TYPE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_GET_JSON_TO_DATA",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_GET_JSON_TO_DATA",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_GET_OPERATION_MODE",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_GET_OPERATION_MODE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_GET_TARGET_BY_SEMAT",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_GET_TARGET_BY_SEMAT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_GIS_SYSTEM",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_GIS_SYSTEM",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_INBOUND_CONSTANT",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_INBOUND_CONSTANT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_INBOUND_CONSTANTS",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_INBOUND_CONSTANTS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_INB_DOD_INBOUND_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_INB_DOD_INBOUND_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_INB_SVC_HNDLR_BULK",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_INB_SVC_HNDLR_BULK",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_LGR_LAYERGROUP_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_LGR_LAYERGROUP_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_LNR_LAUNCHER_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_LNR_LAUNCHER_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_LYR_LAYER_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_LYR_LAYER_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_MAP_MAPPING_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_MAP_MAPPING_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_OBJ_CU_BY_PARTICPNT",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_OBJ_CU_BY_PARTICPNT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_OUTBOUND_CONSTANT",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_OUTBOUND_CONSTANT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_PAR_PARAMETERS_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_PAR_PARAMETERS_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_PAR_PARAMETERS_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_PAR_PARAMETERS_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_PPR_PARAMATER_PRO_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_PPR_PARAMATER_PRO_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_PPR_PARAMETER_PRO_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_PPR_PARAMETER_PRO_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_PREPARE_CUSTOM_JSON",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_PREPARE_CUSTOM_JSON",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_REFX_KEY",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_REFX_KEY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_RESTRICT_SMM_ENTRY",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_RESTRICT_SMM_ENTRY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_RST_DATA_PROVIDER",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_RST_DATA_PROVIDER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_SAVE_DMS",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_SAVE_DMS",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_SEAMANTIC_CONSTANT",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_SEAMANTIC_CONSTANT",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_SERVM_TO_SMM",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_SERVM_TO_SMM",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_SHM_UTILITY",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_SHM_UTILITY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_SMM_RUL_CONTEXT_MOD",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_SMM_RUL_CONTEXT_MOD",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_SMM_SAVE_UPDATE",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_SMM_SAVE_UPDATE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_SMM_SERVICE",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_SMM_SERVICE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_SMM_SYNC_MAN_MONI_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_SMM_SYNC_MAN_MONI_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_SMM_SYNC_MAN_MONI_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_SMM_SYNC_MAN_MONI_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_SYS_SYSTEM_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_SYS_SYSTEM_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_UPDATE_OB_RESPONSE",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_UPDATE_OB_RESPONSE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_USER_CRED",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_USER_CRED",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_VENDOR_TO_SMM",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_VENDOR_TO_SMM",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_WORKCEN_CUSTOM_IMP",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_WORKCEN_CUSTOM_IMP",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFDM_XO_CONST_MESSAGE",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFDM_XO_CONST_MESSAGE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFGV_ENTITY",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFGV_ENTITY",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFGV_MASS_READ",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFGV_MASS_READ",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFGV_PERSISTENCE",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFGV_PERSISTENCE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFGV_STATIC_PERSISTENCE",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFGV_STATIC_PERSISTENCE",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFLG_LOG",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFLG_LOG",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFLG_LOG_MANAGER",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFLG_LOG_MANAGER",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFST_STS_STATUS_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFST_STS_STATUS_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFST_STS_STATUS_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFST_STS_STATUS_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFUT_CMT_COMMENTS_E",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFUT_CMT_COMMENTS_E",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/SAAR/IFUT_CMT_COMMENTS_R",
+      "objectType": "INTF",
+      "objectKey": "/SAAR/IFUT_CMT_COMMENTS_R",
+      "softwareComponent": "SAAR",
+      "state": "classicAPI"
+    }
+  ]
+}
