@@ -35,4 +35,3 @@
 //     }
 //   }
 // }
-import '@ui5/webcomponents-cypress-commands';
