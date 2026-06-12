@@ -49,8 +49,8 @@
   },
   "devDependencies": {
     "@types/node": "^20.19.40",
-    "@ui5/webcomponents-cypress-commands": "^1.29.24",
-    "cypress": "^13.17.0",
+    "@ui5/webcomponents-cypress-commands": "^2.23.1",
+    "cypress": "^15.17.0",
     "gh-pages": "^6.3.0"
   }
 }
