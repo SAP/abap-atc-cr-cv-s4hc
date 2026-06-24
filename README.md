@@ -42,7 +42,7 @@ As part of a pull request, the file will be offered in folder [src/partner](http
 2. In the attributes of the check enter the URL to this git repository e.g https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfoLatest.json
 (content valid for SAP Cloud ERP)
 
-Optional: Use another json file with a different content. For SAP Cloud ERP please use the same URL above and attach the current file objectReleaseInfoLatest.json
+Optional: Use another json file with a different content. For SAP Cloud ERP, please use the same URL above and attach the current file objectReleaseInfoLatest.json
 
 The corresponding CSV files can be consumed for offline processing in any spreadsheet tool.
 
