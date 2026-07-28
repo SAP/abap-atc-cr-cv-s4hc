@@ -3006,7 +3006,32 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SBAL",
    "objectType":"FUNC",
-   "objectKey":"BAL_LOG_CREATE",
+   "objectKey":"BAL_LOG_EXCEPTION_ADD",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-BAL",
+   "state":"notToBeReleased",
+   "successorClassification":"multipleObjects",
+   "successors":
+   [
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_EXCEPTION_SETTER",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_EXCEPTION_SETTER"
+    },
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SBAL",
+   "objectType":"FUNC",
+   "objectKey":"BAL_LOG_EXCEPTION_READ",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-BAL",
    "state":"notToBeReleased",
@@ -3025,7 +3050,32 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SBAL",
    "objectType":"FUNC",
-   "objectKey":"BAL_LOG_MSG_READ",
+   "objectKey":"BAL_LOG_HDR_CHANGE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-BAL",
+   "state":"notToBeReleased",
+   "successorClassification":"multipleObjects",
+   "successors":
+   [
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_HEADER_SETTER",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_HEADER_SETTER"
+    },
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SBAL",
+   "objectType":"FUNC",
+   "objectKey":"BAL_LOG_HDR_READ",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-BAL",
    "state":"notToBeReleased",
@@ -3044,7 +3094,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SBAL",
    "objectType":"FUNC",
-   "objectKey":"BAL_LOG_MSG_CUMULATE",
+   "objectKey":"BAL_LOG_MSG_ADD",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-BAL",
    "state":"notToBeReleased",
@@ -3094,7 +3144,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SBAL",
    "objectType":"FUNC",
-   "objectKey":"BAL_LOG_MSG_ADD",
+   "objectKey":"BAL_LOG_MSG_CUMULATE",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-BAL",
    "state":"notToBeReleased",
@@ -3119,7 +3169,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SBAL",
    "objectType":"FUNC",
-   "objectKey":"BAL_LOG_HDR_READ",
+   "objectKey":"BAL_LOG_MSG_READ",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-BAL",
    "state":"notToBeReleased",
@@ -3138,32 +3188,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SBAL",
    "objectType":"FUNC",
-   "objectKey":"BAL_LOG_HDR_CHANGE",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-SRV-BAL",
-   "state":"notToBeReleased",
-   "successorClassification":"multipleObjects",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_BALI_HEADER_SETTER",
-     "objectType":"CLAS",
-     "objectKey":"CL_BALI_HEADER_SETTER"
-    },
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_BALI_LOG",
-     "objectType":"CLAS",
-     "objectKey":"CL_BALI_LOG"
-    }
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SBAL",
-   "objectType":"FUNC",
-   "objectKey":"BAL_LOG_EXCEPTION_READ",
+   "objectKey":"BAL_LOG_CREATE",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-BAL",
    "state":"notToBeReleased",
@@ -3180,72 +3205,9 @@
   },
   {
    "tadirObject":"FUGR",
-   "tadirObjName":"SBAL",
-   "objectType":"FUNC",
-   "objectKey":"BAL_LOG_EXCEPTION_ADD",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-SRV-BAL",
-   "state":"notToBeReleased",
-   "successorClassification":"multipleObjects",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_BALI_EXCEPTION_SETTER",
-     "objectType":"CLAS",
-     "objectKey":"CL_BALI_EXCEPTION_SETTER"
-    },
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_BALI_LOG",
-     "objectType":"CLAS",
-     "objectKey":"CL_BALI_LOG"
-    }
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
    "tadirObjName":"SBAL_DB",
    "objectType":"FUNC",
-   "objectKey":"BAL_DB_COMMIT_2ND_CONNECTION",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-SRV-BAL",
-   "state":"notToBeReleased",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_BALI_LOG_DB",
-     "objectType":"CLAS",
-     "objectKey":"CL_BALI_LOG_DB"
-    }
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SBAL_DB",
-   "objectType":"FUNC",
-   "objectKey":"BAL_DB_SEARCH",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-SRV-BAL",
-   "state":"notToBeReleased",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_BALI_LOG_DB",
-     "objectType":"CLAS",
-     "objectKey":"CL_BALI_LOG_DB"
-    }
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SBAL_DB",
-   "objectType":"FUNC",
-   "objectKey":"BAL_DB_SAVE",
+   "objectKey":"BAL_DB_DELETE",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-BAL",
    "state":"notToBeReleased",
@@ -3283,7 +3245,45 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SBAL_DB",
    "objectType":"FUNC",
-   "objectKey":"BAL_DB_DELETE",
+   "objectKey":"BAL_DB_SAVE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-BAL",
+   "state":"notToBeReleased",
+   "successorClassification":"oneObject",
+   "successors":
+   [
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG_DB",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG_DB"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SBAL_DB",
+   "objectType":"FUNC",
+   "objectKey":"BAL_DB_SEARCH",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-BAL",
+   "state":"notToBeReleased",
+   "successorClassification":"oneObject",
+   "successors":
+   [
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG_DB",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG_DB"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SBAL_DB",
+   "objectType":"FUNC",
+   "objectKey":"BAL_DB_COMMIT_2ND_CONNECTION",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-BAL",
    "state":"notToBeReleased",
@@ -3321,25 +3321,6 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SBAL_TOOLBOX",
    "objectType":"FUNC",
-   "objectKey":"BAL_LOG_READ",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-SRV-BAL",
-   "state":"notToBeReleased",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_BALI_LOG",
-     "objectType":"CLAS",
-     "objectKey":"CL_BALI_LOG"
-    }
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SBAL_TOOLBOX",
-   "objectType":"FUNC",
    "objectKey":"BAL_DB_ENQUEUE",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-BAL",
@@ -3352,6 +3333,25 @@
      "tadirObjName":"CL_BALI_LOG_DB",
      "objectType":"CLAS",
      "objectKey":"CL_BALI_LOG_DB"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SBAL_TOOLBOX",
+   "objectType":"FUNC",
+   "objectKey":"BAL_LOG_READ",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-BAL",
+   "state":"notToBeReleased",
+   "successorClassification":"oneObject",
+   "successors":
+   [
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_BALI_LOG",
+     "objectType":"CLAS",
+     "objectKey":"CL_BALI_LOG"
     }
    ]
   },
@@ -3454,25 +3454,6 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SCA5",
    "objectType":"FUNC",
-   "objectKey":"FACTORY_CALENDAR_ATTRIBUTE_GET",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-SRV-ASF-CAL",
-   "state":"notToBeReleased",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_SCAL_API",
-     "objectType":"CLAS",
-     "objectKey":"CL_SCAL_API"
-    }
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SCA5",
-   "objectType":"FUNC",
    "objectKey":"DAY_ATTRIBUTES_GET",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-ASF-CAL",
@@ -3547,47 +3528,9 @@
   },
   {
    "tadirObject":"FUGR",
-   "tadirObjName":"SCAL",
+   "tadirObjName":"SCA5",
    "objectType":"FUNC",
-   "objectKey":"DATE_GET_WEEK",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-SRV-ASF-CAL",
-   "state":"notToBeReleased",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_SCAL_UTILS",
-     "objectType":"CLAS",
-     "objectKey":"CL_SCAL_UTILS"
-    }
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SCAL",
-   "objectType":"FUNC",
-   "objectKey":"DATE_CONVERT_TO_FACTORYDATE",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-SRV-ASF-CAL",
-   "state":"notToBeReleased",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_SCAL_API",
-     "objectType":"CLAS",
-     "objectKey":"CL_SCAL_API"
-    }
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SCAL",
-   "objectType":"FUNC",
-   "objectKey":"FACTORYDATE_CONVERT_TO_DATE",
+   "objectKey":"FACTORY_CALENDAR_ATTRIBUTE_GET",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-ASF-CAL",
    "state":"notToBeReleased",
@@ -3637,6 +3580,63 @@
      "tadirObjName":"CL_SCAL_UTILS",
      "objectType":"CLAS",
      "objectKey":"CL_SCAL_UTILS"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SCAL",
+   "objectType":"FUNC",
+   "objectKey":"FACTORYDATE_CONVERT_TO_DATE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-ASF-CAL",
+   "state":"notToBeReleased",
+   "successorClassification":"oneObject",
+   "successors":
+   [
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_SCAL_API",
+     "objectType":"CLAS",
+     "objectKey":"CL_SCAL_API"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SCAL",
+   "objectType":"FUNC",
+   "objectKey":"DATE_GET_WEEK",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-ASF-CAL",
+   "state":"notToBeReleased",
+   "successorClassification":"oneObject",
+   "successors":
+   [
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_SCAL_UTILS",
+     "objectType":"CLAS",
+     "objectKey":"CL_SCAL_UTILS"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SCAL",
+   "objectType":"FUNC",
+   "objectKey":"DATE_CONVERT_TO_FACTORYDATE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-ASF-CAL",
+   "state":"notToBeReleased",
+   "successorClassification":"oneObject",
+   "successors":
+   [
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_SCAL_API",
+     "objectType":"CLAS",
+     "objectKey":"CL_SCAL_API"
     }
    ]
   },
@@ -3780,7 +3780,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SCTS_REQUEST_SELECTION",
    "objectType":"FUNC",
-   "objectKey":"TR_GET_REQUEST_OF_TASK",
+   "objectKey":"TR_READ_REQUEST",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-CTS-ORG",
    "state":"notToBeReleased",
@@ -3791,31 +3791,12 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SCTS_REQUEST_SELECTION",
    "objectType":"FUNC",
-   "objectKey":"TR_READ_REQUEST",
+   "objectKey":"TR_GET_REQUEST_OF_TASK",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-CTS-ORG",
    "state":"notToBeReleased",
    "successorClassification":"concept",
    "successorConceptName":"XCO Library (CTS APIs)"
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SCV0",
-   "objectType":"FUNC",
-   "objectKey":"UNIT_PARAMETERS_GET",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-SRV-ASF-UOM",
-   "state":"notToBeReleased",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_UOM_CONVERSION",
-     "objectType":"CLAS",
-     "objectKey":"CL_UOM_CONVERSION"
-    }
-   ]
   },
   {
    "tadirObject":"FUGR",
@@ -3859,6 +3840,25 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SCV0",
    "objectType":"FUNC",
+   "objectKey":"UNIT_PARAMETERS_GET",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-ASF-UOM",
+   "state":"notToBeReleased",
+   "successorClassification":"oneObject",
+   "successors":
+   [
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_UOM_CONVERSION",
+     "objectType":"CLAS",
+     "objectKey":"CL_UOM_CONVERSION"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SCV0",
+   "objectType":"FUNC",
    "objectKey":"SI_UNIT_GET",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-ASF-UOM",
@@ -3878,23 +3878,23 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SDIF",
    "objectType":"FUNC",
-   "objectKey":"DDIF_DTEL_GET",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-DWB-DIC-AC",
-   "state":"notToBeReleased",
-   "successorClassification":"concept",
-   "successorConceptName":"XCO Library (Read APIs)"
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SDIF",
-   "objectType":"FUNC",
    "objectKey":"DDIF_DTEL_PUT",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-DWB-DIC-AC",
    "state":"notToBeReleased",
    "successorClassification":"concept",
    "successorConceptName":"XCO Library (Generation APIs)"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SDIF",
+   "objectType":"FUNC",
+   "objectKey":"DDIF_STATE_GET",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-DWB-DIC-AC",
+   "state":"notToBeReleased",
+   "successorClassification":"concept",
+   "successorConceptName":"XCO Library (ABAP Dictionary APIs)"
   },
   {
    "tadirObject":"FUGR",
@@ -3911,12 +3911,12 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SDIF",
    "objectType":"FUNC",
-   "objectKey":"DDIF_STATE_GET",
+   "objectKey":"DDIF_DTEL_GET",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-DWB-DIC-AC",
    "state":"notToBeReleased",
    "successorClassification":"concept",
-   "successorConceptName":"XCO Library (ABAP Dictionary APIs)"
+   "successorConceptName":"XCO Library (Read APIs)"
   },
   {
    "tadirObject":"FUGR",
@@ -3990,29 +3990,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SEOK",
    "objectType":"FUNC",
-   "objectKey":"SEO_TYPE_GET",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-DWB-TOO-CLA",
-   "state":"notToBeReleased",
-   "successorClassification":"concept",
-   "successorConceptName":"XCO Library (Read APIs)"
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SEOK",
-   "objectType":"FUNC",
-   "objectKey":"SEO_PARAMETER_GET",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-DWB-TOO-CLA",
-   "state":"notToBeReleased",
-   "successorClassification":"concept",
-   "successorConceptName":"XCO Library (Read APIs)"
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SEOK",
-   "objectType":"FUNC",
-   "objectKey":"SEO_METHOD_GET",
+   "objectKey":"SEO_ATTRIBUTE_GET",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-DWB-TOO-CLA",
    "state":"notToBeReleased",
@@ -4034,7 +4012,29 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SEOK",
    "objectType":"FUNC",
-   "objectKey":"SEO_ATTRIBUTE_GET",
+   "objectKey":"SEO_METHOD_GET",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-DWB-TOO-CLA",
+   "state":"notToBeReleased",
+   "successorClassification":"concept",
+   "successorConceptName":"XCO Library (Read APIs)"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SEOK",
+   "objectType":"FUNC",
+   "objectKey":"SEO_PARAMETER_GET",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-DWB-TOO-CLA",
+   "state":"notToBeReleased",
+   "successorClassification":"concept",
+   "successorConceptName":"XCO Library (Read APIs)"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SEOK",
+   "objectType":"FUNC",
+   "objectKey":"SEO_TYPE_GET",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-DWB-TOO-CLA",
    "state":"notToBeReleased",
@@ -4056,7 +4056,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SEOO",
    "objectType":"FUNC",
-   "objectKey":"SEO_ATTRIBUTE_READ_ALL",
+   "objectKey":"SEO_METHOD_READ_ALL",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-DWB-TOO-CLA",
    "state":"notToBeReleased",
@@ -4078,7 +4078,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SEOO",
    "objectType":"FUNC",
-   "objectKey":"SEO_METHOD_READ_ALL",
+   "objectKey":"SEO_ATTRIBUTE_READ_ALL",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-DWB-TOO-CLA",
    "state":"notToBeReleased",
@@ -4100,17 +4100,6 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SEOQ",
    "objectType":"FUNC",
-   "objectKey":"SEO_CLASS_REDEFINITIONS_GET",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-DWB-TOO-CLA",
-   "state":"notToBeReleased",
-   "successorClassification":"concept",
-   "successorConceptName":"XCO Library (Read APIs)"
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SEOQ",
-   "objectType":"FUNC",
    "objectKey":"SEO_CLASS_GENERATE_SOURCES",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-DWB-TOO-CLA",
@@ -4122,7 +4111,18 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SEOQ",
    "objectType":"FUNC",
-   "objectKey":"SEO_ALIASES_GET",
+   "objectKey":"SEO_INTERFACE_DELETE_COMPLETE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-DWB-TOO-CLA",
+   "state":"notToBeReleased",
+   "successorClassification":"concept",
+   "successorConceptName":"XCO Library (Generation APIs)"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SEOQ",
+   "objectType":"FUNC",
+   "objectKey":"SEO_CLASS_REDEFINITIONS_GET",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-DWB-TOO-CLA",
    "state":"notToBeReleased",
@@ -4133,12 +4133,12 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SEOQ",
    "objectType":"FUNC",
-   "objectKey":"SEO_INTERFACE_DELETE_COMPLETE",
+   "objectKey":"SEO_ALIASES_GET",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-DWB-TOO-CLA",
    "state":"notToBeReleased",
    "successorClassification":"concept",
-   "successorConceptName":"XCO Library (Generation APIs)"
+   "successorConceptName":"XCO Library (Read APIs)"
   },
   {
    "tadirObject":"FUGR",
@@ -4172,25 +4172,6 @@
    "state":"notToBeReleased",
    "successorClassification":"concept",
    "successorConceptName":"XCO Library (Read APIs)"
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SNR1",
-   "objectType":"FUNC",
-   "objectKey":"NUMBER_RANGE_ENQUEUE",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-SRV-NUM",
-   "state":"notToBeReleased",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_NUMBERRANGE_INTERVALS",
-     "objectType":"CLAS",
-     "objectKey":"CL_NUMBERRANGE_INTERVALS"
-    }
-   ]
   },
   {
    "tadirObject":"FUGR",
@@ -4251,6 +4232,63 @@
   },
   {
    "tadirObject":"FUGR",
+   "tadirObjName":"SNR1",
+   "objectType":"FUNC",
+   "objectKey":"NUMBER_RANGE_ENQUEUE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-NUM",
+   "state":"notToBeReleased",
+   "successorClassification":"oneObject",
+   "successors":
+   [
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_NUMBERRANGE_INTERVALS",
+     "objectType":"CLAS",
+     "objectKey":"CL_NUMBERRANGE_INTERVALS"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SNR2",
+   "objectType":"FUNC",
+   "objectKey":"NUMBER_RANGE_OBJECT_CLOSE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-NUM",
+   "state":"notToBeReleased",
+   "successorClassification":"oneObject",
+   "successors":
+   [
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_NUMBERRANGE_OBJECTS",
+     "objectType":"CLAS",
+     "objectKey":"CL_NUMBERRANGE_OBJECTS"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SNR2",
+   "objectType":"FUNC",
+   "objectKey":"NUMBER_RANGE_OBJECT_UPDATE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-NUM",
+   "state":"notToBeReleased",
+   "successorClassification":"oneObject",
+   "successors":
+   [
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_NUMBERRANGE_OBJECTS",
+     "objectType":"CLAS",
+     "objectKey":"CL_NUMBERRANGE_OBJECTS"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
    "tadirObjName":"SNR2",
    "objectType":"FUNC",
    "objectKey":"NUMBER_RANGE_OBJECT_READ",
@@ -4289,47 +4327,9 @@
   },
   {
    "tadirObject":"FUGR",
-   "tadirObjName":"SNR2",
-   "objectType":"FUNC",
-   "objectKey":"NUMBER_RANGE_OBJECT_UPDATE",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-SRV-NUM",
-   "state":"notToBeReleased",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_NUMBERRANGE_OBJECTS",
-     "objectType":"CLAS",
-     "objectKey":"CL_NUMBERRANGE_OBJECTS"
-    }
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SNR2",
-   "objectType":"FUNC",
-   "objectKey":"NUMBER_RANGE_OBJECT_CLOSE",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-SRV-NUM",
-   "state":"notToBeReleased",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_NUMBERRANGE_OBJECTS",
-     "objectType":"CLAS",
-     "objectKey":"CL_NUMBERRANGE_OBJECTS"
-    }
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
    "tadirObjName":"SNR3",
    "objectType":"FUNC",
-   "objectKey":"NUMBER_GET_NEXT",
+   "objectKey":"NUMBER_CHECK",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-NUM",
    "state":"notToBeReleased",
@@ -4348,7 +4348,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SNR3",
    "objectType":"FUNC",
-   "objectKey":"NUMBER_CHECK",
+   "objectKey":"NUMBER_GET_NEXT",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-NUM",
    "state":"notToBeReleased",
@@ -4386,26 +4386,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SSEL",
    "objectType":"FUNC",
-   "objectKey":"FREE_SELECTIONS_EX_2_RANGE",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-ABA-LA",
-   "state":"notToBeReleased",
-   "successorClassification":"oneObject",
-   "successors":
-   [
-    {
-     "tadirObject":"CLAS",
-     "tadirObjName":"CL_ABAP_RANGE",
-     "objectType":"CLAS",
-     "objectKey":"CL_ABAP_RANGE"
-    }
-   ]
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"SSEL",
-   "objectType":"FUNC",
-   "objectKey":"FREE_SELECTIONS_WHERE_2_RANGE",
+   "objectKey":"FREE_SELECTIONS_RANGE_2_EX",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-ABA-LA",
    "state":"notToBeReleased",
@@ -4443,7 +4424,26 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SSEL",
    "objectType":"FUNC",
-   "objectKey":"FREE_SELECTIONS_RANGE_2_EX",
+   "objectKey":"FREE_SELECTIONS_EX_2_RANGE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-ABA-LA",
+   "state":"notToBeReleased",
+   "successorClassification":"oneObject",
+   "successors":
+   [
+    {
+     "tadirObject":"CLAS",
+     "tadirObjName":"CL_ABAP_RANGE",
+     "objectType":"CLAS",
+     "objectKey":"CL_ABAP_RANGE"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SSEL",
+   "objectType":"FUNC",
+   "objectKey":"FREE_SELECTIONS_WHERE_2_RANGE",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-ABA-LA",
    "state":"notToBeReleased",
@@ -4517,7 +4517,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"STRJ",
    "objectType":"FUNC",
-   "objectKey":"TR_PROTECT_REQUEST",
+   "objectKey":"TR_UNPROTECT_REQUEST",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-CTS-ORG",
    "state":"notToBeReleased",
@@ -4528,7 +4528,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"STRJ",
    "objectType":"FUNC",
-   "objectKey":"TR_UNPROTECT_REQUEST",
+   "objectKey":"TR_PROTECT_REQUEST",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-CTS-ORG",
    "state":"notToBeReleased",
@@ -5470,6 +5470,16 @@
    "objectKey":"I_BUSINESSPARTNERTP_3",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"AP-MD-BP-RAP",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"BDEF",
+   "tadirObjName":"I_BUSINESSUSEREVENT",
+   "objectType":"BDEF",
+   "objectKey":"I_BUSINESSUSEREVENT",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-BUM",
    "state":"released",
    "successorClassification":""
   },
@@ -11368,6 +11378,16 @@
    "tadirObjName":"CL_XCO_CP_GEN_AO_TYPE_INCL_FCY",
    "objectType":"CLAS",
    "objectKey":"CL_XCO_CP_GEN_AO_TYPE_INCL_FCY",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-APS-EXT-XCO",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CL_XCO_CP_GEN_BDEF_TEMPLATE_FC",
+   "objectType":"CLAS",
+   "objectKey":"CL_XCO_CP_GEN_BDEF_TEMPLATE_FC",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-APS-EXT-XCO",
    "state":"released",
@@ -17615,6 +17635,16 @@
   },
   {
    "tadirObject":"CLAS",
+   "tadirObjName":"FSBP_COMBINED_MEMORIES_FACTORY",
+   "objectType":"CLAS",
+   "objectKey":"FSBP_COMBINED_MEMORIES_FACTORY",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"FS-BP",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"CLAS",
    "tadirObjName":"MBC_CP_API",
    "objectType":"CLAS",
    "objectKey":"MBC_CP_API",
@@ -18138,6 +18168,16 @@
    "tadirObjName":"XCO_CP_GENERATION_AO",
    "objectType":"CLAS",
    "objectKey":"XCO_CP_GENERATION_AO",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-APS-EXT-XCO",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"XCO_CP_GENERATION_BDEF",
+   "objectType":"CLAS",
+   "objectKey":"XCO_CP_GENERATION_BDEF",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-APS-EXT-XCO",
    "state":"released",
@@ -19010,6 +19050,26 @@
    "objectKey":"DDCDS_TYPE_ENUMVAL_NUMC8_T_SCP",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-DWB-DIC",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"DDLS",
+   "tadirObjName":"D_BUSINESSUSERCREATED",
+   "objectType":"CDS_STOB",
+   "objectKey":"D_BUSINESSUSERCREATED",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-BUM",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"DDLS",
+   "tadirObjName":"D_BUSINESSUSERDELETED",
+   "objectType":"CDS_STOB",
+   "objectKey":"D_BUSINESSUSERDELETED",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-BUM",
    "state":"released",
    "successorClassification":""
   },
@@ -20795,9 +20855,29 @@
   },
   {
    "tadirObject":"DDLS",
+   "tadirObjName":"I_BUSINESSPARTNERROLE",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_BUSINESSPARTNERROLE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"AP-MD-BP",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"DDLS",
    "tadirObjName":"I_BUSINESSPARTNERROLESTDVH",
    "objectType":"CDS_STOB",
    "objectKey":"I_BUSINESSPARTNERROLESTDVH",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"AP-MD-BP",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"DDLS",
+   "tadirObjName":"I_BUSINESSPARTNERROLETEXT",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_BUSINESSPARTNERROLETEXT",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"AP-MD-BP",
    "state":"released",
@@ -20925,6 +21005,16 @@
   },
   {
    "tadirObject":"DDLS",
+   "tadirObjName":"I_BUSINESSUSEREVENT",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_BUSINESSUSEREVENT",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-BUM",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"DDLS",
    "tadirObjName":"I_BUSINESSUSERVH",
    "objectType":"CDS_STOB",
    "objectKey":"I_BUSINESSUSERVH",
@@ -20960,6 +21050,26 @@
    "objectKey":"I_BUSPARTADDRESS",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"AP-MD-BP",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"DDLS",
+   "tadirObjName":"I_BUSPARTAUTHORIZATIONGROUP",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_BUSPARTAUTHORIZATIONGROUP",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"AP-MD-BP-RAP",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"DDLS",
+   "tadirObjName":"I_BUSPARTAUTHORIZATIONGROUPTXT",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_BUSPARTAUTHORIZATIONGROUPTXT",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"AP-MD-BP-RAP",
    "state":"released",
    "successorClassification":""
   },
@@ -21038,6 +21148,16 @@
    "tadirObjName":"I_BUSPARTIDENTIFICATIONTP_3",
    "objectType":"CDS_STOB",
    "objectKey":"I_BUSPARTIDENTIFICATIONTP_3",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"AP-MD-BP-RAP",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"DDLS",
+   "tadirObjName":"I_BUSPARTIDENTIFICATIONTYPET_2",
+   "objectType":"CDS_STOB",
+   "objectKey":"I_BUSPARTIDENTIFICATIONTYPET_2",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"AP-MD-BP-RAP",
    "state":"released",
@@ -36495,6 +36615,16 @@
   },
   {
    "tadirObject":"DTEL",
+   "tadirObjName":"FIS_GJAHR",
+   "objectType":"DTEL",
+   "objectKey":"FIS_GJAHR",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-ASF-FYV",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"DTEL",
    "tadirObjName":"FIS_GJAHR_NO_CONV",
    "objectType":"DTEL",
    "objectKey":"FIS_GJAHR_NO_CONV",
@@ -36900,6 +37030,16 @@
    "objectKey":"FSAVZ",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"CA-GTF-PS",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"DTEL",
+   "tadirObjName":"FSBP_PARTNER",
+   "objectType":"DTEL",
+   "objectKey":"FSBP_PARTNER",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"FS-BP",
    "state":"released",
    "successorClassification":""
   },
@@ -47377,7 +47517,7 @@
    "tadirObject":"ENHS",
    "tadirObjName":"ES_APOC_EXT",
    "objectType":"BADI_DEF",
-   "objectKey":"APOC_RECIPIENT_BASED_DEFAULTS",
+   "objectKey":"APOC_SIGN_PDF_WITH_CERTIFICATE",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"CA-GTF-OC",
    "state":"released",
@@ -47397,7 +47537,7 @@
    "tadirObject":"ENHS",
    "tadirObjName":"ES_APOC_EXT",
    "objectType":"BADI_DEF",
-   "objectKey":"APOC_SIGN_PDF_WITH_CERTIFICATE",
+   "objectKey":"APOC_RECIPIENT_BASED_DEFAULTS",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"CA-GTF-OC",
    "state":"released",
@@ -47417,7 +47557,7 @@
    "tadirObject":"ENHS",
    "tadirObjName":"ES_DDMA_S4_BKINST",
    "objectType":"BADI_DEF",
-   "objectKey":"DDMA_BKINST_GET_SORT_VALUE",
+   "objectKey":"DDMA_BKINST_CHECK_INSTR_CREATE",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"CA-BK-DDM",
    "state":"released",
@@ -47427,7 +47567,7 @@
    "tadirObject":"ENHS",
    "tadirObjName":"ES_DDMA_S4_BKINST",
    "objectType":"BADI_DEF",
-   "objectKey":"DDMA_BKINST_CHECK_INSTR_CREATE",
+   "objectKey":"DDMA_BKINST_GET_SORT_VALUE",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"CA-BK-DDM",
    "state":"released",
@@ -47457,37 +47597,17 @@
    "tadirObject":"ENHS",
    "tadirObjName":"SLIN_SEC_BADIS",
    "objectType":"BADI_DEF",
+   "objectKey":"SLIN_BADI_DBTAB_ACCESS",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-ABA-LA-EPC",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"SLIN_SEC_BADIS",
+   "objectType":"BADI_DEF",
    "objectKey":"SLIN_BADI_VULN_PROCEDURES",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-ABA-LA-EPC",
-   "state":"released",
-   "successorClassification":""
-  },
-  {
-   "tadirObject":"ENHS",
-   "tadirObjName":"SLIN_SEC_BADIS",
-   "objectType":"BADI_DEF",
-   "objectKey":"SLIN_BADI_REJECTED_AUTH",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-ABA-LA-EPC",
-   "state":"released",
-   "successorClassification":""
-  },
-  {
-   "tadirObject":"ENHS",
-   "tadirObjName":"SLIN_SEC_BADIS",
-   "objectType":"BADI_DEF",
-   "objectKey":"SLIN_BADI_SEC_BACKDOOR",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-ABA-LA-EPC",
-   "state":"released",
-   "successorClassification":""
-  },
-  {
-   "tadirObject":"ENHS",
-   "tadirObjName":"SLIN_SEC_BADIS",
-   "objectType":"BADI_DEF",
-   "objectKey":"SLIN_BADI_SEC_PROCEDURES",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-ABA-LA-EPC",
    "state":"released",
@@ -47507,7 +47627,27 @@
    "tadirObject":"ENHS",
    "tadirObjName":"SLIN_SEC_BADIS",
    "objectType":"BADI_DEF",
-   "objectKey":"SLIN_BADI_DBTAB_ACCESS",
+   "objectKey":"SLIN_BADI_SEC_PROCEDURES",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-ABA-LA-EPC",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"SLIN_SEC_BADIS",
+   "objectType":"BADI_DEF",
+   "objectKey":"SLIN_BADI_SEC_BACKDOOR",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-ABA-LA-EPC",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"ENHS",
+   "tadirObjName":"SLIN_SEC_BADIS",
+   "objectType":"BADI_DEF",
+   "objectKey":"SLIN_BADI_REJECTED_AUTH",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-ABA-LA-EPC",
    "state":"released",
@@ -47627,7 +47767,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"BAPT",
    "objectType":"FUNC",
-   "objectKey":"TRANSACTION_END",
+   "objectKey":"TRANSACTION_BEGIN",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"released",
@@ -47647,17 +47787,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"BAPT",
    "objectType":"FUNC",
-   "objectKey":"BAPI_TRANSACTION_ROLLBACK",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-MID-API",
-   "state":"released",
-   "successorClassification":""
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"BAPT",
-   "objectType":"FUNC",
-   "objectKey":"BUFFER_REFRESH_ALL",
+   "objectKey":"TRANSACTION_ABORT",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"released",
@@ -47677,7 +47807,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"BAPT",
    "objectType":"FUNC",
-   "objectKey":"TRANSACTION_ABORT",
+   "objectKey":"BUFFER_REFRESH_ALL",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"released",
@@ -47687,7 +47817,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"BAPT",
    "objectType":"FUNC",
-   "objectKey":"TRANSACTION_BEGIN",
+   "objectKey":"BAPI_TRANSACTION_ROLLBACK",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"released",
@@ -47698,6 +47828,16 @@
    "tadirObjName":"BAPT",
    "objectType":"FUNC",
    "objectKey":"TRANSACTION_STATUS",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-API",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BAPT",
+   "objectType":"FUNC",
+   "objectKey":"TRANSACTION_END",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"released",
@@ -47717,7 +47857,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"BATG",
    "objectType":"FUNC",
-   "objectKey":"BAPI_INTERFACE_GETDOCU",
+   "objectKey":"BAPI_FIELDHELP_GETDOCU",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"released",
@@ -47737,27 +47877,7 @@
    "tadirObject":"FUGR",
    "tadirObjName":"BATG",
    "objectType":"FUNC",
-   "objectKey":"BALW_CONVERT_DOCU_LINKS",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-MID-API",
-   "state":"released",
-   "successorClassification":""
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"BATG",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_FIELDHELP_GETDOCU",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-MID-API",
-   "state":"released",
-   "successorClassification":""
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"BATG",
-   "objectType":"FUNC",
-   "objectKey":"BAPI_APPLICATIONLOG_GETDETAIL",
+   "objectKey":"BAPI_INTERFACE_GETDOCU",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"released",
@@ -47768,6 +47888,26 @@
    "tadirObjName":"BATG",
    "objectType":"FUNC",
    "objectKey":"BAPI_MESSAGE_GETDETAIL",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-API",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BATG",
+   "objectType":"FUNC",
+   "objectKey":"BALW_CONVERT_DOCU_LINKS",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-API",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BATG",
+   "objectType":"FUNC",
+   "objectKey":"BAPI_APPLICATIONLOG_GETDETAIL",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"released",
@@ -47798,16 +47938,6 @@
    "tadirObjName":"BFHV",
    "objectType":"FUNC",
    "objectKey":"BAPI_HELPVALUES_GET",
-   "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-MID-API",
-   "state":"released",
-   "successorClassification":""
-  },
-  {
-   "tadirObject":"FUGR",
-   "tadirObjName":"BFRT",
-   "objectType":"FUNC",
-   "objectKey":"BALW_BAPIRETURN_GET1",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"released",
@@ -47858,6 +47988,16 @@
    "tadirObjName":"BFRT",
    "objectType":"FUNC",
    "objectKey":"BALW_BAPIRETURN_GET",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-API",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BFRT",
+   "objectType":"FUNC",
+   "objectKey":"BALW_BAPIRETURN_GET1",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-API",
    "state":"released",
@@ -49488,6 +49628,26 @@
    "tadirObjName":"IF_AIC_ORCH_CFG_TEMPLATING",
    "objectType":"INTF",
    "objectKey":"IF_AIC_ORCH_CFG_TEMPLATING",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-AI-GEN-SDK",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"INTF",
+   "tadirObjName":"IF_AIC_ORCH_MEDIA_MESSAGE",
+   "objectType":"INTF",
+   "objectKey":"IF_AIC_ORCH_MEDIA_MESSAGE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-AI-GEN-SDK",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"INTF",
+   "tadirObjName":"IF_AIC_ORCH_RESPONSE_FORMAT",
+   "objectType":"INTF",
+   "objectKey":"IF_AIC_ORCH_RESPONSE_FORMAT",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-AI-GEN-SDK",
    "state":"released",
@@ -52065,6 +52225,16 @@
   },
   {
    "tadirObject":"INTF",
+   "tadirObjName":"IF_FSBP_COMBINED_MEMORIES",
+   "objectType":"INTF",
+   "objectKey":"IF_FSBP_COMBINED_MEMORIES",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"FS-BP",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"INTF",
    "tadirObjName":"IF_FTD_ARGUMENTS_ITERATOR",
    "objectType":"INTF",
    "objectKey":"IF_FTD_ARGUMENTS_ITERATOR",
@@ -53260,6 +53430,16 @@
    "objectKey":"IF_RFC_DEST",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-UCO",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"INTF",
+   "tadirObjName":"IF_RFC_REMOTE",
+   "objectType":"INTF",
+   "objectKey":"IF_RFC_REMOTE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-RFC",
    "state":"released",
    "successorClassification":""
   },
@@ -57798,6 +57978,16 @@
    "tadirObjName":"IF_XCO_CP_GEN_BDEF_S_FORM",
    "objectType":"INTF",
    "objectKey":"IF_XCO_CP_GEN_BDEF_S_FORM",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-APS-EXT-XCO",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"INTF",
+   "tadirObjName":"IF_XCO_CP_GEN_BDEF_TPL_SOURCE",
+   "objectType":"INTF",
+   "objectKey":"IF_XCO_CP_GEN_BDEF_TPL_SOURCE",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-APS-EXT-XCO",
    "state":"released",
@@ -67315,6 +67505,16 @@
   },
   {
    "tadirObject":"NONT",
+   "tadirObjName":"BUSINESSUSER",
+   "objectType":"NONT",
+   "objectKey":"BUSINESSUSER",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-BUM",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"NONT",
    "tadirObjName":"SAPGRAPHICALUIICONTEXT",
    "objectType":"NONT",
    "objectKey":"SAPGRAPHICALUIICONTEXT",
@@ -67330,6 +67530,16 @@
    "objectKey":"SAPGRAPHICALUSERINTERFACEICON",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-ABA-SC",
+   "state":"released",
+   "successorClassification":""
+  },
+  {
+   "tadirObject":"RONT",
+   "tadirObjName":"BUSINESSUSER",
+   "objectType":"RONT",
+   "objectKey":"BUSINESSUSER",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-BUM",
    "state":"released",
    "successorClassification":""
   },
