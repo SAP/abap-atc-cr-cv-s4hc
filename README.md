@@ -2,7 +2,7 @@
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP/abap-atc-cr-cv-s4hc)](https://api.reuse.software/info/github.com/SAP/abap-atc-cr-cv-s4hc)
 
-The repository contains the list of released APIs of SAP Cloud ERP. In addition also the objects that are not released are contained with the specification of successor objects. All objects are contained in one JSON file. This file is used as content for the ABAP Test Cockpit Check "Usage of Released APIs (Cloudification Repository)". This check can be used by customers and partners to analyse existing custom code concerning the usage of released and not released APIs on all ECC and S/4HANA releases. The check is available in SAP BTP, ABAP environment in an latest version.
+The repository contains the list of released APIs of SAP Cloud ERP. In addition also the objects that are not released are contained with the specification of successor objects. All objects are contained in one JSON file. This file is used as content for the ABAP Test Cockpit Check "Usage of APIs (Cloudification Repository)". This check can be used by customers and partners to analyse existing custom code concerning the usage of released and not released APIs on all ECC and S/4HANA releases. The check is available in SAP BTP, ABAP environment in an latest version.
 
 ## Requirements
 
@@ -16,7 +16,7 @@ Please implement
 Following the Clean Core approach:
 + for SAP Cloud ERP Private only: Classic APIs support -note [3449860](https://launchpad.support.sap.com/#/notes/3449860)
 + Validate SimplificationitemDB - Using transaction SYCM: Menu Simplification Database - Show Information. Follow the update information in note note [2241080](https://launchpad.support.sap.com/#/notes/2241080)
-- ATC Checks 'Usage of Released APIs' and 'Usage of Released APIs (Cloudification Repository)' Support Classic APIs
+- ATC Checks 'Usage of APIs' and 'Usage of Released APIs (Cloudification Repository)' Support Classic APIs
 - + note function group fix [3710789](https://launchpad.support.sap.com/#/notes/3710789)
 
 NEW NEW NEW  Clean Core Check
@@ -48,7 +48,7 @@ The corresponding CSV files can be consumed for offline processing in any spread
 
 ### Target product SAP Cloud ERP Private
 
-1. Activate in your ATC check variant the check "Clean Core" -> Usage of Released APIs (Cloudification Repository)
+1. Activate in your ATC check variant the check "Clean Core" -> Usage of APIs (Cloudification Repository)
 
 2. In the attributes of the check enter the URL to this git repository e.g https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCELatest.json
 (content valid only for the latest SAP Cloud ERP Private version)
@@ -63,6 +63,8 @@ Remark: The Json files are available for Feature pack stack releases of Cloud ER
 With the note [3449860](https://launchpad.support.sap.com/#/notes/3449860)- ATC Checks 'Usage of Released APIs' and 'Usage of Released APIs (Cloudification Repository)' support for Classic APIs
 
 With the note [3489660](https://me.sap.com/notes/3489660)- “Enable deployment into UI5 ABAP Repository with language version "ABAP for Cloud Development" using development namespaces”
+
+With the note [3761018](https://me.sap.com/notes/3761018) - Provide a list of object types supported at different Clean Core levels. 
 
 *NEW NEW NEW*
 With the introduction of the new ATC check 3565942 - ATC Checks "Usage of APIs" and "Allowed Enhancement Technologies" [https://me.sap.com/notes/3565942]
