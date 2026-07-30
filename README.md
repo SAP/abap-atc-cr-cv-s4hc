@@ -60,7 +60,7 @@ SAP Cloud ERP Private; example Release 2025 FPS00
 --> https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCE2025.json
 Remark: The Json files are available for Feature pack stack releases of Cloud ERP Private only. No dedicated support packages update on jason files.
 
-With the note [3449860](https://launchpad.support.sap.com/#/notes/3449860)- ATC Checks 'Usage of Released APIs' and 'Usage of Released APIs (Cloudification Repository)' support for Classic APIs
+With the note [3449860](https://launchpad.support.sap.com/#/notes/3449860)- ATC Checks 'Usage of Released APIs' and 'Usage of APIs (Cloudification Repository)' support for Classic APIs
 
 With the note [3489660](https://me.sap.com/notes/3489660)- “Enable deployment into UI5 ABAP Repository with language version "ABAP for Cloud Development" using development namespaces”
 
