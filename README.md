@@ -50,7 +50,7 @@ The corresponding CSV files can be consumed for offline processing in any spread
 
 ### Target product SAP Cloud ERP Private
 
-1. Activate in your ATC check variant the check "Clean Core" -> Usage of Released APIs (Cloudification Repository)
+1. Activate in your ATC check variant the check "Clean Core" -> Usage of APIs (Cloudification Repository)
 
 2. In the attributes of the check enter the URL to this git repository e.g https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCELatest.json
 (content valid only for the latest SAP Cloud ERP Private version)
