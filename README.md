@@ -16,10 +16,12 @@ Please implement
 Following the Clean Core approach:
 + for SAP Cloud ERP Private only: Classic APIs support -note [3449860](https://launchpad.support.sap.com/#/notes/3449860)
 + Validate SimplificationitemDB - Using transaction SYCM: Menu Simplification Database - Show Information. Follow the update information in note note [2241080](https://launchpad.support.sap.com/#/notes/2241080)
-- ATC Checks 'Usage of Released APIs' and 'Usage of Released APIs (Cloudification Repository)' Support Classic APIs
-- + note function group fix [3710789](https://launchpad.support.sap.com/#/notes/3710789)
+- ATC Checks 
+    + 'Usage of APIs'  - Support Classic and Released APIs
+    + 'Usage of Released APIs (Cloudification Repository)'  - Support Released APIs
+- note function group fix [3710789](https://launchpad.support.sap.com/#/notes/3710789)
 
-NEW NEW NEW  Clean Core Check
+Clean Core Check (Since August 2025)
 - ATC Checks "Usage of APIs" and "Allowed Enhancement Technologies" [3565942](https://me.sap.com/notes/3565942)
 
 Please ensure [SSL setup](https://docs.abapgit.org/user-guide/setup/ssl-setup.html) to access git from S/4 system via ATC
@@ -60,11 +62,10 @@ SAP Cloud ERP Private; example Release 2025 FPS00
 --> https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/main/src/objectReleaseInfo_PCE2025.json
 Remark: The Json files are available for Feature pack stack releases of Cloud ERP Private only. No dedicated support packages update on jason files.
 
-With the note [3449860](https://launchpad.support.sap.com/#/notes/3449860)- ATC Checks 'Usage of Released APIs' and 'Usage of Released APIs (Cloudification Repository)' support for Classic APIs
+With the note [3449860](https://launchpad.support.sap.com/#/notes/3449860)- ATC Checks 'Usage of APIs' and 'Usage of Released APIs (Cloudification Repository)' support for Classic APIs
 
 With the note [3489660](https://me.sap.com/notes/3489660)- “Enable deployment into UI5 ABAP Repository with language version "ABAP for Cloud Development" using development namespaces”
 
-*NEW NEW NEW*
 With the introduction of the new ATC check 3565942 - ATC Checks "Usage of APIs" and "Allowed Enhancement Technologies" [https://me.sap.com/notes/3565942]
 a new data format is needed and persited in file [objectClassifications_SAP.json](https://raw.githubusercontent.com/SAP/abap-atc-cr-cv-s4hc/refs/heads/main/src/objectClassifications_SAP.json)
 
@@ -73,11 +74,10 @@ Looking for >20000 Level A released dataelements for SAP Cloud ERP Private.
 
 - Collection note [3470426](https://me.sap.com/notes/3470426)
 
-
+Object Types Considered by RISE with SAP Methodology Dashboard is listed in the SAP Note 3761018 [https://me.sap.com/notes/3761018]
 
 ## Cloudification API Viewer
 
-*NEW NEW NEW*
 - New layout of cloudification repository viewer - [Blog](https://community.sap.com/t5/technology-blog-posts-by-sap/new-cloudification-repository-viewer-for-clean-core-governance-and/ba-p/14236110)
 - Cloudification Viewer will display now the number of APIs behind the repository name.
 - Supporting partner classic APIs now (Partner Level A APIs will available as part of the partner addon installation) 
