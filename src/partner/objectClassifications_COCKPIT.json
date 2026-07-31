@@ -1,0 +1,120 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/COCKPIT/CL_AP_API_DATA",
+      "objectType": "CLAS",
+      "objectKey": "/COCKPIT/CL_AP_API_DATA",
+      "softwareComponent": "COCKPIT",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/COCKPIT/CL_WC_API",
+      "objectType": "CLAS",
+      "objectKey": "/COCKPIT/CL_WC_API",
+      "softwareComponent": "COCKPIT",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/COCKPIT/EDI_RFC",
+      "objectType": "FUNC",
+      "objectKey": "/COCKPIT/RFC_EDI_XML_SUBMIT",
+      "softwareComponent": "COCKPIT",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/COCKPIT/INTERFACE",
+      "objectType": "FUNC",
+      "objectKey": "/COCKPIT/RFC_DATA_SUBMIT",
+      "softwareComponent": "COCKPIT",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/COCKPIT/WB_RFC",
+      "objectType": "FUNC",
+      "objectKey": "/COCKPIT/RFC_WB_DATA_GET_MULTI",
+      "softwareComponent": "COCKPIT",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/COCKPIT/WB_RFC",
+      "objectType": "FUNC",
+      "objectKey": "/COCKPIT/RFC_WB_DATA_SET",
+      "softwareComponent": "COCKPIT",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/COCKPIT/WB_RFC46",
+      "objectType": "FUNC",
+      "objectKey": "/COCKPIT/RFC_WB_AUTHENTICATE",
+      "softwareComponent": "COCKPIT",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/COCKPIT/WB_RFC46",
+      "objectType": "FUNC",
+      "objectKey": "/COCKPIT/RFC_WB_GET_VENDORLIST",
+      "softwareComponent": "COCKPIT",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/COCKPIT/WB_RFC46",
+      "objectType": "FUNC",
+      "objectKey": "/COCKPIT/RFC_WB_PO_GET_DETAIL",
+      "softwareComponent": "COCKPIT",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/COCKPIT/WB_RFC46",
+      "objectType": "FUNC",
+      "objectKey": "/COCKPIT/RFC_WB_VND_DATA_GET",
+      "softwareComponent": "COCKPIT",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/COCKPIT/WB_RFC46",
+      "objectType": "FUNC",
+      "objectKey": "/COCKPIT/RFC_WB_VND_DATA_SET",
+      "softwareComponent": "COCKPIT",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    }
+  ]
+}
