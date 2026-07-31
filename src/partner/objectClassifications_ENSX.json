@@ -1,0 +1,47 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/ENSX/CL_BO_CONFIG_VAL_SEARCH",
+      "objectType": "CLAS",
+      "objectKey": "/ENSX/CL_BO_CONFIG_VAL_SEARCH",
+      "softwareComponent": "ENSX",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/ENSX/CL_BO_DETAIL",
+      "objectType": "CLAS",
+      "objectKey": "/ENSX/CL_BO_DETAIL",
+      "softwareComponent": "ENSX",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/ENSX/CL_BO_SEARCH",
+      "objectType": "CLAS",
+      "objectKey": "/ENSX/CL_BO_SEARCH",
+      "softwareComponent": "ENSX",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/ENSX/CL_OPP_PRICING_DETAIL",
+      "objectType": "CLAS",
+      "objectKey": "/ENSX/CL_OPP_PRICING_DETAIL",
+      "softwareComponent": "ENSXMMSD",
+      "applicationComponent": "SD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/ENSX/CL_SALES_DOC_DETAIL",
+      "objectType": "CLAS",
+      "objectKey": "/ENSX/CL_SALES_DOC_DETAIL",
+      "softwareComponent": "ENSXMMSD",
+      "applicationComponent": "SD",
+      "state": "classicAPI"
+    }
+  ]
+}
