@@ -1,0 +1,43 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/EBY/CL_PDPA_API",
+      "objectType": "CLAS",
+      "objectKey": "/EBY/CL_PDPA_API",
+      "softwareComponent": "EBY",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/EBY/CL_PDWC_API",
+      "objectType": "CLAS",
+      "objectKey": "/EBY/CL_PDWC_API",
+      "softwareComponent": "EBY",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/EBY/PDBO_RFC",
+      "objectType": "FUNC",
+      "objectKey": "/EBY/PDBO_RFC_DATA_RECEIVE",
+      "softwareComponent": "EBY",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/EBY/PDWA_RFC",
+      "objectType": "FUNC",
+      "objectKey": "/EBY/PDWA_RFC_MAIN",
+      "softwareComponent": "EBY",
+      "state": "classicAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    }
+  ]
+}
