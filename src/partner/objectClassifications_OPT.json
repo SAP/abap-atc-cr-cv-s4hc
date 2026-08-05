@@ -11,6 +11,14 @@
     },
     {
       "tadirObject": "CLAS",
+      "tadirObjName": "/OPT/CL_D_LM_SUPER",
+      "objectType": "CLAS",
+      "objectKey": "/OPT/CL_D_LM_SUPER",
+      "softwareComponent": "OTVIMINV",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
       "tadirObjName": "/OPT/CL_VIM_DOCUMENT",
       "objectType": "CLAS",
       "objectKey": "/OPT/CL_VIM_DOCUMENT",
