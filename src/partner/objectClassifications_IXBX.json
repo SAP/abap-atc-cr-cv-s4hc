@@ -1,0 +1,493 @@
+{
+    "formatVersion": "2",
+    "objectClassifications": [
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_APC_WSP_EXT_WEBSOCKET",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_APC_WSP_EXT_WEBSOCKET",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_BADI_ED_XML_C",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_BADI_ED_XML_C",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_BAPI",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_BAPI",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_BO_HIERARCHY",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_BO_HIERARCHY",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_BW_EXECUTE_READ",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_BW_EXECUTE_READ",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_BW_LIST",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_BW_LIST",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_BW_UTIL",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_BW_UTIL",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_DATA_UTIL",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_DATA_UTIL",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_EDA_EVENT",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_EDA_EVENT",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_EDA_RECEIVER_TYPE",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_EDA_RECEIVER_TYPE",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_EDA_REC_TYPE_CONFL",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_EDA_REC_TYPE_CONFL",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_EDA_REC_TYPE_HTTP_RFC",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_EDA_REC_TYPE_HTTP_RFC",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_EVENT_HANDLER",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_EVENT_HANDLER",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_EVENT_HANDLER_R",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_EVENT_HANDLER_R",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_EVENT_HANDLER_R_TOPIC",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_EVENT_HANDLER_R_TOPIC",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_EXECUTE_READ",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_EXECUTE_READ",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_FM_EXECUTE",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_FM_EXECUTE",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_FM_SERVICE",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_FM_SERVICE",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_IDOC_DATA_UTIL",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_IDOC_DATA_UTIL",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_IDOC_DOC",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_IDOC_DOC",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_IDOC_INBOUND",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_IDOC_INBOUND",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_IXBX_RF_WEBSOCKET",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_IXBX_RF_WEBSOCKET",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_JSON_MAPPER",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_JSON_MAPPER",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_JSON_UTILS",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_JSON_UTILS",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_MONITORING_DASHBOARD",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_MONITORING_DASHBOARD",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_PROXY",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_PROXY",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_PROXY_SPEC",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_PROXY_SPEC",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_PROXY_TEMPLATE",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_PROXY_TEMPLATE",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_REPORT_EXECUTE",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_REPORT_EXECUTE",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_REST",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_REST",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_REST_UTILS",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_REST_UTILS",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_RFC_DEST",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_RFC_DEST",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_RF_UI_UTIL",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_RF_UI_UTIL",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_SAP_TABLE_INFO",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_SAP_TABLE_INFO",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_SAP_TRANSPORTS",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_SAP_TRANSPORTS",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_SERVICE_UTIL",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_SERVICE_UTIL",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_SICF",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_SICF",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_TABLE_WIZARD",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_TABLE_WIZARD",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/HYPER_AUTOMATION",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/HYPER_AUTOMATION",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_AUTH",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_AUTH",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_CDS",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_CDS",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_EDA_CP",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_EDA_CP",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_EDA_OUTPUT_ITAB",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_EDA_OUTPUT_ITAB",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_EDA_SUBSCR",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_EDA_SUBSCR",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_EDA_TOPIC",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_EDA_TOPIC",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_FIELD_CONV_UTIL",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_FIELD_CONV_UTIL",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_FM",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_FM",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_IDOC",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_IDOC",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_JSON_UI2",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_JSON_UI2",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_MAP_TYPE",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_MAP_TYPE",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_OUTPUT_ITAB",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_OUTPUT_ITAB",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_REPORTS",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_REPORTS",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_REPORT_SERVICE",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_REPORT_SERVICE",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_SELECT_DYNAMIC",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_SELECT_DYNAMIC",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_SEND_EVENT",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_SEND_EVENT",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "//IXBX/CL_SWAG",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_SWAG",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_TABLE_SERVICE",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_TABLE_SERVICE",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "CLAS",
+            "tadirObjName": "/IXBX/CL_EDA_META",
+            "objectType": "CLAS",
+            "objectKey": "/IXBX/CL_EDA_META",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUGR",
+            "tadirObjName": "/IXBX/ZBX_INITIAL_LOAD",
+            "objectType": "FUNC",
+            "objectKey": "/IXBX/ZBX_INITIAL_ZIP_2_JSON",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUGR",
+            "tadirObjName": "/IXBX/ZBX_JOB",
+            "objectType": "FUNC",
+            "objectKey": "/IXBX/SHOW_JOBSTATE",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        },
+        {
+            "tadirObject": "FUGR",
+            "tadirObjName": "/IXBX/DOWN_PORT",
+            "objectType": "FUNC",
+            "objectKey": "/IXBX/NUMERIC_INPUT_CHECK",
+            "softwareComponent": "IXBX",
+            "state": "classicAPI"
+        }
+    ]
+}
