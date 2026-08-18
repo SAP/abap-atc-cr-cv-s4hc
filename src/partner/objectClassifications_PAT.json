@@ -12,9 +12,45 @@
     },
     {
       "tadirObject": "CLAS",
+      "tadirObjName": "/PAT/CL_POST_DOC",
+      "objectType": "CLAS",
+      "objectKey": "/PAT/CL_POST_DOC",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
       "tadirObjName": "/PAT/CX_STATIC",
       "objectType": "CLAS",
       "objectKey": "/PAT/CX_STATIC",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/PAT/DC_CL_DATA_COLLATION",
+      "objectType": "CLAS",
+      "objectKey": "/PAT/DC_CL_DATA_COLLATION",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/PAT/DC_CL_POST_DELIVERY_CHG",
+      "objectType": "CLAS",
+      "objectKey": "/PAT/DC_CL_POST_DELIVERY_CHG",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/PAT/DC_CL_POST_DLV_STO_CREATE",
+      "objectType": "CLAS",
+      "objectKey": "/PAT/DC_CL_POST_DLV_STO_CREATE",
       "softwareComponent": "S4SCSD",
       "applicationComponent": "IS-OIL-DS-OGSD",
       "state": "classicAPI"
@@ -78,6 +114,69 @@
       "labels": [
         "remote-enabled"
       ]
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/PAT/DC_IF_DC010",
+      "objectType": "INTF",
+      "objectKey": "/PAT/DC_IF_DC010",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/PAT/OC_IF_OC016",
+      "objectType": "INTF",
+      "objectKey": "/PAT/OC_IF_OC016",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/PAT/OC_IF_OC031",
+      "objectType": "INTF",
+      "objectKey": "/PAT/OC_IF_OC031",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/PAT/OC_IF_OC041",
+      "objectType": "INTF",
+      "objectKey": "/PAT/OC_IF_OC041",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/PAT/OC_IF_OC042",
+      "objectType": "INTF",
+      "objectKey": "/PAT/OC_IF_OC042",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/PAT/OC_IF_OC048",
+      "objectType": "INTF",
+      "objectKey": "/PAT/OC_IF_OC048",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/PAT/OC_IF_OC049",
+      "objectType": "INTF",
+      "objectKey": "/PAT/OC_IF_OC049",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
     }
   ]
 }
