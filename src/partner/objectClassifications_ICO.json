@@ -9,6 +9,24 @@
       "softwareComponent": "S4SCSD",
       "applicationComponent": "IS-OIL-DS-OGSD",
       "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/ICO/RN_CL_INBOUND_CHECKS2",
+      "objectType": "CLAS",
+      "objectKey": "/ICO/RN_CL_INBOUND_CHECKS2",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-RFNO",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/ICO/RS_CL_SWITCH_CHECK",
+      "objectType": "CLAS",
+      "objectKey": "/ICO/RS_CL_SWITCH_CHECK",
+      "softwareComponent": "S4SCSD",
+      "applicationComponent": "IS-OIL-DS-OGSD",
+      "state": "classicAPI"
     }
   ]
 }
