@@ -1,0 +1,374 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/CLR/INF_EINV_EWB",
+      "objectType": "INTF",
+      "objectKey": "/CLR/INF_EINV_EWB",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/CLR/INF_CLI",
+      "objectType": "INTF",
+      "objectKey": "/CLR/INF_CLI",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/CLR/ZIF_ELT_EINVOICE",
+      "objectType": "INTF",
+      "objectKey": "/CLR/ZIF_ELT_EINVOICE",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CLR/ZCL_CLI",
+      "objectType": "CLAS",
+      "objectKey": "/CLR/ZCL_CLI",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CLR/ZCL_EINV_FACTORY",
+      "objectType": "CLAS",
+      "objectKey": "/CLR/ZCL_EINV_FACTORY",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CLR/INSTRU_API_CLASS",
+      "objectType": "CLAS",
+      "objectKey": "/CLR/INSTRU_API_CLASS",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/CLR/EINVOICE_EWAYBILL",
+      "objectType": "FUNC",
+      "objectKey": "/CLR/YEWB_NIRN_CREATE",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/CLR/EINVOICE_EWAYBILL",
+      "objectType": "FUNC",
+      "objectKey": "/CLR/YEWB_NIRN_CREATE_FI",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/CLR/EINVOICE_EWAYBILL",
+      "objectType": "FUNC",
+      "objectKey": "/CLR/YEINV_EWB_CANCEL",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/CLR/EINVOICE_EWAYBILL",
+      "objectType": "FUNC",
+      "objectKey": "/CLR/YEINV_EWB_COMB_CREATE",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/CLR/EINVOICE_EWAYBILL",
+      "objectType": "FUNC",
+      "objectKey": "/CLR/YEINV_EWB_COMB_PRO_CREATE",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/CLR/EINVOICE_EWAYBILL",
+      "objectType": "FUNC",
+      "objectKey": "/CLR/YEINV_DOWNLOAD_MANUAL",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/CLR/EINV_ELT",
+      "objectType": "FUNC",
+      "objectKey": "/CLR/EINV_EWAY_TRIGGER_ELT",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/CLR/RFCS",
+      "objectType": "FUNC",
+      "objectKey": "/CLR/RFC_READ_TABLE",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "noAPI",
+      "labels": [
+        "remote-enabled"
+      ]
+    },
+    {
+      "tadirObject": "FUGR",
+      "tadirObjName": "/CLR/ELT_UPDATE_FMS",
+      "objectType": "FUNC",
+      "objectKey": "/CLR/ZFM_BAPI_POST",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CLR/ZCL_EINV_BASE",
+      "objectType": "CLAS",
+      "objectKey": "/CLR/ZCL_EINV_BASE",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "noAPI",
+      "successors": [
+        {
+          "tadirObject": "CLAS",
+          "tadirObjName": "/CLR/ZCL_EINV_FACTORY",
+          "objectType": "CLAS",
+          "objectKey": "/CLR/ZCL_EINV_FACTORY"
+        }
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CLR/ZCL_EINV_FR",
+      "objectType": "CLAS",
+      "objectKey": "/CLR/ZCL_EINV_FR",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "noAPI",
+      "successors": [
+        {
+          "tadirObject": "CLAS",
+          "tadirObjName": "/CLR/ZCL_EINV_FACTORY",
+          "objectType": "CLAS",
+          "objectKey": "/CLR/ZCL_EINV_FACTORY"
+        }
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CLR/ZCL_EINV_AE",
+      "objectType": "CLAS",
+      "objectKey": "/CLR/ZCL_EINV_AE",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "noAPI",
+      "successors": [
+        {
+          "tadirObject": "CLAS",
+          "tadirObjName": "/CLR/ZCL_EINV_FACTORY",
+          "objectType": "CLAS",
+          "objectKey": "/CLR/ZCL_EINV_FACTORY"
+        }
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CLR/ZCL_EINV_OM",
+      "objectType": "CLAS",
+      "objectKey": "/CLR/ZCL_EINV_OM",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "noAPI",
+      "successors": [
+        {
+          "tadirObject": "CLAS",
+          "tadirObjName": "/CLR/ZCL_EINV_FACTORY",
+          "objectType": "CLAS",
+          "objectKey": "/CLR/ZCL_EINV_FACTORY"
+        }
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CLR/AP_EINVOICE",
+      "objectType": "CLAS",
+      "objectKey": "/CLR/AP_EINVOICE",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CLR/ZCL_ELT",
+      "objectType": "CLAS",
+      "objectKey": "/CLR/ZCL_ELT",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CLR/ZCL_ALV_TABLE_CREATE_RTTC",
+      "objectType": "CLAS",
+      "objectKey": "/CLR/ZCL_ALV_TABLE_CREATE_RTTC",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "noAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CLR/INSTRU_EVENT_CLASS",
+      "objectType": "CLAS",
+      "objectKey": "/CLR/INSTRU_EVENT_CLASS",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "noAPI",
+      "successors": [
+        {
+          "tadirObject": "CLAS",
+          "tadirObjName": "/CLR/INSTRU_API_CLASS",
+          "objectType": "CLAS",
+          "objectKey": "/CLR/INSTRU_API_CLASS"
+        }
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CLR/CL_EINV_EWB",
+      "objectType": "CLAS",
+      "objectKey": "/CLR/CL_EINV_EWB",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "noAPI",
+      "successors": [
+        {
+          "tadirObject": "INTF",
+          "tadirObjName": "/CLR/INF_EINV_EWB",
+          "objectType": "INTF",
+          "objectKey": "/CLR/INF_EINV_EWB"
+        }
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CLR/CL_CLI",
+      "objectType": "CLAS",
+      "objectKey": "/CLR/CL_CLI",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "noAPI",
+      "successors": [
+        {
+          "tadirObject": "INTF",
+          "tadirObjName": "/CLR/INF_CLI",
+          "objectType": "INTF",
+          "objectKey": "/CLR/INF_CLI"
+        }
+      ]
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/CLR/ZCL_ELT_EINVOICE",
+      "objectType": "CLAS",
+      "objectKey": "/CLR/ZCL_ELT_EINVOICE",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "noAPI",
+      "successors": [
+        {
+          "tadirObject": "INTF",
+          "tadirObjName": "/CLR/ZIF_ELT_EINVOICE",
+          "objectType": "INTF",
+          "objectKey": "/CLR/ZIF_ELT_EINVOICE"
+        }
+      ]
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/CLR/ZIF_AP_INSTRU_EVENTS",
+      "objectType": "INTF",
+      "objectKey": "/CLR/ZIF_AP_INSTRU_EVENTS",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "noAPI",
+      "successors": [
+        {
+          "tadirObject": "CLAS",
+          "tadirObjName": "/CLR/INSTRU_API_CLASS",
+          "objectType": "CLAS",
+          "objectKey": "/CLR/INSTRU_API_CLASS"
+        }
+      ]
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/CLR/ZIF_ELT_INSTRU_EVENTS",
+      "objectType": "INTF",
+      "objectKey": "/CLR/ZIF_ELT_INSTRU_EVENTS",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "noAPI",
+      "successors": [
+        {
+          "tadirObject": "CLAS",
+          "tadirObjName": "/CLR/INSTRU_API_CLASS",
+          "objectType": "CLAS",
+          "objectKey": "/CLR/INSTRU_API_CLASS"
+        }
+      ]
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/CLR/ZIF_MAXITC_INSTRU_EVENTS",
+      "objectType": "INTF",
+      "objectKey": "/CLR/ZIF_MAXITC_INSTRU_EVENTS",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "noAPI",
+      "successors": [
+        {
+          "tadirObject": "CLAS",
+          "tadirObjName": "/CLR/INSTRU_API_CLASS",
+          "objectType": "CLAS",
+          "objectKey": "/CLR/INSTRU_API_CLASS"
+        }
+      ]
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/CLR/ZIF_TDS_INTRU_EVENT",
+      "objectType": "INTF",
+      "objectKey": "/CLR/ZIF_TDS_INTRU_EVENT",
+      "softwareComponent": "CLR",
+      "applicationComponent": "",
+      "state": "noAPI",
+      "successors": [
+        {
+          "tadirObject": "CLAS",
+          "tadirObjName": "/CLR/INSTRU_API_CLASS",
+          "objectType": "CLAS",
+          "objectKey": "/CLR/INSTRU_API_CLASS"
+        }
+      ]
+    }
+  ]
+}
