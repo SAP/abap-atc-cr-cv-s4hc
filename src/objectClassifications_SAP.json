@@ -8031,7 +8031,7 @@
    "objectType":"CLAS",
    "objectKey":"CL_SADL_COND_PROV_FACTORY_PUB",
    "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-ESI-ESF-BSA",
+   "applicationComponent":"BC-ESI-RAP-RTE",
    "state":"classicAPI"
   },
   {
@@ -13562,6 +13562,24 @@
   },
   {
    "tadirObject":"CLAS",
+   "tadirObjName":"CX_BO_ACTION_CANCELLED",
+   "objectType":"CLAS",
+   "objectKey":"CX_BO_ACTION_CANCELLED",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-WFM",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CX_BO_ERROR",
+   "objectType":"CLAS",
+   "objectKey":"CX_BO_ERROR",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-BMT-WFM",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
    "tadirObjName":"CX_CHIP_CATALOG",
    "objectType":"CLAS",
    "objectKey":"CX_CHIP_CATALOG",
@@ -14199,7 +14217,7 @@
    "objectType":"CLAS",
    "objectKey":"CX_SADL_EXIT_FILTER_NOT_SUPP",
    "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-ESI-ESF-BSA",
+   "applicationComponent":"BC-ESI-RAP-RTE",
    "state":"classicAPI"
   },
   {
@@ -15343,6 +15361,15 @@
    "objectKey":"CX_SWF_IFS_EXCEPTION",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-BMT-WFM",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
+   "tadirObjName":"CX_SWO_RUNTIME_ERROR",
+   "objectType":"CLAS",
+   "objectKey":"CX_SWO_RUNTIME_ERROR",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-DWB-TOO-BOB",
    "state":"classicAPI"
   },
   {
@@ -17739,6 +17766,32 @@
   },
   {
    "tadirObject":"DDLS",
+   "tadirObjName":"DDCDS_DOMAIN_VALUE",
+   "objectType":"CDS_STOB",
+   "objectKey":"DDCDS_DOMAIN_VALUE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-DWB-DIC",
+   "state":"classicAPI",
+   "labels":
+   [
+    "transactional-consistent"
+   ]
+  },
+  {
+   "tadirObject":"DDLS",
+   "tadirObjName":"DDCDS_DOMAIN_VALUE_T",
+   "objectType":"CDS_STOB",
+   "objectKey":"DDCDS_DOMAIN_VALUE_T",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-DWB-DIC",
+   "state":"classicAPI",
+   "labels":
+   [
+    "transactional-consistent"
+   ]
+  },
+  {
+   "tadirObject":"DDLS",
    "tadirObjName":"I_ACCRENGINEACCRUALOBJECT",
    "objectType":"CDS_STOB",
    "objectKey":"I_ACCRENGINEACCRUALOBJECT",
@@ -17804,7 +17857,7 @@
    "tadirObjName":"I_ADVNCDPLNGPLANNINGVERS",
    "objectType":"CDS_STOB",
    "objectKey":"I_ADVNCDPLNGPLANNINGVERS",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-PPS-DS",
    "state":"classicAPI",
    "labels":
@@ -23212,7 +23265,7 @@
    "tadirObjName":"10004",
    "objectType":"FUNC",
    "objectKey":"BAPI_RSSRVAPS_BLOCK_SAVEMULTI",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -23226,7 +23279,7 @@
    "tadirObjName":"10004",
    "objectType":"FUNC",
    "objectKey":"BAPI_RSSRVAPS_CHANGEMULTI",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -23240,7 +23293,7 @@
    "tadirObjName":"10004",
    "objectType":"FUNC",
    "objectKey":"BAPI_RSSRVAPS_DELETEDEFS",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -23254,7 +23307,7 @@
    "tadirObjName":"10004",
    "objectType":"FUNC",
    "objectKey":"BAPI_RSSRVAPS_DELMULTI",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -23267,7 +23320,7 @@
    "tadirObjName":"10004",
    "objectType":"FUNC",
    "objectKey":"BAPI_RSSRVAPS_GETBLOCKS2",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -23281,7 +23334,7 @@
    "tadirObjName":"10004",
    "objectType":"FUNC",
    "objectKey":"BAPI_RSSRVAPS_GETCAPAPRO",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -23295,7 +23348,7 @@
    "tadirObjName":"10004",
    "objectType":"FUNC",
    "objectKey":"BAPI_RSSRVAPS_GETDEFS",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -23309,7 +23362,7 @@
    "tadirObjName":"10004",
    "objectType":"FUNC",
    "objectKey":"BAPI_RSSRVAPS_GETLIST",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -23323,7 +23376,7 @@
    "tadirObjName":"10004",
    "objectType":"FUNC",
    "objectKey":"BAPI_RSSRVAPS_GETLOAD",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -23337,7 +23390,7 @@
    "tadirObjName":"10004",
    "objectType":"FUNC",
    "objectKey":"BAPI_RSSRVAPS_REMOVESUBOBJECTS",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -23351,7 +23404,7 @@
    "tadirObjName":"10004",
    "objectType":"FUNC",
    "objectKey":"BAPI_RSSRVAPS_SAVEDEFS",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -23365,7 +23418,7 @@
    "tadirObjName":"10004",
    "objectType":"FUNC",
    "objectKey":"BAPI_RSSRVAPS_SAVEMULTI_30A",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -23483,7 +23536,7 @@
    "tadirObjName":"10014",
    "objectType":"FUNC",
    "objectKey":"BAPI_PDSSRVAPS_GETLIST",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -23666,7 +23719,7 @@
    "tadirObjName":"10020",
    "objectType":"FUNC",
    "objectKey":"BAPI_PIRSRVAPS_DELMULTI",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -23680,7 +23733,7 @@
    "tadirObjName":"10020",
    "objectType":"FUNC",
    "objectKey":"BAPI_PIRSRVAPS_GETLIST",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -23694,7 +23747,7 @@
    "tadirObjName":"10020",
    "objectType":"FUNC",
    "objectKey":"BAPI_PIRSRVAPS_SAVEMULTI",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -24729,7 +24782,7 @@
    "tadirObjName":"10500",
    "objectType":"FUNC",
    "objectKey":"BAPI_PPDSSRVAPS_CHANPEGMULTI",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -24743,7 +24796,7 @@
    "tadirObjName":"10500",
    "objectType":"FUNC",
    "objectKey":"BAPI_PPDSSRVAPS_GET_IO_NODES",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -24757,7 +24810,7 @@
    "tadirObjName":"10501",
    "objectType":"FUNC",
    "objectKey":"BAPI_SLSRVAPS_CREATEINTRANS",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -24770,7 +24823,7 @@
    "tadirObjName":"10501",
    "objectType":"FUNC",
    "objectKey":"BAPI_SLSRVAPS_DELMULTI",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -24783,7 +24836,7 @@
    "tadirObjName":"10501",
    "objectType":"FUNC",
    "objectKey":"BAPI_SLSRVAPS_GETLIST2",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -24797,7 +24850,7 @@
    "tadirObjName":"10501",
    "objectType":"FUNC",
    "objectKey":"BAPI_SLSRVAPS_REMOVEITEMS",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -24810,7 +24863,7 @@
    "tadirObjName":"10501",
    "objectType":"FUNC",
    "objectKey":"BAPI_SLSRVAPS_SAVEMULTI2",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -24823,7 +24876,7 @@
    "tadirObjName":"10502",
    "objectType":"FUNC",
    "objectKey":"BAPI_POSRVAPS_COMPLETEKEY",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -24836,7 +24889,7 @@
    "tadirObjName":"10502",
    "objectType":"FUNC",
    "objectKey":"BAPI_POSRVAPS_DELMULTI",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -24850,7 +24903,7 @@
    "tadirObjName":"10502",
    "objectType":"FUNC",
    "objectKey":"BAPI_POSRVAPS_GETLIST3",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -24864,7 +24917,7 @@
    "tadirObjName":"10502",
    "objectType":"FUNC",
    "objectKey":"BAPI_POSRVAPS_REMOVEITEMS",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -24878,7 +24931,7 @@
    "tadirObjName":"10502",
    "objectType":"FUNC",
    "objectKey":"BAPI_POSRVAPS_SAVEMULTI3",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -24892,7 +24945,7 @@
    "tadirObjName":"10503",
    "objectType":"FUNC",
    "objectKey":"BAPI_MOSRVAPS_CHANGEACTMULTI",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -24906,7 +24959,7 @@
    "tadirObjName":"10503",
    "objectType":"FUNC",
    "objectKey":"BAPI_MOSRVAPS_COMPLETEKEY",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -24919,7 +24972,7 @@
    "tadirObjName":"10503",
    "objectType":"FUNC",
    "objectKey":"BAPI_MOSRVAPS_CONFHEADMULTI",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -24933,7 +24986,7 @@
    "tadirObjName":"10503",
    "objectType":"FUNC",
    "objectKey":"BAPI_MOSRVAPS_CONFIRM_REPPOINT",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -24947,7 +25000,7 @@
    "tadirObjName":"10503",
    "objectType":"FUNC",
    "objectKey":"BAPI_MOSRVAPS_CONFOPRMULTI",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -24961,7 +25014,7 @@
    "tadirObjName":"10503",
    "objectType":"FUNC",
    "objectKey":"BAPI_MOSRVAPS_DELEMULTI",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -24975,7 +25028,7 @@
    "tadirObjName":"10503",
    "objectType":"FUNC",
    "objectKey":"BAPI_MOSRVAPS_GETLIST2",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -24989,7 +25042,7 @@
    "tadirObjName":"10503",
    "objectType":"FUNC",
    "objectKey":"BAPI_MOSRVAPS_NODESMODIFY",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -25002,7 +25055,7 @@
    "tadirObjName":"10503",
    "objectType":"FUNC",
    "objectKey":"BAPI_MOSRVAPS_SAVEMULTI3",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -25016,7 +25069,7 @@
    "tadirObjName":"10503",
    "objectType":"FUNC",
    "objectKey":"BAPI_MOSRVAPS_SAVETMPLPPM",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -25030,7 +25083,7 @@
    "tadirObjName":"10504",
    "objectType":"FUNC",
    "objectKey":"BAPI_STSRVAPS_GETLIST2",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -25044,7 +25097,7 @@
    "tadirObjName":"10504",
    "objectType":"FUNC",
    "objectKey":"BAPI_STSRVAPS_SAVEMULTI2",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-INT-EXT",
    "state":"classicAPI",
    "labels":
@@ -33395,6 +33448,15 @@
    "tadirObjName":"BD01",
    "objectType":"FUNC",
    "objectKey":"CHANGE_POINTERS_READ",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-MID-ALE",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"BD01",
+   "objectType":"FUNC",
+   "objectKey":"CHANGE_POINTERS_READ_MODE_SET",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-MID-ALE",
    "state":"classicAPI"
@@ -78675,10 +78737,46 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SEOC",
    "objectType":"FUNC",
+   "objectKey":"SEO_CLASS_DELETE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-DWB-TOO-CLA",
+   "state":"noAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"SEOQ",
+     "objectType":"FUNC",
+     "objectKey":"SEO_CLASS_DELETE_COMPLETE"
+    }
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SEOC",
+   "objectType":"FUNC",
    "objectKey":"SEO_CLASS_EXISTENCE_CHECK",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-DWB-TOO-CLA",
    "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SEOC",
+   "objectType":"FUNC",
+   "objectKey":"SEO_INTERFACE_DELETE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-DWB-TOO-CLA",
+   "state":"noAPI",
+   "successors":
+   [
+    {
+     "tadirObject":"FUGR",
+     "tadirObjName":"SEOQ",
+     "objectType":"FUNC",
+     "objectKey":"SEO_INTERFACE_DELETE_COMPLETE"
+    }
+   ]
   },
   {
    "tadirObject":"FUGR",
@@ -78775,6 +78873,15 @@
    "tadirObjName":"SEOQ",
    "objectType":"FUNC",
    "objectKey":"SEO_CLASS_DELETE_COMPLETE",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-DWB-TOO-CLA",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SEOQ",
+   "objectType":"FUNC",
+   "objectKey":"SEO_INTERFACE_DELETE_COMPLETE",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-DWB-TOO-CLA",
    "state":"classicAPI"
@@ -80331,6 +80438,19 @@
    "tadirObject":"FUGR",
    "tadirObjName":"SOI1",
    "objectType":"FUNC",
+   "objectKey":"SO_DOCUMENT_DELETE_API1",
+   "softwareComponent":"SAP_BASIS",
+   "applicationComponent":"BC-SRV-COM",
+   "state":"classicAPI",
+   "labels":
+   [
+    "remote-enabled"
+   ]
+  },
+  {
+   "tadirObject":"FUGR",
+   "tadirObjName":"SOI1",
+   "objectType":"FUNC",
    "objectKey":"SO_DOCUMENT_INSERT_API1",
    "softwareComponent":"SAP_BASIS",
    "applicationComponent":"BC-SRV-COM",
@@ -80832,7 +80952,7 @@
    "tadirObjName":"SPP0002",
    "objectType":"FUNC",
    "objectKey":"BAPISPP0002_SDL_APPR_MULTIPLE",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-SPP-SDR",
    "state":"classicAPI",
    "labels":
@@ -80846,7 +80966,7 @@
    "tadirObjName":"SPP0002",
    "objectType":"FUNC",
    "objectKey":"BAPISPP0002_SDL_MODIFY_MULT",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-SPP-SDR",
    "state":"classicAPI",
    "labels":
@@ -80860,7 +80980,7 @@
    "tadirObjName":"SPP0003",
    "objectType":"FUNC",
    "objectKey":"BAPISPP0003_HI_FIRM_MULTIPLE",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-SPP-SDR",
    "state":"classicAPI",
    "labels":
@@ -80874,7 +80994,7 @@
    "tadirObjName":"SPP0003",
    "objectType":"FUNC",
    "objectKey":"BAPISPP0003_MANREV_MULTIPLE",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-SPP-SDR",
    "state":"classicAPI",
    "labels":
@@ -80888,7 +81008,7 @@
    "tadirObjName":"SPP0007_BAPI",
    "objectType":"FUNC",
    "objectKey":"BAPISPP0007_FCST_PRF_CHANGE",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-SPP-SDR",
    "state":"classicAPI",
    "labels":
@@ -80902,7 +81022,7 @@
    "tadirObjName":"SPP0008",
    "objectType":"FUNC",
    "objectKey":"BAPISPP0008_SET_REMAN_CAPA",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-SPP-SDR",
    "state":"classicAPI",
    "labels":
@@ -80916,7 +81036,7 @@
    "tadirObjName":"SPP0010",
    "objectType":"FUNC",
    "objectKey":"BAPISPP0010_MAN_FCST_GET",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-SPP-SDR",
    "state":"classicAPI",
    "labels":
@@ -80930,7 +81050,7 @@
    "tadirObjName":"SPP0010",
    "objectType":"FUNC",
    "objectKey":"BAPISPP0010_MAN_FCST_SAVE",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"SCM-APO-SPP-SDR",
    "state":"classicAPI",
    "labels":
@@ -95121,7 +95241,7 @@
    "objectType":"INTF",
    "objectKey":"IF_SADL_COND_PROVIDER_GENERIC",
    "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-ESI-ESF-BSA",
+   "applicationComponent":"BC-ESI-RAP-RTE",
    "state":"classicAPI"
   },
   {
@@ -95130,7 +95250,7 @@
    "objectType":"INTF",
    "objectKey":"IF_SADL_EXIT_FILTER_TRANSFORM",
    "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-ESI-ESF-BSA",
+   "applicationComponent":"BC-ESI-RAP-RTE",
    "state":"classicAPI"
   },
   {
@@ -95139,7 +95259,7 @@
    "objectType":"INTF",
    "objectKey":"IF_SADL_SIMPLE_COND_ELEMENT",
    "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-ESI-ESF-BSA",
+   "applicationComponent":"BC-ESI-RAP-RTE",
    "state":"classicAPI"
   },
   {
@@ -95148,7 +95268,7 @@
    "objectType":"INTF",
    "objectKey":"IF_SADL_SIMPLE_COND_FACTORY",
    "softwareComponent":"SAP_BASIS",
-   "applicationComponent":"BC-ESI-ESF-BSA",
+   "applicationComponent":"BC-ESI-RAP-RTE",
    "state":"classicAPI"
   },
   {
@@ -97445,7 +97565,7 @@
    "tadirObjName":"IF_UG_TIME",
    "objectType":"INTF",
    "objectKey":"IF_UG_TIME",
-   "softwareComponent":"S4COREOP",
+   "softwareComponent":"S4CEXT",
    "applicationComponent":"FIN-FB-MDF",
    "state":"classicAPI",
    "successors":
