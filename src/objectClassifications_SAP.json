@@ -706,6 +706,15 @@
   },
   {
    "tadirObject":"CLAS",
+   "tadirObjName":"/APEU/CL_BO_OPERATOR_BPEM",
+   "objectType":"CLAS",
+   "objectKey":"/APEU/CL_BO_OPERATOR_BPEM",
+   "softwareComponent":"IS-UT",
+   "applicationComponent":"CA-GTF-APE",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"CLAS",
    "tadirObjName":"/BCV/CL_AUT_AUTHORIZATION",
    "objectType":"CLAS",
    "objectKey":"/BCV/CL_AUT_AUTHORIZATION",
@@ -87737,6 +87746,24 @@
    "objectKey":"/APE/IF_TRANS_DOC",
    "softwareComponent":"IS-UT",
    "applicationComponent":"CA-GTF-APE",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"INTF",
+   "tadirObjName":"/APEU/IF_CONSTANTS",
+   "objectType":"INTF",
+   "objectKey":"/APEU/IF_CONSTANTS",
+   "softwareComponent":"IS-UT",
+   "applicationComponent":"IS-U-MD-MCM",
+   "state":"classicAPI"
+  },
+  {
+   "tadirObject":"INTF",
+   "tadirObjName":"/APEU/IF_MCM_CONSTANTS_PROC",
+   "objectType":"INTF",
+   "objectKey":"/APEU/IF_MCM_CONSTANTS_PROC",
+   "softwareComponent":"IS-UT",
+   "applicationComponent":"IS-U-MD-MCM",
    "state":"classicAPI"
   },
   {
