@@ -51,7 +51,7 @@ export function ExtrudeLabels(objectElements?: ObjectElement[]): string[] {
 }
 
 export function HandleVersionFilter(key: string, filters: string[], setFilters: Dispatch<SetStateAction<string[]>>, values: string[], query: URLSearchParams, setQuery: SetURLSearchParams) {
-    const notYetInitialized = filters.length === 0 || values.length === 0;
+    const notYetInitialized = values.length === 0;
     if (notYetInitialized) {
         return
     }
@@ -64,10 +64,15 @@ export function HandleVersionFilter(key: string, filters: string[], setFilters: 
         }
     }
 
-    if (copyFilter.length === 0) {
-        query.delete(key);
-    } else {
-        query.set(key, copyFilter.join(","))
+    const newValue = copyFilter.join(",");
+    if ((query.get(key) ?? "") !== newValue) {
+        if (copyFilter.length === 0) {
+            query.delete(key);
+        } else {
+            query.set(key, newValue)
+        }
+
+        setQuery(query);
     }
 
     setQuery(query);
