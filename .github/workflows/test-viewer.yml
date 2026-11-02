@@ -42,7 +42,11 @@ jobs:
       - name: Download data
         uses: actions/download-artifact@v8
         with:
-          path: viewer/src
+          name: data
+          path: viewer/src/data
+
+      - name: Verify generated data
+        run: test -s viewer/src/data/contents.json && test -d viewer/src/data/contents
 
       - name: Use Node.js
         uses: actions/setup-node@v7
