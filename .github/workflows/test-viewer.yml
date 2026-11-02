@@ -18,7 +18,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v7
         with:
-          node-version: '24'
+          node-version: 'lts/*'
 
       - name: Run JS script to generate contents.json
         run: node scripts/generateContents.js
@@ -51,7 +51,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v7
         with:
-          node-version: '24'
+          node-version: 'lts/*'
 
       - name: Cypress run
         timeout-minutes: 5
@@ -61,7 +61,6 @@ jobs:
           wait-on: "http://localhost:3000"
           working-directory: viewer
           browser: chrome
-          config: video=true
 
       - name: Upload Cypress diagnostics
         if: failure()
@@ -70,7 +69,6 @@ jobs:
           name: cypress-diagnostics
           path: |
             viewer/cypress/screenshots
-            viewer/cypress/videos
 
       - name: Build
         run: npm run build

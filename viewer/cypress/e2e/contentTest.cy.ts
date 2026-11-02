@@ -1,5 +1,3 @@
-export {};
-
 describe('template spec', () => {
     beforeEach(() => {
         cy.visit("/")

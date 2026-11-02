@@ -1,5 +1,3 @@
-export {};
-
 describe('Query parameter driven filters', () => {
     function getDistinctStates() {
         const states: Set<string> = new Set();
