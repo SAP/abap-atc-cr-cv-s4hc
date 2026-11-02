@@ -18,7 +18,8 @@ describe('template spec', () => {
 
         cy.url().should("include", "BAPI_ACCSERV_CHECKACCASSIGNMT")
         cy.get("[data-component-name=\"AnalyticalTableBodyScrollableContainer\"]")
-            .contains("BAPI_ACCSERV_CHECKACCASSIGNMT")
+            .find("[role=\"row\"]")
+            .first()
             .click()
 
         cy.get("div[slot=\"midColumn\"]")

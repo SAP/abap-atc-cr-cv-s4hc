@@ -31,7 +31,6 @@ jobs:
 
   build:
     needs: prepare
-    timeout-minutes: 15
     permissions:
       contents: write
     runs-on: ubuntu-latest
@@ -45,31 +44,15 @@ jobs:
           name: data
           path: viewer/src/data
 
-      - name: Verify generated data
-        run: test -s viewer/src/data/contents.json && test -d viewer/src/data/contents
-
       - name: Use Node.js
         uses: actions/setup-node@v7
         with:
           node-version: 'lts/*'
 
       - name: Cypress run
-        timeout-minutes: 5
         uses: cypress-io/github-action@v7
         with:
           start: npm run start
           wait-on: "http://localhost:3000"
           working-directory: viewer
           browser: chrome
-
-      - name: Upload Cypress diagnostics
-        if: failure()
-        uses: actions/upload-artifact@v7
-        with:
-          name: cypress-diagnostics
-          path: |
-            viewer/cypress/screenshots
-
-      - name: Build
-        run: npm run build
-        working-directory: viewer

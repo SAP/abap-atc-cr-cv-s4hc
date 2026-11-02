@@ -75,6 +75,8 @@ export function HandleVersionFilter(key: string, filters: string[], setFilters: 
         setQuery(query);
     }
 
+    setQuery(query);
+
     if (filters.length === copyFilter.length) return;
     setFilters(copyFilter);
 }
