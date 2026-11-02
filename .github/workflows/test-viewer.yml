@@ -54,12 +54,23 @@ jobs:
           node-version: '24'
 
       - name: Cypress run
+        timeout-minutes: 5
         uses: cypress-io/github-action@v7
         with:
           start: npm run start
           wait-on: "http://localhost:3000"
           working-directory: viewer
           browser: chrome
+          config: video=true
+
+      - name: Upload Cypress diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: cypress-diagnostics
+          path: |
+            viewer/cypress/screenshots
+            viewer/cypress/videos
 
       - name: Build
         run: npm run build

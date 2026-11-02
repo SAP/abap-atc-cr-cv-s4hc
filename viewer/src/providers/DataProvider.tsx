@@ -278,6 +278,7 @@ export function DataProvider({ children }: PropsWithChildren) {
     }, [availablePartnerNamespaces, partnerAPIs])
 
     useEffect(() => {
+        const previousQuery = query.toString();
         if (product === defaultProduct) {
             query.delete("product");
         } else {
@@ -296,7 +297,9 @@ export function DataProvider({ children }: PropsWithChildren) {
             query.set("partnerNamespaces", partnerAPIsString);
         }
 
-        setQuery(query);
+        if (query.toString() !== previousQuery) {
+            setQuery(query);
+        }
     }, [product, release, partnerAPIs, query, setQuery]);
 
     useEffect(() => {

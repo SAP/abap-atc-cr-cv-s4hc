@@ -53,6 +53,7 @@ jobs:
           node-version: '24'
 
       - name: Cypress run
+        timeout-minutes: 5
         uses: cypress-io/github-action@v7
         with:
           start: npm run start
