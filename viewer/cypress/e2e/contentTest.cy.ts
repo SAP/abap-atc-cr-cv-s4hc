@@ -1,3 +1,5 @@
+export {};
+
 describe('template spec', () => {
     beforeEach(() => {
         cy.visit("/")
@@ -18,8 +20,7 @@ describe('template spec', () => {
 
         cy.url().should("include", "BAPI_ACCSERV_CHECKACCASSIGNMT")
         cy.get("[data-component-name=\"AnalyticalTableBodyScrollableContainer\"]")
-            .find("[role=\"row\"]")
-            .first()
+            .contains("BAPI_ACCSERV_CHECKACCASSIGNMT")
             .click()
 
         cy.get("div[slot=\"midColumn\"]")
