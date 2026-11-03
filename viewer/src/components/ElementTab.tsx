@@ -6,10 +6,11 @@ import { CombinedElement, GetArrowElement } from "../App";
 import { BaseObjectElementSuccessor, DataContext, ObjectElement, ReleaseInfoElementConcept, ReleaseInfoElementOther } from "../providers/DataProvider";
 
 import StateStatus from "./StateStatus";
+import objectTypes from "../types.json";
 
 import "@ui5/webcomponents-icons-tnt/dist/AllIcons.js";
 
-const types: Record<string, string> = require("../types.json");
+const types: Record<string, string> = objectTypes;
 
 type SuccessorAction = Dispatch<SetStateAction<CombinedElement | undefined>>;
 
