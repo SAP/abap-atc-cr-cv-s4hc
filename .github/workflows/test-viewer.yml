@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Use Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: 'lts/*'
 
@@ -24,7 +24,7 @@ jobs:
         run: node scripts/generateContents.js
 
       - name: Upload data
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: data
           path: viewer/src/data
@@ -36,20 +36,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Download data
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
-          path: viewer/src
+          name: data
+          path: viewer/src/data
 
       - name: Use Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: 'lts/*'
 
       - name: Cypress run
-        uses: cypress-io/github-action@v6
+        uses: cypress-io/github-action@v7
         with:
           start: npm run start
           wait-on: "http://localhost:3000"
@@ -61,7 +62,7 @@ jobs:
         working-directory: viewer
 
       - name: Test production build
-        uses: cypress-io/github-action@v6
+        uses: cypress-io/github-action@v7
         with:
           install: false
           start: npm run preview -- --port 3001
