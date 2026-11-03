@@ -200,9 +200,14 @@ export const States: Record<string, State> = {
     },
 }
 
+const contentFiles = import.meta.glob<ObjectRelease>("../data/contents/*.json", {
+    eager: true,
+    import: "default"
+});
+
 export function loadFile(filename: string): ObjectElement[] | null {
     try {
-        const data = require("../data/contents/" + filename) as ObjectRelease;
+        const data = contentFiles["../data/contents/" + filename];
         return data.objectReleaseInfo || data.objectClassifications;
     } catch (error) {
         return null

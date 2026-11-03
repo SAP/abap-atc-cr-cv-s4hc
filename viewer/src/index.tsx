@@ -18,7 +18,7 @@ import '@ui5/webcomponents-react/dist/Assets';
 export const BundleID = "CLOUDIFICATION_REPOSITORY";
 
 registerI18nLoader(BundleID, "en", async (localeId) => {
-    const props = await (await fetch(`${process.env.PUBLIC_URL}/translations/messagebundle_${localeId}.properties`)).text();
+    const props = await (await fetch(`${import.meta.env.BASE_URL}translations/messagebundle_${localeId}.properties`)).text();
     return parse(props);
 });
 

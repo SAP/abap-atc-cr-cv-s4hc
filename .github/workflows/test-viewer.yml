@@ -55,3 +55,17 @@ jobs:
           wait-on: "http://localhost:3000"
           working-directory: viewer
           browser: chrome
+
+      - name: Build
+        run: npm run build
+        working-directory: viewer
+
+      - name: Test production build
+        uses: cypress-io/github-action@v6
+        with:
+          install: false
+          start: npm run preview -- --port 3001
+          wait-on: "http://localhost:3001/abap-atc-cr-cv-s4hc/"
+          config: baseUrl=http://localhost:3001/abap-atc-cr-cv-s4hc/
+          working-directory: viewer
+          browser: chrome
