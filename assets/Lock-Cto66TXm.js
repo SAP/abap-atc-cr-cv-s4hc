@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-Lock-B01iNgO-.js";import n from"./tnt-Scene-Lock-Cr9-bd2l.js";import r from"./tnt-Spot-Lock-BqwoNhsJ.js";import i from"./tnt-Dot-Lock-DKeueq4q.js";e(`Lock`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:i,set:`tnt`,collection:`V5`});var a=`tnt/Lock`;export{a as default};

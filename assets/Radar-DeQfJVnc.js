@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-Radar-CIZ4eay5.js";import n from"./tnt-Scene-Radar-D1D5rIAi.js";import r from"./tnt-Spot-Radar-BumzFUTk.js";e(`Radar`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:r,set:`tnt`,collection:`V4`});var i=`tnt/Radar`;export{i as default};

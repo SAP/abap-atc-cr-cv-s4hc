@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-CodePlaceholder-CJ2Dimiv.js";import n from"./tnt-Scene-CodePlaceholder-BgoLnZb8.js";import r from"./tnt-Spot-CodePlaceholder-CgcdTWsa.js";e(`CodePlaceholder`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:r,set:`tnt`,collection:`V4`});var i=`tnt/CodePlaceholder`;export{i as default};

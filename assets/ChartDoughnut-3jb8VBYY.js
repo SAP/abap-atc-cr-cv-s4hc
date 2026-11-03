@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-ChartDoughnut-BsfcWXfr.js";import n from"./tnt-Scene-ChartDoughnut-BpF4WoOF.js";import r from"./tnt-Spot-ChartDoughnut-BWK5CAsp.js";e(`ChartDoughnut`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:r,set:`tnt`,collection:`V4`});var i=`tnt/ChartDoughnut`;export{i as default};

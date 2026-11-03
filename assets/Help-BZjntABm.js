@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-Help-BRnfNpH4.js";import n from"./tnt-Scene-Help-DYoJF5fg.js";import r from"./tnt-Spot-Help-rM4zA4oN.js";import i from"./tnt-Dot-Help-BHPD7xva.js";e(`Help`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:i,set:`tnt`,collection:`V4`});var a=`tnt/Help`;export{a as default};

@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-ChartArea2-hLYKGTC3.js";import n from"./tnt-Scene-ChartArea2-7z5RdORW.js";import r from"./tnt-Spot-ChartArea2-C3h0vBQw.js";import i from"./tnt-Dot-ChartArea2-B9D0Np3d.js";e(`ChartArea2`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:i,set:`tnt`,collection:`V5`});var a=`tnt/ChartArea2`;export{a as default};

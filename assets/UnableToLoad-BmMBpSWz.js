@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-UnableToLoad-O30tqBxj.js";import n from"./tnt-Scene-UnableToLoad-BzRU-LF3.js";import r from"./tnt-Spot-UnableToLoad-A2cXiyjb.js";e(`UnableToLoad`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:r,set:`tnt`,collection:`V4`});var i=`tnt/UnableToLoad`;export{i as default};

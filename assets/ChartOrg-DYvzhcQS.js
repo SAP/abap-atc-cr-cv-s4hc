@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-ChartOrg-D9isglPt.js";import n from"./tnt-Scene-ChartOrg-BLbjTSdF.js";import r from"./tnt-Spot-ChartOrg-CWojAxvt.js";e(`ChartOrg`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:r,set:`tnt`,collection:`V4`});var i=`tnt/ChartOrg`;export{i as default};

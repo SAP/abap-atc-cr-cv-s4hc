@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-SuccessfulAuth-BmeaGMPT.js";import n from"./tnt-Scene-SuccessfulAuth-BUN2pJO_.js";import r from"./tnt-Spot-SuccessfulAuth-X-E7Y88I.js";e(`SuccessfulAuth`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:r,set:`tnt`,collection:`V4`});var i=`tnt/SuccessfulAuth`;export{i as default};

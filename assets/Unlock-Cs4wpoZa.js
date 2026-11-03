@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-Unlock-B0jI2gTg.js";import n from"./tnt-Scene-Unlock-tJVGjXZq.js";import r from"./tnt-Spot-Unlock-C0H3VgOy.js";e(`Unlock`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:r,set:`tnt`,collection:`V4`});var i=`tnt/Unlock`;export{i as default};

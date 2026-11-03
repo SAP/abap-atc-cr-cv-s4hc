@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-ChartBar-BrKZDAzB.js";import n from"./tnt-Scene-ChartBar-BIjthn9H.js";import r from"./tnt-Spot-ChartBar-DwB-oB37.js";e(`ChartBar`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:r,set:`tnt`,collection:`V4`});var i=`tnt/ChartBar`;export{i as default};

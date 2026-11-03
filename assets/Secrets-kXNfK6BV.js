@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-Secrets-E3rr9oVe.js";import n from"./tnt-Scene-Secrets-Bc_WsBu_.js";import r from"./tnt-Spot-Secrets-K98YSaoa.js";e(`Secrets`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:r,set:`tnt`,collection:`V4`});var i=`tnt/Secrets`;export{i as default};

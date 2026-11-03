@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-Fingerprint-BuEmmqBV.js";import n from"./tnt-Scene-Fingerprint-BcoM4Cks.js";import r from"./tnt-Spot-Fingerprint-C_ZfmnKu.js";e(`Fingerprint`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:r,set:`tnt`,collection:`V4`});var i=`tnt/Fingerprint`;export{i as default};

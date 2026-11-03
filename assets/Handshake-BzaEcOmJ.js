@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-Handshake-Dx2SfqAq.js";import n from"./tnt-Scene-Handshake-BnYzHsas.js";import r from"./tnt-Spot-Handshake-CAxDd7F0.js";import i from"./tnt-Dot-Handshake-cvebCBQI.js";e(`Handshake`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:i,set:`tnt`,collection:`V4`});var a=`tnt/Handshake`;export{a as default};

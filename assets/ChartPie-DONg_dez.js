@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-ChartPie-CqQE9Ton.js";import n from"./tnt-Scene-ChartPie-BL5D-XdL.js";import r from"./tnt-Spot-ChartPie-Dh4PBVpk.js";import i from"./tnt-Dot-ChartPie-Cw6Yj93B.js";e(`ChartPie`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:i,set:`tnt`,collection:`V5`});var a=`tnt/ChartPie`;export{a as default};

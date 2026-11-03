@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-Compass-DIbtBjbh.js";import n from"./tnt-Scene-Compass-BAgmIW0E.js";import r from"./tnt-Spot-Compass-DbJ7jck1.js";import i from"./tnt-Dot-Compass-r-gs4ola.js";e(`Compass`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:i,set:`tnt`,collection:`V4`});var a=`tnt/Compass`;export{a as default};

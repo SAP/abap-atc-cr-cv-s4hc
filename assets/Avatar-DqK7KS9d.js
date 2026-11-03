@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-Avatar-kby7jQoE.js";import n from"./tnt-Scene-Avatar-DlSP0s2D.js";import r from"./tnt-Spot-Avatar-XWgvmanc.js";import i from"./tnt-Dot-Avatar-jzfyRifj.js";e(`Avatar`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:i,set:`tnt`,collection:`V4`});var a=`tnt/Avatar`;export{a as default};

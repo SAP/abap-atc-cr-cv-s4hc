@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-Systems-Ebl2GcvB.js";import n from"./tnt-Scene-Systems-C0w8zqnI.js";import r from"./tnt-Spot-Systems-Df6a2G3v.js";e(`Systems`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:r,set:`tnt`,collection:`V4`});var i=`tnt/Systems`;export{i as default};

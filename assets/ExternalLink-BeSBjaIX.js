@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-ExternalLink-C-K05Q2o.js";import n from"./tnt-Scene-ExternalLink-Ct-yyiQa.js";import r from"./tnt-Spot-ExternalLink-KenUfjX2.js";e(`ExternalLink`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:r,set:`tnt`,collection:`V4`});var i=`tnt/ExternalLink`;export{i as default};

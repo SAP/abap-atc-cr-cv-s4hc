@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-ChartBPMNFlow-COOUFGbK.js";import n from"./tnt-Scene-ChartBPMNFlow-DsIdAVwI.js";import r from"./tnt-Spot-ChartBPMNFlow-QkgqAZlI.js";e(`ChartBPMNFlow`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:r,set:`tnt`,collection:`V4`});var i=`tnt/ChartBPMNFlow`;export{i as default};

@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-Success-DdI-sydI.js";import n from"./tnt-Scene-Success-FJpnGltt.js";import r from"./tnt-Spot-Success--QCPhFtq.js";import i from"./tnt-Dot-Success-CiYGO_wT.js";e(`Success`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:i,set:`tnt`,collection:`V5`});var a=`tnt/Success`;export{a as default};

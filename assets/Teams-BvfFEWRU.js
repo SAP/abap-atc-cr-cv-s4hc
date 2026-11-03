@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-Teams-BpVMdnGt.js";import n from"./tnt-Scene-Teams-DB6awGIg.js";import r from"./tnt-Spot-Teams-BAwh2rn9.js";e(`Teams`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:r,set:`tnt`,collection:`V4`});var i=`tnt/Teams`;export{i as default};

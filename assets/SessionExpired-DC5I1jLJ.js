@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-SessionExpired-DMxpYMVq.js";import n from"./tnt-Scene-SessionExpired-BuZz6FyF.js";import r from"./tnt-Spot-SessionExpired-DiY_o7Pf.js";e(`SessionExpired`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:r,set:`tnt`,collection:`V4`});var i=`tnt/SessionExpired`;export{i as default};

@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-Mission-BUV1p9Hd.js";import n from"./tnt-Scene-Mission-CS-E5Ij6.js";import r from"./tnt-Spot-Mission-LhP3100K.js";e(`Mission`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:r,set:`tnt`,collection:`V4`});var i=`tnt/Mission`;export{i as default};

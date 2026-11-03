@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-ChartGantt-DvacLAWj.js";import n from"./tnt-Scene-ChartGantt-C9FFkNdb.js";import r from"./tnt-Spot-ChartGantt-2Dr1jerI.js";import i from"./tnt-Dot-ChartGantt-Cck0TvrC.js";e(`ChartGantt`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:i,set:`tnt`,collection:`V5`});var a=`tnt/ChartGantt`;export{a as default};

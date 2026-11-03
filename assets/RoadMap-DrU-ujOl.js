@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-RoadMap-D-kb7-nw.js";import n from"./tnt-Scene-RoadMap-BCH7WHfA.js";import r from"./tnt-Spot-RoadMap-B2BWqfqI.js";import i from"./tnt-Dot-RoadMap-l0hKOxNZ.js";e(`RoadMap`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:i,set:`tnt`,collection:`V5/HC`});var a=`tnt/RoadMap`;export{a as default};

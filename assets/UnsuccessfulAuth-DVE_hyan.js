@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-UnsuccessfulAuth-LW0y4Hiu.js";import n from"./tnt-Scene-UnsuccessfulAuth-BMbirlPP.js";import r from"./tnt-Spot-UnsuccessfulAuth-CqMU6R2p.js";e(`UnsuccessfulAuth`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:r,set:`tnt`,collection:`V4`});var i=`tnt/UnsuccessfulAuth`;export{i as default};

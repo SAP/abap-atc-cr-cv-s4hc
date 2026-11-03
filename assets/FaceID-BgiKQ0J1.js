@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-FaceID-CxVsO86D.js";import n from"./tnt-Scene-FaceID-DHJpItBY.js";import r from"./tnt-Spot-FaceID-wpnxZXcv.js";e(`FaceID`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:r,set:`tnt`,collection:`V4`});var i=`tnt/FaceID`;export{i as default};

@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-Calculator-CGlQUO4E.js";import n from"./tnt-Scene-Calculator-Cztz9soG.js";import r from"./tnt-Spot-Calculator-C2jbuZXx.js";import i from"./tnt-Dot-Calculator-wAkUq0CV.js";e(`Calculator`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:i,set:`tnt`,collection:`V5/HC`});var a=`tnt/Calculator`;export{a as default};

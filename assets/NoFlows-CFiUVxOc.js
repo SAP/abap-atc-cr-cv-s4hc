@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-NoFlows-Cu0oCGY_.js";import n from"./tnt-Scene-NoFlows-DHa7QtaR.js";import r from"./tnt-Spot-NoFlows-8WkeB8ON.js";import i from"./tnt-Dot-NoFlows-kt2gclOE.js";e(`NoFlows`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:i,set:`tnt`,collection:`V5/HC`});var a=`tnt/NoFlows`;export{a as default};

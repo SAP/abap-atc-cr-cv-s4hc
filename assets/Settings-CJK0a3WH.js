@@ -1,0 +1,1 @@
+import{r as e}from"./Illustrations-BSjr7BIf.js";import t from"./tnt-Dialog-Settings-Bi7NUCeZ.js";import n from"./tnt-Scene-Settings-BLkdxe-K.js";import r from"./tnt-Spot-Settings-YG2HYnyO.js";import i from"./tnt-Dot-Settings-DZYbUQlf.js";e(`Settings`,{dialogSvg:t,sceneSvg:n,spotSvg:r,dotSvg:i,set:`tnt`,collection:`V5/HC`});var a=`tnt/Settings`;export{a as default};
