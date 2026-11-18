@@ -1,0 +1,101 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/HYCORE/CL_AJSON",
+      "objectType": "CLAS",
+      "objectKey": "/HYCORE/CL_AJSON",
+      "softwareComponent": "HYCORE",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/HYCORE/CL_AJSON_UTILITIES",
+      "objectType": "CLAS",
+      "objectKey": "/HYCORE/CL_AJSON_UTILITIES",
+      "softwareComponent": "HYCORE",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/HYCORE/CL_DOCUMENT_LINK",
+      "objectType": "CLAS",
+      "objectKey": "/HYCORE/CL_DOCUMENT_LINK",
+      "softwareComponent": "HYCORE",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/HYCORE/CL_DOC_PROC",
+      "objectType": "CLAS",
+      "objectKey": "/HYCORE/CL_DOC_PROC",
+      "softwareComponent": "HYCORE",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/HYCORE/CX_AJSON_ERROR",
+      "objectType": "CLAS",
+      "objectKey": "/HYCORE/CX_AJSON_ERROR",
+      "softwareComponent": "HYCORE",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/HYCORE/CX_DOC_PROC",
+      "objectType": "CLAS",
+      "objectKey": "/HYCORE/CX_DOC_PROC",
+      "softwareComponent": "HYCORE",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/HYCORE/IF_AJSON",
+      "objectType": "INTF",
+      "objectKey": "/HYCORE/IF_AJSON",
+      "softwareComponent": "HYCORE",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/HYCORE/IF_DOC_PROC_BADI",
+      "objectType": "INTF",
+      "objectKey": "/HYCORE/IF_DOC_PROC_BADI",
+      "softwareComponent": "HYCORE",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/HYCORE/IF_DOC_PROC_ORDER_CONF",
+      "objectType": "INTF",
+      "objectKey": "/HYCORE/IF_DOC_PROC_ORDER_CONF",
+      "softwareComponent": "HYCORE",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/HYCORE/IF_ENRICH_PUBLISH",
+      "objectType": "INTF",
+      "objectKey": "/HYCORE/IF_ENRICH_PUBLISH",
+      "softwareComponent": "HYCORE",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/HYCORE/IF_ENRICH_SERVICE",
+      "objectType": "INTF",
+      "objectKey": "/HYCORE/IF_ENRICH_SERVICE",
+      "softwareComponent": "HYCORE",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "INTF",
+      "tadirObjName": "/HYCORE/IF_STUDIO_DOCUMENT",
+      "objectType": "INTF",
+      "objectKey": "/HYCORE/IF_STUDIO_DOCUMENT",
+      "softwareComponent": "HYCORE",
+      "state": "classicAPI"
+    }
+  ]
+}

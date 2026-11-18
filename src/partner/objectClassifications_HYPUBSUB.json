@@ -1,0 +1,21 @@
+{
+  "formatVersion": "2",
+  "objectClassifications": [
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/HYPUBSUB/CL_REST_PUBLISH",
+      "objectType": "CLAS",
+      "objectKey": "/HYPUBSUB/CL_REST_PUBLISH",
+      "softwareComponent": "HYPUBSUB",
+      "state": "classicAPI"
+    },
+    {
+      "tadirObject": "CLAS",
+      "tadirObjName": "/HYPUBSUB/CL_REST_SUBSCRIBE_V2",
+      "objectType": "CLAS",
+      "objectKey": "/HYPUBSUB/CL_REST_SUBSCRIBE_V2",
+      "softwareComponent": "HYPUBSUB",
+      "state": "classicAPI"
+    }
+  ]
+}
