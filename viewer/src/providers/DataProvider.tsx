@@ -44,7 +44,7 @@ export const Files: ABAPContents = files as any;
 export const Products = {
     s4public: { private: false, name: "SAP Cloud ERP" },
     s4private: { private: true, name: "SAP Cloud ERP Private" },
-    btp: { private: false, name: "SAP BTP ABAP Environment" },
+    btp: { private: false, name: "SAP BAIP ABAP Environment" },
     partnerOnly: { private: false, name: "Partner APIs Only" }
 }
 
